@@ -349,7 +349,7 @@
 				</reportElement>
 			</line>
 			<line>
-				<reportElement x="350" y="65" width="1" height="20" forecolor="#006CB9" uuid="f5cc71b7-26bf-440e-9408-6b12ebb346cb">
+				<reportElement x="350" y="66" width="1" height="19" forecolor="#006CB9" uuid="f5cc71b7-26bf-440e-9408-6b12ebb346cb">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>

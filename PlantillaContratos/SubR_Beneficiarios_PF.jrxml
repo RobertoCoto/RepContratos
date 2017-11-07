@@ -373,7 +373,7 @@
 				<text><![CDATA[Domicilio particular:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="350" y="40" width="1" height="20" forecolor="#006CB9" uuid="3745f851-4bb9-4433-ac84-dba4f8131cea">
+				<reportElement x="350" y="41" width="1" height="19" forecolor="#006CB9" uuid="3745f851-4bb9-4433-ac84-dba4f8131cea">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
