@@ -3071,7 +3071,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="103" y="157" width="498" height="14" backcolor="#7992ED" uuid="de6f41e6-88f7-46a5-9204-fc23f197d236">
+				<reportElement mode="Transparent" x="102" y="157" width="498" height="14" backcolor="#7992ED" uuid="de6f41e6-88f7-46a5-9204-fc23f197d236">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
