@@ -3336,7 +3336,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/subreporte1.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement positionType="Float" x="8" y="260" width="597" height="120" isRemoveLineWhenBlank="true" uuid="190f877f-09b7-47cd-91b6-a4f5d9017bab">
+				<reportElement positionType="Float" x="8" y="260" width="595" height="120" isRemoveLineWhenBlank="true" uuid="190f877f-09b7-47cd-91b6-a4f5d9017bab">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -3822,7 +3822,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{DESTIN_RECURSOS}.toUpperCase()]]></textFieldExpression>
 			</textField>
 			<subreport>
-				<reportElement positionType="Float" x="6" y="390" width="595" height="100" uuid="9746a446-b43e-4051-99d7-35034ab02e98">
+				<reportElement positionType="Float" x="7" y="400" width="595" height="110" uuid="9746a446-b43e-4051-99d7-35034ab02e98">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<printWhenExpression><![CDATA[$F{SALIDA_BENEFICIARIO} == null]]></printWhenExpression>
 				</reportElement>
 				<subreportParameter name="XML_DATA_DOCUMENT">
