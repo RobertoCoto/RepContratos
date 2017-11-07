@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Accionistas" pageWidth="612" pageHeight="792" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="301fb1f7-672b-41d1-969f-35029a6cf295">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<pageHeader>
+		<band height="117" splitType="Stretch">
+			<rectangle radius="3">
+				<reportElement x="10" y="10" width="591" height="20" forecolor="#19007D" backcolor="#0070BF" uuid="a20a1793-836d-4871-8f29-1c44edf1eb4b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="210" y="10" width="220" height="20" forecolor="#FFFFFF" uuid="784a2433-6e7e-4d7c-818c-4441c22cfa71">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ACCIONISTAS Y/O SOCIOS]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="30" width="591" height="18" forecolor="#0070BF" uuid="a3a39a7d-ad77-4dbc-9621-b25b3bfc4884"/>
+			</rectangle>
+			<line>
+				<reportElement x="220" y="30" width="1" height="18" forecolor="#0070BF" uuid="65a5ed6d-2a85-425a-bdea-be2c6c6bffce"/>
+			</line>
+			<staticText>
+				<reportElement x="70" y="32" width="92" height="14" forecolor="#014D87" uuid="5f1209d7-65ed-40ef-9a99-e00ed71079de">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Nombre]]></text>
+			</staticText>
+			<line>
+				<reportElement x="430" y="30" width="1" height="18" forecolor="#0070BF" uuid="08b057fd-4b2b-4aae-9e58-43ecfe137416"/>
+			</line>
+			<staticText>
+				<reportElement x="280" y="32" width="92" height="14" forecolor="#014D87" uuid="6639a56d-29b6-4ad8-8505-2735492d0eb7">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Cargo*]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="32" width="92" height="14" forecolor="#014D87" uuid="a11e360b-3344-417c-b87a-fc5ef643ad2f">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Porcentaje
+]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+</jasperReport>
