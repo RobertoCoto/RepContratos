@@ -421,6 +421,31 @@
 				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
 				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/logoabc.png"]]></imageExpression>
 			</image>
+			<textField evaluationTime="Report" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="402" y="70" width="200" height="14" backcolor="#858EC7" uuid="36d073bc-557e-42dd-b3b0-cd6f7e9e55d0">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<bottomPen lineWidth="0.6"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[($V{Dia}+"/"+ ($V{Mes}.equals("1") ? "ENERO" : $V{Mes}.equals("02") ? "FEBRERO" : $V{Mes}.equals("03") ? "MARZO" : $V{Mes}.equals("04") ? "ABRIL" :$V{Mes}.equals("05") ? "MAYO" : $V{Mes}.equals("06") ? "JUNIO" :$V{Mes}.equals("07") ? "JULIO" :$V{Mes}.equals("08") ? "AGOSTO" :$V{Mes}.equals("09") ? "SEPTIEMBRE" :$V{Mes}.equals("10") ? "OCTUBRE" :$V{Mes}.equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/ "+$V{Anio})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="349" y="70" width="120" height="14" forecolor="#00457D" uuid="370f1b90-3dd1-4762-b048-de8a963bcf47">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Fecha :]]></text>
+			</staticText>
 		</band>
 	</pageHeader>
 	<detail>
