@@ -95,7 +95,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="0">
-				<reportElement key="" positionType="FixRelativeToBottom" x="2" y="45" width="595" height="80" forecolor="#0070C0" backcolor="#FCFAFA" uuid="4b27a1b8-cf11-4836-8841-c22675ba4b1d">
+				<reportElement key="" positionType="FixRelativeToBottom" x="2" y="45" width="595" height="60" forecolor="#0070C0" backcolor="#FCFAFA" uuid="4b27a1b8-cf11-4836-8841-c22675ba4b1d">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -159,7 +159,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$V{REPORT_COUNT}.intValue()]]></textFieldExpression>
+				<textFieldExpression><![CDATA["1"]]></textFieldExpression>
 			</textField>
 			<line>
 				<reportElement x="456" y="45" width="1" height="20" forecolor="#006CB9" uuid="b9873a1f-cc6d-45c0-b006-01e005124a89">
