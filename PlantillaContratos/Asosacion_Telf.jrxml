@@ -703,7 +703,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA[($F{TEL_CEL_CLI_NUM_1}!= null)+""+($F{TEL_CEL_CLI_NUM_2}!=null)+""+($F{TEL_CEL_CLI_NUM_3}!= null)+""+($F{TEL_CEL_CLI_NUM_4}!= null)+""+($F{TEL_CEL_CLI_NUM_5}!= null)+""+($F{TEL_CEL_CLI_NUM_6}!= null)+""+($F{TEL_CEL_CLI_NUM_7}!= null)+""+($F{TEL_CEL_CLI_NUM_8}!= null)+""+($F{TEL_CEL_CLI_NUM_9}!= null)+""+($F{TEL_CEL_CLI_NUM_10}!=null)]]></textFieldExpression>
+				<textFieldExpression><![CDATA[($F{TEL_CEL_CLI_NUM_1}!= null ? $F{TEL_CEL_CLI_NUM_1} : "") + ($F{TEL_CEL_CLI_NUM_2}!= null ? $F{TEL_CEL_CLI_NUM_2} : "") + ($F{TEL_CEL_CLI_NUM_3}!= null ? $F{TEL_CEL_CLI_NUM_3} : "") + ($F{TEL_CEL_CLI_NUM_4}!= null ? $F{TEL_CEL_CLI_NUM_4} : "") + ($F{TEL_CEL_CLI_NUM_5}!= null ? $F{TEL_CEL_CLI_NUM_5} : "") + ($F{TEL_CEL_CLI_NUM_6}!= null ? $F{TEL_CEL_CLI_NUM_6} : "") + ($F{TEL_CEL_CLI_NUM_7}!= null ? $F{TEL_CEL_CLI_NUM_7} : "") + ($F{TEL_CEL_CLI_NUM_8}!= null ? $F{TEL_CEL_CLI_NUM_8} : "") + ($F{TEL_CEL_CLI_NUM_9}!= null ? $F{TEL_CEL_CLI_NUM_9} : "") + ($F{TEL_CEL_CLI_NUM_10}!= null ? $F{TEL_CEL_CLI_NUM_10} : "")]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="18" y="164" width="122" height="14" forecolor="#00457D" uuid="b7407423-ae36-404c-8edc-2582a4f5f3c8">
@@ -727,7 +727,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["(" +($F{TEL_CEL_CLI_NUM_1} !=null)+ ")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["(" + ($F{TEL_CEL_CLI_NUM_1}!= null ? $F{TEL_CEL_CLI_NUM_1} : " ") + ")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="157" y="164" width="80" height="14" forecolor="#00457D" uuid="2df5b75a-7fe0-4889-9479-e7c9cc27bf54">
@@ -737,7 +737,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_1} != null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_1}!= null ? $F{TEL_CEL_CLI_LET_1} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="271" y="164" width="80" height="14" forecolor="#00457D" uuid="7d6b8efd-ed7b-448d-bfb5-a66d3bbe7ae9">
@@ -747,7 +747,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_2}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_2}!= null ? $F{TEL_CEL_CLI_LET_2} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="248" y="164" width="20" height="14" forecolor="#00457D" uuid="690c2e35-8a88-47d1-ac92-edc467228b0e">
@@ -757,7 +757,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_2}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_2}!= null ? $F{TEL_CEL_CLI_NUM_2} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="362" y="164" width="20" height="14" forecolor="#00457D" uuid="d1e47895-57f6-4dbc-a01e-0841632bcbea">
@@ -767,7 +767,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_3}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_3}!= null ? $F{TEL_CEL_CLI_NUM_3} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="387" y="164" width="80" height="14" forecolor="#00457D" uuid="d13dbc00-aad9-4d99-b9b3-a8ac7c348f4a">
@@ -777,7 +777,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_3}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_3}!= null ? $F{TEL_CEL_CLI_LET_3} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="501" y="164" width="80" height="14" forecolor="#00457D" uuid="330820d3-4306-4ba6-b640-9238fbd0c457">
@@ -787,7 +787,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_4}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_4}!= null ? $F{TEL_CEL_CLI_LET_4} : " ") +"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="476" y="164" width="20" height="14" forecolor="#00457D" uuid="996046f9-82f8-4adc-bb28-cece4e990f76">
@@ -797,7 +797,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_4}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_4}!= null ? $F{TEL_CEL_CLI_NUM_4} : " ")+")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="132" y="185" width="20" height="14" forecolor="#00457D" uuid="4fc4f2b2-87d2-48b5-ab2c-92842e72e920">
@@ -807,7 +807,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_6}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_6}!= null ? $F{TEL_CEL_CLI_NUM_6} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="362" y="185" width="20" height="14" forecolor="#00457D" uuid="2a8deb5f-f35f-4572-a530-161fd296bc52">
@@ -817,7 +817,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_8}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_8}!= null ? $F{TEL_CEL_CLI_NUM_8} : " ")+")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="387" y="185" width="80" height="14" forecolor="#00457D" uuid="22c8c95e-d3fe-463f-9a12-ae28169e75c9">
@@ -827,7 +827,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_8}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_8}!= null ? $F{TEL_CEL_CLI_LET_8} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="271" y="185" width="80" height="14" forecolor="#00457D" uuid="fe9b0379-e343-4213-b8b2-fa520bc19a98">
@@ -837,7 +837,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_7}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_7}!= null ? $F{TEL_CEL_CLI_LET_7} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="157" y="185" width="80" height="14" forecolor="#00457D" uuid="e19fa82c-22d7-49a6-aa93-14b38bf336b3">
@@ -847,7 +847,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_6}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_6}!= null ? $F{TEL_CEL_CLI_LET_6} : " ") +"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="43" y="185" width="80" height="14" forecolor="#00457D" uuid="836256cb-8543-4f7a-b071-bdb04597995c">
@@ -857,7 +857,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_5}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_5}!= null ? $F{TEL_CEL_CLI_LET_5} : " ") +"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="248" y="185" width="20" height="14" forecolor="#00457D" uuid="2e2bb38f-55e0-42cc-a219-2d3cffc1bc5b">
@@ -867,7 +867,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_7}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_7}!= null ? $F{TEL_CEL_CLI_NUM_7} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="18" y="185" width="20" height="14" forecolor="#00457D" uuid="3387b31a-bb06-4646-93fa-1fd995563111">
@@ -877,7 +877,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_5}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_5}!= null ? $F{TEL_CEL_CLI_NUM_5} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="245" y="205" width="352" height="14" forecolor="#00457D" uuid="a89c88d0-1e2c-458d-af89-1fa14159b650">
@@ -902,7 +902,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_10}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_10}!= null ? $F{TEL_CEL_CLI_NUM_10} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="43" y="205" width="80" height="14" forecolor="#00457D" uuid="5cf609d0-2cbe-4a45-b43b-8d69403fdb06">
@@ -912,7 +912,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_9}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_9}!= null ? $F{TEL_CEL_CLI_LET_9} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="18" y="205" width="20" height="14" forecolor="#00457D" uuid="eda2eeb4-5ade-4c6b-a7cb-6061cac2bf74">
@@ -922,7 +922,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+($F{TEL_CEL_CLI_NUM_9}!=null)+")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_9}!= null ? $F{TEL_CEL_CLI_NUM_9} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="157" y="205" width="80" height="14" forecolor="#00457D" uuid="06244b02-7f03-4e6f-a5c8-917ea5872fff">
@@ -932,7 +932,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+($F{TEL_CEL_CLI_LET_10}!=null)+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_10}!= null ? $F{TEL_CEL_CLI_LET_10} : " ") +"],"]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="18" y="221" width="575" height="24" forecolor="#00457D" uuid="747090d3-f381-4cec-839e-4b0195372928">
