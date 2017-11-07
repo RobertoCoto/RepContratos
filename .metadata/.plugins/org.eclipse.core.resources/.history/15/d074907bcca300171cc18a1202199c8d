@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="firmantes_reg_firma" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="eda00e46-dcd3-4f81-b5ae-a3486cc110b8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DATAContratoss"/>
+	<queryString language="xPath">
+		<![CDATA[/Datos/FIRMAS/FIRMA/]]>
+	</queryString>
+	<field name="NOMBRE_FIRMANTE" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_FIRMANTE]]></fieldDescription>
+	</field>
+	<field name="TIPO_FIRMA" class="java.lang.String">
+		<fieldDescription><![CDATA[TIPO_FIRMA]]></fieldDescription>
+	</field>
+	<field name="FIRMA" class="java.lang.String">
+		<fieldDescription><![CDATA[FIRMA]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="75" splitType="Stretch">
+			<rectangle radius="6">
+				<reportElement x="0" y="0" width="275" height="69" forecolor="#0022BA" uuid="8b7a7954-cc2a-4d0c-b0d7-004d20c7f0a8"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="5" y="40" width="49" height="14" forecolor="#014D87" uuid="e3f94b0b-faee-4596-9ad5-dbcf070a641c">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Firma:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="245" y="0" width="1" height="30" forecolor="#006CB9" uuid="3aae7671-5904-45cd-9470-7cf6b3c752ed">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="3" y="16" width="51" height="14" forecolor="#014D87" uuid="7d8f0f92-1329-4e74-8ba5-80d6f8883321">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="30" width="275" height="1" forecolor="#0070C0" uuid="8981027b-b4f3-4e49-bcaa-5d42b54ba936">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="40" y="7" width="200" height="20" uuid="0d293ee5-9b8c-473e-9fcf-5e81e822f311"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_FIRMANTE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="39" y="34" width="206" height="25" uuid="1c408a34-f25d-44f1-bbf1-3d61e6c5d76a"/>
+				<textFieldExpression><![CDATA[$F{FIRMA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="248" y="1" width="24" height="28" uuid="fe16f378-c8da-47c3-8b1b-67cb22bf8f7a"/>
+				<textFieldExpression><![CDATA[$F{TIPO_FIRMA}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

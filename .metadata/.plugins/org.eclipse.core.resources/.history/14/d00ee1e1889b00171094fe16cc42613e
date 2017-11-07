@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="contrato" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4e25b508-d919-4172-b38b-fd1036fb49bf">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="76">
+			<staticText>
+				<reportElement key="" x="520" y="8" width="62" height="20" forecolor="#031469" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
+				<textElement textAlignment="Justified" markup="none">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BPF-OC-28]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="30" width="382" height="46" forecolor="#022D7D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SOLICITUD DE ALTA PERSONA FISICA
+PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="8" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
+				<imageExpression><![CDATA["C:/Users/Shanukk/Videos/fondos/logoabc.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="311">
+			<image scaleImage="FillFrame">
+				<reportElement x="-10" y="30" width="592" height="131" uuid="fb882bd1-4379-4523-af52-465a3962e4f6">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/Shanukk/Videos/fondos/generales.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="310" y="1" width="130" height="20" forecolor="#040A63" uuid="8559c5d4-da42-4cef-b40c-be65065b0113"/>
+				<textElement textAlignment="Right">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Fecha de Apertura: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="202" y="30" width="144" height="20" forecolor="#FFFFFF" uuid="8e20e537-8ea5-49b2-b501-159b0723c44a">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GENERALES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="52" width="90" height="14" forecolor="#014D87" uuid="6ec533c3-92a9-4f51-87e3-f81195e69b2b"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Sucursal: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-5" y="64" width="584" height="1" forecolor="#0070C0" uuid="4dacaeca-d38a-450d-a8f7-de3ed6bdf452">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="286" y="46" width="1" height="18" forecolor="#006CB9" uuid="09f8240c-7312-4dad-b2ad-a961d0c6749f">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="287" y="52" width="90" height="14" forecolor="#014D87" uuid="7f6e6837-7cd6-49c8-bb2e-8225faaa65ff"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ No. de cliente:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-5" y="82" width="584" height="1" forecolor="#0070C0" uuid="807531f9-feeb-4bb9-a570-ea9864f16c8f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="69" width="90" height="14" forecolor="#014D87" uuid="8137f313-a500-43f9-83ce-c191b912b403"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[No. de cuenta:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="286" y="65" width="1" height="17" forecolor="#006CB9" uuid="2367959f-97cb-4380-9e80-df48a9b9cc7c">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="286" y="69" width="128" height="14" forecolor="#014D87" uuid="89f82441-5bd9-489e-ad0e-9cf5c3401bfb"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ No. de cuenta Clabe:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-4" y="93" width="130" height="14" forecolor="#014D87" uuid="59425661-4115-4e29-adad-e155c24e2cd9">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[  Selección de producto:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="302" y="91" width="1" height="58" forecolor="#006CB9" uuid="a48538e9-681f-457f-9156-d5c8de9b75d2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<rectangle>
+				<reportElement x="12" y="113" width="10" height="10" forecolor="#0070C0" uuid="afd7aa1b-efc5-413e-9a75-9321d51bdc47">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="22" y="113" width="130" height="14" forecolor="#014D87" uuid="39ec30fe-7179-45bc-a6c1-0e7f4449c38f">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ ABC Cuenta de Ahorro]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="12" y="134" width="10" height="10" forecolor="#0070C0" uuid="c587276e-2dbf-4587-8357-f2112c3fae56"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="22" y="133" width="130" height="14" forecolor="#014D87" uuid="64406d46-06fa-43e6-a5f6-698dc0ff5273">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ ABC Cuenta Básica]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="160" y="113" width="10" height="10" forecolor="#0070C0" uuid="0904b246-5dff-49c4-901f-1196db1b5627"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="172" y="113" width="92" height="14" forecolor="#014D87" uuid="905d36c1-0241-42b8-bc87-0af6b094867c">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ ABC Cuenta Eje]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="160" y="134" width="10" height="10" forecolor="#0070C0" uuid="f498241e-14ba-4ed7-b9da-bda6eadb92b4"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="172" y="133" width="124" height="14" forecolor="#014D87" uuid="32fd5e12-ed3e-46c1-af25-f923450a9be2">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ ABC Cuenta de Nómina]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="304" y="93" width="130" height="14" forecolor="#014D87" uuid="1be6ff0a-e0f5-4ad2-a3e2-c0ac18affef3"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[  Medios de disposición:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="320" y="113" width="10" height="10" forecolor="#0070C0" uuid="9b1a2258-30a4-4988-86a2-bc64343c0449"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="330" y="113" width="92" height="14" forecolor="#014D87" uuid="16c0d921-0844-4c00-93d8-d9bbc95badde">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ Tarjeta de débito]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="320" y="134" width="10" height="10" forecolor="#0070C0" uuid="29d259e0-8711-48b0-b90e-5cec38e3e58e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="330" y="133" width="92" height="14" forecolor="#014D87" uuid="2c0f5413-fa78-4eb1-86cd-32834f5b1582">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ Ventanilla]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="452" y="113" width="10" height="10" forecolor="#0070C0" uuid="31bb8934-0258-4656-82e4-0e7e99831785"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="462" y="113" width="98" height="14" forecolor="#014D87" uuid="31bdb8c6-f1c4-47d0-a0a7-0fa9e14228e6">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ Cajero automático]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="452" y="134" width="10" height="10" forecolor="#0070C0" uuid="507743d0-4d91-4a7c-a5d0-7247f6cf6a25"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="462" y="133" width="92" height="14" forecolor="#014D87" uuid="a306684d-dd6b-4471-be37-907bff8992b6">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+				</textElement>
+				<text><![CDATA[ Banca en Línea]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+		<band height="542">
+			<image scaleImage="FillFrame">
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="9" y="17" width="594" height="190" uuid="9ac64e55-a146-4c4e-bc16-277404036c1a"/>
+				<imageExpression><![CDATA["C:/Users/Shanukk/Videos/fondos/generales.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="229" y="21" width="144" height="20" forecolor="#FFFFFF" uuid="da5456ce-032f-4490-9d05-a74dcfd994e1">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATOS DEL CLIENTE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="57" width="586" height="1" forecolor="#0070C0" uuid="6f02d884-5061-4c05-914a-4ae55ab4d68c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="16" y="44" width="100" height="14" forecolor="#014D87" uuid="d8c12b4e-3a08-4932-9829-fa0f7970e5ea">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Nombre completo: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="75" width="586" height="1" forecolor="#0070C0" uuid="03129bef-6236-4e1b-96ed-98cdcd22690d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="16" y="60" width="126" height="14" forecolor="#014D87" uuid="329dd6b4-a3ee-4c6a-a95c-24760672809f">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Fecha de nacimiento:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="319" y="58" width="1" height="17" forecolor="#006CB9" uuid="5a3e0892-954e-43c6-be74-64b9408c64a3">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="327" y="61" width="127" height="13" forecolor="#014D87" uuid="0412171a-be5b-4ce1-95c8-a386265b9f11">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Lugar de Nacimiento:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="98" width="586" height="1" forecolor="#0070C0" uuid="883fb9d4-046c-486b-962d-e73de2ca3aaa">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="18" y="81" width="110" height="14" forecolor="#014D87" uuid="8029a384-dfaa-49cd-9bae-4ea3c823cd3e">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Nacionalidad(es):]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="130" y="82" width="10" height="10" forecolor="#0070C0" uuid="0e4bc949-6688-4599-bf33-c7f10149a194"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="144" y="82" width="110" height="14" forecolor="#014D87" uuid="3c5129d5-3020-4de4-8b3a-bba95635a136">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Mexicana]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="228" y="82" width="10" height="10" forecolor="#0070C0" uuid="d099212a-d6fe-4b68-8b39-59440731fc2e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="240" y="82" width="110" height="14" forecolor="#014D87" uuid="dfadb512-7b0a-4318-9f3a-b86f485930e2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Estadounidense]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="345" y="82" width="10" height="10" forecolor="#0070C0" uuid="886b5b0e-7690-4ae0-b5d1-c88c9cd4e8c9"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="356" y="82" width="110" height="14" forecolor="#014D87" uuid="d30d9842-3747-4a97-bf82-4ddfaa5925b5">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Otra (Especifique):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="104" width="130" height="14" forecolor="#014D87" uuid="13a618fb-d796-4bca-8f41-caca10372ae0">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[País de residencia fiscal:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="121" width="586" height="1" forecolor="#0070C0" uuid="f1ad7c05-45d0-440d-9f21-051a362f8f34">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<rectangle>
+				<reportElement x="158" y="104" width="10" height="10" forecolor="#0070C0" uuid="d33ee986-d25a-4d7c-8351-957d1786e68b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="172" y="104" width="47" height="14" forecolor="#014D87" uuid="7d43ebd6-03e0-4304-9bf5-358737b4315f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[México]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="253" y="104" width="91" height="14" forecolor="#014D87" uuid="557f3383-42f9-44e0-a5c0-c11e18097c29">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Estados Unidos]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="239" y="104" width="10" height="10" forecolor="#0070C0" uuid="5afdf0a3-60cb-4256-89b7-68ac7362f43e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="345" y="104" width="10" height="10" forecolor="#0070C0" uuid="ab9e32f5-e471-44a2-9b7f-6f148b438a4f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="356" y="104" width="110" height="14" forecolor="#014D87" uuid="f56bf9ec-03f0-4603-99cd-09b62772745b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Otros (Especifique):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="127" width="52" height="14" forecolor="#014D87" uuid="da96af44-04cd-4884-a83a-5ef7f6f45171">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[CURP:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="140" width="586" height="1" forecolor="#0070C0" uuid="4e19834b-cf6f-4777-acc8-dfa83d43074f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="304" y="127" width="77" height="14" forecolor="#014D87" uuid="5ceb6ea3-45ff-4f68-b5d5-f2f150b5c4a4">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[RFC / TIN:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="294" y="123" width="1" height="17" forecolor="#006CB9" uuid="16a3f034-233a-41c8-a160-06665ee93864">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="332" y="142" width="1" height="17" forecolor="#006CB9" uuid="6dfb82e2-5eae-43a5-9a8f-7f3927ba0542">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="14" y="159" width="586" height="1" forecolor="#0070C0" uuid="eb9db12c-f7dd-4e07-b268-a82ec50c69fc">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="18" y="146" width="121" height="14" forecolor="#014D87" uuid="eeffc690-5b98-40ac-a87a-07b3f033b77e">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Tipo de identificación:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="342" y="146" width="127" height="14" forecolor="#014D87" uuid="fded75f3-2a1e-40e3-b7c4-fd983660d83f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[No. de identificación:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="332" y="160" width="1" height="17" forecolor="#006CB9" uuid="9f5ac598-b6f1-4d77-89ea-b189d83a56c0">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="18" y="164" width="210" height="14" forecolor="#014D87" uuid="77340b5e-d735-43d3-b819-95d57e1252e1">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Fecha de vigencia de indentificación:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="177" width="586" height="1" forecolor="#0070C0" uuid="c1098f10-b660-4ada-96fa-44c77e822508">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="342" y="164" width="127" height="14" forecolor="#014D87" uuid="913beda7-4514-49d1-9a7f-89fccd1737dd">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Estado Civil:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="187" width="210" height="14" forecolor="#014D87" uuid="ea4aceeb-81f5-4c36-9668-bbae36055839">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Comprobante de domicilio:]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="8" y="230" width="594" height="89" uuid="b2496f65-dbc4-49cd-8b75-c1284415301c"/>
+				<imageExpression><![CDATA["C:/Users/Shanukk/Videos/fondos/generales.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="212" y="228" width="180" height="20" forecolor="#FFFFFF" uuid="d2c6c873-7c0f-4e2a-b89f-3319f97338ea">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOMICILIO Y CONTACTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="547" y="127" width="19" height="14" forecolor="#014D87" uuid="b33088ea-3178-4eed-82e7-850229a47778">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[M]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="489" y="127" width="58" height="14" forecolor="#014D87" uuid="01de67ab-5d5b-48db-8e6e-4d1fcfc79924">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Sexo:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="533" y="127" width="10" height="10" forecolor="#0070C0" uuid="51e4c63e-5e43-4a03-b675-a41c3955d825"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="581" y="127" width="19" height="14" forecolor="#014D87" uuid="5f5bab1c-c805-4053-a38e-50d6655aebbc">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[F]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="567" y="127" width="10" height="10" forecolor="#0070C0" uuid="985a96b7-b6f1-4c4e-80c8-14de9abd72f5"/>
+			</rectangle>
+			<line>
+				<reportElement x="481" y="123" width="1" height="17" forecolor="#006CB9" uuid="9cb1e050-2ac8-4cf9-b8b8-91f309cded74">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="14" y="259" width="586" height="1" forecolor="#0070C0" uuid="bcb10b82-6bd3-435a-bd14-fe55d3f53c02">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="16" y="244" width="126" height="14" forecolor="#014D87" uuid="373ed644-3191-45d8-ac99-15c1bf37563f">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Domicilio (Calle):]]></text>
+			</staticText>
+			<line>
+				<reportElement x="387" y="242" width="1" height="17" forecolor="#006CB9" uuid="4f7b1676-0628-4158-98c2-ced85d26d1be">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="392" y="244" width="100" height="14" forecolor="#014D87" uuid="d48d23f5-9788-4056-a807-dd6bc0296f8d">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Número ext.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="416" y="261" width="1" height="17" forecolor="#006CB9" uuid="d701614e-4c7e-40ad-b253-eaaf7fe99e4f">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="16" y="263" width="92" height="14" forecolor="#014D87" uuid="babd0158-2416-4c67-92e7-436d67a868df">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Colonia:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="278" width="586" height="1" forecolor="#0070C0" uuid="eecff1fc-2bf8-4b58-99aa-7f7516ddf54b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="181" y="261" width="1" height="17" forecolor="#006CB9" uuid="56203fcf-9522-43df-bb69-d64af49d9e5f">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="186" y="263" width="123" height="14" forecolor="#014D87" uuid="56bcb052-42b5-4db2-a97d-56630e0055ae">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Delegación / Municipio:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="498" y="244" width="98" height="14" forecolor="#014D87" uuid="65c952c6-27f2-456c-a98c-6f08fdb6d779">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Número int.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="493" y="242" width="1" height="17" forecolor="#006CB9" uuid="9a170a67-7ccf-429d-b34b-9657d2494b0e">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="422" y="263" width="123" height="14" forecolor="#014D87" uuid="a4078122-8627-4f68-a5f4-5d02bfac75ea">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Estado/entidad:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="301" width="92" height="14" forecolor="#014D87" uuid="91f06a7f-28ab-4ca0-93ee-823b1df88999">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Teléfono fijo:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="468" y="280" width="1" height="17" forecolor="#006CB9" uuid="52354c70-fd99-4c6c-ba6e-e20b7e6bae13">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="184" y="299" width="1" height="17" forecolor="#006CB9" uuid="d5e09742-73e1-44f6-a78d-eea364519788">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="294" y="282" width="100" height="14" forecolor="#014D87" uuid="8c1b4fed-dc1d-43e8-a35c-c590f9e3f41b">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Código Postal:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="288" y="280" width="1" height="17" forecolor="#006CB9" uuid="7cb0e582-cd72-4f1e-b7fa-7be9e5f78311">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="388" y="301" width="123" height="14" forecolor="#014D87" uuid="910b894e-91ad-4759-b8d0-cbf78bd1914e">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Correo electrónico:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="474" y="282" width="98" height="14" forecolor="#014D87" uuid="3a5d4fd7-68b4-42b4-a20f-a4a9afe6d23f">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[País:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="282" width="126" height="14" forecolor="#014D87" uuid="0a195c7a-79a4-4462-a9d2-582f652c50a7">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Ciudad o Población:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="297" width="586" height="1" forecolor="#0070C0" uuid="8a9ef7c9-2039-44b8-8676-91cf007841e5">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="189" y="301" width="123" height="14" forecolor="#014D87" uuid="80077995-47bc-41b3-a28d-82d6723375e1">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Celular:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="383" y="299" width="1" height="17" forecolor="#006CB9" uuid="d0352450-56ed-4fa0-9004-1e7efcb30f82">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<image scaleImage="FillFrame">
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="9" y="338" width="594" height="190" uuid="611884b3-c364-4b63-be8b-99bc4a03e6f5"/>
+				<imageExpression><![CDATA["C:/Users/Shanukk/Videos/fondos/generales.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="207" y="342" width="193" height="20" forecolor="#FFFFFF" uuid="71b4b5b5-74b1-4389-b698-898d0a9c0daa">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INFORMACIÓN LABORAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="294" y="363" width="1" height="17" forecolor="#006CB9" uuid="e6b08c89-941c-4598-88fe-164f1b375042">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="276" y="404" width="127" height="14" forecolor="#014D87" uuid="18ca37f6-50a8-4f43-b6a9-87654a00e53f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Puesto:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="304" y="367" width="127" height="14" forecolor="#014D87" uuid="8849ad08-b2f3-4c85-b71b-4d4ca8e14d73">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Profesión / Ocupación:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="404" width="181" height="14" forecolor="#014D87" uuid="d9bc23c5-52b6-4301-b17e-c1f6753ef21b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Giro Mercantil:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="380" width="586" height="1" forecolor="#0070C0" uuid="f19ea57a-f963-4a7f-a99e-2da14bfed0fc">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="18" y="367" width="123" height="14" forecolor="#014D87" uuid="de58dedc-c3f4-4397-8516-4407f81586ad">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Tipo de empleo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="386" width="121" height="14" forecolor="#014D87" uuid="6d0fa65a-247a-448c-8da7-9b331c1d44c5">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Nombre de la empresa:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="270" y="400" width="1" height="17" forecolor="#006CB9" uuid="5ab85c20-a07e-42e4-b9c3-7773332ef5aa">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="14" y="417" width="586" height="1" forecolor="#0070C0" uuid="c97fe811-c8e3-4cc7-a29a-6ec9d790db3c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="14" y="399" width="586" height="1" forecolor="#0070C0" uuid="3a6b73a7-9b9b-4c2e-92ae-d7b13d2cf654">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="276" y="422" width="127" height="14" forecolor="#014D87" uuid="3e69a62e-3c77-4a9a-b577-5e31d0006e2f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Teléfono de la empresa:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="435" width="586" height="1" forecolor="#0070C0" uuid="79b094fc-67f9-4f0a-8247-3b13b5cb155e">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="270" y="418" width="1" height="17" forecolor="#006CB9" uuid="437de514-1bc2-473f-8fc4-7939ae644f06">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="18" y="422" width="181" height="14" forecolor="#014D87" uuid="e67edd41-3f15-4d53-a9bf-ac8c696880c4">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Ingreso neto mensual:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="458" width="181" height="14" forecolor="#014D87" uuid="34c15ae9-5306-480b-8aaa-2e58eb5aa1d3">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Delegación / Municipio:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="471" width="586" height="1" forecolor="#0070C0" uuid="2d7f9dc0-d309-4631-b263-0e3b5958c50f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="359" y="454" width="1" height="17" forecolor="#006CB9" uuid="a77f5279-413f-4ef7-9333-cf198c01bfee">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="14" y="453" width="586" height="1" forecolor="#0070C0" uuid="bc6ef6da-08a3-4252-b75a-2f1100c8f49a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="365" y="440" width="127" height="14" forecolor="#014D87" uuid="1a59de82-7c7b-4004-a786-dc92e0ece46a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Colonia:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="458" width="127" height="14" forecolor="#014D87" uuid="bf238ba2-8ce6-4279-a7ea-1117923ad74c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Ciudad:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="359" y="436" width="1" height="17" forecolor="#006CB9" uuid="4e80604d-4682-43fd-ba99-7c0072c6e386">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="18" y="440" width="181" height="14" forecolor="#014D87" uuid="57f33509-e9ba-45c8-8125-cf84b163def6">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Domicilio (Calle y número):]]></text>
+			</staticText>
+			<line>
+				<reportElement x="359" y="490" width="1" height="17" forecolor="#006CB9" uuid="87623a4e-0370-437e-b5c6-74eec1d228cf">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="365" y="494" width="174" height="14" forecolor="#014D87" uuid="e28b29ad-1731-4656-a708-681c053ce39e">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Actividad económica vulnerable:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="476" width="110" height="14" forecolor="#014D87" uuid="de6e3932-d862-4ea2-8684-06bf31d698d7">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Estado:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="359" y="472" width="1" height="17" forecolor="#006CB9" uuid="65658f09-51f8-43ce-a7de-6cfcd712009c">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="18" y="494" width="181" height="14" forecolor="#014D87" uuid="e7824768-98ca-4e67-8a44-5dba53ffa044">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Actividad económica:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="507" width="586" height="1" forecolor="#0070C0" uuid="01a78529-a908-473a-99e9-87b786212fa1">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="365" y="476" width="127" height="14" forecolor="#014D87" uuid="1db8cbd2-cdec-44bd-bab5-2f1d8fca2837">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[País:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="489" width="586" height="1" forecolor="#0070C0" uuid="7d2884fd-d50d-43ca-a927-14fede49b05d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="176" y="476" width="127" height="14" forecolor="#014D87" uuid="eeb041d3-8354-4cbb-8f3b-fe59150e9dff">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Código Postal:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="166" y="472" width="1" height="17" forecolor="#006CB9" uuid="06b4f64c-22bb-4f29-bd72-7b312a5a47f9">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="583" y="493" width="19" height="14" forecolor="#014D87" uuid="6cea9bb0-c338-4c88-aba0-c8a40060be12">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="551" y="493" width="19" height="14" forecolor="#014D87" uuid="7da00ad3-62a2-4c5e-a57e-4b4bb77fc1a2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Si]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="569" y="493" width="10" height="10" forecolor="#0070C0" uuid="85015bff-cd61-414e-a336-56c5fde8ddb4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="537" y="493" width="10" height="10" forecolor="#0070C0" uuid="0d79d46f-755a-4cbb-922d-84defd14ba34"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="466" y="511" width="51" height="14" forecolor="#014D87" uuid="2033cf29-a8d7-42f2-b0cc-d17b5e46f33a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Otro:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="511" width="355" height="14" forecolor="#014D87" uuid="a79a7402-0692-4d61-b95d-bc9fd2dafdc8">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Sans" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Principal fuente de ingresos (sueldo, inversiones, honorarios, etc.):]]></text>
+			</staticText>
+			<line>
+				<reportElement x="460" y="507" width="1" height="17" forecolor="#006CB9" uuid="5234299a-b69f-4410-b385-f8ec3e413578">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
