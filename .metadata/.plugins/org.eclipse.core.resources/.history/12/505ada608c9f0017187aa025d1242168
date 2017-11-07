@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Asosacion_Telf" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="667a2a02-cfef-41da-a5c3-515da2e002d9">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band height="791">
+			<image scaleImage="FillFrame" hAlign="Right" vAlign="Bottom" isUsingCache="true">
+				<reportElement x="0" y="10" width="612" height="781" uuid="f76f157b-cd2b-4e1d-b807-117ef1aa18e4"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA["C:/Users/Shanukk/Videos/fondos/Fondo-formatos.png"]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<pageHeader>
+		<band height="110" splitType="Stretch">
+			<staticText>
+				<reportElement key="" positionType="FixRelativeToBottom" x="519" y="10" width="82" height="20" forecolor="#031469" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
+				<textElement textAlignment="Right" markup="none">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BPF-OC-22]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="30" width="382" height="70" forecolor="#022D7D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SOLICITUD PARA ASOCIAR UN NÚMERO
+DE TELÉFONO MÓVIL A UNA CUENTA
+DE DEPÓSITO A LA VISTA]]></text>
+			</staticText>
+			<image isLazy="true">
+				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
+				<imageExpression><![CDATA["C:/Users/Shanukk/Videos/fondos/logoabc.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="666">
+			<staticText>
+				<reportElement x="350" y="0" width="92" height="19" forecolor="#014D87" uuid="b9d4c014-1794-45e7-ab7c-a6ce164aa239">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<text><![CDATA[Fecha :]]></text>
+			</staticText>
+			<image scaleImage="FillFrame" vAlign="Top">
+				<reportElement x="10" y="20" width="590" height="50" uuid="02490ed7-f8a6-463b-99b8-372bc84ca7be">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/Shanukk/Videos/fondos/generales.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="15" y="25" width="582" height="6" backcolor="#0070C0" uuid="e207f1d5-e5b5-41b9-9d5b-e14801e0e098">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="210" y="18" width="193" height="20" forecolor="#FFFFFF" uuid="f05f28c1-3073-4e18-8e5e-3fe50c9042c3">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATOS DEL CLIENTE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="15" y="48" width="582" height="1" forecolor="#0070C0" uuid="beff9711-cfab-413a-844f-b315f8a030d9">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="20" y="34" width="136" height="14" forecolor="#014D87" uuid="5276de75-b064-4a2c-89af-144c56580f11">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Nombre o Razón Social:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="56" width="136" height="14" forecolor="#014D87" uuid="46beb495-f6d0-4ef2-8923-1ecca9585076">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Sucursal:]]></text>
+			</staticText>
+			<rectangle radius="15">
+				<reportElement x="10" y="80" width="590" height="230" forecolor="#0A24A8" uuid="c8a1ded8-c85e-438e-a95d-db1cae3ec87a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="20" y="90" width="240" height="14" forecolor="#014D87" uuid="7b23fbd9-be4c-4222-8828-c4d83490ab10">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Solicito a ese banco que asocie la cuenta número:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="110" width="576" height="120" forecolor="#014D87" uuid="d6a4399f-7975-4d16-8db4-1f975ce7211b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[[ ]*Letra, que este mantiene abierta a mi nombre, con la línea telefónica con
+número[últimos diez dígitos] ( ) [ ], ( ) [ ], ( ) [ ], ( )[ ],
+( ) [ ], ( ) [ ], ( ) [ ], ( ) [ ], ( ) [ ],
+( )[ ], con el fin de que ésta pueda abonar a dicha cuenta los recursos derivados de trasferencias electrónicas de fondos que reciba con la identicación de dicho número de telefonía móvil.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="212" width="575" height="88" forecolor="#014D87" uuid="ad66615c-439b-4ab6-bcb5-4d1fa0ea0e86">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Estoy enterado(a) que esta solicitud surtirá efectos en un plazo no mayor a un día hábil bancario contando a partir de la fecha de presentación y/o entradacen vigor de las disposiciones correspondientes y que ese banco deberá, conforme a la solicitud que le presente en términos de las disposiciones aplicables, desasociar el referido número de teléfono móvil o llevar a cabo el cambio de éste, sin costo a mi cargo. Asimismo, he sido informado por ese banco que es mi responsabilidad dar de baja el número asociado a mi cuenta cuando deje de utilizar la línea telefónica móvil correspondiente.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="580" width="203" height="14" forecolor="#014D87" uuid="8a1efe97-2ee3-4f51-a1af-bc452816f0ed">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[NOMBRE Y FIRMA DEL CLIENTE]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

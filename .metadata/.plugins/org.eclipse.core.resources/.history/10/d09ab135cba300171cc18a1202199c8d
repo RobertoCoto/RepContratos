@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Formato_Alta" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="570bed97-5998-4368-8e08-fd27089b78ca">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DATAContratoss"/>
+	<queryString language="xPath">
+		<![CDATA[/Datos]]>
+	</queryString>
+	<field name="TIPO_FORMATO" class="java.lang.String">
+		<fieldDescription><![CDATA[TIPO_FORMATO]]></fieldDescription>
+	</field>
+	<field name="NOM_EJECUTIVO" class="java.lang.String">
+		<fieldDescription><![CDATA[NOM_EJECUTIVO]]></fieldDescription>
+	</field>
+	<field name="NUM_EJECUTIVO" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EJECUTIVO]]></fieldDescription>
+	</field>
+	<field name="NOM_SUCURSAL" class="java.lang.String">
+		<fieldDescription><![CDATA[NOM_SUCURSAL]]></fieldDescription>
+	</field>
+	<field name="NUM_SUCURSAL" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_SUCURSAL]]></fieldDescription>
+	</field>
+	<field name="ID_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[ID_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="ID_CUENTA" class="java.lang.String">
+		<fieldDescription><![CDATA[ID_CUENTA]]></fieldDescription>
+	</field>
+	<field name="CTA_CLABE" class="java.lang.String">
+		<fieldDescription><![CDATA[CTA_CLABE]]></fieldDescription>
+	</field>
+	<field name="CATEGORIA_CTA" class="java.lang.String">
+		<fieldDescription><![CDATA[CATEGORIA_CTA]]></fieldDescription>
+	</field>
+	<field name="SEL_SERVICIO" class="java.lang.String">
+		<fieldDescription><![CDATA[SEL_SERVICIO]]></fieldDescription>
+	</field>
+	<field name="MED_DISPOSICION" class="java.lang.String">
+		<fieldDescription><![CDATA[MED_DISPOSICION]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="FECHA_NAC_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[FECHA_NAC_CLI]]></fieldDescription>
+	</field>
+	<field name="LUG_NAC_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[LUG_NAC_CLI]]></fieldDescription>
+	</field>
+	<field name="RESIDENCIA_EU_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[RESIDENCIA_EU_CLI]]></fieldDescription>
+	</field>
+	<field name="RFC_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[RFC_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="CURP_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CURP_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="SEXO_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[SEXO_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="NACIONALIDAD_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[NACIONALIDAD_CLI]]></fieldDescription>
+	</field>
+	<field name="RESIDENCIA_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[RESIDENCIA_CLI]]></fieldDescription>
+	</field>
+	<field name="ESTADO_CIVIL_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[ESTADO_CIVIL_CLI]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_CONYUGE" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_CONYUGE]]></fieldDescription>
+	</field>
+	<field name="CALLE_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CALLE_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="NUM_EXT_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EXT_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="NUM_INT_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_INT_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="COLONIA_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[COLONIA_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="MUNICIPIO_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[MUNICIPIO_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="ESTADO_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[ESTADO_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="CIUDAD_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CIUDAD_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="CP_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CP_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="PAIS_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="TIENEFIR_ELEC" class="java.lang.String">
+		<fieldDescription><![CDATA[TIENEFIR_ELEC]]></fieldDescription>
+	</field>
+	<field name="FIRMA_ELECTRO" class="java.lang.String">
+		<fieldDescription><![CDATA[FIRMA_ELECTRO]]></fieldDescription>
+	</field>
+	<field name="TIPO_INDENT_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[TIPO_INDENT_CLI]]></fieldDescription>
+	</field>
+	<field name="NUME_INDENT_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[NUME_INDENT_CLI]]></fieldDescription>
+	</field>
+	<field name="VIGE_INDENT_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[VIGE_INDENT_CLI]]></fieldDescription>
+	</field>
+	<field name="COMPR_DOMI" class="java.lang.String">
+		<fieldDescription><![CDATA[COMPR_DOMI]]></fieldDescription>
+	</field>
+	<field name="TEL_DOMI_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[TEL_DOMI_CLI]]></fieldDescription>
+	</field>
+	<field name="TEL_CEL_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[TEL_CEL_CLI]]></fieldDescription>
+	</field>
+	<field name="CORREO_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CORREO_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="PROFESION_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[PROFESION_CLI]]></fieldDescription>
+	</field>
+	<field name="NOM_EMPRESA" class="java.lang.String">
+		<fieldDescription><![CDATA[NOM_EMPRESA]]></fieldDescription>
+	</field>
+	<field name="CALLE_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[CALLE_EMP]]></fieldDescription>
+	</field>
+	<field name="NUM_EXT_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EXT_EMP]]></fieldDescription>
+	</field>
+	<field name="NUM_INT_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_INT_EMP]]></fieldDescription>
+	</field>
+	<field name="COLONIA_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[COLONIA_EMP]]></fieldDescription>
+	</field>
+	<field name="DEL_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[DEL_EMP]]></fieldDescription>
+	</field>
+	<field name="ENTI_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[ENTI_EMP]]></fieldDescription>
+	</field>
+	<field name="COD_PO_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[COD_PO_EMP]]></fieldDescription>
+	</field>
+	<field name="PAIS_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_EMP]]></fieldDescription>
+	</field>
+	<field name="TIPO_EMPLEO" class="java.lang.String">
+		<fieldDescription><![CDATA[TIPO_EMPLEO]]></fieldDescription>
+	</field>
+	<field name="GIRO_MERCANTIL" class="java.lang.String">
+		<fieldDescription><![CDATA[GIRO_MERCANTIL]]></fieldDescription>
+	</field>
+	<field name="PUESTO" class="java.lang.String">
+		<fieldDescription><![CDATA[PUESTO]]></fieldDescription>
+	</field>
+	<field name="INGR_MEN_BR" class="java.lang.String">
+		<fieldDescription><![CDATA[INGR_MEN_BR]]></fieldDescription>
+	</field>
+	<field name="TEL_EMPRESA" class="java.lang.String">
+		<fieldDescription><![CDATA[TEL_EMPRESA]]></fieldDescription>
+	</field>
+	<field name="ACT_ECONO_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[ACT_ECONO_EMP]]></fieldDescription>
+	</field>
+	<field name="ACT_VULNERABLE" class="java.lang.String">
+		<fieldDescription><![CDATA[ACT_VULNERABLE]]></fieldDescription>
+	</field>
+	<field name="PROCED_RECURSOS" class="java.lang.String">
+		<fieldDescription><![CDATA[PROCED_RECURSOS]]></fieldDescription>
+	</field>
+	<field name="USO_CUENTA" class="java.lang.String">
+		<fieldDescription><![CDATA[USO_CUENTA]]></fieldDescription>
+	</field>
+	<field name="OTRO_USO_CTA" class="java.lang.String">
+		<fieldDescription><![CDATA[OTRO_USO_CTA]]></fieldDescription>
+	</field>
+	<field name="REFERNCIAS_BANCARIAS" class="java.lang.String">
+		<fieldDescription><![CDATA[REFERNCIAS_BANCARIAS]]></fieldDescription>
+	</field>
+	<field name="DESTIN_RECURSOS" class="java.lang.String">
+		<fieldDescription><![CDATA[DESTIN_RECURSOS]]></fieldDescription>
+	</field>
+	<field name="NUM_EMPLEADOS" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EMPLEADOS]]></fieldDescription>
+	</field>
+	<field name="MTO_IMPORTACION" class="java.lang.String">
+		<fieldDescription><![CDATA[MTO_IMPORTACION]]></fieldDescription>
+	</field>
+	<field name="MTO_EXPORTACION" class="java.lang.String">
+		<fieldDescription><![CDATA[MTO_EXPORTACION]]></fieldDescription>
+	</field>
+	<field name="PAIS_IMPORTACION" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_IMPORTACION]]></fieldDescription>
+	</field>
+	<field name="PAIS_EXPORTACION" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_EXPORTACION]]></fieldDescription>
+	</field>
+	<field name="CIUDAD_SUCURSALES" class="java.lang.String">
+		<fieldDescription><![CDATA[CIUDAD_SUCURSALES]]></fieldDescription>
+	</field>
+	<field name="DEPOS_TIPO" class="java.lang.String">
+		<fieldDescription><![CDATA[DEPOS_TIPO]]></fieldDescription>
+	</field>
+	<field name="DEPOS_APRX_MEN" class="java.lang.String">
+		<fieldDescription><![CDATA[DEPOS_APRX_MEN]]></fieldDescription>
+	</field>
+	<field name="DEPOS_NUM_MEN" class="java.lang.String">
+		<fieldDescription><![CDATA[DEPOS_NUM_MEN]]></fieldDescription>
+	</field>
+	<field name="RETIR_TIPO" class="java.lang.String">
+		<fieldDescription><![CDATA[RETIR_TIPO]]></fieldDescription>
+	</field>
+	<field name="RETIR_APRX_MEN" class="java.lang.String">
+		<fieldDescription><![CDATA[RETIR_APRX_MEN]]></fieldDescription>
+	</field>
+	<field name="RETIR_NUM_MEN" class="java.lang.String">
+		<fieldDescription><![CDATA[RETIR_NUM_MEN]]></fieldDescription>
+	</field>
+	<field name="NIVEL" class="java.lang.String">
+		<fieldDescription><![CDATA[NIVEL]]></fieldDescription>
+	</field>
+	<field name="REGIMEN_CONYUGAL" class="java.lang.String">
+		<fieldDescription><![CDATA[REGIMEN_CONYUGAL]]></fieldDescription>
+	</field>
+	<field name="FECHA_APERTURA" class="java.lang.String">
+		<fieldDescription><![CDATA[FECHA_APERTURA]]></fieldDescription>
+	</field>
+	<field name="SALIDA_CONTITULAR" class="java.lang.String">
+		<fieldDescription><![CDATA[SALIDA_CONTITULAR]]></fieldDescription>
+	</field>
+	<field name="SALIDA_BENEFICIARIO" class="java.lang.String">
+		<fieldDescription><![CDATA[SALIDA_BENEFICIARIO]]></fieldDescription>
+	</field>
+	<field name="REFERENCIAS_PERSONALES" class="java.lang.String">
+		<fieldDescription><![CDATA[REFERENCIAS_PERSONALES]]></fieldDescription>
+	</field>
+	<field name="NUM_DE_SUCUR" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_DE_SUCUR]]></fieldDescription>
+	</field>
+	<field name="SALIDA_ANEXO_A" class="java.lang.String">
+		<fieldDescription><![CDATA[SALIDA_ANEXO_A]]></fieldDescription>
+	</field>
+	<field name="REGIMEN_CTA" class="java.lang.String">
+		<fieldDescription><![CDATA[REGIMEN_CTA]]></fieldDescription>
+	</field>
+	<field name="COMBINA_FIRMAS" class="java.lang.String">
+		<fieldDescription><![CDATA[COMBINA_FIRMAS]]></fieldDescription>
+	</field>
+	<field name="FIRMAS" class="java.lang.String">
+		<fieldDescription><![CDATA[FIRMAS]]></fieldDescription>
+	</field>
+	<field name="FACULTADOS" class="java.lang.String">
+		<fieldDescription><![CDATA[FACULTADOS]]></fieldDescription>
+	</field>
+	<field name="REG_FIRMAS" class="java.lang.String">
+		<fieldDescription><![CDATA[REG_FIRMAS]]></fieldDescription>
+	</field>
+	<field name="RAZON_SOCIAL" class="java.lang.String">
+		<fieldDescription><![CDATA[RAZON_SOCIAL]]></fieldDescription>
+	</field>
+	<field name="FUNCIONARIO_PUB" class="java.lang.String">
+		<fieldDescription><![CDATA[FUNCIONARIO_PUB]]></fieldDescription>
+	</field>
+	<field name="FUNCIONARIO_PUB_ESP" class="java.lang.String">
+		<fieldDescription><![CDATA[FUNCIONARIO_PUB_ESP]]></fieldDescription>
+	</field>
+	<field name="ACCIONISTA_ABC" class="java.lang.String">
+		<fieldDescription><![CDATA[ACCIONISTA_ABC]]></fieldDescription>
+	</field>
+	<field name="ACCIONISTA_ABC_ESP" class="java.lang.String">
+		<fieldDescription><![CDATA[ACCIONISTA_ABC_ESP]]></fieldDescription>
+	</field>
+	<field name="Y_OTRA_PROCED" class="java.lang.String">
+		<fieldDescription><![CDATA[Y_OTRA_PROCED]]></fieldDescription>
+	</field>
+	<field name="ENTREGA_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[ENTREGA_TOKEN]]></fieldDescription>
+	</field>
+	<field name="CALLE_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[CALLE_TOKEN]]></fieldDescription>
+	</field>
+	<field name="NUM_EXT_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EXT_TOKEN]]></fieldDescription>
+	</field>
+	<field name="NUM_INT_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_INT_TOKEN]]></fieldDescription>
+	</field>
+	<field name="COLONIA_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[COLONIA_TOKEN]]></fieldDescription>
+	</field>
+	<field name="MUNICIPIO_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[MUNICIPIO_TOKEN]]></fieldDescription>
+	</field>
+	<field name="EDO_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[EDO_TOKEN]]></fieldDescription>
+	</field>
+	<field name="CIUDAD_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[CIUDAD_TOKEN]]></fieldDescription>
+	</field>
+	<field name="CODIGO_PO_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[CODIGO_PO_TOKEN]]></fieldDescription>
+	</field>
+	<field name="PAIS_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_TOKEN]]></fieldDescription>
+	</field>
+	<field name="NUEVO_CORREO_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[NUEVO_CORREO_TOKEN]]></fieldDescription>
+	</field>
+	<field name="NUEVO_TEL_TOKEN" class="java.lang.String">
+		<fieldDescription><![CDATA[NUEVO_TEL_TOKEN]]></fieldDescription>
+	</field>
+	<background>
+		<band height="791">
+			<image scaleImage="FillFrame" hAlign="Right" vAlign="Bottom" isUsingCache="true">
+				<reportElement x="0" y="10" width="612" height="781" uuid="f76f157b-cd2b-4e1d-b807-117ef1aa18e4"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/Fondo-formatos.png"]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<pageHeader>
+		<band height="74" splitType="Stretch">
+			<staticText>
+				<reportElement key="" positionType="FixRelativeToBottom" x="519" y="10" width="82" height="20" forecolor="#031469" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
+				<textElement textAlignment="Right" markup="none">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[BPF-OC-00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="219" y="24" width="382" height="46" forecolor="#022D7D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="16" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[FORMA DE ALTA DE BANCA EN LÍNEA Y TOKEN]]></text>
+			</staticText>
+			<image isLazy="true">
+				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
+				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/logoabc.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="717" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="9" y="10" width="591" height="90" uuid="b5b48cd6-e5b5-4083-a854-16091817020b"/>
+				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/generales.png"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="13" y="40" width="585" height="1" forecolor="#0070C0" uuid="0b96754d-b3b0-4820-98ce-88bace633a54">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="19" y="26" width="136" height="14" forecolor="#014D87" uuid="9d10f5dd-85b1-4d1c-b819-cfdbbf05150f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Nombre o Razón Social:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="13" y="54" width="585" height="1" forecolor="#0070C0" uuid="32c860cb-cc1d-4975-901f-65ce6e07c4ec">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="19" y="40" width="136" height="14" forecolor="#014D87" uuid="c96e4545-a767-468b-b2e6-a231ff5db867">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Número de Cliente:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="250" y="41" width="1" height="13" forecolor="#006CB9" uuid="35bb3efa-030e-47cb-8ea3-23af9d6963ba">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="255" y="40" width="136" height="14" forecolor="#014D87" uuid="b2f6df7a-d6ed-4a87-a28a-e401be1bf2bd">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Lugar de nacimiento:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="439" y="40" width="136" height="14" forecolor="#014D87" uuid="543ecfaa-b33c-4982-8947-b69002739555">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ RFC / TIN:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="438" y="40" width="1" height="13" forecolor="#006CB9" uuid="1d4a3797-5a90-403e-8298-9108e2e7ee06">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="13" y="69" width="585" height="1" forecolor="#0070C0" uuid="0c407784-85de-4548-927b-43ff1d30c5c8">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="19" y="55" width="136" height="14" forecolor="#014D87" uuid="b7b7f8ed-691f-49ae-b6dc-a79e313a3c6d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Domicilio particular (Calle):]]></text>
+			</staticText>
+			<line>
+				<reportElement x="401" y="53" width="1" height="16" forecolor="#006CB9" uuid="a10abb25-7c2d-482e-ad66-bb7663931674">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="403" y="55" width="59" height="14" forecolor="#014D87" uuid="065f4826-2e78-4343-9e7c-3d4cea14614d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Número ext.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="498" y="55" width="1" height="14" forecolor="#006CB9" uuid="adbc511d-6020-4151-94a2-bd98d3b2b2a2">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="498" y="55" width="59" height="14" forecolor="#014D87" uuid="4c6d0166-89da-48d5-82a8-1b1edbbb63be">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Número int.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="83" width="585" height="1" forecolor="#0070C0" uuid="a23582d5-6c1a-43dd-84eb-6a383117e426">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="19" y="70" width="136" height="14" forecolor="#014D87" uuid="10914292-ffdb-4b5f-87eb-52839704847e">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Colonia:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="251" y="70" width="1" height="14" forecolor="#006CB9" uuid="52afb4c9-88cf-4602-91b6-a99068b85614">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="259" y="70" width="136" height="14" forecolor="#014D87" uuid="5c41fc99-6a79-4dbf-9e50-73f62387c65c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Delegación / Municipio:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="460" y="70" width="1" height="13" forecolor="#006CB9" uuid="ac4e51f7-5b1b-4441-b122-5baec6d4ef56">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="460" y="70" width="79" height="14" forecolor="#014D87" uuid="2bbb6710-9e3f-4d12-88a4-7dca3ee4a9af">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Estado/Entidad :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="86" width="136" height="14" forecolor="#014D87" uuid="d2d620c0-c4e4-4489-9223-b26a0aed6a95">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Ciudad o Población :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="299" y="83" width="1" height="17" forecolor="#006CB9" uuid="a4219bdd-180d-484d-8fc6-35f7f4a12dcf">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="304" y="84" width="136" height="14" forecolor="#014D87" uuid="7b797152-822e-4ba5-8c6d-53c4c5743d1b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Código Postal:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="438" y="83" width="1" height="15" forecolor="#006CB9" uuid="c03ad0a9-32be-471e-b9a3-0694774dba3c">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="440" y="84" width="32" height="14" forecolor="#014D87" uuid="3663c70e-536b-485c-96fa-a54159a7f47b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ País:]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="9" y="100" width="591" height="296" uuid="da57f943-0234-40c2-9499-f6e8525049d7">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/general3.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="210" y="100" width="193" height="16" forecolor="#FFFFFF" uuid="b16fd21a-3f89-4022-89c6-32ae04a6a134">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[INFORMACIÓN IMPORTANTE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="140" width="585" height="1" forecolor="#0070C0" uuid="71de747e-def6-42d7-b9ba-1eeb1c9f55ff">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="18" y="124" width="140" height="14" forecolor="#014D87" uuid="143456fe-d059-4373-864d-255a9f8e448c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Dirección de entrega de Token:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="190" y="126" width="10" height="10" forecolor="#0070C0" uuid="86f384cf-66ab-4f4f-82f6-3a846f149d3a">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="200" y="124" width="180" height="14" forecolor="#014D87" uuid="998a33ba-99c7-4e4a-808f-178453175b8e">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Misma dirección registrada de Cuenta]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="415" y="124" width="58" height="14" forecolor="#014D87" uuid="8079cd03-02b9-4bb4-825f-4bca42a5e19c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Sucursal]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="405" y="126" width="10" height="10" forecolor="#0070C0" uuid="38d5277d-bc78-4602-a886-261e5de9db0b">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="490" y="126" width="10" height="10" forecolor="#0070C0" uuid="b6681ce8-cb4e-43c8-9736-597c0520e08a">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="501" y="124" width="80" height="14" forecolor="#014D87" uuid="1c268c8d-c65b-410d-b99e-3218af67c5ee">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Otra Dirección]]></text>
+			</staticText>
+			<line>
+				<reportElement x="13" y="158" width="585" height="1" forecolor="#0070C0" uuid="a4db65bc-49c6-4cfb-a4b8-db1594de9443">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="15" y="144" width="140" height="14" forecolor="#014D87" uuid="f907a482-7beb-4f13-a568-a511a5533822">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Domicilio particular (Calle):]]></text>
+			</staticText>
+			<line>
+				<reportElement x="380" y="140" width="1" height="18" forecolor="#006CB9" uuid="7155f838-c987-43dc-b435-fc35e9599b3a">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="381" y="144" width="58" height="14" forecolor="#014D87" uuid="0cd6ac30-7a89-473b-a184-c8dafbc64d42">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Número ext.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="480" y="140" width="1" height="18" forecolor="#006CB9" uuid="53f544dc-78c4-40d9-8868-9a1d38e4da25">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="480" y="145" width="58" height="14" forecolor="#014D87" uuid="37eaa67d-445a-45d4-b924-4dd90e7bfea2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Número int.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="13" y="177" width="585" height="1" forecolor="#0070C0" uuid="d4a83c1b-b148-48bf-8aba-cf005f8c8dfd">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="15" y="163" width="54" height="14" forecolor="#014D87" uuid="366c387c-06b6-42f3-a5a7-4d885b43cfa6">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Colonia:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="203" y="163" width="116" height="14" forecolor="#014D87" uuid="fc24f02c-9c5a-49ca-9a79-ac49b1b3a1de">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Delegación / Municipio:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="195" y="158" width="1" height="18" forecolor="#006CB9" uuid="8ce78555-0560-449c-bd42-0d3b22bbe033">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="430" y="158" width="1" height="18" forecolor="#006CB9" uuid="becdff7e-298e-44c8-9511-a043ceee980f">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="432" y="163" width="86" height="14" forecolor="#014D87" uuid="dde05554-0c10-478c-85ef-96ecc181f642">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Estado/entidad :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="196" width="585" height="1" forecolor="#0070C0" uuid="f42e7727-7a40-48f8-b512-600910b990af">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="15" y="183" width="94" height="14" forecolor="#014D87" uuid="4ce23067-bd9e-4401-a0c5-4d16297c46d5">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Ciudad o Población :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="240" y="178" width="1" height="18" forecolor="#006CB9" uuid="e663507b-bbfe-40b4-b54f-4a42cf5c3218">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="242" y="183" width="116" height="14" forecolor="#014D87" uuid="12225a92-c471-4a01-838f-b260a9a05fa5">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Código Postal:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="460" y="178" width="1" height="18" forecolor="#006CB9" uuid="ef225b3d-caaf-400a-8499-85467632fa30">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="461" y="183" width="38" height="14" forecolor="#014D87" uuid="703b61b2-b741-41bb-a98c-1f9058b169c4">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[País:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="256" width="585" height="1" forecolor="#0070C0" uuid="f7c830e7-b1a2-43da-a981-2516f643bd95">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="15" y="201" width="474" height="14" forecolor="#014D87" uuid="b0e659b4-4d08-4a2e-8feb-38be8e46bb9f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Indique su número celular y correo electrónico vigentes (estos se guardarán y, en su caso, actualizarán en su expediente general):]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="20" y="219" width="10" height="10" forecolor="#0070C0" uuid="e2941d8a-c13a-48d0-986c-540337fe0dd5">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="20" y="236" width="10" height="10" forecolor="#0070C0" uuid="9de34ba5-a21a-4056-80d7-8ba58bfc9ffe">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="34" y="217" width="94" height="14" forecolor="#014D87" uuid="73615b21-2d3d-4a19-9db7-1057430c6a01">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Correo electrónico:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="236" width="94" height="14" forecolor="#014D87" uuid="dc07831d-a852-4e79-8593-10fb01f170d7">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Número celular:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="305" y="234" width="10" height="10" forecolor="#0070C0" uuid="d6b00ba8-9157-41af-9967-536ec3b86113">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="319" y="234" width="120" height="14" forecolor="#014D87" uuid="e7aea164-f1ee-44b6-b7d7-fc2740b185cb">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Nuevo número celular:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="305" y="217" width="10" height="10" forecolor="#0070C0" uuid="81677e90-0547-4d20-9a02-4836c91327a3">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="319" y="215" width="130" height="14" forecolor="#014D87" uuid="25ba974f-491e-4023-8c6e-9ab95a374a4c">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Nuevo correo electrónico:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="262" width="583" height="70" forecolor="#014D87" uuid="d258749f-e111-4da3-8279-b1b13b4d6dd9">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Manifiesto mi conformidad para que el Identificador de Usuario, la Clave de Identificación y el Dispositivo de Autentificación (Token) que ABC Capital, S.A. Institución de Banca Múltiple me otorgue para el uso del servicio de Banca en Línea , sustituya mi firma autógrafa para todos los efectos legales que haya lugar, por lo que soy responsable de las consultas y operaciones realizadas por estos medios, de conformidad con lo dispuesto por el artículo 52 de la Ley de Instituciones de Crédito.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="316" width="583" height="30" forecolor="#014D87" uuid="99593f65-f1af-4826-b352-a9211fc2cdb2">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ Así mismo declaro que el correo electrónico y número de teléfono celular manifestados en el presente documento son correctos y me pertenecen, por lo que en su caso acepto que se actualicen dentro de mi expediente del banco, y a través de ellos se me envíen las claves de activación del servicio de Banca en Línea.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="203" y="376" width="167" height="14" forecolor="#014D87" uuid="a0ed9376-f64b-4564-9e32-5c75c3948793">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[NOMBRE Y FIRMA DEL CLIENTE]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="10" y="400" width="590" height="87" uuid="f40f8dd9-dc69-4530-8408-8e65add02e7e">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/generales.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="22" y="416" width="576" height="28" forecolor="#014D87" uuid="b10bb45a-42cc-422f-a5fd-92b81c33f01a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[a)  Una vez que entregue el formato y reciba un correo de confirmación y/o el Token, contacte al Centro de Atención a Cliente al 01 800 2888 222 para solicitar la activación de su banca electrónica y/o Token]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="443" width="576" height="20" forecolor="#014D87" uuid="d2d7b978-18ba-4e35-8555-67b679f8383c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[b)  El Token será entregado en la sucursal o enviado a la dirección indicada en el presente formato ya sea la original o la que se recaba en el mismo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="457" width="576" height="30" forecolor="#014D87" uuid="bdaba3f5-10c4-4260-a568-0289a0e9b766">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[c) El sistema le enviará dos claves de activación, una para la Banca en Línea a su dirección de correo electrónico y otra para su Token por medio de un mensaje SMS a su teléfono celular, que serán solicitados por el sistema en el proceso de activación]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="209" y="400" width="193" height="16" forecolor="#FFFFFF" uuid="a6d3909c-65c9-4b03-8062-9a6b5873566e">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[INFORMACIÓN IMPORTANTE]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="13" y="13" width="583" height="13" backcolor="#0070C0" uuid="9d664259-8901-4978-af22-c0e656f424f1"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<image scaleImage="FillFrame">
+				<reportElement x="11" y="490" width="591" height="150" uuid="a40642ed-0b86-4e53-a427-4016d852d949"/>
+				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/generales.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="208" y="10" width="193" height="20" forecolor="#FFFFFF" uuid="3867b08f-bedd-4041-bf0d-b90b4a77d40e">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[DATOS DEL CLIENTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="513" width="576" height="130" forecolor="#014D87" uuid="964d2c13-da07-4832-9493-be68fb0f4ddb">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="7"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[•Cambie periódicamente la clave de acceso
+•No utilice su usuario y contraseña desde lugares públicos como: Café internet, hoteles, aeropuertos o algún sitio que se presuma pudiera no ser libre de software malicioso
+•Proteja los equipos personales con Firewall de Windows o Antivirus actualizado
+•No proporcione el usuario y la clave de identificación a persona alguna, estos datos son personales e intransferibles
+•No preste su Dispositivo de Autentificación (Token) a persona alguna, este dispositivo es personal e intransferible
+•Cierre completamente las sesiones de operación de ABC Banca en Línea cuando se tenga que mover físicamente del lugar donde está realizando la operación y borre constantemente sus archivos temporales
+•Resguarde sus contraseñas y usuarios en algún lugar seguro, avise de inmediato al Banco cuando identifique trámites electrónicos o actividades que no reconozca
+•En caso de robo o extravío notifique a ABC Capital y solicite su reposición
+•No deje de utilizar su Banca en Línea, ya que por seguridad, su servicio será bloqueado por inactividad en un periodo mayor a 3 meses]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="209" y="490" width="193" height="16" forecolor="#FFFFFF" uuid="8f3d3dda-8bf6-43cc-a2db-21edd8c2b0aa">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[RECOMENDACIONES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="640" width="466" height="13" forecolor="#014D87" uuid="a15fa6c0-a885-46c1-bd27-f2a8832b1d3b">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[El acceso a la Banca en Línea lo puede realizar a través de: http://www.abccapital.com.mx
+]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="22" y="653" width="10" height="10" forecolor="#0070C0" uuid="845b0f2f-1671-4aa5-9aa8-1c247dcae300">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="34" y="651" width="126" height="14" forecolor="#014D87" uuid="f7661145-37c9-4ed8-b942-53370c885859">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Recibí Token en Sucursal]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="22" y="665" width="10" height="10" forecolor="#0070C0" uuid="984af6b9-da62-4e0c-aa91-2c6d5d3cc3a5">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="34" y="663" width="169" height="14" forecolor="#014D87" uuid="4f053e60-c3d4-42ee-84ff-40b135e49e01">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Acepto Términos y condiciones]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="700" width="269" height="14" forecolor="#014D87" uuid="c41d6a11-815f-4c66-99eb-413742934055">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[NOMBRE Y FIRMA DEL CLIENTE Y/O REPRESENTANTE LEGAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="700" width="155" height="12" forecolor="#014D87" uuid="d5963da8-35b6-4ea2-bd03-0c2b8ea2fd77">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="8"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[NOMBRES Y FIRMAS DEL EJECUTIVO]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="133" y="27" width="462" height="12" backcolor="#6980CE" uuid="5fa12537-ed66-4928-b8fe-05b268b07418"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="109" y="42" width="140" height="11" backcolor="#6980CE" uuid="8a5fce18-3fe9-4ed8-b01d-89c3f5c872a7">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ID_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" mode="Opaque" x="351" y="41" width="86" height="12" backcolor="#6980CE" uuid="521c81ce-9dd7-4f9e-85b4-b7c6a2ae8ea4">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LUG_NAC_CLI}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="490" y="40" width="106" height="14" backcolor="#6980CE" uuid="d98f45cd-cc4c-4495-8229-b59e2e223866"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{RFC_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="145" y="55" width="254" height="13" backcolor="#6980CE" uuid="eec4b892-569d-4101-8572-10916394d78f">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{CALLE_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="461" y="55" width="36" height="14" backcolor="#6980CE" uuid="996e0b44-877a-4c94-8a2f-3929d90e694b">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{NUM_EXT_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="557" y="55" width="40" height="14" backcolor="#6980CE" uuid="e765819a-2592-454f-87b2-7c3ecdbc48d8"/>
+				<textFieldExpression><![CDATA[$F{NUM_INT_EMP}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="62" y="70" width="188" height="13" backcolor="#6980CE" uuid="3bd2b0d3-f840-47a7-8d48-51b2ed26d5c2">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{COLONIA_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="371" y="70" width="88" height="13" backcolor="#6980CE" uuid="b095536d-fe36-4da2-90d4-7af1ef44ac46">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{MUNICIPIO_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="538" y="70" width="60" height="13" backcolor="#6980CE" uuid="d1889464-78ad-446f-988f-043fe14088f6">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ESTADO_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="112" y="85" width="186" height="14" backcolor="#6379C2" uuid="05585c46-394e-4a7e-a918-08b5025eb442">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{CIUDAD_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="370" y="85" width="68" height="14" backcolor="#6379C2" uuid="b6314186-f97e-439b-9919-2642f40de474">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{COD_PO_EMP}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="473" y="85" width="124" height="14" backcolor="#6980CE" uuid="a2df062c-c8b5-4220-97fd-7dea2c431cb3">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{PAIS_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="159" y="142" width="220" height="15" backcolor="#6379C2" uuid="83ca073b-7a25-46ca-8f26-c26a926ec0b6">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{CALLE_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="441" y="142" width="38" height="15" backcolor="#6379C2" uuid="30cb7b11-651c-4aa1-8aa7-055b5e0c8f78">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{NUM_EXT_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="542" y="142" width="56" height="16" backcolor="#6379C2" uuid="efc2eec0-5344-4c20-a209-522281bfb38e"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{NUM_INT_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="53" y="160" width="140" height="16" backcolor="#6379C2" uuid="f6bf2e70-4994-4fb5-81ff-ddc125519cdf">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{COLONIA_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="309" y="160" width="120" height="16" backcolor="#6379C2" uuid="42ee11b8-6753-4c0c-8684-f5fe1f348300">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{MUNICIPIO_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="505" y="160" width="92" height="16" backcolor="#6379C2" uuid="3c802711-0810-4767-9c86-551ca449c3fb">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{EDO_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="109" y="179" width="130" height="16" backcolor="#6379C2" uuid="4cf50263-78c8-4268-951a-3ed40368d91b">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{CIUDAD_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="308" y="179" width="152" height="16" backcolor="#6379C2" uuid="d223dd86-034c-4f1e-934a-cb5eef69ad58">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{CODIGO_PO_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="486" y="179" width="110" height="16" backcolor="#6379C2" uuid="c0918535-9c0e-4bf6-a477-8ee49d4acbb1">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{PAIS_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="20" y="219" width="10" height="10" uuid="3475b37e-4f57-493c-b284-250de7b537dd">
+					<printWhenExpression><![CDATA[$F{CORREO_CLIENTE} != null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="20" y="236" width="10" height="10" uuid="33f3cf6f-1301-48f2-a6e8-89e729599752">
+					<printWhenExpression><![CDATA[$F{TEL_CEL_CLI} != null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="305" y="217" width="10" height="10" uuid="1096700d-e8ce-4c39-818e-3691cdc5fe88">
+					<printWhenExpression><![CDATA[$F{NUEVO_CORREO_TOKEN} != null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="305" y="234" width="10" height="10" uuid="741bc0f8-4cfc-46a9-8880-e4cfbb490c62">
+					<printWhenExpression><![CDATA[$F{NUEVO_TEL_TOKEN} != null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="128" y="219" width="162" height="16" backcolor="#5E73B8" uuid="5bfad37f-b99c-448a-ae8a-b0ab6731932a"/>
+				<textFieldExpression><![CDATA[$F{CORREO_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="128" y="237" width="162" height="14" backcolor="#6379C2" uuid="66b4fee4-2695-43f2-b32f-f59d4a35a7b8">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="440" y="213" width="152" height="16" uuid="a1ba5723-3124-4fff-9893-75c64248ac1c"/>
+				<textFieldExpression><![CDATA[$F{NUEVO_CORREO_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="425" y="232" width="166" height="16" uuid="5158aebb-144a-42e1-a717-f3dfb674413f"/>
+				<textFieldExpression><![CDATA[$F{NUEVO_TEL_TOKEN}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="196" y="354" width="184" height="20" uuid="1482d3e1-b18a-457b-9452-1f6c72ca133f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="22" y="653" width="10" height="10" uuid="bffa763d-6017-4f21-bcc4-0fc553404500"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="22" y="665" width="10" height="10" uuid="df4690cb-76ed-4c66-96ad-c5750256915d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="106" y="680" width="184" height="20" uuid="f518e366-4846-4d96-bb56-1fb859926153"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="380" y="680" width="150" height="16" uuid="c699d61e-4986-445e-a3c5-70322e9fdff1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NOM_EJECUTIVO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

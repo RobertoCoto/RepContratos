@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subreporte1" pageWidth="599" pageHeight="842" columnWidth="599" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="6cb9b489-d3d2-4833-84b1-786eaacec93b">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<queryString language="xPath">
+		<![CDATA[/Datos/SALIDA_BENEFICIARIO/Beneficiario]]>
+	</queryString>
+	<field name="Numero" class="java.lang.String">
+		<fieldDescription><![CDATA[Numero]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_COMPLETO_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_COMPLETO_BEN_1]]></fieldDescription>
+	</field>
+	<field name="TELEFONO_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[TELEFONO_BEN_1]]></fieldDescription>
+	</field>
+	<field name="PORCENTAJE_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[PORCENTAJE_BEN_1]]></fieldDescription>
+	</field>
+	<field name="RFC_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[RFC_BEN_1]]></fieldDescription>
+	</field>
+	<field name="CURP_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[CURP_BEN_1]]></fieldDescription>
+	</field>
+	<field name="IDENTIFICA_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[IDENTIFICA_BEN_1]]></fieldDescription>
+	</field>
+	<field name="NRO_IDENTI_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[NRO_IDENTI_BEN_1]]></fieldDescription>
+	</field>
+	<field name="PARENTESCO_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[PARENTESCO_BEN_1]]></fieldDescription>
+	</field>
+	<field name="PAIS_NAC_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_NAC_BEN_1]]></fieldDescription>
+	</field>
+	<field name="FEC_NAC_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[FEC_NAC_BEN_1]]></fieldDescription>
+	</field>
+	<field name="NACIONAL_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[NACIONAL_BEN_1]]></fieldDescription>
+	</field>
+	<field name="DOMICILIO_BENEFICIARIO_1" class="java.lang.String">
+		<fieldDescription><![CDATA[DOMICILIO_BENEFICIARIO_1]]></fieldDescription>
+	</field>
+	<field name="TEL_CEL_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[TEL_CEL_BEN_1]]></fieldDescription>
+	</field>
+	<field name="EMAIL_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[EMAIL_BEN_1]]></fieldDescription>
+	</field>
+	<field name="NOM_EMP_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[NOM_EMP_BEN_1]]></fieldDescription>
+	</field>
+	<field name="PROF_PUES_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[PROF_PUES_BEN_1]]></fieldDescription>
+	</field>
+	<field name="OCUP_ACT_BEN_1" class="java.lang.String">
+		<fieldDescription><![CDATA[OCUP_ACT_BEN_1]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="37" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="-1" y="7" width="599" height="30" forecolor="#FFFFFF" backcolor="#0070C0" uuid="de94e509-137f-4732-9ae9-6cb5f31ccd15">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box topPadding="0" leftPadding="0">
+					<topPen lineWidth="1.7"/>
+					<leftPen lineWidth="1.7"/>
+					<bottomPen lineWidth="1.7"/>
+					<rightPen lineWidth="1.7"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[BENEFICIARIOS]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="110" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Transparent" x="456" y="20" width="124" height="20" forecolor="#014D87" backcolor="#D2DFFA" uuid="23eefcb4-bbbd-4596-9c2a-964219e6d0e6"/>
+				<box>
+					<topPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#0070C0"/>
+					<bottomPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#0070C0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[   Porcentaje:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="1" y="20" width="455" height="20" forecolor="#014D87" backcolor="#D2DFFA" uuid="f09979c4-e4d1-476b-8b4e-77977b367af2"/>
+				<box>
+					<topPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<leftPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<bottomPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<rightPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="1" y="-1" width="596" height="20" backcolor="#C4C4C4" uuid="96c1b30a-1e47-46ba-9974-f3531ea664e2"/>
+				<box>
+					<topPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<leftPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<bottomPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<rightPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{Numero}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Transparent" x="580" y="20" width="17" height="20" forecolor="#014D87" backcolor="#D2DFFA" uuid="869f1fbe-b865-485c-8372-7048cec07822"/>
+				<box>
+					<topPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<rightPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="350" y="41" width="247" height="20" forecolor="#014D87" backcolor="#D2DFFA" uuid="17269982-2843-4dac-9a0c-337968e4767f"/>
+				<box>
+					<topPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#0070C0"/>
+					<bottomPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<rightPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[  Fecha de Nacimiento:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="1" y="41" width="349" height="20" forecolor="#014D87" backcolor="#D2DFFA" uuid="8d4cdef9-28d2-43fb-a01b-2d7e459438c6"/>
+				<box>
+					<topPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<leftPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<bottomPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+					<rightPen lineWidth="0.8" lineStyle="Solid" lineColor="#0070C0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Parentesco:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="63" width="90" height="14" forecolor="#014D87" uuid="ed8d8b4e-ae87-40d9-9ab8-7782337dd412">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Mismo que Titular]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="225" y="65" width="10" height="10" forecolor="#0070C0" uuid="ec1980e1-f95e-48ec-bfab-19600c03a24b">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="2" y="63" width="99" height="14" forecolor="#014D87" uuid="c640b633-11cb-4fad-8d59-7d3806789d8c">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Domicilio particular:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="237" y="63" width="98" height="14" forecolor="#014D87" uuid="82d55c20-c76e-4056-bf43-bc3d0f6fe5b9">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Otro(Especifique):]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="107" y="65" width="10" height="10" forecolor="#0070C0" uuid="256459a4-3ef8-40ef-ae62-e2cd4a225e24">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<line>
+				<reportElement x="1" y="106" width="596" height="1" forecolor="#0070C0" uuid="eb3bb07f-979f-4af1-b08e-ab9f2edf2d26">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="597" y="62" width="1" height="44" forecolor="#006CB9" uuid="084efcfa-6650-4305-ac54-7d666ec62f13">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="1" y="62" width="1" height="44" forecolor="#006CB9" uuid="8144317b-8fa1-4ebc-897a-7ad5e8f35753">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="101" y="20" width="355" height="20" uuid="0698ec1d-e4c4-4ca1-952b-6a1b8de2360b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_COMPLETO_BEN_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="540" y="20" width="41" height="20" uuid="d037faaf-5e9b-432d-a846-f3e9fb868b43"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{PORCENTAJE_BEN_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="101" y="41" width="249" height="20" uuid="0d7ee6a5-1f55-4bb4-b873-bce731e0f90b"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{PARENTESCO_BEN_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="40" width="127" height="20" uuid="e527f7f5-9320-4e67-ae6b-4b7f4a45f489"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{FEC_NAC_BEN_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="80" width="595" height="20" uuid="bfc3d6fd-c8d7-41e1-a0e5-dbaa191195b1"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{DOMICILIO_BENEFICIARIO_1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
