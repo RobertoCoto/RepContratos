@@ -4083,7 +4083,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement positionType="Float" x="130" y="151" width="10" height="10" uuid="7da4e0dd-d480-4c33-9731-9d85fcb56daa">
+				<reportElement positionType="Float" x="129" y="151" width="10" height="10" uuid="7da4e0dd-d480-4c33-9731-9d85fcb56daa">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<printWhenExpression><![CDATA[$F{FUNCIONARIO_PUB}.equals("SI")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center">
