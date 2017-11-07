@@ -815,7 +815,7 @@
 				<text><![CDATA[      *  Cédula profesional]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="242" width="566" height="18" forecolor="#00457D" uuid="b564542a-10be-4bb6-be47-55bd3866e4b1">
+				<reportElement x="17" y="239" width="566" height="28" forecolor="#00457D" uuid="b564542a-10be-4bb6-be47-55bd3866e4b1">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
