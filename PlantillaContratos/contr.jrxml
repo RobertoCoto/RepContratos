@@ -2056,9 +2056,11 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="222" y="193" width="14" height="13" uuid="6d633a43-61f9-42a6-9e42-42f55c126528">
+				<reportElement positionType="Float" x="224" y="194" width="14" height="13" uuid="6d633a43-61f9-42a6-9e42-42f55c126528">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<printWhenExpression><![CDATA[$F{NACIONALIDAD_CLI}.equals("ESTADOS UNIDOS")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -2712,12 +2714,12 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<reportElement positionType="FixRelativeToBottom" mode="Transparent" x="484" y="702" width="119" height="14" backcolor="#6980CE" uuid="4c64ce2a-716c-4f3d-bad6-0dcd489d5ff5">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<printWhenExpression><![CDATA[$F{PROCED_RECURSOS}.equals("Otro")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[($F{PROCED_RECURSOS}.equals("Otro")) || ($F{PROCED_RECURSOS}.equals("Dividendos")) || ($F{PROCED_RECURSOS}.equals("Partidas Presupuestales")) || ($F{PROCED_RECURSOS}.equals("Premios")) || ($F{PROCED_RECURSOS}.equals("Venta de Productos/Servicios"))]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Justified" verticalAlignment="Middle">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{Y_OTRA_PROCED}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{PROCED_RECURSOS}.equals("Otro") ? $F{Y_OTRA_PROCED} : $F{PROCED_RECURSOS}.equals("Dividendos") ? $F{PROCED_RECURSOS} : $F{PROCED_RECURSOS}.equals("Partidas Presupuestales") ? $F{PROCED_RECURSOS} : $F{PROCED_RECURSOS}.equals("Premios") ? $F{PROCED_RECURSOS} : $F{PROCED_RECURSOS}.equals("Venta de Productos/Servicios") ? $F{PROCED_RECURSOS} : ""]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="7" y="622" width="597" height="18" forecolor="#FFFFFF" uuid="7e448bcd-18ce-41f8-8322-e006ada80350">
@@ -2871,7 +2873,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</line>
 			<textField>
-				<reportElement x="230" y="704" width="9" height="10" uuid="e77d3704-3e55-484c-a787-426a26f0f80b">
+				<reportElement x="231" y="704" width="9" height="10" uuid="e77d3704-3e55-484c-a787-426a26f0f80b">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<printWhenExpression><![CDATA[$F{PROCED_RECURSOS}.equals("Rentas")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -2977,8 +2981,10 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[Inversión]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="230" y="689" width="9" height="10" uuid="515044fa-dd9b-4683-a5c8-497dd944a6fa">
+				<reportElement x="231" y="689" width="9" height="10" uuid="515044fa-dd9b-4683-a5c8-497dd944a6fa">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<printWhenExpression><![CDATA[$F{PROCED_RECURSOS}.equals("Herencia")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -3103,7 +3109,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 			</staticText>
 			<textField>
 				<reportElement x="444" y="704" width="9" height="10" uuid="68761189-e54a-4997-97ad-78c44fc4a99f">
-					<printWhenExpression><![CDATA[$F{PROCED_RECURSOS}.equals("Otro")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[($F{PROCED_RECURSOS}.equals("Otro")) || ($F{PROCED_RECURSOS}.equals("Dividendos")) || ($F{PROCED_RECURSOS}.equals("Partidas Presupuestales")) || ($F{PROCED_RECURSOS}.equals("Premios")) || ($F{PROCED_RECURSOS}.equals("Venta de Productos/Servicios"))]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="7" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
@@ -3349,8 +3355,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/SubR_Beneficiarios_PF.jasper"]]></subreportExpression>
 			</subreport>
 			<textField>
-				<reportElement positionType="Float" x="516" y="98" width="10" height="10" uuid="7f0fe87f-c5e4-4ea2-aaa6-22ba8a66aac3">
+				<reportElement positionType="Float" x="516" y="99" width="10" height="10" uuid="7f0fe87f-c5e4-4ea2-aaa6-22ba8a66aac3">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
 					<printWhenExpression><![CDATA[$F{RETIR_TIPO}.contains("Efectivos")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -3408,7 +3415,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[No. de depósitos mensual:]]></text>
 			</staticText>
 			<textField>
-				<reportElement positionType="Float" x="219" y="81" width="10" height="11" uuid="ace4bb3a-1b8a-423a-a3bf-08ccd5f6e9bf">
+				<reportElement positionType="Float" x="219" y="82" width="10" height="11" uuid="ace4bb3a-1b8a-423a-a3bf-08ccd5f6e9bf">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<printWhenExpression><![CDATA[$F{DEPOS_TIPO}.contains( "Cheques" )]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -3463,8 +3472,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[Tipo:]]></text>
 			</staticText>
 			<textField>
-				<reportElement positionType="Float" x="516" y="116" width="10" height="10" uuid="9f4006d4-af53-42cc-8523-02484a52c0a3">
+				<reportElement positionType="Float" x="516" y="117" width="10" height="10" uuid="9f4006d4-af53-42cc-8523-02484a52c0a3">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
 					<printWhenExpression><![CDATA[$F{RETIR_TIPO}.contains("Trasferencia")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -3497,8 +3507,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[Combinación de firma:]]></text>
 			</staticText>
 			<textField>
-				<reportElement positionType="Float" x="219" y="98" width="10" height="11" uuid="94f8c82d-df30-4b8d-8d14-06115a1ef5cb">
+				<reportElement positionType="Float" x="219" y="99" width="10" height="11" uuid="94f8c82d-df30-4b8d-8d14-06115a1ef5cb">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
 					<printWhenExpression><![CDATA[$F{DEPOS_TIPO}.contains("Efectivos")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -3562,7 +3573,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[Monto aproximado mensual:]]></text>
 			</staticText>
 			<textField>
-				<reportElement positionType="Float" x="516" y="83" width="10" height="10" uuid="e8fce4f8-1c54-4620-9e05-2243a0a14f7d">
+				<reportElement positionType="Float" x="516" y="84" width="10" height="10" uuid="e8fce4f8-1c54-4620-9e05-2243a0a14f7d">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<printWhenExpression><![CDATA[$F{RETIR_TIPO}.contains("Cheques")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -3619,7 +3632,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[Cheque]]></text>
 			</staticText>
 			<textField>
-				<reportElement positionType="Float" x="219" y="116" width="10" height="11" uuid="b6124ca1-98c3-4fb5-a25a-2b893d677ca3">
+				<reportElement positionType="Float" x="219" y="117" width="10" height="11" uuid="b6124ca1-98c3-4fb5-a25a-2b893d677ca3">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<printWhenExpression><![CDATA[$F{DEPOS_TIPO}.contains("Trasferencia")]]></printWhenExpression>
@@ -3866,7 +3879,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</graphicElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="104" y="417" width="10" height="10" forecolor="#0070C0" uuid="e7022731-5980-4029-9c20-fd481b9cb585">
+				<reportElement positionType="Float" x="104" y="417" width="10" height="10" forecolor="#0070C0" uuid="e7022731-5980-4029-9c20-fd481b9cb585">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
@@ -3998,7 +4011,9 @@ vínculos patrimoniales con alguna de las personas señaladas anteriormente?]]><
 				<text><![CDATA[Si (especifique):]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="22" y="225" width="10" height="10" uuid="15e0e95d-983c-4091-98fe-e6a4a0655103">
+				<reportElement x="22" y="226" width="10" height="10" uuid="15e0e95d-983c-4091-98fe-e6a4a0655103">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<printWhenExpression><![CDATA[$F{FUNCIONARIO_PUB}.equals("NO")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -4007,7 +4022,9 @@ vínculos patrimoniales con alguna de las personas señaladas anteriormente?]]><
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement positionType="Float" x="132" y="225" width="10" height="10" uuid="e17ede67-dcef-4d03-b631-1e8df974bd8d">
+				<reportElement positionType="Float" x="132" y="226" width="10" height="10" uuid="e17ede67-dcef-4d03-b631-1e8df974bd8d">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<printWhenExpression><![CDATA[$F{FUNCIONARIO_PUB}.equals("SI")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center">
@@ -4044,7 +4061,7 @@ vínculos patrimoniales con alguna de las personas señaladas anteriormente?]]><
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
 				<text><![CDATA[Actúo a nombre propio]]></text>
@@ -4068,10 +4085,12 @@ vínculos patrimoniales con alguna de las personas señaladas anteriormente?]]><
 				<textFieldExpression><![CDATA[$V{Anio}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" x="104" y="417" width="12" height="10" uuid="62792a0d-1a05-44a3-a142-dd5873d90cc0">
+				<reportElement positionType="Float" x="107" y="417" width="12" height="10" uuid="62792a0d-1a05-44a3-a142-dd5873d90cc0">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<printWhenExpression><![CDATA[$F{TERCERO_AUTORIZADO}.equals("NO")]]></printWhenExpression>
 				</reportElement>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font size="7" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
@@ -4174,7 +4193,7 @@ vínculos patrimoniales con alguna de las personas señaladas anteriormente?]]><
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
 				<text><![CDATA[Actúo a nombre de un tercero]]></text>
@@ -4217,7 +4236,7 @@ vínculos patrimoniales con alguna de las personas señaladas anteriormente?]]><
 				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement mode="Transparent" x="16" y="536" width="134" height="14" backcolor="#7992ED" uuid="de895554-9fa8-4c25-8f87-08b83483e61a">
+				<reportElement mode="Transparent" x="7" y="536" width="164" height="14" backcolor="#7992ED" uuid="de895554-9fa8-4c25-8f87-08b83483e61a">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -4417,6 +4436,51 @@ vínculos patrimoniales con alguna de las personas señaladas anteriormente?]]><
 				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
 				<textFieldExpression><![CDATA[$F{NOMBRE_FIRMANTE_5}]]></textFieldExpression>
 			</textField>
+			<staticText>
+				<reportElement x="182" y="536" width="12" height="14" forecolor="#00457D" uuid="5c41d416-4f57-4c88-9a7a-2afcef3ca16a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[a]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="295" y="537" width="18" height="14" forecolor="#00457D" uuid="7258ef10-96e9-4cd0-81f2-78007e406c73">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[de]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="453" y="536" width="18" height="14" forecolor="#00457D" uuid="50ffa035-639e-4472-8e2f-879ed6582f7b">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[de]]></text>
+			</staticText>
 		</band>
 	</detail>
 </jasperReport>
