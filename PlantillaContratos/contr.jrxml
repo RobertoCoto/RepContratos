@@ -2388,7 +2388,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="173" y="108" width="19" height="15" uuid="df7fd2fa-9657-4ac6-a370-749c1efca5d6">
+				<reportElement x="173" y="109" width="19" height="15" uuid="df7fd2fa-9657-4ac6-a370-749c1efca5d6">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
