@@ -1794,7 +1794,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</line>
 			<staticText>
-				<reportElement x="300" y="482" width="37" height="14" forecolor="#00457D" uuid="18ca37f6-50a8-4f43-b6a9-87654a00e53f">
+				<reportElement x="300" y="483" width="37" height="14" forecolor="#00457D" uuid="18ca37f6-50a8-4f43-b6a9-87654a00e53f">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -3336,7 +3336,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/subreporte1.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement positionType="Float" x="8" y="260" width="595" height="120" isRemoveLineWhenBlank="true" uuid="190f877f-09b7-47cd-91b6-a4f5d9017bab">
+				<reportElement positionType="Float" x="8" y="272" width="595" height="120" isRemoveLineWhenBlank="true" uuid="190f877f-09b7-47cd-91b6-a4f5d9017bab">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -3804,7 +3804,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[NOTA: Se deberá llenar el anexo A con detalle de cada persona asociada a la cuenta]]></text>
 			</staticText>
 			<subreport>
-				<reportElement positionType="Float" isPrintRepeatedValues="false" x="1" y="520" width="608" height="139" uuid="50acb2ed-48ce-4ddf-8e2c-4fb080e98d3d"/>
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="1" y="490" width="608" height="139" uuid="50acb2ed-48ce-4ddf-8e2c-4fb080e98d3d"/>
 				<subreportParameter name="XML_DATA_DOCUMENT">
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
@@ -3822,7 +3822,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{DESTIN_RECURSOS}.toUpperCase()]]></textFieldExpression>
 			</textField>
 			<subreport>
-				<reportElement positionType="Float" x="7" y="400" width="595" height="110" uuid="9746a446-b43e-4051-99d7-35034ab02e98">
+				<reportElement positionType="Float" x="7" y="400" width="595" height="90" uuid="9746a446-b43e-4051-99d7-35034ab02e98">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<printWhenExpression><![CDATA[$F{SALIDA_BENEFICIARIO} == null]]></printWhenExpression>
