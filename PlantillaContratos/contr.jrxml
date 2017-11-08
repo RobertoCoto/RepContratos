@@ -2612,7 +2612,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<printWhenExpression><![CDATA[$F{PROCED_RECURSOS} != "Otro"]]></printWhenExpression>
+					<printWhenExpression><![CDATA[new Boolean(!($F{PROCED_RECURSOS}.equalsIgnoreCase("Otro")))]]></printWhenExpression>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{PROCED_RECURSOS}.toUpperCase()]]></textFieldExpression>
@@ -3211,7 +3211,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{PAIS_EMP}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="316" y="590" width="287" height="16" uuid="23c7453a-5dda-46d6-a447-9346faf115a3">
+				<reportElement x="313" y="591" width="287" height="16" uuid="23c7453a-5dda-46d6-a447-9346faf115a3">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<printWhenExpression><![CDATA[$F{PROCED_RECURSOS}.equals("Otro")]]></printWhenExpression>
 				</reportElement>
 				<textElement verticalAlignment="Bottom"/>
