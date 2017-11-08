@@ -221,29 +221,37 @@ Cotitular*	Tercero aut.	Apoderado]]></text>
 				</reportElement>
 			</rectangle>
 			<textField>
-				<reportElement x="480" y="5" width="10" height="10" uuid="1e33b968-9833-4a08-8a0b-32dbebbee9e2">
+				<reportElement x="476" y="2" width="19" height="16" uuid="1e33b968-9833-4a08-8a0b-32dbebbee9e2">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{TIPO_FACU}.equals("COTITULAR")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="6"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="526" y="5" width="10" height="10" uuid="89c5dc39-2bf1-436e-b71c-1f589daab44e">
+				<reportElement x="522" y="2" width="19" height="16" uuid="89c5dc39-2bf1-436e-b71c-1f589daab44e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{TIPO_FACU}.equals("TERCEROS AUTORIZADOS")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="6"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="570" y="5" width="10" height="10" uuid="891f6b10-917c-49aa-b095-e74efbc9a257">
+				<reportElement x="566" y="2" width="19" height="16" uuid="891f6b10-917c-49aa-b095-e74efbc9a257">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{TIPO_FACU}.equals("APODERADO")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="6"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
