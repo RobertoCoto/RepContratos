@@ -382,7 +382,7 @@
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="490" width="592" height="140" forecolor="#0070C0" uuid="20ce34d8-d7e8-426f-9f8b-753215bf4e3c">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="490" width="592" height="142" forecolor="#0070C0" uuid="20ce34d8-d7e8-426f-9f8b-753215bf4e3c">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -1054,7 +1054,7 @@
 				<text><![CDATA[Ciudad o Población :]]></text>
 			</staticText>
 			<line>
-				<reportElement x="240" y="198" width="1" height="18" forecolor="#006CB9" uuid="e663507b-bbfe-40b4-b54f-4a42cf5c3218">
+				<reportElement x="240" y="196" width="1" height="20" forecolor="#006CB9" uuid="e663507b-bbfe-40b4-b54f-4a42cf5c3218">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1075,7 +1075,7 @@
 				<text><![CDATA[Código Postal:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="460" y="198" width="1" height="18" forecolor="#006CB9" uuid="ef225b3d-caaf-400a-8499-85467632fa30">
+				<reportElement x="460" y="195" width="1" height="21" forecolor="#006CB9" uuid="ef225b3d-caaf-400a-8499-85467632fa30">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1290,7 +1290,7 @@
 				<text><![CDATA[DATOS DEL CLIENTE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="17" y="512" width="580" height="146" forecolor="#00457D" uuid="964d2c13-da07-4832-9493-be68fb0f4ddb">
+				<reportElement x="17" y="511" width="580" height="123" forecolor="#00457D" uuid="964d2c13-da07-4832-9493-be68fb0f4ddb">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
