@@ -4581,21 +4581,21 @@ A su leal saber y entender, y acuerdo a la definición anterior ¿Ha desempeñad
 			<staticText>
 				<reportElement mode="Opaque" x="166" y="534" width="20" height="14" forecolor="#00457D" uuid="ea55c3e0-4a73-4152-846a-68a54c2723d6"/>
 				<textElement textAlignment="Center" verticalAlignment="Bottom">
-					<font isBold="true"/>
+					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[a]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Opaque" x="450" y="535" width="20" height="14" forecolor="#00457D" uuid="75eb5c39-2772-47e5-9049-acfa6ec4d26b"/>
 				<textElement textAlignment="Center" verticalAlignment="Bottom">
-					<font isBold="true"/>
+					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[de]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Opaque" x="290" y="535" width="20" height="14" forecolor="#00457D" uuid="d3cd6f1c-1b4c-4495-adbf-52f395448c92"/>
 				<textElement textAlignment="Center" verticalAlignment="Bottom">
-					<font isBold="true"/>
+					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[de]]></text>
 			</staticText>
