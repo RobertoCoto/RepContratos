@@ -1807,7 +1807,7 @@
 				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="380" y="725" width="193" height="14" backcolor="#6177BF" uuid="c699d61e-4986-445e-a3c5-70322e9fdff1">
+				<reportElement mode="Transparent" x="367" y="725" width="214" height="14" backcolor="#6177BF" uuid="c699d61e-4986-445e-a3c5-70322e9fdff1">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
