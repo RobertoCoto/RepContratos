@@ -1493,13 +1493,17 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
         $V{Mes}.equals("11") ? "NOVIEMBRE" : "DICIEMBRE"]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement mode="Opaque" x="286" y="511" width="20" height="14" forecolor="#00457D" uuid="cb92d72b-1a93-4580-81f0-bd82b5d8b498"/>
-				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<reportElement mode="Transparent" x="286" y="511" width="20" height="14" forecolor="#00457D" uuid="cb92d72b-1a93-4580-81f0-bd82b5d8b498"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
 				<text><![CDATA[de]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="443" y="510" width="20" height="14" forecolor="#00457D" uuid="599d85c5-6338-4c04-a798-9afe15c9f4d4"/>
-				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<reportElement mode="Transparent" x="443" y="510" width="20" height="14" forecolor="#00457D" uuid="599d85c5-6338-4c04-a798-9afe15c9f4d4"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
 				<text><![CDATA[de]]></text>
 			</staticText>
 			<textField>
@@ -1836,8 +1840,10 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 				</reportElement>
 			</line>
 			<staticText>
-				<reportElement mode="Opaque" x="153" y="511" width="20" height="14" forecolor="#00457D" uuid="1d90a279-083f-41aa-adf0-b73e1c82e0c4"/>
-				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<reportElement mode="Transparent" x="153" y="511" width="20" height="14" forecolor="#00457D" uuid="1d90a279-083f-41aa-adf0-b73e1c82e0c4"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
 				<text><![CDATA[a]]></text>
 			</staticText>
 		</band>
