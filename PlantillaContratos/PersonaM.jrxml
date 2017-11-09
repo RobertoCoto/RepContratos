@@ -1566,7 +1566,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement positionType="Float" x="313" y="225" width="1" height="17" forecolor="#006CB9" uuid="16a3f034-233a-41c8-a160-06665ee93864">
+				<reportElement positionType="Float" x="313" y="225" width="1" height="18" forecolor="#006CB9" uuid="16a3f034-233a-41c8-a160-06665ee93864">
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
