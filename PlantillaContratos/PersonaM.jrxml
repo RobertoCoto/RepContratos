@@ -2468,7 +2468,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{RFC_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<subreport>
-				<reportElement positionType="Float" x="8" y="571" width="597" height="127" uuid="35a04dec-0908-46d6-b763-e3927e5e8cb9">
+				<reportElement positionType="Float" x="8" y="570" width="597" height="127" uuid="35a04dec-0908-46d6-b763-e3927e5e8cb9">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
