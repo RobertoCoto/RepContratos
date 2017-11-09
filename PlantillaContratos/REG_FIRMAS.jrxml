@@ -773,7 +773,7 @@
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[Persona Fisíca]]></text>
+				<text><![CDATA[Persona Física]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="234" y="150" width="207" height="14" forecolor="#014D87" uuid="d072cdb6-a903-4d4c-9e11-056c5b3410ad">
