@@ -2587,8 +2587,10 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[ No. de cliente:]]></text>
 			</staticText>
 			<line>
-				<reportElement x="292" y="235" width="1" height="19" forecolor="#006CB9" uuid="bf2b9505-2b62-4e5e-a703-be72be166719">
+				<reportElement x="292" y="234" width="1" height="20" forecolor="#006CB9" uuid="bf2b9505-2b62-4e5e-a703-be72be166719">
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 			</line>
 			<staticText>
@@ -2764,9 +2766,11 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{ID_CUENTA}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="290" y="173" width="1" height="17" forecolor="#006CB9" uuid="3081959c-fa59-4e23-92d9-37e91fc595fa">
+				<reportElement x="290" y="173" width="1" height="18" forecolor="#006CB9" uuid="3081959c-fa59-4e23-92d9-37e91fc595fa">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 			</line>
 			<line>
@@ -3031,7 +3035,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{NOM_SUCURSAL}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="479" y="235" width="1" height="19" forecolor="#006CB9" uuid="5200612c-c793-4e2b-b4af-f9835cc45779">
+				<reportElement x="479" y="234" width="1" height="20" forecolor="#006CB9" uuid="5200612c-c793-4e2b-b4af-f9835cc45779">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3107,7 +3111,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="330" y="256" width="1" height="19" forecolor="#006CB9" uuid="7d8c6c43-496c-44ce-9b2a-ce2def9639d7">
+				<reportElement x="330" y="255" width="1" height="20" forecolor="#006CB9" uuid="7d8c6c43-496c-44ce-9b2a-ce2def9639d7">
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
