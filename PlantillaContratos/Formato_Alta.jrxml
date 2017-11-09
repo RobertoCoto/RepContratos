@@ -382,7 +382,7 @@
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="490" width="592" height="142" forecolor="#0070C0" uuid="20ce34d8-d7e8-426f-9f8b-753215bf4e3c">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="490" width="592" height="137" forecolor="#0070C0" uuid="20ce34d8-d7e8-426f-9f8b-753215bf4e3c">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
