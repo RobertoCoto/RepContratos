@@ -295,7 +295,7 @@
 			</staticText>
 			<staticText>
 				<reportElement x="220" y="30" width="382" height="46" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
-				<textElement textAlignment="Right" verticalAlignment="Middle">
+				<textElement textAlignment="Right" verticalAlignment="Top">
 					<font fontName="SansSerif" size="16" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[AVISO DE PRIVACIDAD]]></text>
@@ -366,7 +366,7 @@
 				<text><![CDATA[ABC Capital en cumplimiento a las Disposiciones previstas en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (en adelante la "Ley") está comprometida con el uso, manejo y protección de sus datos personales.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="70" width="566" height="59" forecolor="#00457D" uuid="97424aba-ec5f-4da2-9a85-1c05d9a11ce3">
+				<reportElement x="18" y="60" width="566" height="59" forecolor="#00457D" uuid="97424aba-ec5f-4da2-9a85-1c05d9a11ce3">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -378,7 +378,7 @@
 				<text><![CDATA[Para ABC Capital resulta necesaria la recopilación de ciertos datos personales para llevar a cabo las actividades intrínsecas a su objeto social. ABC Capital tiene la obligación legal y social de cumplir con las medidas, legales y de seguridad suficientes para proteger aquellos datos personales que haya recabado para las finalidades que en la presente Aviso de privacidad serán descritas.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="17" y="129" width="566" height="33" forecolor="#00457D" uuid="16e24e92-692e-4fa1-a269-f105a26b1918">
+				<reportElement x="17" y="120" width="566" height="33" forecolor="#00457D" uuid="16e24e92-692e-4fa1-a269-f105a26b1918">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -392,7 +392,7 @@
 				<text><![CDATA[Todo lo anterior se realiza con el objetivo de que usted tenga pleno control y decisión sobre sus datos personales. Por ello, le recomendamos que lea atentamente la siguiente información.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="17" y="170" width="566" height="20" forecolor="#00457D" uuid="f4ced039-56fe-491c-acf1-2751301dc79f">
+				<reportElement x="18" y="160" width="566" height="20" forecolor="#00457D" uuid="f4ced039-56fe-491c-acf1-2751301dc79f">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -404,7 +404,7 @@
 				<text><![CDATA[Usted tendrá disponible en todo momento este Aviso de privacidad en nuestro sitio web www.abccapital.com.mx]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="16" y="193" width="243" height="20" forecolor="#00457D" uuid="527db4c0-a442-4917-9170-0149ecb45e45">
+				<reportElement x="18" y="190" width="243" height="20" forecolor="#00457D" uuid="527db4c0-a442-4917-9170-0149ecb45e45">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -443,7 +443,7 @@
 				<text><![CDATA[Como parte de nuestra comunidad de clientes, podrá ser recabada y tratada cierta información personal sobre usted. Entre dicha información se podra solicitar la siguiente:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="16" y="253" width="288" height="20" forecolor="#00457D" uuid="3c73972d-7bea-4923-8f59-a8bea9cb1fb1">
+				<reportElement x="20" y="260" width="288" height="20" forecolor="#00457D" uuid="3c73972d-7bea-4923-8f59-a8bea9cb1fb1">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -649,7 +649,7 @@
 		</band>
 		<band height="680">
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="376" forecolor="#0070C0" uuid="0436e379-8276-4966-b68a-3e510ae0f9c1">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="356" forecolor="#0070C0" uuid="0436e379-8276-4966-b68a-3e510ae0f9c1">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -694,7 +694,7 @@
 				</graphicElement>
 			</rectangle>
 			<staticText>
-				<reportElement x="18" y="285" width="564" height="45" forecolor="#00457D" uuid="ba62fc60-e713-4e91-b0b7-206dbdfb6c83">
+				<reportElement x="17" y="265" width="564" height="45" forecolor="#00457D" uuid="ba62fc60-e713-4e91-b0b7-206dbdfb6c83">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -706,7 +706,7 @@
 				<text><![CDATA[Cualquier cambio o modificación al presente Aviso podrá efectuarse en cualquier momento y se dará a conocer a través de nuestro portal www.abccapital.com.mx]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="160" width="566" height="30" forecolor="#00457D" uuid="ad248f68-bdc1-4196-8886-1d9ed6210e78">
+				<reportElement x="17" y="140" width="566" height="30" forecolor="#00457D" uuid="ad248f68-bdc1-4196-8886-1d9ed6210e78">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -718,7 +718,7 @@
 				<text><![CDATA[Asimismo le informamos que para poder identificarle es indispensable que acompañe su solicitud con copia escaneada de alguna de las siguientes identificaciones:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="50" width="582" height="30" forecolor="#00457D" uuid="872db0e8-0db8-41dd-baa4-8e6e9eb5382d">
+				<reportElement x="17" y="32" width="582" height="30" forecolor="#00457D" uuid="872db0e8-0db8-41dd-baa4-8e6e9eb5382d">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -730,7 +730,7 @@
 				<text><![CDATA[5. Procedimiento para ejercicio de derechos ARCO - revocación del consentimiento - limitación y/o divulgación de los datos]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="330" width="288" height="20" forecolor="#00457D" uuid="47d0dcda-f1b0-4441-a642-a7111d3978b0">
+				<reportElement x="17" y="310" width="288" height="20" forecolor="#00457D" uuid="47d0dcda-f1b0-4441-a642-a7111d3978b0">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -742,7 +742,7 @@
 				<text><![CDATA[7. Responsable de Privacidad]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="70" width="566" height="100" forecolor="#00457D" uuid="8aa88622-aa24-4b94-a6e4-dbdbc2de6993">
+				<reportElement x="17" y="50" width="566" height="100" forecolor="#00457D" uuid="8aa88622-aa24-4b94-a6e4-dbdbc2de6993">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -754,7 +754,7 @@
 				<text><![CDATA[Con apego a lo estipulado por la Ley, usted, o su representante legal en su caso, podrá ejercer los derechos de acceso, rectificación, cancelación y oposición(en lo sucesivo Derechos Arco), así como revocar su consentimiento y/o limitar el uso o divulgación de sus datos mediante el envío de un correo electrónico a la dirección proteccion_de_datos@abccapital.com.mx donde se le atenderá en tiempo y forma. Su petición deberá ser formulada a través de la Solicitud Única ARCO que puede descargarla a través de nuestro portal en la sección de Aviso de Privacidad. Para poder acreditar correctamente su identidad es necesario que complete todos los campos indicados en la solicitud.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="203" width="566" height="13" forecolor="#00457D" uuid="7bd8faae-832b-46c5-8d01-29a4862bec8d">
+				<reportElement x="17" y="183" width="566" height="13" forecolor="#00457D" uuid="7bd8faae-832b-46c5-8d01-29a4862bec8d">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -769,7 +769,7 @@
 				<text><![CDATA[      *  Pasaporte vigente]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="190" width="566" height="13" forecolor="#00457D" uuid="82f90d65-721a-47e5-be12-10ae387d84af">
+				<reportElement x="17" y="170" width="566" height="13" forecolor="#00457D" uuid="82f90d65-721a-47e5-be12-10ae387d84af">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -783,7 +783,7 @@
 				<text><![CDATA[      *  Credencial para votar emitida por el Instituto Nacional Electoral o el Instituto Federal Electoral.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="216" width="566" height="13" forecolor="#00457D" uuid="b6cd3fed-b139-4082-a557-ad20a3db49bf">
+				<reportElement x="17" y="196" width="566" height="13" forecolor="#00457D" uuid="b6cd3fed-b139-4082-a557-ad20a3db49bf">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -799,7 +799,7 @@
 				<text><![CDATA[      * Tarjeta Única de Identidad Militar]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="229" width="566" height="13" forecolor="#00457D" uuid="f5944273-2e53-4734-9de6-2b7ef2118b7f">
+				<reportElement x="17" y="209" width="566" height="13" forecolor="#00457D" uuid="f5944273-2e53-4734-9de6-2b7ef2118b7f">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -815,7 +815,7 @@
 				<text><![CDATA[      *  Cédula profesional]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="17" y="239" width="566" height="28" forecolor="#00457D" uuid="b564542a-10be-4bb6-be47-55bd3866e4b1">
+				<reportElement x="16" y="222" width="566" height="24" forecolor="#00457D" uuid="b564542a-10be-4bb6-be47-55bd3866e4b1">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -831,7 +831,7 @@
 				<text><![CDATA[      *  Certificado de Matricula Consular o documento migratorio emitida por la Secretaria de Relaciones Exteriores(SRE)]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="255" width="566" height="15" forecolor="#00457D" uuid="546a51dd-188a-402c-bb18-9ff8a6c9d5a6">
+				<reportElement x="17" y="235" width="566" height="15" forecolor="#00457D" uuid="546a51dd-188a-402c-bb18-9ff8a6c9d5a6">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -847,7 +847,7 @@
 				<text><![CDATA[      *  Credenciales emitidas por Autoridades Federales, Estatales y Municipales]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="270" width="570" height="16" forecolor="#00457D" uuid="5d52a0ba-389d-49fb-900c-329533cfd59b">
+				<reportElement x="17" y="250" width="570" height="16" forecolor="#00457D" uuid="5d52a0ba-389d-49fb-900c-329533cfd59b">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -859,7 +859,7 @@
 				<text><![CDATA[6. Cambios al Aviso de Privacidad]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="350" width="566" height="30" forecolor="#00457D" uuid="f82b04ff-be39-4216-b6a4-6508befd558c">
+				<reportElement x="17" y="330" width="566" height="30" forecolor="#00457D" uuid="f82b04ff-be39-4216-b6a4-6508befd558c">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
