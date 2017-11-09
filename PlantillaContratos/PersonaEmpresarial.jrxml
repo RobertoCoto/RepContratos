@@ -2941,7 +2941,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
