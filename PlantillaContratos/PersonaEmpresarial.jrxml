@@ -3943,7 +3943,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{OTRO_DESTIN_RECURSOS}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="126" y="39" width="460" height="14" uuid="ccd39849-cdab-43f3-8df0-2aebdd9a22be">
+				<reportElement x="127" y="39" width="460" height="14" uuid="ccd39849-cdab-43f3-8df0-2aebdd9a22be">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[new Boolean(!($F{DESTIN_RECURSOS}.equalsIgnoreCase("Otro")))]]></printWhenExpression>
