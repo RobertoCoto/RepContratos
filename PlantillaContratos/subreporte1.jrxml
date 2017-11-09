@@ -229,7 +229,7 @@ Cotitular*	Tercero aut.	Apoderado]]></text>
 					<printWhenExpression><![CDATA[$F{TIPO_FACU}.equals("COTITULAR")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="8" isBold="true"/>
+					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
@@ -240,7 +240,7 @@ Cotitular*	Tercero aut.	Apoderado]]></text>
 					<printWhenExpression><![CDATA[$F{TIPO_FACU}.equals("TERCEROS AUTORIZADOS")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="8" isBold="true"/>
+					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
@@ -251,7 +251,7 @@ Cotitular*	Tercero aut.	Apoderado]]></text>
 					<printWhenExpression><![CDATA[$F{TIPO_FACU}.equals("APODERADO")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="8" isBold="true"/>
+					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
