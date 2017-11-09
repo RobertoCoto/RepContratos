@@ -3616,7 +3616,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement positionType="Float" x="351" y="165" width="19" height="16" uuid="f9e26972-7694-4aa1-99ec-8de5bae7aed4">
+				<reportElement positionType="Float" x="351" y="164" width="19" height="16" uuid="f9e26972-7694-4aa1-99ec-8de5bae7aed4">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{REGIMEN_CTA}.equals("A")]]></printWhenExpression>
@@ -3679,7 +3679,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement positionType="Float" x="182" y="165" width="19" height="16" uuid="bbdf1ae9-722a-4d04-bd0f-170cdfb89047">
+				<reportElement positionType="Float" x="182" y="164" width="19" height="16" uuid="bbdf1ae9-722a-4d04-bd0f-170cdfb89047">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{REGIMEN_CTA}.equals("B") || $F{REGIMEN_CTA}.equals("C")]]></printWhenExpression>
