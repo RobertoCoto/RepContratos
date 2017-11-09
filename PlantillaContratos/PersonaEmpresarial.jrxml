@@ -496,7 +496,7 @@
 				<textElement textAlignment="Right">
 					<font fontName="SansSerif" size="15" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[SOLICITUD DE ALTA PERSONA FISICA CON
+				<text><![CDATA[SOLICITUD DE ALTA PERSONA FÍSICA CON
 ACTIVIDAD EMPRESARIAL
 PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 			</staticText>
@@ -1627,7 +1627,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[Actividad económica vulnerable:]]></text>
+				<text><![CDATA[Actividad Económica Vulnerable:]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="234" y="505" width="51" height="14" forecolor="#00457D" uuid="4be01c31-97cd-4aa5-961f-5b39f3927d27">
@@ -2119,7 +2119,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[DOMICILIO Y CONTACTO]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="290" y="175" width="127" height="14" forecolor="#00457D" uuid="ab6b25a4-511f-4b95-ba88-e2381d033a70">
+				<reportElement x="294" y="175" width="127" height="14" forecolor="#00457D" uuid="ab6b25a4-511f-4b95-ba88-e2381d033a70">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -2779,7 +2779,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</line>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="391" y="175" width="210" height="14" backcolor="#7087DB" uuid="fbdbfd92-949a-4f5c-a4ae-52e65cb4de6e">
+				<reportElement mode="Transparent" x="397" y="175" width="206" height="14" backcolor="#7087DB" uuid="fbdbfd92-949a-4f5c-a4ae-52e65cb4de6e">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -2850,7 +2850,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[ Banca en Línea]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="302" y="238" width="77" height="14" forecolor="#00457D" uuid="e903e133-f1a1-42fc-8767-ac2f6ce88136">
+				<reportElement x="297" y="238" width="77" height="14" forecolor="#00457D" uuid="e903e133-f1a1-42fc-8767-ac2f6ce88136">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
