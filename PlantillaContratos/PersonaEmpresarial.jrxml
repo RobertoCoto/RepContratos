@@ -4210,7 +4210,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[Si (especifique):]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="14" y="40" width="583" height="184" forecolor="#00457D" uuid="ac9d3518-2cb8-4ec0-8173-edfec55c8537">
+				<reportElement x="12" y="36" width="583" height="174" forecolor="#00457D" uuid="ac9d3518-2cb8-4ec0-8173-edfec55c8537">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
