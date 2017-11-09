@@ -2261,7 +2261,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Justified" verticalAlignment="Bottom">
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
 					<font size="10"/>
 					<paragraph lineSpacingSize="0.0"/>
 				</textElement>
