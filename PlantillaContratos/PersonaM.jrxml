@@ -1432,7 +1432,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[  Selección de producto:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement positionType="Float" x="302" y="56" width="128" height="14" forecolor="#00457D" uuid="89f82441-5bd9-489e-ad0e-9cf5c3401bfb"/>
+				<reportElement positionType="Float" x="307" y="56" width="128" height="14" forecolor="#00457D" uuid="89f82441-5bd9-489e-ad0e-9cf5c3401bfb"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="SansSerif" size="10"/>
 				</textElement>
@@ -1448,7 +1448,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[No. de cuenta:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement positionType="Float" x="303" y="39" width="90" height="14" forecolor="#00457D" uuid="7f6e6837-7cd6-49c8-bb2e-8225faaa65ff"/>
+				<reportElement positionType="Float" x="307" y="39" width="90" height="14" forecolor="#00457D" uuid="7f6e6837-7cd6-49c8-bb2e-8225faaa65ff"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="SansSerif" size="10"/>
 				</textElement>
@@ -1697,14 +1697,14 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement positionType="Float" x="348" y="456" width="1" height="18" forecolor="#006CB9" uuid="e94c1417-4f8c-4d69-910e-050d6ad2cfde">
+				<reportElement positionType="Float" x="348" y="457" width="1" height="17" forecolor="#006CB9" uuid="e94c1417-4f8c-4d69-910e-050d6ad2cfde">
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement positionType="Float" x="182" y="456" width="1" height="18" forecolor="#006CB9" uuid="4ac3d86c-6c2b-4368-a395-a628ec0a2768">
+				<reportElement positionType="Float" x="182" y="457" width="1" height="17" forecolor="#006CB9" uuid="4ac3d86c-6c2b-4368-a395-a628ec0a2768">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -1722,7 +1722,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement positionType="Float" x="266" y="438" width="1" height="18" forecolor="#006CB9" uuid="b2070da7-92c7-4cfa-8105-b211b9940a92">
+				<reportElement positionType="Float" x="266" y="437" width="1" height="19" forecolor="#006CB9" uuid="b2070da7-92c7-4cfa-8105-b211b9940a92">
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2255,9 +2255,12 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[(($F{FECHA_APERTURA} != null && $F{FECHA_APERTURA}.length() == 8) ? $F{FECHA_APERTURA}.substring(6,8)+"/"+ ($F{FECHA_APERTURA}.substring(4,6).equals("1") ? "ENERO" : $F{FECHA_APERTURA}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_APERTURA}.substring(4,6).equals("03") ? "MARZO" : $F{FECHA_APERTURA}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_APERTURA}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_APERTURA}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_APERTURA}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_APERTURA}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_APERTURA}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{FECHA_APERTURA}.substring(0,4) : "")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" x="370" y="513" width="229" height="15" uuid="55432576-93f9-493e-ade8-3c8723c0bf13">
+				<reportElement positionType="Float" x="370" y="513" width="229" height="14" uuid="55432576-93f9-493e-ade8-3c8723c0bf13">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
+				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("$ #,##0.00").format(Double.valueOf($F{TOTAL_PASIVOS}))]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
@@ -2269,10 +2272,13 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("$ #,##0.00").format(Double.valueOf($F{CAPITAL_CONTABLE}))]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" x="76" y="513" width="207" height="13" uuid="80ba80ec-4eea-4761-b5ae-846bb3028657">
+				<reportElement positionType="Float" x="76" y="513" width="207" height="14" uuid="80ba80ec-4eea-4761-b5ae-846bb3028657">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
+				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("$ #,##0.00").format(Double.valueOf($F{TOTAL_ACTIVOS}))]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
@@ -4045,7 +4051,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="20" y="540" width="134" height="14" backcolor="#7992ED" uuid="1e1f4f4a-57c2-4953-a81d-d30bb5034a18">
+				<reportElement mode="Transparent" x="6" y="540" width="165" height="14" backcolor="#7992ED" uuid="1e1f4f4a-57c2-4953-a81d-d30bb5034a18">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -4151,7 +4157,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement mode="Opaque" x="171" y="540" width="20" height="14" forecolor="#00457D" uuid="217f3dc7-9e89-49c5-a7e6-61081c8b03a0"/>
+				<reportElement mode="Opaque" x="176" y="540" width="20" height="14" forecolor="#00457D" uuid="217f3dc7-9e89-49c5-a7e6-61081c8b03a0"/>
 				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
