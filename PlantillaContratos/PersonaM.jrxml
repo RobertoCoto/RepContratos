@@ -2100,7 +2100,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<printWhenExpression><![CDATA[$F{RESIDENCIA_CLI}.equals("OTRO")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[new Boolean(!($F{RESIDENCIA_CLI}.equals("MEXICO") || $F{RESIDENCIA_CLI}.equals("ESTADOS UNIDOS")))]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
@@ -2212,7 +2212,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<printWhenExpression><![CDATA[$F{RESIDENCIA_CLI}.equals("OTRO")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[new Boolean(!($F{RESIDENCIA_CLI}.equals("MEXICO") || $F{RESIDENCIA_CLI}.equals("ESTADOS UNIDOS")))]]></printWhenExpression>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{RESIDENCIA_CLI}]]></textFieldExpression>
@@ -3773,7 +3773,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="8" y="300" width="597" height="228" forecolor="#0070C0" uuid="3b9f94e1-c133-4a37-9bb2-9c97e2a8c1a7">
+				<reportElement key="" positionType="FixRelativeToBottom" x="8" y="300" width="597" height="240" forecolor="#0070C0" uuid="3b9f94e1-c133-4a37-9bb2-9c97e2a8c1a7">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -3918,7 +3918,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<text><![CDATA[NOMBRE Y FIRMA DE AUTORIZACIÓN]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="68" y="555" width="39" height="14" forecolor="#00457D" uuid="413edcff-fc2f-4003-9da8-94f37022a22a">
+				<reportElement x="67" y="565" width="39" height="14" forecolor="#00457D" uuid="413edcff-fc2f-4003-9da8-94f37022a22a">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -3932,7 +3932,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<text><![CDATA[Lugar]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="229" y="555" width="39" height="14" forecolor="#00457D" uuid="ca27ece1-805a-457e-89fe-646163654f24">
+				<reportElement x="228" y="565" width="39" height="14" forecolor="#00457D" uuid="ca27ece1-805a-457e-89fe-646163654f24">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -3945,7 +3945,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<text><![CDATA[Día]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="365" y="555" width="39" height="14" forecolor="#00457D" uuid="2ab169c6-3045-423c-b4bc-0dd67e158880">
+				<reportElement x="364" y="565" width="39" height="14" forecolor="#00457D" uuid="2ab169c6-3045-423c-b4bc-0dd67e158880">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -3958,7 +3958,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<text><![CDATA[Mes]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="513" y="555" width="39" height="14" forecolor="#00457D" uuid="2ebf7371-6101-4526-ad03-f0a98e41f9af">
+				<reportElement x="512" y="565" width="39" height="14" forecolor="#00457D" uuid="2ebf7371-6101-4526-ad03-f0a98e41f9af">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -4018,7 +4018,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="90" y="500" width="435" height="14" backcolor="#6980CE" uuid="5a9bef85-8f6c-419b-82fa-fb81f7b63ec9"/>
 				<box>
-					<bottomPen lineWidth="0.6"/>
+					<bottomPen lineWidth="0.3"/>
 				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
@@ -4051,7 +4051,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="6" y="540" width="165" height="14" backcolor="#7992ED" uuid="1e1f4f4a-57c2-4953-a81d-d30bb5034a18">
+				<reportElement mode="Transparent" x="5" y="550" width="165" height="14" backcolor="#7992ED" uuid="1e1f4f4a-57c2-4953-a81d-d30bb5034a18">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -4080,7 +4080,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="205" y="540" width="78" height="14" backcolor="#7992ED" uuid="42dcc28d-a159-4a91-961e-92824017ac9b">
+				<reportElement mode="Transparent" x="204" y="550" width="78" height="14" backcolor="#7992ED" uuid="42dcc28d-a159-4a91-961e-92824017ac9b">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -4098,7 +4098,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<textFieldExpression><![CDATA[$V{Dia}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="325" y="540" width="123" height="14" backcolor="#7992ED" uuid="7be79da5-5dfb-4f6a-9460-a02e180b055f">
+				<reportElement mode="Transparent" x="324" y="550" width="123" height="14" backcolor="#7992ED" uuid="7be79da5-5dfb-4f6a-9460-a02e180b055f">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -4126,7 +4126,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
         $V{Mes}.equals("11") ? "NOVIEMBRE" : "DICIEMBRE"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="485" y="540" width="84" height="14" backcolor="#7992ED" uuid="3c6c299e-3215-475d-a60e-031efbdc3449">
+				<reportElement mode="Transparent" x="484" y="550" width="84" height="14" backcolor="#7992ED" uuid="3c6c299e-3215-475d-a60e-031efbdc3449">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -4157,21 +4157,21 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement mode="Opaque" x="176" y="540" width="20" height="14" forecolor="#00457D" uuid="217f3dc7-9e89-49c5-a7e6-61081c8b03a0"/>
+				<reportElement mode="Opaque" x="175" y="550" width="20" height="14" forecolor="#00457D" uuid="217f3dc7-9e89-49c5-a7e6-61081c8b03a0"/>
 				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[a]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="295" y="541" width="20" height="14" forecolor="#00457D" uuid="8b8cac77-fa4c-49b8-8134-1a939d209a6d"/>
+				<reportElement mode="Opaque" x="294" y="551" width="20" height="14" forecolor="#00457D" uuid="8b8cac77-fa4c-49b8-8134-1a939d209a6d"/>
 				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[de]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="455" y="541" width="20" height="14" forecolor="#00457D" uuid="31aec4eb-ec07-460d-98c0-5368bc30af36"/>
+				<reportElement mode="Opaque" x="454" y="551" width="20" height="14" forecolor="#00457D" uuid="31aec4eb-ec07-460d-98c0-5368bc30af36"/>
 				<textElement textAlignment="Center" verticalAlignment="Bottom">
 					<font isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>

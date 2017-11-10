@@ -1180,7 +1180,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 			<textField isBlankWhenNull="true">
 				<reportElement x="339" y="133" width="10" height="10" uuid="94a51dc0-7882-40a1-876d-a2c665558398">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<printWhenExpression><![CDATA[$F{NACIONAL_ANEXO}.equals("OTRO")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[new Boolean(!($F{NACIONAL_ANEXO}.equals("MEXICO") || $F{NACIONAL_ANEXO}.equals("ESTADOS UNIDOS")))]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -1190,7 +1190,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 			<textField isBlankWhenNull="true">
 				<reportElement x="339" y="154" width="10" height="10" uuid="3b199fa3-37a6-4d94-bb93-7e20b2883f42">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<printWhenExpression><![CDATA[$F{PAIS_ANEXO}.equals("OTRO")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[new Boolean(!($F{PAIS_ANEXO}.equals("MEXICO") || $F{PAIS_ANEXO}.equals("ESTADOS UNIDOS")))]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -1220,7 +1220,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="439" y="131" width="161" height="14" backcolor="#6980CE" uuid="7518454a-cf38-4de2-b035-7b6474e92e26">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<printWhenExpression><![CDATA[$F{NACIONAL_ANEXO}.equals("OTRO")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[new Boolean(!($F{NACIONAL_ANEXO}.equals("MEXICO") || $F{NACIONAL_ANEXO}.equals("ESTADOS UNIDOS")))]]></printWhenExpression>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{NACIONAL_ANEXO}]]></textFieldExpression>
@@ -1777,14 +1777,14 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 				<reportElement x="100" y="367" width="208" height="16" uuid="cbb6cd15-1702-4568-b528-62fa1c9603ea">
 					<printWhenExpression><![CDATA[$F{TIPO_ANEXO}.equals("APODERADO")]]></printWhenExpression>
 				</reportElement>
-				<textElement verticalAlignment="Middle"/>
+				<textElement verticalAlignment="Bottom"/>
 				<textFieldExpression><![CDATA[$F{ESCRITURA_NUM_ANEXO}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="370" y="367" width="232" height="16" uuid="c5f3abe9-206f-464e-b61e-aaa4c0a1fa28">
+				<reportElement x="372" y="369" width="232" height="13" uuid="c5f3abe9-206f-464e-b61e-aaa4c0a1fa28">
 					<printWhenExpression><![CDATA[$F{TIPO_ANEXO}.equals("APODERADO")]]></printWhenExpression>
 				</reportElement>
-				<textElement verticalAlignment="Middle"/>
+				<textElement verticalAlignment="Bottom"/>
 				<textFieldExpression><![CDATA[(($F{FECHA_ESCRITURA_ANEXO} != null && $F{FECHA_ESCRITURA_ANEXO}.length() == 8) ? $F{FECHA_ESCRITURA_ANEXO}.substring(6,8)+"/"+ ($F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("1") ? "ENERO" : $F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("03") ? "MARZO" : $F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_ESCRITURA_ANEXO}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{FECHA_ESCRITURA_ANEXO}.substring(0,4) : "")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
@@ -1809,17 +1809,17 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 				<textFieldExpression><![CDATA[$F{CIUDAD_NOTARIO_ANEXO}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="112" y="439" width="200" height="20" uuid="1be6e776-ac93-42e2-badb-a506ea427baa">
+				<reportElement x="109" y="443" width="200" height="14" uuid="1be6e776-ac93-42e2-badb-a506ea427baa">
 					<printWhenExpression><![CDATA[$F{TIPO_ANEXO}.equals("APODERADO")]]></printWhenExpression>
 				</reportElement>
 				<textElement verticalAlignment="Bottom"/>
 				<textFieldExpression><![CDATA[(($F{FECHA_INSC_RPC_ANEXO} != null && $F{FECHA_INSC_RPC_ANEXO}.length() == 8) ? $F{FECHA_INSC_RPC_ANEXO}.substring(6,8)+"/"+ ($F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("1") ? "ENERO" : $F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("03") ? "MARZO" : $F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_INSC_RPC_ANEXO}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{FECHA_INSC_RPC_ANEXO}.substring(0,4) : "")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="415" y="438" width="184" height="20" uuid="dc3b0ab7-ae7a-42c0-a5ec-e9535af9cae8">
+				<reportElement x="415" y="445" width="184" height="13" uuid="dc3b0ab7-ae7a-42c0-a5ec-e9535af9cae8">
 					<printWhenExpression><![CDATA[$F{TIPO_ANEXO}.equals("APODERADO")]]></printWhenExpression>
 				</reportElement>
-				<textElement verticalAlignment="Bottom"/>
+				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{LUGAR_INSC_RPC_ANEXO}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
