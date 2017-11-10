@@ -1227,7 +1227,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="447" y="152" width="153" height="14" backcolor="#6980CE" uuid="01cef5bb-09cc-40f0-bbba-9a983ba2d9c3">
-					<printWhenExpression><![CDATA[$F{PAIS_ANEXO}.equals("OTRO")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[new Boolean(!($F{PAIS_ANEXO}.equals("MEXICO") || $F{PAIS_ANEXO}.equals("ESTADOS UNIDOS")))]]></printWhenExpression>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{PAIS_ANEXO}]]></textFieldExpression>
