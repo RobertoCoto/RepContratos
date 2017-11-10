@@ -1722,7 +1722,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement positionType="Float" x="266" y="437" width="1" height="18" forecolor="#006CB9" uuid="b2070da7-92c7-4cfa-8105-b211b9940a92">
+				<reportElement positionType="Float" x="266" y="438" width="1" height="18" forecolor="#006CB9" uuid="b2070da7-92c7-4cfa-8105-b211b9940a92">
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2408,7 +2408,6 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<printWhenExpression><![CDATA[$F{ACT_VULNERABLE} == "SI"]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
@@ -3300,7 +3299,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<textFieldExpression><![CDATA[$F{RETIR_NUM_MEN}]]></textFieldExpression>
 			</textField>
 			<rectangle>
-				<reportElement positionType="Float" x="515" y="223" width="10" height="10" forecolor="#0070C0" uuid="a8b4ba65-c6a7-46bd-819c-6c65c1c83f78">
+				<reportElement positionType="Float" x="515" y="222" width="10" height="10" forecolor="#0070C0" uuid="a8b4ba65-c6a7-46bd-819c-6c65c1c83f78">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
@@ -3613,7 +3612,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				</reportElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" x="511" y="220" width="19" height="16" uuid="2179e4da-152c-484f-b79a-049f2d59d814">
+				<reportElement positionType="Float" x="511" y="219" width="19" height="16" uuid="2179e4da-152c-484f-b79a-049f2d59d814">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3670,7 +3669,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 				<text><![CDATA[PERFIL TRANSACCIONAL]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" x="214" y="220" width="19" height="16" uuid="6fee8abe-1a5e-4a24-804c-e3ef5fea927b">
+				<reportElement positionType="Float" x="214" y="219" width="19" height="16" uuid="6fee8abe-1a5e-4a24-804c-e3ef5fea927b">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
