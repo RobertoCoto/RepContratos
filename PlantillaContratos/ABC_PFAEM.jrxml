@@ -419,13 +419,19 @@
 	<field name="FIRMANTES" class="java.lang.String">
 		<fieldDescription><![CDATA[FIRMANTES]]></fieldDescription>
 	</field>
+	<field name="RUTA_IMAGEN_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_IMAGEN_JR]]></fieldDescription>
+	</field>
+	<field name="RUTA_SUBREPORTE_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_SUBREPORTE_JR]]></fieldDescription>
+	</field>
 	<background>
 		<band height="872">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<image scaleImage="FillFrame">
 				<reportElement x="-1" y="10" width="612" height="860" uuid="dd21c8c6-26d8-492b-a38c-5173be595848"/>
-				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/Fondo-formatos.png"]]></imageExpression>
+				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"Fondo-formatos.png"]]></imageExpression>
 			</image>
 		</band>
 	</background>
@@ -442,7 +448,7 @@
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/Caratula.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"Caratula.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 		<band height="230">
@@ -455,7 +461,7 @@
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/PersonaEmpresarial.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"PersonaEmpresarial.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 		<band height="209">
@@ -469,7 +475,7 @@
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/SALIDA_ANEXO_A/ANEXO")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/Anexo_A.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"Anexo_A.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 		<band height="231">
@@ -482,7 +488,7 @@
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/Clausula.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"Clausula.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 		<band height="320">
@@ -497,7 +503,7 @@
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/REG_FIRMAS.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"REG_FIRMAS.jasper"]]></subreportExpression>
 			</subreport>
 			<staticText>
 				<reportElement positionType="FixRelativeToBottom" x="-1" y="286" width="613" height="34" forecolor="#014D87" uuid="03583a19-5b6a-4517-9fd5-1774566d6e54">
@@ -526,7 +532,7 @@ ABC Capital - Institución de Banca Múltiple]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/Formato_Alta.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"Formato_Alta.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 		<band height="275">
@@ -543,7 +549,7 @@ ABC Capital - Institución de Banca Múltiple]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/Asosacion_Telf.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"Asosacion_Telf.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 	</detail>

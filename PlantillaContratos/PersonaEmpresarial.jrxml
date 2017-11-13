@@ -473,6 +473,12 @@
 	<field name="NOMBRE_FIRMANTE_5" class="java.lang.String">
 		<fieldDescription><![CDATA[NOMBRE_FIRMANTE_5]]></fieldDescription>
 	</field>
+	<field name="RUTA_IMAGEN_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_IMAGEN_JR]]></fieldDescription>
+	</field>
+	<field name="RUTA_SUBREPORTE_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_SUBREPORTE_JR]]></fieldDescription>
+	</field>
 	<variable name="Dia" class="java.lang.String">
 		<variableExpression><![CDATA[(new SimpleDateFormat("dd")).format(new Date())]]></variableExpression>
 	</variable>
@@ -502,7 +508,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 			</staticText>
 			<image isLazy="true">
 				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
-				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/logoabc.png"]]></imageExpression>
+				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
 			</image>
 		</band>
 	</pageHeader>
@@ -3864,7 +3870,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/FACULTADOS/PERSONA_FACULTADA")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/subreporte1.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"subreporte1.jasper"]]></subreportExpression>
 			</subreport>
 			<staticText>
 				<reportElement positionType="Float" x="14" y="185" width="122" height="14" forecolor="#00457D" uuid="ee78f51a-46e1-491b-b6f0-7dddb4b4c591">
@@ -3890,7 +3896,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/SALIDA_BENEFICIARIO/BENEFICIARIO")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/SubR_Beneficiarios_PF.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"SubR_Beneficiarios_PF.jasper"]]></subreportExpression>
 			</subreport>
 			<line>
 				<reportElement positionType="Float" x="309" y="55" width="1" height="93" forecolor="#006CB9" uuid="74cd669f-29ed-4280-a070-caa834ad0d3b">
@@ -3962,7 +3968,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/persona_exp.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"persona_exp.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
 				<reportElement positionType="Float" x="7" y="400" width="595" height="110" uuid="50681887-aa2a-4f15-a0d3-a2407ead43d8">
@@ -3974,7 +3980,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/SALIDA_BENEFICIARIO/BENEFICIARIO")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/SubR_Beneficiarios_PF_null.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"SubR_Beneficiarios_PF_null.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 		<band height="745">
