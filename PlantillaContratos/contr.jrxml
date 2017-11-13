@@ -6,6 +6,9 @@
 	<queryString language="xPath">
 		<![CDATA[/Datos]]>
 	</queryString>
+	<field name="RUTA_SUBREPORTE_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_SUBREPORTE_JR]]></fieldDescription>
+	</field>
 	<field name="TIPO_FORMATO" class="java.lang.String">
 		<fieldDescription><![CDATA[TIPO_FORMATO]]></fieldDescription>
 	</field>
@@ -3341,7 +3344,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/FACULTADOS/PERSONA_FACULTADA")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/subreporte1.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"subreporte1.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
 				<reportElement positionType="Float" x="8" y="272" width="595" height="120" isRemoveLineWhenBlank="true" uuid="190f877f-09b7-47cd-91b6-a4f5d9017bab">
@@ -3354,7 +3357,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/SALIDA_BENEFICIARIO/BENEFICIARIO")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/SubR_Beneficiarios_PF.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"SubR_Beneficiarios_PF.jasper"]]></subreportExpression>
 			</subreport>
 			<textField>
 				<reportElement positionType="Float" x="516" y="99" width="10" height="10" uuid="7f0fe87f-c5e4-4ea2-aaa6-22ba8a66aac3">
@@ -3824,7 +3827,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/persona_exp.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"persona_exp.jasper"]]></subreportExpression>
 			</subreport>
 			<break>
 				<reportElement x="0" y="9" width="69" height="1" uuid="9262e9fb-60fb-4c2b-b079-3e385f43848c"/>
@@ -3846,7 +3849,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/SALIDA_BENEFICIARIO/BENEFICIARIO")]]></dataSourceExpression>
-				<subreportExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/JRXML/SubR_Beneficiarios_PF_null.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"SubR_Beneficiarios_PF_null.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 		<band height="765">

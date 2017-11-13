@@ -5,6 +5,9 @@
 	<queryString language="xPath">
 		<![CDATA[/Datos/SALIDA_ANEXO_A/ANEXO]]>
 	</queryString>
+	<field name="RUTA_IMAGEN_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[/Datos//RUTA_IMAGEN_JR]]></fieldDescription>
+	</field>
 	<field name="TIPO_ANEXO" class="java.lang.String">
 		<fieldDescription><![CDATA[TIPO_ANEXO]]></fieldDescription>
 	</field>
@@ -119,8 +122,8 @@
 	<field name="NOM_CLIENTE" class="java.lang.String">
 		<fieldDescription><![CDATA[/Datos/NOMBRE_CLIENTE]]></fieldDescription>
 	</field>
-	<field name="RUTA_IMAGEN_JR" class="java.lang.String">
-		<fieldDescription><![CDATA[RUTA_IMAGEN_JR]]></fieldDescription>
+	<field name="RUTA_SUBREPORTE_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_SUBREPORTE_JR]]></fieldDescription>
 	</field>
 	<variable name="Dia" class="java.lang.String">
 		<variableExpression><![CDATA[(new SimpleDateFormat("dd")).format(new Date())]]></variableExpression>
@@ -148,9 +151,9 @@
 				<text><![CDATA[ANEXO A: IDENTIFICACIÓN DE TERCEROS
 AUTORIZADOS, COTITULARES Y OTROS]]></text>
 			</staticText>
-			<image isLazy="true">
-				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
-				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/logoabc.png"]]></imageExpression>
+			<image isUsingCache="true" isLazy="true">
+				<reportElement x="10" y="10" width="190" height="60" uuid="5162de8b-c17d-40fb-b94a-8191dbee4c97"/>
+				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
 			</image>
 		</band>
 	</pageHeader>

@@ -14,6 +14,9 @@
 	<queryString language="xPath">
 		<![CDATA[/Datos]]>
 	</queryString>
+	<field name="RUTA_IMAGEN_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_IMAGEN_JR]]></fieldDescription>
+	</field>
 	<field name="TIPO_FORMATO" class="java.lang.String">
 		<fieldDescription><![CDATA[TIPO_FORMATO]]></fieldDescription>
 	</field>
@@ -419,7 +422,7 @@
 			</staticText>
 			<image isLazy="true">
 				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
-				<imageExpression><![CDATA["/bnkr/depura/bnk/interfaces/CONTRATOS/IMAGE.DATA/logoabc.png"]]></imageExpression>
+				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
 			</image>
 			<textField evaluationTime="Report" isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="402" y="70" width="200" height="14" backcolor="#858EC7" uuid="36d073bc-557e-42dd-b3b0-cd6f7e9e55d0">
