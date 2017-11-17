@@ -705,7 +705,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 				</reportElement>
 			</line>
 			<staticText>
-				<reportElement x="12" y="193" width="150" height="14" forecolor="#00457D" uuid="a1ac188c-e884-45ff-a2df-6b4f7971490f">
+				<reportElement x="12" y="193" width="201" height="14" forecolor="#00457D" uuid="a1ac188c-e884-45ff-a2df-6b4f7971490f">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
@@ -713,47 +713,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[Domicilio particular (Calle):]]></text>
-			</staticText>
-			<line>
-				<reportElement x="390" y="187" width="1" height="22" forecolor="#006CB9" uuid="834ca1d6-a859-4250-a060-861e183b33ca">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-			</line>
-			<staticText>
-				<reportElement x="395" y="193" width="77" height="14" forecolor="#00457D" uuid="127cd0b2-f04b-4b1d-bb75-5c4b5a2cc2f1">
-					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10"/>
-					<paragraph lineSpacing="1_1_2"/>
-				</textElement>
-				<text><![CDATA[Número ext.:]]></text>
-			</staticText>
-			<line>
-				<reportElement x="475" y="187" width="1" height="22" forecolor="#006CB9" uuid="9cc7dffc-4f04-4ded-9a54-bcf24e2909a5">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-			</line>
-			<staticText>
-				<reportElement x="480" y="193" width="77" height="14" forecolor="#00457D" uuid="ca1d27a6-2915-4074-bbf1-8e1d5ed31c0b">
-					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10"/>
-					<paragraph lineSpacing="1_1_2"/>
-				</textElement>
-				<text><![CDATA[Número int.:]]></text>
+				<text><![CDATA[Domicilio particular (Calle y número):]]></text>
 			</staticText>
 			<line>
 				<reportElement x="8" y="229" width="594" height="1" forecolor="#0070C0" uuid="4f0bf08f-5de2-4495-88c1-c3ba77f93eb4">
@@ -766,7 +726,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 				</reportElement>
 			</line>
 			<staticText>
-				<reportElement x="12" y="214" width="38" height="14" forecolor="#00457D" uuid="1cd76be8-4d03-488b-97ae-9a1ba879ee1f">
+				<reportElement x="12" y="214" width="52" height="14" forecolor="#00457D" uuid="1cd76be8-4d03-488b-97ae-9a1ba879ee1f">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -921,7 +881,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[Correo Electronico:]]></text>
+				<text><![CDATA[Correo Electrónico:]]></text>
 			</staticText>
 			<line>
 				<reportElement x="8" y="310" width="594" height="1" forecolor="#0070C0" uuid="6b41d416-ccc8-4988-911d-d27e7a377b7d">
@@ -1256,7 +1216,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 				<textFieldExpression><![CDATA[$F{RFC_ANEXO}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="135" y="193" width="254" height="14" backcolor="#6980CE" uuid="c36e5cb2-aeff-4e81-b8d9-d382c8b0edcd">
+				<reportElement mode="Transparent" x="179" y="193" width="420" height="14" backcolor="#6980CE" uuid="c36e5cb2-aeff-4e81-b8d9-d382c8b0edcd">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -1266,25 +1226,6 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 				</reportElement>
 				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{CALLE_ANEXO}]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="451" y="193" width="25" height="14" backcolor="#6980CE" uuid="8182ec57-8f2b-48d0-a282-e695233e6fcc">
-					<property name="local_mesure_unity" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{NUM_EXT_ANEXO}]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="537" y="193" width="63" height="14" backcolor="#6980CE" uuid="acf992c5-2885-4c69-ad46-da66b4350f0e">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{NUM_INT_ANEXO}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="54" y="214" width="276" height="14" backcolor="#6980CE" uuid="0678cb08-50da-478c-a9c9-4ed74e4a6b42">

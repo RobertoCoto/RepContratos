@@ -672,45 +672,7 @@
 					<font fontName="SansSerif" size="8"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[Domicilio particular (Calle):]]></text>
-			</staticText>
-			<line>
-				<reportElement x="401" y="52" width="1" height="13" forecolor="#006CB9" uuid="a10abb25-7c2d-482e-ad66-bb7663931674">
-					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-			</line>
-			<staticText>
-				<reportElement x="406" y="51" width="76" height="14" forecolor="#00457D" uuid="065f4826-2e78-4343-9e7c-3d4cea14614d">
-					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font fontName="SansSerif" size="8"/>
-					<paragraph lineSpacing="1_1_2"/>
-				</textElement>
-				<text><![CDATA[Número ext.:]]></text>
-			</staticText>
-			<line>
-				<reportElement x="498" y="52" width="1" height="13" forecolor="#006CB9" uuid="adbc511d-6020-4151-94a2-bd98d3b2b2a2">
-					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-			</line>
-			<staticText>
-				<reportElement x="501" y="51" width="72" height="14" forecolor="#00457D" uuid="4c6d0166-89da-48d5-82a8-1b1edbbb63be">
-					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font fontName="SansSerif" size="8"/>
-					<paragraph lineSpacing="1_1_2"/>
-				</textElement>
-				<text><![CDATA[ Número int.:]]></text>
+				<text><![CDATA[Domicilio particular (Calle y número):]]></text>
 			</staticText>
 			<line>
 				<reportElement x="10" y="82" width="592" height="1" forecolor="#0070C0" uuid="a23582d5-6c1a-43dd-84eb-6a383117e426">
@@ -1474,7 +1436,7 @@
 				<textFieldExpression><![CDATA[$F{RFC_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="118" y="51" width="280" height="14" backcolor="#6980CE" uuid="eec4b892-569d-4101-8572-10916394d78f">
+				<reportElement mode="Transparent" x="152" y="51" width="448" height="14" backcolor="#6980CE" uuid="eec4b892-569d-4101-8572-10916394d78f">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -1485,32 +1447,6 @@
 					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{CALLE_CLIENTE}]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="457" y="51" width="41" height="14" backcolor="#6980CE" uuid="996e0b44-877a-4c94-8a2f-3929d90e694b">
-					<property name="local_mesure_unitx" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unitwidth" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{NUM_EXT_CLIENTE}]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="555" y="51" width="45" height="14" backcolor="#6980CE" uuid="e765819a-2592-454f-87b2-7c3ecdbc48d8">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unitwidth" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{NUM_INT_EMP}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="54" y="67" width="215" height="14" backcolor="#6980CE" uuid="3bd2b0d3-f840-47a7-8d48-51b2ed26d5c2">
@@ -1572,7 +1508,7 @@
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{COD_PO_EMP}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{CP_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="448" y="100" width="148" height="14" backcolor="#6980CE" uuid="a2df062c-c8b5-4220-97fd-7dea2c431cb3">

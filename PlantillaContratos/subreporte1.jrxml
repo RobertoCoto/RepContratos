@@ -94,7 +94,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[COTITULARES*, PERSONAS AUTORIZADAS Y/O APODERADOS]]></text>
+				<text><![CDATA[COTITULARES, PERSONAS AUTORIZADAS Y/O APODERADOS]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Transparent" x="465" y="30" width="132" height="19" forecolor="#0070C0" backcolor="#FFFFFF" uuid="05ca2263-3cd4-4daa-9662-e3459aeba3b1">
@@ -111,7 +111,7 @@
 					<font size="6" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Tipo de cliente
-Cotitular*	Tercero aut.	Apoderado]]></text>
+Cotitular	Tercero aut.	Apoderado]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Transparent" x="291" y="30" width="174" height="19" forecolor="#0070C0" backcolor="#FFFFFF" uuid="bfadaf72-15ac-4c41-bd19-3e88a1b31baa">
