@@ -449,7 +449,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 		</band>
 	</pageHeader>
 	<detail>
-		<band height="666">
+		<band height="689">
 			<rectangle radius="6">
 				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="28" width="590" height="52" forecolor="#0070C0" uuid="a9998fff-9132-47f7-95c1-76af5fb0dc20">
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -567,13 +567,13 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<text><![CDATA[Sucursal:]]></text>
 			</staticText>
 			<rectangle radius="6">
-				<reportElement x="10" y="90" width="590" height="260" forecolor="#0070C0" uuid="c8a1ded8-c85e-438e-a95d-db1cae3ec87a">
+				<reportElement x="10" y="90" width="590" height="200" forecolor="#0070C0" uuid="c8a1ded8-c85e-438e-a95d-db1cae3ec87a">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 			</rectangle>
 			<staticText>
-				<reportElement x="18" y="110" width="270" height="14" forecolor="#00457D" uuid="7b23fbd9-be4c-4222-8828-c4d83490ab10">
+				<reportElement x="15" y="110" width="272" height="14" forecolor="#00457D" uuid="7b23fbd9-be4c-4222-8828-c4d83490ab10">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -582,10 +582,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[Solicito a ese banco que asocie la cuenta número:]]></text>
+				<text><![CDATA[Solicito asociar la cuenta número:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="245" width="573" height="95" forecolor="#00457D" uuid="ad66615c-439b-4ab6-bcb5-4d1fa0ea0e86">
+				<reportElement x="15" y="210" width="575" height="95" forecolor="#00457D" uuid="ad66615c-439b-4ab6-bcb5-4d1fa0ea0e86">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -594,10 +594,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[Estoy enterado(a) que esta solicitud surtirá efectos en un plazo no mayor a un día hábil bancario contando a partir de la fecha de presentación y/o entradacen vigor de las disposiciones correspondientes y que ese banco deberá, conforme a la solicitud que le presente en términos de las disposiciones aplicables, desasociar el referido número de teléfono móvil o llevar a cabo el cambio de éste, sin costo a mi cargo. Asimismo, he sido informado por ese banco que es mi responsabilidad dar de baja el número asociado a mi cuenta cuando deje de utilizar la línea telefónica móvil correspondiente.]]></text>
+				<text><![CDATA[Estoy enterado(a) que esta solicitud surtirá efectos en un plazo no mayor a un día hábil bancario contando a partir de la fecha de presentación y/o entrada en vigor de las disposiciones correspondientes y que ese banco deberá, conforme a la solicitud que le presente en términos de las disposiciones aplicables, desasociar el referido número de teléfono móvil o llevar a cabo el cambio de éste, sin costo a mi cargo. Asimismo, he sido informado por ese banco que es mi responsabilidad dar de baja el número asociado a mi cuenta cuando deje de utilizar la línea telefónica móvil correspondiente.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="200" y="580" width="240" height="14" forecolor="#00457D" uuid="8a1efe97-2ee3-4f51-a1af-bc452816f0ed">
+				<reportElement mode="Opaque" x="200" y="675" width="240" height="14" forecolor="#00457D" uuid="8a1efe97-2ee3-4f51-a1af-bc452816f0ed">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -634,7 +634,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA[$F{NOM_SUCURSAL}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="260" y="110" width="332" height="14" backcolor="#858EC7" uuid="f1b0df04-46f8-430b-89f7-256a46d25a54">
+				<reportElement mode="Transparent" x="170" y="110" width="422" height="14" backcolor="#858EC7" uuid="f1b0df04-46f8-430b-89f7-256a46d25a54">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -644,21 +644,8 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{ID_CUENTA}]]></textFieldExpression>
 			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="18" y="123" width="574" height="14" forecolor="#000000" backcolor="#858EC7" uuid="45f8ef0d-1dfa-4e36-9556-c97bd116521d">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<box>
-					<bottomPen lineWidth="0.6"/>
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["["+$F{ID_CUEN_LET_1}+","+$F{ID_CUEN_LET_2}+","+$F{ID_CUEN_LET_3}+","+$F{ID_CUEN_LET_4}+","+$F{ID_CUEN_LET_5}+","+$F{ID_CUEN_LET_6}+","+$F{ID_CUEN_LET_7}+","+$F{ID_CUEN_LET_8}+","+$F{ID_CUEN_LET_9}+","+$F{ID_CUEN_LET_10}+","+$F{ID_CUEN_LET_11}+"]"]]></textFieldExpression>
-			</textField>
 			<staticText>
-				<reportElement x="18" y="144" width="382" height="14" forecolor="#00457D" uuid="d982b42b-e1d7-445f-8580-2891433f2ba1">
+				<reportElement x="15" y="126" width="384" height="14" forecolor="#00457D" uuid="d982b42b-e1d7-445f-8580-2891433f2ba1">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -669,10 +656,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[que este mantiene abierta a mi nombre, con la línea telefónica con número:]]></text>
+				<text><![CDATA[abierta a mi nombre, con la línea telefónica con número (últimos diez dígitos):]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Opaque" x="84" y="560" width="460" height="18" backcolor="#FFFFFF" uuid="1f2c43d0-f673-4f85-894e-1265112c91b5"/>
+				<reportElement mode="Opaque" x="84" y="655" width="460" height="18" backcolor="#FFFFFF" uuid="1f2c43d0-f673-4f85-894e-1265112c91b5"/>
 				<box>
 					<topPen lineWidth="0.0"/>
 					<leftPen lineWidth="0.0"/>
@@ -696,31 +683,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA[($V{Dia}+"/"+ ($V{Mes}.equals("1") ? "ENERO" : $V{Mes}.equals("02") ? "FEBRERO" : $V{Mes}.equals("03") ? "MARZO" : $V{Mes}.equals("04") ? "ABRIL" :$V{Mes}.equals("05") ? "MAYO" : $V{Mes}.equals("06") ? "JUNIO" :$V{Mes}.equals("07") ? "JULIO" :$V{Mes}.equals("08") ? "AGOSTO" :$V{Mes}.equals("09") ? "SEPTIEMBRE" :$V{Mes}.equals("10") ? "OCTUBRE" :$V{Mes}.equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/ "+$V{Anio})]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="380" y="144" width="211" height="14" forecolor="#000000" uuid="3f5b04e0-8c7d-4ba3-a2cf-7bd5565734fb">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA[($F{TEL_CEL_CLI_NUM_1}!= null ? $F{TEL_CEL_CLI_NUM_1} : "") + ($F{TEL_CEL_CLI_NUM_2}!= null ? $F{TEL_CEL_CLI_NUM_2} : "") + ($F{TEL_CEL_CLI_NUM_3}!= null ? $F{TEL_CEL_CLI_NUM_3} : "") + ($F{TEL_CEL_CLI_NUM_4}!= null ? $F{TEL_CEL_CLI_NUM_4} : "") + ($F{TEL_CEL_CLI_NUM_5}!= null ? $F{TEL_CEL_CLI_NUM_5} : "") + ($F{TEL_CEL_CLI_NUM_6}!= null ? $F{TEL_CEL_CLI_NUM_6} : "") + ($F{TEL_CEL_CLI_NUM_7}!= null ? $F{TEL_CEL_CLI_NUM_7} : "") + ($F{TEL_CEL_CLI_NUM_8}!= null ? $F{TEL_CEL_CLI_NUM_8} : "") + ($F{TEL_CEL_CLI_NUM_9}!= null ? $F{TEL_CEL_CLI_NUM_9} : "") + ($F{TEL_CEL_CLI_NUM_10}!= null ? $F{TEL_CEL_CLI_NUM_10} : "")]]></textFieldExpression>
-			</textField>
-			<staticText>
-				<reportElement x="18" y="164" width="122" height="14" forecolor="#00457D" uuid="b7407423-ae36-404c-8edc-2582a4f5f3c8">
-					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10.5"/>
-					<paragraph lineSpacing="1_1_2"/>
-				</textElement>
-				<text><![CDATA[(últimos diez dígitos)]]></text>
-			</staticText>
-			<textField isBlankWhenNull="true">
-				<reportElement x="132" y="164" width="20" height="14" forecolor="#000305" uuid="174d4f7f-4023-4278-983e-cef81c1029d4">
+				<reportElement x="372" y="126" width="20" height="14" forecolor="#000305" uuid="174d4f7f-4023-4278-983e-cef81c1029d4">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -730,7 +693,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["(" + ($F{TEL_CEL_CLI_NUM_1}!= null ? $F{TEL_CEL_CLI_NUM_1} : " ") + ")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="157" y="164" width="80" height="14" forecolor="#000305" uuid="2df5b75a-7fe0-4889-9479-e7c9cc27bf54">
+				<reportElement x="397" y="126" width="80" height="14" forecolor="#000305" uuid="2df5b75a-7fe0-4889-9479-e7c9cc27bf54">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -740,7 +703,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_1}!= null ? $F{TEL_CEL_CLI_LET_1} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="271" y="164" width="80" height="14" forecolor="#000305" uuid="7d6b8efd-ed7b-448d-bfb5-a66d3bbe7ae9">
+				<reportElement x="511" y="126" width="80" height="14" forecolor="#000305" uuid="7d6b8efd-ed7b-448d-bfb5-a66d3bbe7ae9">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -750,7 +713,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_2}!= null ? $F{TEL_CEL_CLI_LET_2} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="248" y="164" width="20" height="14" forecolor="#000305" uuid="690c2e35-8a88-47d1-ac92-edc467228b0e">
+				<reportElement x="488" y="126" width="20" height="14" forecolor="#000305" uuid="690c2e35-8a88-47d1-ac92-edc467228b0e">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -760,9 +723,11 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_2}!= null ? $F{TEL_CEL_CLI_NUM_2} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="362" y="164" width="20" height="14" forecolor="#000305" uuid="d1e47895-57f6-4dbc-a01e-0841632bcbea">
+				<reportElement x="18" y="144" width="20" height="14" forecolor="#000305" uuid="d1e47895-57f6-4dbc-a01e-0841632bcbea">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
@@ -770,9 +735,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_3}!= null ? $F{TEL_CEL_CLI_NUM_3} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="387" y="164" width="80" height="14" forecolor="#000305" uuid="d13dbc00-aad9-4d99-b9b3-a8ac7c348f4a">
+				<reportElement x="43" y="144" width="80" height="14" forecolor="#000305" uuid="d13dbc00-aad9-4d99-b9b3-a8ac7c348f4a">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
@@ -780,9 +746,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_3}!= null ? $F{TEL_CEL_CLI_LET_3} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="501" y="164" width="80" height="14" forecolor="#000305" uuid="330820d3-4306-4ba6-b640-9238fbd0c457">
+				<reportElement x="157" y="144" width="80" height="14" forecolor="#000305" uuid="330820d3-4306-4ba6-b640-9238fbd0c457">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
@@ -790,9 +757,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_4}!= null ? $F{TEL_CEL_CLI_LET_4} : " ") +"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="476" y="164" width="20" height="14" forecolor="#000305" uuid="996046f9-82f8-4adc-bb28-cece4e990f76">
+				<reportElement x="132" y="144" width="20" height="14" forecolor="#000305" uuid="996046f9-82f8-4adc-bb28-cece4e990f76">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
@@ -800,7 +768,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_4}!= null ? $F{TEL_CEL_CLI_NUM_4} : " ")+")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="132" y="185" width="20" height="14" forecolor="#000305" uuid="4fc4f2b2-87d2-48b5-ab2c-92842e72e920">
+				<reportElement x="362" y="144" width="20" height="14" forecolor="#000305" uuid="4fc4f2b2-87d2-48b5-ab2c-92842e72e920">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -810,9 +778,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_6}!= null ? $F{TEL_CEL_CLI_NUM_6} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="362" y="185" width="20" height="14" forecolor="#000305" uuid="2a8deb5f-f35f-4572-a530-161fd296bc52">
+				<reportElement x="18" y="162" width="20" height="14" forecolor="#000305" uuid="2a8deb5f-f35f-4572-a530-161fd296bc52">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
@@ -820,9 +789,11 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_8}!= null ? $F{TEL_CEL_CLI_NUM_8} : " ")+")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="387" y="185" width="80" height="14" forecolor="#000305" uuid="22c8c95e-d3fe-463f-9a12-ae28169e75c9">
+				<reportElement x="43" y="162" width="80" height="14" forecolor="#000305" uuid="22c8c95e-d3fe-463f-9a12-ae28169e75c9">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
@@ -830,7 +801,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_8}!= null ? $F{TEL_CEL_CLI_LET_8} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="271" y="185" width="80" height="14" forecolor="#000305" uuid="fe9b0379-e343-4213-b8b2-fa520bc19a98">
+				<reportElement x="501" y="144" width="80" height="14" forecolor="#000305" uuid="fe9b0379-e343-4213-b8b2-fa520bc19a98">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -840,7 +811,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_7}!= null ? $F{TEL_CEL_CLI_LET_7} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="157" y="185" width="80" height="14" forecolor="#000305" uuid="e19fa82c-22d7-49a6-aa93-14b38bf336b3">
+				<reportElement x="387" y="144" width="80" height="14" forecolor="#000305" uuid="e19fa82c-22d7-49a6-aa93-14b38bf336b3">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -850,7 +821,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_6}!= null ? $F{TEL_CEL_CLI_LET_6} : " ") +"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="43" y="185" width="80" height="14" forecolor="#000305" uuid="836256cb-8543-4f7a-b071-bdb04597995c">
+				<reportElement x="273" y="144" width="80" height="14" forecolor="#000305" uuid="836256cb-8543-4f7a-b071-bdb04597995c">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -860,7 +831,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_5}!= null ? $F{TEL_CEL_CLI_LET_5} : " ") +"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="248" y="185" width="20" height="14" forecolor="#000305" uuid="2e2bb38f-55e0-42cc-a219-2d3cffc1bc5b">
+				<reportElement x="478" y="144" width="20" height="14" forecolor="#000305" uuid="2e2bb38f-55e0-42cc-a219-2d3cffc1bc5b">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -870,7 +841,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_7}!= null ? $F{TEL_CEL_CLI_NUM_7} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="18" y="185" width="20" height="14" forecolor="#000305" uuid="3387b31a-bb06-4646-93fa-1fd995563111">
+				<reportElement x="248" y="144" width="20" height="14" forecolor="#000305" uuid="3387b31a-bb06-4646-93fa-1fd995563111">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -880,7 +851,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_5}!= null ? $F{TEL_CEL_CLI_NUM_5} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="245" y="205" width="352" height="14" forecolor="#00457D" uuid="a89c88d0-1e2c-458d-af89-1fa14159b650">
+				<reportElement x="362" y="162" width="222" height="14" forecolor="#00457D" uuid="a89c88d0-1e2c-458d-af89-1fa14159b650">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -892,10 +863,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[con el fin de que ésta pueda abonar a dicha cuenta los recursos derivados]]></text>
+				<text><![CDATA[con el fin de que ésta pueda abonar a dicha ]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="132" y="205" width="20" height="14" forecolor="#000305" uuid="52a8ca44-af7f-4f5e-b84b-c34a27133631">
+				<reportElement x="248" y="162" width="20" height="14" forecolor="#000305" uuid="52a8ca44-af7f-4f5e-b84b-c34a27133631">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -905,7 +876,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_10}!= null ? $F{TEL_CEL_CLI_NUM_10} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="43" y="205" width="80" height="14" forecolor="#000305" uuid="5cf609d0-2cbe-4a45-b43b-8d69403fdb06">
+				<reportElement x="156" y="162" width="80" height="14" forecolor="#000305" uuid="5cf609d0-2cbe-4a45-b43b-8d69403fdb06">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -915,7 +886,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_9}!= null ? $F{TEL_CEL_CLI_LET_9} : " ")+"],"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="18" y="205" width="20" height="14" forecolor="#000305" uuid="eda2eeb4-5ade-4c6b-a7cb-6061cac2bf74">
+				<reportElement x="131" y="162" width="20" height="14" forecolor="#000305" uuid="eda2eeb4-5ade-4c6b-a7cb-6061cac2bf74">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -925,7 +896,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_9}!= null ? $F{TEL_CEL_CLI_NUM_9} : " ") +")"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="157" y="205" width="80" height="14" forecolor="#000305" uuid="06244b02-7f03-4e6f-a5c8-917ea5872fff">
+				<reportElement x="273" y="162" width="80" height="14" forecolor="#000305" uuid="06244b02-7f03-4e6f-a5c8-917ea5872fff">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -934,21 +905,6 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				</textElement>
 				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_10}!= null ? $F{TEL_CEL_CLI_LET_10} : " ") +"],"]]></textFieldExpression>
 			</textField>
-			<staticText>
-				<reportElement x="18" y="221" width="575" height="24" forecolor="#00457D" uuid="747090d3-f381-4cec-839e-4b0195372928">
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="local_mesure_unitx" value="pixel"/>
-				</reportElement>
-				<textElement verticalAlignment="Top">
-					<font fontName="SansSerif" size="10"/>
-					<paragraph lineSpacing="1_1_2"/>
-				</textElement>
-				<text><![CDATA[de transferencias electrónicas de fondos que reciba con la identificación de dicho número de telefonía móvil.]]></text>
-			</staticText>
 			<rectangle radius="6">
 				<reportElement x="10" y="90" width="590" height="18" backcolor="#0070C0" uuid="dfda1330-6478-43f6-bb5b-5242c810d4f8">
 					<property name="local_mesure_unity" value="pixel"/>
@@ -1003,6 +959,33 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[DATOS DE LA CUENTA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="190" width="224" height="14" forecolor="#00457D" uuid="c14161e9-a487-4cd4-b4ad-58fc6c8cbf19">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[telefonía móvil.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="176" width="575" height="44" forecolor="#00457D" uuid="5aaa50fa-a9cd-4ca3-b65a-e450b81f9a5d">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[cuenta los recursos derivados de transferencias electrónicas de fondos que reciba con la identificación de dicho número de]]></text>
 			</staticText>
 		</band>
 	</detail>
