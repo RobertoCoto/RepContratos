@@ -3922,7 +3922,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 			</rectangle>
 			<textField>
 				<reportElement positionType="Float" x="22" y="361" width="10" height="10" uuid="f864efbf-1ea2-4ff1-a168-ac87ce680923">
-					<printWhenExpression><![CDATA[$F{ACCIONISTA_ABC} == "NO"]]></printWhenExpression>
+					<printWhenExpression><![CDATA[$F{ACCIONISTA_ABC}.equals("NO")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="7" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
