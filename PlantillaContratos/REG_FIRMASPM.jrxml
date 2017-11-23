@@ -1210,7 +1210,7 @@ QUE AUTORIZA]]></text>
 				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="68" y="220" width="189" height="15" uuid="a0a225fd-48a0-46b4-9f2e-bdaf2aeca667">
+				<reportElement x="60" y="220" width="197" height="15" uuid="a0a225fd-48a0-46b4-9f2e-bdaf2aeca667">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -1238,7 +1238,7 @@ QUE AUTORIZA]]></text>
 				<textFieldExpression><![CDATA[$F{TIPO_FIR_1}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="377" y="220" width="189" height="15" uuid="61d3f7d8-5a07-47dd-b5a8-1e267ed21524">
+				<reportElement x="370" y="220" width="196" height="15" uuid="61d3f7d8-5a07-47dd-b5a8-1e267ed21524">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -1266,7 +1266,7 @@ QUE AUTORIZA]]></text>
 				<textFieldExpression><![CDATA[$F{TIPO_FIR_2}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="68" y="311" width="189" height="15" uuid="44e0bc32-2fbe-4535-bc10-eb0ac9a65d7f">
+				<reportElement x="60" y="311" width="197" height="15" uuid="44e0bc32-2fbe-4535-bc10-eb0ac9a65d7f">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1289,7 +1289,7 @@ QUE AUTORIZA]]></text>
 				<textFieldExpression><![CDATA[$F{TIPO_FIR_3}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="377" y="311" width="189" height="15" uuid="0147773f-ae24-4eb7-a6b9-c6ac2e15fa56">
+				<reportElement x="370" y="311" width="196" height="15" uuid="0147773f-ae24-4eb7-a6b9-c6ac2e15fa56">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1313,7 +1313,7 @@ QUE AUTORIZA]]></text>
 				<textFieldExpression><![CDATA[$F{TIPO_FIR_4}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="68" y="403" width="189" height="15" uuid="709f004c-393f-476f-857e-4f98b1dd0a6d">
+				<reportElement x="60" y="403" width="197" height="15" uuid="709f004c-393f-476f-857e-4f98b1dd0a6d">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -1339,7 +1339,7 @@ QUE AUTORIZA]]></text>
 				<textFieldExpression><![CDATA[$F{TIPO_FIR_5}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="377" y="403" width="189" height="15" uuid="62b620c3-2ba9-458e-a6a7-b904a8d14ae7">
+				<reportElement x="370" y="403" width="196" height="15" uuid="62b620c3-2ba9-458e-a6a7-b904a8d14ae7">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -1365,7 +1365,7 @@ QUE AUTORIZA]]></text>
 				<textFieldExpression><![CDATA[$F{TIPO_FIR_6}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="68" y="495" width="189" height="15" uuid="0624cfed-25db-4993-9e98-6804120d0e51">
+				<reportElement x="60" y="495" width="197" height="15" uuid="0624cfed-25db-4993-9e98-6804120d0e51">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1390,7 +1390,7 @@ QUE AUTORIZA]]></text>
 				<textFieldExpression><![CDATA[$F{TIPO_FIR_7}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="377" y="496" width="189" height="15" uuid="30d0c730-425e-4ed1-9ec4-f5b6f9b0f7f3">
+				<reportElement x="370" y="496" width="196" height="15" uuid="30d0c730-425e-4ed1-9ec4-f5b6f9b0f7f3">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1625,7 +1625,7 @@ QUE AUTORIZA]]></text>
 				</reportElement>
 			</line>
 			<line direction="BottomUp">
-				<reportElement x="323" y="311" width="275" height="73" uuid="20c6ba13-6e74-4b82-9faa-ffe617ac537a">
+				<reportElement x="322" y="310" width="275" height="73" uuid="20c6ba13-6e74-4b82-9faa-ffe617ac537a">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -1636,14 +1636,14 @@ QUE AUTORIZA]]></text>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement x="323" y="311" width="275" height="73" uuid="c5ad4ded-ed76-44e7-9558-37eb759f9d07">
+				<reportElement x="323" y="312" width="275" height="73" uuid="c5ad4ded-ed76-44e7-9558-37eb759f9d07">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{NOMBRE_COMPLETO_FIRMANTE_4} == null]]></printWhenExpression>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement x="13" y="311" width="275" height="73" uuid="c87d4259-101a-4a96-80dd-5d04203906f3">
+				<reportElement x="13" y="310" width="275" height="73" uuid="c87d4259-101a-4a96-80dd-5d04203906f3">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1651,7 +1651,7 @@ QUE AUTORIZA]]></text>
 				</reportElement>
 			</line>
 			<line direction="BottomUp">
-				<reportElement x="13" y="311" width="275" height="73" uuid="4b4aa217-82d8-49d2-90b9-0db9371448a7">
+				<reportElement x="13" y="310" width="275" height="73" uuid="4b4aa217-82d8-49d2-90b9-0db9371448a7">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -1691,7 +1691,7 @@ QUE AUTORIZA]]></text>
 				</reportElement>
 			</line>
 			<line direction="BottomUp">
-				<reportElement x="323" y="403" width="275" height="73" uuid="c300a1fe-1487-4444-b6c9-82607c90adb0">
+				<reportElement x="322" y="403" width="275" height="73" uuid="c300a1fe-1487-4444-b6c9-82607c90adb0">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1700,7 +1700,7 @@ QUE AUTORIZA]]></text>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement positionType="Float" x="13" y="496" width="275" height="73" uuid="d4034ff6-1106-47d6-8975-084b35d25597">
+				<reportElement positionType="Float" x="16" y="496" width="275" height="73" uuid="d4034ff6-1106-47d6-8975-084b35d25597">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -1732,7 +1732,7 @@ QUE AUTORIZA]]></text>
 				</reportElement>
 			</line>
 			<line direction="BottomUp">
-				<reportElement positionType="Float" x="323" y="496" width="275" height="73" uuid="ae53db38-fde5-47cf-8b35-95e3218136c3">
+				<reportElement positionType="Float" x="322" y="496" width="275" height="73" uuid="ae53db38-fde5-47cf-8b35-95e3218136c3">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
