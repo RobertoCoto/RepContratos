@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="cede_subrepo" columnCount="9" printOrder="Horizontal" pageWidth="612" pageHeight="792" whenNoDataType="AllSectionsNoDetail" columnWidth="44" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="e57a462a-a7c3-4cfd-a606-e06ef15ed837">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="CEDE FIJA"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="xPath">
+		<![CDATA[/Datos/CEDE_FIJO/CEDES]]>
+	</queryString>
+	<field name="FECHA_CEDE" class="java.lang.String">
+		<fieldDescription><![CDATA[FECHA_CEDE]]></fieldDescription>
+	</field>
+	<field name="MONTO_CEDE" class="java.lang.String">
+		<fieldDescription><![CDATA[MONTO_CEDE]]></fieldDescription>
+	</field>
+	<field name="DIAS_CEDE" class="java.lang.String">
+		<fieldDescription><![CDATA[DIAS_CEDE]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="26" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="6" width="90" height="10" uuid="a2887ab9-6907-4507-bbe8-635c9051b7ea">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(($F{FECHA_CEDE}!= null && $F{FECHA_CEDE}.length() == 8) ? $F{FECHA_CEDE}.substring(6,8)+"/"+$F{FECHA_CEDE}.substring(4,6)+"/"+$F{FECHA_CEDE}.substring(0,4) : "")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="17" width="90" height="9" uuid="d7302ec6-c44a-48e6-8d82-eca25b1e07c0">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.text.DecimalFormat("$ #,##0.00").format(Double.valueOf($F{MONTO_CEDE}))]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="90" height="8" uuid="272cf94c-33e7-45c6-bdf9-f983e5b1599b">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DIAS_CEDE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

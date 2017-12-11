@@ -430,7 +430,7 @@
 	<detail>
 		<band height="240">
 			<subreport>
-				<reportElement x="-1" y="0" width="612" height="240" uuid="4fae6a92-174c-4af2-a952-569031fd7d98">
+				<reportElement positionType="Float" x="-1" y="0" width="612" height="240" uuid="4fae6a92-174c-4af2-a952-569031fd7d98">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -443,7 +443,7 @@
 		</band>
 		<band height="230">
 			<subreport>
-				<reportElement x="0" y="0" width="611" height="230" uuid="321aad34-0634-4260-9d47-505bb5c9907c">
+				<reportElement positionType="Float" x="0" y="0" width="611" height="230" uuid="321aad34-0634-4260-9d47-505bb5c9907c">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -456,7 +456,7 @@
 		</band>
 		<band height="199">
 			<subreport>
-				<reportElement x="0" y="-4" width="610" height="203" uuid="dc0e86db-f92a-4870-9ad7-f168dd694e16">
+				<reportElement positionType="Float" x="0" y="-4" width="610" height="203" uuid="dc0e86db-f92a-4870-9ad7-f168dd694e16">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{SALIDA_ANEXO_A} != null]]></printWhenExpression>
@@ -470,7 +470,7 @@
 		</band>
 		<band height="231">
 			<subreport>
-				<reportElement x="0" y="0" width="611" height="231" uuid="4efd49bf-9c7b-4da2-9118-22ce766dfac1">
+				<reportElement positionType="Float" x="0" y="0" width="611" height="231" uuid="4efd49bf-9c7b-4da2-9118-22ce766dfac1">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -483,7 +483,7 @@
 		</band>
 		<band height="320">
 			<subreport>
-				<reportElement x="0" y="-1" width="611" height="281" uuid="c79aa921-4717-4ca8-820d-337cfc541068">
+				<reportElement positionType="Float" x="0" y="-1" width="611" height="281" uuid="c79aa921-4717-4ca8-820d-337cfc541068">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -510,7 +510,7 @@ ABC Capital - Institución de Banca Múltiple]]></text>
 		</band>
 		<band height="246">
 			<subreport>
-				<reportElement x="0" y="2" width="612" height="244" uuid="987d7eb8-319c-44e4-9bd8-8d8d8d131547">
+				<reportElement positionType="Float" x="0" y="2" width="612" height="244" uuid="987d7eb8-319c-44e4-9bd8-8d8d8d131547">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -523,7 +523,7 @@ ABC Capital - Institución de Banca Múltiple]]></text>
 		</band>
 		<band height="254">
 			<subreport>
-				<reportElement x="0" y="0" width="611" height="254" uuid="f2bee315-d457-4073-b2eb-393aafdccb83">
+				<reportElement positionType="Float" x="0" y="0" width="611" height="254" uuid="f2bee315-d457-4073-b2eb-393aafdccb83">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
