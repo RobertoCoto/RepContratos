@@ -103,7 +103,7 @@
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<rectangle>
-				<reportElement x="414" y="111" width="99" height="14" forecolor="#404040" uuid="e4a20b48-f1bf-476f-81bf-b7fee37434b3">
+				<reportElement x="410" y="80" width="103" height="11" forecolor="#404040" uuid="e4a20b48-f1bf-476f-81bf-b7fee37434b3">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -115,7 +115,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="0" y="84" width="225" height="14" forecolor="#404040" uuid="592980c9-fe32-4b50-bc5b-879871474a65">
+				<reportElement x="0" y="54" width="225" height="11" forecolor="#404040" uuid="592980c9-fe32-4b50-bc5b-879871474a65">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -127,7 +127,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="236" y="84" width="50" height="14" forecolor="#404040" uuid="a5e8085a-f9d3-4c97-8e78-329831370c4f">
+				<reportElement x="237" y="54" width="50" height="11" forecolor="#404040" uuid="a5e8085a-f9d3-4c97-8e78-329831370c4f">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -139,7 +139,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="299" y="84" width="127" height="14" forecolor="#404040" uuid="c288199a-10fd-4a97-87b7-1b20388e22ec">
+				<reportElement x="300" y="54" width="127" height="11" forecolor="#404040" uuid="c288199a-10fd-4a97-87b7-1b20388e22ec">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -151,7 +151,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="445" y="84" width="107" height="14" forecolor="#404040" uuid="ee517025-dae7-47fc-88c8-778f58207ba4">
+				<reportElement x="445" y="54" width="107" height="11" forecolor="#404040" uuid="ee517025-dae7-47fc-88c8-778f58207ba4">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -163,7 +163,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="105" y="111" width="90" height="14" forecolor="#404040" uuid="e7e78ca7-da0c-4e80-a5d2-d22bdf0a4b28">
+				<reportElement x="100" y="80" width="90" height="11" forecolor="#404040" uuid="e7e78ca7-da0c-4e80-a5d2-d22bdf0a4b28">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -175,7 +175,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="0" y="111" width="94" height="14" forecolor="#404040" uuid="4db50826-1489-4e0a-9797-9d6fbb2e2ed8">
+				<reportElement x="0" y="80" width="94" height="11" forecolor="#404040" uuid="4db50826-1489-4e0a-9797-9d6fbb2e2ed8">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -187,7 +187,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="0" y="144" width="119" height="14" forecolor="#404040" uuid="3433224f-621f-4bb9-8e68-5f5685c8867b">
+				<reportElement x="0" y="105" width="119" height="11" forecolor="#404040" uuid="3433224f-621f-4bb9-8e68-5f5685c8867b">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -199,7 +199,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="127" y="144" width="134" height="14" forecolor="#404040" uuid="6115cfbc-7cbd-4d2f-936e-a98c8513ad49">
+				<reportElement x="127" y="105" width="134" height="11" forecolor="#404040" uuid="6115cfbc-7cbd-4d2f-936e-a98c8513ad49">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -211,7 +211,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="401" y="272" width="152" height="14" forecolor="#404040" uuid="7652ebaa-501a-4540-a2a0-661e9496b61b">
+				<reportElement x="401" y="222" width="152" height="14" forecolor="#404040" uuid="7652ebaa-501a-4540-a2a0-661e9496b61b">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -223,7 +223,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="1" y="290" width="551" height="81" forecolor="#404040" uuid="84e61e98-74ea-412e-92da-98d7855ce6b5">
+				<reportElement x="1" y="240" width="551" height="81" forecolor="#404040" uuid="84e61e98-74ea-412e-92da-98d7855ce6b5">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -235,7 +235,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="520" y="111" width="32" height="14" forecolor="#404040" uuid="34665dfe-b2aa-41e0-92fa-3f2dbd45d0da">
+				<reportElement x="519" y="80" width="32" height="11" forecolor="#404040" uuid="34665dfe-b2aa-41e0-92fa-3f2dbd45d0da">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -247,7 +247,7 @@
 				</reportElement>
 			</rectangle>
 			<staticText>
-				<reportElement mode="Transparent" x="446" y="70" width="107" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="eda07157-be60-4384-b78f-f2cf94b24705">
+				<reportElement mode="Transparent" x="445" y="40" width="107" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="eda07157-be60-4384-b78f-f2cf94b24705">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -264,7 +264,7 @@
 				<text><![CDATA[FEC. Y HORA SUSCRIPCION]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="401" y="272" width="151" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="de6900a2-255c-4c04-878d-ca1136a10799">
+				<reportElement mode="Transparent" x="401" y="222" width="151" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="de6900a2-255c-4c04-878d-ca1136a10799">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -283,7 +283,7 @@
 				<text><![CDATA[ORIGINAL CLIENTE]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="330" y="144" width="49" height="14" forecolor="#404040" uuid="e1d4556c-c62c-423e-b1cf-6b7387cf235a">
+				<reportElement x="330" y="105" width="49" height="11" forecolor="#404040" uuid="e1d4556c-c62c-423e-b1cf-6b7387cf235a">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -295,7 +295,7 @@
 				</reportElement>
 			</rectangle>
 			<staticText>
-				<reportElement mode="Transparent" x="365" y="97" width="33" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="db0eb2d4-b476-487a-8a79-8fafdce8af5f">
+				<reportElement mode="Transparent" x="361" y="66" width="33" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="db0eb2d4-b476-487a-8a79-8fafdce8af5f">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -314,7 +314,7 @@
 				<text><![CDATA[MONEDA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="-1" y="400" width="552" height="19" forecolor="#404040" backcolor="#D2DFFA" uuid="e7cc0cfe-f14c-464c-b527-32b56be64d1e">
+				<reportElement mode="Transparent" x="-1" y="350" width="552" height="19" forecolor="#404040" backcolor="#D2DFFA" uuid="e7cc0cfe-f14c-464c-b527-32b56be64d1e">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -336,7 +336,7 @@ www.abccapital.com.mx
 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="401" y="205" width="152" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="264cf2be-47d1-4133-99cc-61e304fdea88">
+				<reportElement mode="Transparent" x="401" y="155" width="152" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="264cf2be-47d1-4133-99cc-61e304fdea88">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -355,7 +355,7 @@ www.abccapital.com.mx
 				<text><![CDATA[FIRMA DE FUNCIONARIOS]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="206" y="97" width="49" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="11317d0d-dfaf-48ef-a622-dc322ec981fd">
+				<reportElement mode="Transparent" x="201" y="66" width="49" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="11317d0d-dfaf-48ef-a622-dc322ec981fd">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -374,7 +374,7 @@ www.abccapital.com.mx
 				<text><![CDATA[PLAZO (DIAS)]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="270" y="130" width="51" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="34623481-6f83-4d0c-87e1-77799a2da1e9">
+				<reportElement mode="Transparent" x="270" y="91" width="51" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="34623481-6f83-4d0c-87e1-77799a2da1e9">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -393,7 +393,7 @@ www.abccapital.com.mx
 				<text><![CDATA[GAT Nominal]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="265" y="97" width="78" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="af688fbf-5511-4122-a857-cccd99fd3030">
+				<reportElement mode="Transparent" x="261" y="66" width="78" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="af688fbf-5511-4122-a857-cccd99fd3030">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -412,7 +412,7 @@ www.abccapital.com.mx
 				<text><![CDATA[FECHA VENCIMIENTO]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="105" y="97" width="90" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="c55c00d6-bfdb-47f0-a3bf-e04f3613e0c8">
+				<reportElement mode="Transparent" x="100" y="66" width="90" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="c55c00d6-bfdb-47f0-a3bf-e04f3613e0c8">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -431,7 +431,7 @@ www.abccapital.com.mx
 				<text><![CDATA[NÙMERO DE CONSTANCIA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="330" y="130" width="49" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="8a745eb7-3087-4b44-b09b-d6e648f78fb4">
+				<reportElement mode="Transparent" x="330" y="91" width="49" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="8a745eb7-3087-4b44-b09b-d6e648f78fb4">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -451,7 +451,7 @@ www.abccapital.com.mx
 				<text><![CDATA[GAT Real]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="365" y="111" width="40" height="14" forecolor="#404040" uuid="348cd6e3-9b78-4882-975e-c90bdf6bab41">
+				<reportElement x="361" y="80" width="40" height="11" forecolor="#404040" uuid="348cd6e3-9b78-4882-975e-c90bdf6bab41">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -463,7 +463,7 @@ www.abccapital.com.mx
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="265" y="111" width="90" height="14" forecolor="#404040" uuid="e2633f65-406b-4109-ad75-df37db7ea6db">
+				<reportElement x="261" y="80" width="90" height="11" forecolor="#404040" uuid="e2633f65-406b-4109-ad75-df37db7ea6db">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -475,7 +475,7 @@ www.abccapital.com.mx
 				</reportElement>
 			</rectangle>
 			<staticText>
-				<reportElement mode="Transparent" x="0" y="70" width="55" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="2336971f-e565-44f8-ae78-0d38ad463bae">
+				<reportElement mode="Transparent" x="0" y="40" width="55" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="2336971f-e565-44f8-ae78-0d38ad463bae">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -493,7 +493,7 @@ www.abccapital.com.mx
 				<text><![CDATA[No. CLIENTE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="130" y="130" width="110" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="86077cb8-e51f-4957-9a23-d9691ad95bdc">
+				<reportElement mode="Transparent" x="130" y="91" width="110" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="86077cb8-e51f-4957-9a23-d9691ad95bdc">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -512,7 +512,7 @@ www.abccapital.com.mx
 				<text><![CDATA[TASA DE INTERES NETA FIJA(2)]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="206" y="111" width="50" height="14" forecolor="#404040" uuid="2d6ab60d-4cc9-4474-9635-9a5af7d02260">
+				<reportElement x="201" y="80" width="50" height="11" forecolor="#404040" uuid="2d6ab60d-4cc9-4474-9635-9a5af7d02260">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -524,7 +524,7 @@ www.abccapital.com.mx
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="270" y="144" width="51" height="14" forecolor="#404040" uuid="5791650a-a314-4b41-9f74-c34eaa061de6">
+				<reportElement x="270" y="105" width="51" height="11" forecolor="#404040" uuid="5791650a-a314-4b41-9f74-c34eaa061de6">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -536,7 +536,7 @@ www.abccapital.com.mx
 				</reportElement>
 			</rectangle>
 			<staticText>
-				<reportElement mode="Transparent" x="236" y="70" width="44" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="eec8e45d-37a6-4ad7-8c6d-5ed2927476f3">
+				<reportElement mode="Transparent" x="237" y="40" width="44" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="eec8e45d-37a6-4ad7-8c6d-5ed2927476f3">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -553,7 +553,7 @@ www.abccapital.com.mx
 				<text><![CDATA[NUM. SUC.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="4" y="292" width="546" height="17" forecolor="#404040" backcolor="#D2DFFA" uuid="642865bf-1389-4388-9349-465a40fbd949">
+				<reportElement mode="Transparent" x="4" y="242" width="546" height="17" forecolor="#404040" backcolor="#D2DFFA" uuid="642865bf-1389-4388-9349-465a40fbd949">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -573,7 +573,7 @@ www.abccapital.com.mx
 				<text><![CDATA[EL IMPORTE QUE AMPARA ESTE RECIBO SE RECIBE EN CALIDAD DE DEPOSITO A PLAZO FIJO, DOCUMENTADO EN CONSTANCIAS DE DEPOSITO, CONSERVANDO DICHAS CONSTANCIAS EN ADMINISTRACION EN LOS TERMINOS DEL CONTRATO RESPECTIVO CELEBRADO CON 'ABC CAPITAL']]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="-1" y="390" width="552" height="10" forecolor="#404040" backcolor="#D2DFFA" uuid="3e802c28-b44c-4442-ba9b-c22e720331f6">
+				<reportElement mode="Transparent" x="-1" y="340" width="552" height="10" forecolor="#404040" backcolor="#D2DFFA" uuid="3e802c28-b44c-4442-ba9b-c22e720331f6">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -593,7 +593,7 @@ www.abccapital.com.mx
 				<text><![CDATA[ABC Capital, S.A. Institución Banca Múltiple]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="0" y="130" width="65" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="79bb007d-9178-4fde-8369-c2733126042c">
+				<reportElement mode="Transparent" x="0" y="91" width="65" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="79bb007d-9178-4fde-8369-c2733126042c">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -610,7 +610,7 @@ www.abccapital.com.mx
 				<text><![CDATA[IMPORTE *****]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="0" y="371" width="535" height="11" forecolor="#404040" backcolor="#D2DFFA" uuid="7de3a8bb-9ee3-46af-a3a2-b39c3105e827">
+				<reportElement mode="Transparent" x="0" y="321" width="535" height="11" forecolor="#404040" backcolor="#D2DFFA" uuid="7de3a8bb-9ee3-46af-a3a2-b39c3105e827">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -628,7 +628,7 @@ www.abccapital.com.mx
 				<text><![CDATA[NOTA: ESTE DOCUMENTO SOLO ES VALIDO CON FIRMA DE FUNCIONARIOS]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="299" y="70" width="128" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="c7e2b15e-d7eb-4ae1-a5cd-7623df810261">
+				<reportElement mode="Transparent" x="300" y="40" width="128" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="c7e2b15e-d7eb-4ae1-a5cd-7623df810261">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -645,7 +645,7 @@ www.abccapital.com.mx
 				<text><![CDATA[NOMBRE DE SUCURSAL]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="0" y="97" width="81" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="04a37cb2-5c27-4450-8ddc-813ca06d33f1">
+				<reportElement mode="Transparent" x="0" y="66" width="81" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="04a37cb2-5c27-4450-8ddc-813ca06d33f1">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -662,7 +662,7 @@ www.abccapital.com.mx
 				<text><![CDATA[NÚMERO DE CUENTA]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="401" y="220" width="152" height="47" forecolor="#404040" uuid="4a9057f4-026f-445c-a992-b7ce6a4cc62f">
+				<reportElement x="401" y="170" width="152" height="47" forecolor="#404040" uuid="4a9057f4-026f-445c-a992-b7ce6a4cc62f">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -674,7 +674,7 @@ www.abccapital.com.mx
 				</reportElement>
 			</rectangle>
 			<staticText>
-				<reportElement mode="Transparent" x="81" y="70" width="144" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="0782b2f4-828a-4f9a-97ca-1ed71e302388">
+				<reportElement mode="Transparent" x="81" y="40" width="144" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="0782b2f4-828a-4f9a-97ca-1ed71e302388">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -692,7 +692,7 @@ www.abccapital.com.mx
 				<text><![CDATA[NOMBRE DEL CLIENTE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="414" y="97" width="106" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="a425b1df-113d-4040-a3c3-60ea343bc9ec">
+				<reportElement mode="Transparent" x="410" y="66" width="106" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="a425b1df-113d-4040-a3c3-60ea343bc9ec">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -711,7 +711,7 @@ www.abccapital.com.mx
 				<text><![CDATA[TASA DE INTERES BRUTA FIJA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="530" y="97" width="16" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="4b68ef9e-72ae-4a35-b9df-ced0e79fdbdd">
+				<reportElement mode="Transparent" x="529" y="66" width="16" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="4b68ef9e-72ae-4a35-b9df-ced0e79fdbdd">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -730,7 +730,7 @@ www.abccapital.com.mx
 				<text><![CDATA[ISR.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="1" y="174" width="152" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="807294a0-8d88-4840-894e-94fdb239a8a5">
+				<reportElement mode="Transparent" x="0" y="130" width="152" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="807294a0-8d88-4840-894e-94fdb239a8a5">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -744,12 +744,12 @@ www.abccapital.com.mx
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font size="7" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+					<font size="6" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[FECHAS DE PAGO DE INTERES / DIAS]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="-1" y="382" width="552" height="11" forecolor="#404040" backcolor="#D2DFFA" uuid="c9671938-ae36-4f67-99ae-7995ead9093f">
+				<reportElement mode="Transparent" x="-1" y="332" width="552" height="11" forecolor="#404040" backcolor="#D2DFFA" uuid="c9671938-ae36-4f67-99ae-7995ead9093f">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -769,7 +769,7 @@ www.abccapital.com.mx
 				<text><![CDATA[NO NEGOCIABLE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="4" y="318" width="546" height="20" forecolor="#404040" backcolor="#D2DFFA" uuid="cba0e5d7-c82a-4202-b728-cebd3e0165dd">
+				<reportElement mode="Transparent" x="4" y="268" width="546" height="20" forecolor="#404040" backcolor="#D2DFFA" uuid="cba0e5d7-c82a-4202-b728-cebd3e0165dd">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -789,7 +789,7 @@ www.abccapital.com.mx
 				<text><![CDATA[(1) DE ACUERDO A LA LEGISLACION Y REGLAMENTACION VIGENTE AL MOMENTO DE SUSCRIBIR LA PRESENTE CONSTANCIA DE DEPOSITO, EL RENDIMIENTO NETO VARIARA EN CASO DE MODIFICACIONES AL REGIMEN FISCAL DE LOS INSTRUMENTOS FINANCIEROS.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="4" y="340" width="548" height="26" forecolor="#404040" backcolor="#D2DFFA" uuid="d50da833-1f09-4c63-b8bb-117abc7c808f">
+				<reportElement mode="Transparent" x="4" y="290" width="548" height="26" forecolor="#404040" backcolor="#D2DFFA" uuid="d50da833-1f09-4c63-b8bb-117abc7c808f">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -809,9 +809,11 @@ www.abccapital.com.mx
 				<text><![CDATA[INVERSION GARANTIZADA POR EL INSTITUTO PARA LA PROTECCION AL AHORRO BANCARIO(IPAB), HASTA POR UN MONTO EQUIVALENTE A 400 MIL UNIDADES DE INVERSION (UDIS) POR LA SUMA DE INVERSIONES QUE CADA PERSONA, FISICA O MORAL, TENGA DEPOSITADOS POR BANCO, EN TERMINOS DE LO PREVISTO EN LA LEY DE PROTECCION AL AHORRO BANCARIO Y EN LA LEY DE INSTITUCIONES DE CREDITO.]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="2" y="84" width="78" height="14" uuid="cd8ddf8b-8b0c-4e67-9212-a944804dbbb8">
+				<reportElement x="2" y="54" width="78" height="11" uuid="cd8ddf8b-8b0c-4e67-9212-a944804dbbb8">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
 					<font size="6"/>
@@ -819,9 +821,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{ID_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="81" y="84" width="144" height="14" uuid="c3b92eed-5485-432b-be70-e2071616fe2d">
+				<reportElement x="81" y="54" width="144" height="11" uuid="c3b92eed-5485-432b-be70-e2071616fe2d">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
 					<font size="6"/>
@@ -829,9 +833,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="236" y="84" width="50" height="14" uuid="ffcde83c-6e83-4e5e-ba3d-ccf06c5516d0">
+				<reportElement x="237" y="54" width="50" height="11" uuid="ffcde83c-6e83-4e5e-ba3d-ccf06c5516d0">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -839,11 +845,13 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{ID_SUCURSAL}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="304" y="84" width="122" height="14" uuid="3a03fd66-d037-4cd7-848a-6d6a8840ccb1">
+				<reportElement x="305" y="54" width="122" height="11" uuid="3a03fd66-d037-4cd7-848a-6d6a8840ccb1">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
 					<font size="6"/>
@@ -851,9 +859,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{NOMBRE_SUCURSAL}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="445" y="84" width="106" height="14" uuid="dbf2d59e-41f7-4633-af06-7f375a80f6b0">
+				<reportElement x="444" y="54" width="106" height="11" uuid="dbf2d59e-41f7-4633-af06-7f375a80f6b0">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -861,9 +871,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{FECHA_HORA}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="0" y="111" width="94" height="14" uuid="40a74113-d4c5-408d-b85f-eabaebd24dbd">
+				<reportElement x="0" y="80" width="94" height="11" uuid="40a74113-d4c5-408d-b85f-eabaebd24dbd">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -871,9 +883,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{ID_CUENTA}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="105" y="111" width="90" height="14" uuid="eac5913d-4d9a-4862-bf44-8ebef80c43b5">
+				<reportElement x="100" y="80" width="90" height="11" uuid="eac5913d-4d9a-4862-bf44-8ebef80c43b5">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -881,9 +895,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{ID_INVERSION}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="205" y="111" width="50" height="14" uuid="3fe632fd-7ddd-4d8b-984a-3581978f3c89">
+				<reportElement x="200" y="80" width="50" height="11" uuid="3fe632fd-7ddd-4d8b-984a-3581978f3c89">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -891,9 +907,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{PLAZO}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="265" y="111" width="90" height="14" uuid="5ac370d1-2b38-4c82-b77d-6380014d17ab">
+				<reportElement x="261" y="80" width="90" height="11" uuid="5ac370d1-2b38-4c82-b77d-6380014d17ab">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -901,9 +919,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{INV_FECHA_FIN}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="365" y="111" width="40" height="14" uuid="13d7c2a6-12f3-46aa-a9ab-cd8d511829ee">
+				<reportElement x="361" y="80" width="40" height="11" uuid="13d7c2a6-12f3-46aa-a9ab-cd8d511829ee">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -911,9 +931,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{MONEDA}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="414" y="111" width="100" height="14" uuid="1dcfc6d7-22af-4145-bfbc-5e20b2bad1a5">
+				<reportElement x="410" y="80" width="103" height="11" uuid="1dcfc6d7-22af-4145-bfbc-5e20b2bad1a5">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -921,9 +943,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{TASA_BRUTA}+" %"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="520" y="111" width="32" height="14" uuid="f59efebc-9d2a-4a26-898a-f5fe26a368d2">
+				<reportElement x="519" y="80" width="32" height="11" uuid="f59efebc-9d2a-4a26-898a-f5fe26a368d2">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -931,11 +955,13 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{TASA_ISR}+" %"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="1" y="144" width="116" height="14" uuid="9ecf701e-23f9-475a-96d2-ab22c3f33bdf">
+				<reportElement x="1" y="105" width="116" height="11" uuid="9ecf701e-23f9-475a-96d2-ab22c3f33bdf">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="6"/>
@@ -943,9 +969,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("$ #,##0.00").format(Double.valueOf($F{CAPITAL_INI}))]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="127" y="144" width="134" height="14" uuid="376b5f55-3c77-4dfa-a412-261a94c651f2">
+				<reportElement x="127" y="105" width="134" height="11" uuid="376b5f55-3c77-4dfa-a412-261a94c651f2">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -953,9 +981,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{TASA_NETA}+" %"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="271" y="144" width="50" height="14" uuid="8da6ea96-f0b3-49a9-85c2-22446e81a37d">
+				<reportElement x="271" y="105" width="50" height="11" uuid="8da6ea96-f0b3-49a9-85c2-22446e81a37d">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -963,9 +993,11 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{GAT_NOMINAL}+" %"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="330" y="144" width="48" height="14" uuid="2b54d7a7-dab7-4ac1-b172-1dfc4f23e9e5">
+				<reportElement x="330" y="105" width="48" height="11" uuid="2b54d7a7-dab7-4ac1-b172-1dfc4f23e9e5">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
@@ -973,7 +1005,7 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA[$F{GAT_REAL}+" %"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="0" y="158" width="550" height="14" uuid="8a063877-fd54-49e0-aaa0-005ee2de2642">
+				<reportElement x="0" y="116" width="550" height="14" uuid="8a063877-fd54-49e0-aaa0-005ee2de2642">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
@@ -983,7 +1015,7 @@ www.abccapital.com.mx
 				<textFieldExpression><![CDATA["***("+$F{MONTO_LETRA}+")***"]]></textFieldExpression>
 			</textField>
 			<image isLazy="true">
-				<reportElement x="0" y="30" width="119" height="30" uuid="45c662b1-879d-4f5a-828c-81f4bd73d6a7">
+				<reportElement x="0" y="10" width="119" height="30" uuid="45c662b1-879d-4f5a-828c-81f4bd73d6a7">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -994,7 +1026,7 @@ www.abccapital.com.mx
 				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
 			</image>
 			<staticText>
-				<reportElement x="0" y="30" width="549" height="40" forecolor="#404040" uuid="13b91cc2-0b41-484c-beee-71bbd4d7b3b9">
+				<reportElement x="0" y="5" width="550" height="40" forecolor="#404040" uuid="13b91cc2-0b41-484c-beee-71bbd4d7b3b9">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -1007,7 +1039,7 @@ www.abccapital.com.mx
 Constancia de Deposito]]></text>
 			</staticText>
 			<subreport>
-				<reportElement x="0" y="187" width="397" height="99" uuid="2e29a9e2-c23b-4807-bc29-1a0385e4178a"/>
+				<reportElement x="1" y="144" width="397" height="91" uuid="2e29a9e2-c23b-4807-bc29-1a0385e4178a"/>
 				<subreportParameter name="XML_DATA_DOCUMENT">
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
