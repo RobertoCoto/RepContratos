@@ -14,6 +14,9 @@
 	<queryString language="xPath">
 		<![CDATA[/Datos]]>
 	</queryString>
+	<field name="RUTA_SUBREPORTE_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_SUBREPORTE_JR]]></fieldDescription>
+	</field>
 	<field name="TIPO_INVERSION" class="java.lang.String">
 		<fieldDescription><![CDATA[TIPO_INVERSION]]></fieldDescription>
 	</field>
@@ -290,21 +293,6 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
-			</rectangle>
-			<rectangle>
-				<reportElement x="0" y="228" width="379" height="121" forecolor="#404040" uuid="b43609c4-7f29-4a68-8cc7-4c969af2e95a">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="local_mesure_unitwidth" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unitx" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<graphicElement>
-					<pen lineWidth="0.0"/>
-				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="365" y="139" width="33" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="db0eb2d4-b476-487a-8a79-8fafdce8af5f">
@@ -885,7 +873,7 @@ DE MEXICO.]]></text>
 				<textElement verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{NOMBRE_SUCURSAL}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[" "+$F{NOMBRE_SUCURSAL}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="445" y="121" width="106" height="14" uuid="dbf2d59e-41f7-4633-af06-7f375a80f6b0">
@@ -1039,6 +1027,14 @@ DE MEXICO.]]></text>
 				<text><![CDATA[CEDES ABC
 Constancia de Deposito]]></text>
 			</staticText>
+			<subreport>
+				<reportElement x="0" y="230" width="391" height="121" uuid="d1734233-3b2e-4248-85e4-720eb4e95bdb"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/CEDE_VARIABLE/CEDES")]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"cede_subrepo_rev.jasper"]]></subreportExpression>
+			</subreport>
 		</band>
 	</detail>
 </jasperReport>
