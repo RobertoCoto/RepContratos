@@ -947,7 +947,7 @@ www.abccapital.com.mx
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{INV_FECHA_FIN}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{MONEDA}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="414" y="130" width="100" height="11" uuid="1dcfc6d7-22af-4145-bfbc-5e20b2bad1a5">
