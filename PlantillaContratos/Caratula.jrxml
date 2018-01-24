@@ -1376,7 +1376,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 			<textField>
 				<reportElement x="95" y="78" width="164" height="16" uuid="e3c50b34-9065-4b32-be18-9e4e0e1a0910"/>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{IVA_DATO}.equals("0") ? $F{IVA_DATO} + ".0 %" :  $F{IVA_DATO} + "0 %" ]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{IVA_DATO}.equals("0") ? $F{IVA_DATO} + ".0 %" :  $F{IVA_DATO} + "0 %"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="431" y="79" width="162" height="14" uuid="96944203-bdaa-44c2-b89d-db343f410062"/>

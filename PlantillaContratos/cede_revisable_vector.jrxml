@@ -278,7 +278,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="6"/>
+					<font size="9" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[ORIGINAL CLIENTE]]></text>
 			</staticText>
@@ -336,12 +336,15 @@ www.abccapital.com.mx
 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="399" y="221" width="152" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="264cf2be-47d1-4133-99cc-61e304fdea88">
+				<reportElement mode="Transparent" x="395" y="205" width="159" height="34" forecolor="#404040" backcolor="#D2DFFA" uuid="264cf2be-47d1-4133-99cc-61e304fdea88">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -350,9 +353,10 @@ www.abccapital.com.mx
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="6"/>
+					<font size="9" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[FIRMA DE FUNCIONARIOS]]></text>
+				<text><![CDATA[PROMOTOR: Vector Casa de Bolsa
+FIRMA DE FUNCIONARIOS]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Transparent" x="204" y="140" width="49" height="14" forecolor="#404040" backcolor="#D2DFFA" uuid="11317d0d-dfaf-48ef-a622-dc322ec981fd">
@@ -662,7 +666,7 @@ www.abccapital.com.mx
 				<text><![CDATA[NÚMERO DE CUENTA]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="399" y="235" width="152" height="47" forecolor="#404040" uuid="4a9057f4-026f-445c-a992-b7ce6a4cc62f">
+				<reportElement x="399" y="235" width="152" height="50" forecolor="#404040" uuid="4a9057f4-026f-445c-a992-b7ce6a4cc62f">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -1229,6 +1233,13 @@ Constancia de Deposito]]></text>
 				</textElement>
 				<text><![CDATA[ GAT NOMINAL (GANANCIA ANUAL TOTAL ANTES DE IMPUESTOS), LA GAT REAL ES EL RENDIMIENTO QUE OBTENDRÍA DESPUÉS DE DESCONTAR LA INFLACIÓN ESTIMADA.]]></text>
 			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="416" y="246" width="113" height="37" uuid="b54863a4-180e-4045-8134-8f002584282e">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"Firma.jpg"]]></imageExpression>
+			</image>
 		</band>
 	</detail>
 </jasperReport>

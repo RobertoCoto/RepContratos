@@ -21,28 +21,28 @@
 		<fieldDescription><![CDATA[DIAS_CEDE]]></fieldDescription>
 	</field>
 	<detail>
-		<band height="17" splitType="Stretch">
+		<band height="21" splitType="Stretch">
 			<textField isBlankWhenNull="true">
-				<reportElement x="0" y="6" width="90" height="10" uuid="a2887ab9-6907-4507-bbe8-635c9051b7ea">
+				<reportElement x="0" y="10" width="90" height="10" uuid="a2887ab9-6907-4507-bbe8-635c9051b7ea">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Bottom">
-					<font size="6"/>
+					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[(($F{FECHA_CEDE}!= null && $F{FECHA_CEDE}.length() == 8) ? $F{FECHA_CEDE}.substring(6,8)+"/"+$F{FECHA_CEDE}.substring(4,6)+"/"+$F{FECHA_CEDE}.substring(0,4) : "")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="0" y="0" width="90" height="8" uuid="272cf94c-33e7-45c6-bdf9-f983e5b1599b">
+				<reportElement x="0" y="0" width="90" height="10" uuid="272cf94c-33e7-45c6-bdf9-f983e5b1599b">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Bottom">
-					<font size="6"/>
+					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA["   "+$F{DIAS_CEDE}+" Dias"]]></textFieldExpression>
 			</textField>

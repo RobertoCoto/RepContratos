@@ -341,7 +341,7 @@
 		</band>
 	</background>
 	<detail>
-		<band height="240">
+		<band height="460">
 			<subreport>
 				<reportElement x="2" y="0" width="611" height="240" uuid="d4d32535-88e5-4190-82e8-e8699d9b1921"/>
 				<subreportParameter name="XML_DATA_DOCUMENT">
@@ -350,10 +350,8 @@
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
 				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"Caratula.jasper"]]></subreportExpression>
 			</subreport>
-		</band>
-		<band height="230" splitType="Stretch">
 			<subreport>
-				<reportElement x="0" y="0" width="612" height="230" uuid="f3ecf81c-9ec9-48f5-9901-79fa961e1b69"/>
+				<reportElement x="-1" y="230" width="612" height="230" uuid="f3ecf81c-9ec9-48f5-9901-79fa961e1b69"/>
 				<subreportParameter name="XML_DATA_DOCUMENT">
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
@@ -361,6 +359,7 @@
 				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"contr.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
+		<band height="230" splitType="Stretch"/>
 		<band height="209">
 			<subreport>
 				<reportElement x="0" y="6" width="611" height="203" uuid="ae5e03b3-d9c6-4c3b-86ef-04f69c9cb260">
