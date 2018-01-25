@@ -479,6 +479,21 @@
 			</subreport>
 		</band>
 		<band height="231">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<subreport>
+				<reportElement x="0" y="0" width="611" height="231" uuid="362b9b29-7f46-432a-95ae-d894f0613866">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos")]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"Clausulado.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="231">
 			<subreport>
 				<reportElement x="0" y="0" width="611" height="231" uuid="4efd49bf-9c7b-4da2-9118-22ce766dfac1">
 					<property name="local_mesure_unitheight" value="pixel"/>
