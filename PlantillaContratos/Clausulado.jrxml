@@ -1,0 +1,2210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Clausula" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a576c234-6643-43ae-8a0b-449bc68c5004">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DATAContratoss"/>
+	<queryString language="xPath">
+		<![CDATA[/Datos]]>
+	</queryString>
+	<field name="TIPO_FORMATO" class="java.lang.String">
+		<fieldDescription><![CDATA[TIPO_FORMATO]]></fieldDescription>
+	</field>
+	<field name="NOM_EJECUTIVO" class="java.lang.String">
+		<fieldDescription><![CDATA[NOM_EJECUTIVO]]></fieldDescription>
+	</field>
+	<field name="NUM_EJECUTIVO" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EJECUTIVO]]></fieldDescription>
+	</field>
+	<field name="NOM_SUCURSAL" class="java.lang.String">
+		<fieldDescription><![CDATA[NOM_SUCURSAL]]></fieldDescription>
+	</field>
+	<field name="NUM_SUCURSAL" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_SUCURSAL]]></fieldDescription>
+	</field>
+	<field name="ID_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[ID_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="ID_CUENTA" class="java.lang.String">
+		<fieldDescription><![CDATA[ID_CUENTA]]></fieldDescription>
+	</field>
+	<field name="CTA_CLABE" class="java.lang.String">
+		<fieldDescription><![CDATA[CTA_CLABE]]></fieldDescription>
+	</field>
+	<field name="CATEGORIA_CTA" class="java.lang.String">
+		<fieldDescription><![CDATA[CATEGORIA_CTA]]></fieldDescription>
+	</field>
+	<field name="SEL_SERVICIO" class="java.lang.String">
+		<fieldDescription><![CDATA[SEL_SERVICIO]]></fieldDescription>
+	</field>
+	<field name="MED_DISPOSICION" class="java.lang.String">
+		<fieldDescription><![CDATA[MED_DISPOSICION]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="FECHA_NAC_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[FECHA_NAC_CLI]]></fieldDescription>
+	</field>
+	<field name="LUG_NAC_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[LUG_NAC_CLI]]></fieldDescription>
+	</field>
+	<field name="RESIDENCIA_EU_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[RESIDENCIA_EU_CLI]]></fieldDescription>
+	</field>
+	<field name="RFC_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[RFC_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="CURP_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CURP_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="SEXO_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[SEXO_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="NACIONALIDAD_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[NACIONALIDAD_CLI]]></fieldDescription>
+	</field>
+	<field name="RESIDENCIA_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[RESIDENCIA_CLI]]></fieldDescription>
+	</field>
+	<field name="ESTADO_CIVIL_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[ESTADO_CIVIL_CLI]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_CONYUGE" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_CONYUGE]]></fieldDescription>
+	</field>
+	<field name="CALLE_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CALLE_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="NUM_EXT_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EXT_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="NUM_INT_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_INT_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="COLONIA_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[COLONIA_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="MUNICIPIO_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[MUNICIPIO_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="ESTADO_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[ESTADO_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="CIUDAD_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CIUDAD_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="CP_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CP_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="PAIS_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="TIENEFIR_ELEC" class="java.lang.String">
+		<fieldDescription><![CDATA[TIENEFIR_ELEC]]></fieldDescription>
+	</field>
+	<field name="FIRMA_ELECTRO" class="java.lang.String">
+		<fieldDescription><![CDATA[FIRMA_ELECTRO]]></fieldDescription>
+	</field>
+	<field name="TIPO_INDENT_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[TIPO_INDENT_CLI]]></fieldDescription>
+	</field>
+	<field name="NUME_INDENT_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[NUME_INDENT_CLI]]></fieldDescription>
+	</field>
+	<field name="VIGE_INDENT_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[VIGE_INDENT_CLI]]></fieldDescription>
+	</field>
+	<field name="COMPR_DOMI" class="java.lang.String">
+		<fieldDescription><![CDATA[COMPR_DOMI]]></fieldDescription>
+	</field>
+	<field name="TEL_DOMI_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[TEL_DOMI_CLI]]></fieldDescription>
+	</field>
+	<field name="TEL_CEL_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[TEL_CEL_CLI]]></fieldDescription>
+	</field>
+	<field name="CORREO_CLIENTE" class="java.lang.String">
+		<fieldDescription><![CDATA[CORREO_CLIENTE]]></fieldDescription>
+	</field>
+	<field name="PROFESION_CLI" class="java.lang.String">
+		<fieldDescription><![CDATA[PROFESION_CLI]]></fieldDescription>
+	</field>
+	<field name="NOM_EMPRESA" class="java.lang.String">
+		<fieldDescription><![CDATA[NOM_EMPRESA]]></fieldDescription>
+	</field>
+	<field name="CALLE_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[CALLE_EMP]]></fieldDescription>
+	</field>
+	<field name="NUM_EXT_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EXT_EMP]]></fieldDescription>
+	</field>
+	<field name="NUM_INT_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_INT_EMP]]></fieldDescription>
+	</field>
+	<field name="COLONIA_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[COLONIA_EMP]]></fieldDescription>
+	</field>
+	<field name="DEL_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[DEL_EMP]]></fieldDescription>
+	</field>
+	<field name="ENTI_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[ENTI_EMP]]></fieldDescription>
+	</field>
+	<field name="COD_PO_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[COD_PO_EMP]]></fieldDescription>
+	</field>
+	<field name="PAIS_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_EMP]]></fieldDescription>
+	</field>
+	<field name="TIPO_EMPLEO" class="java.lang.String">
+		<fieldDescription><![CDATA[TIPO_EMPLEO]]></fieldDescription>
+	</field>
+	<field name="GIRO_MERCANTIL" class="java.lang.String">
+		<fieldDescription><![CDATA[GIRO_MERCANTIL]]></fieldDescription>
+	</field>
+	<field name="PUESTO" class="java.lang.String">
+		<fieldDescription><![CDATA[PUESTO]]></fieldDescription>
+	</field>
+	<field name="INGR_MEN_BR" class="java.lang.String">
+		<fieldDescription><![CDATA[INGR_MEN_BR]]></fieldDescription>
+	</field>
+	<field name="TEL_EMPRESA" class="java.lang.String">
+		<fieldDescription><![CDATA[TEL_EMPRESA]]></fieldDescription>
+	</field>
+	<field name="ACT_ECONO_EMP" class="java.lang.String">
+		<fieldDescription><![CDATA[ACT_ECONO_EMP]]></fieldDescription>
+	</field>
+	<field name="ACT_VULNERABLE" class="java.lang.String">
+		<fieldDescription><![CDATA[ACT_VULNERABLE]]></fieldDescription>
+	</field>
+	<field name="PROCED_RECURSOS" class="java.lang.String">
+		<fieldDescription><![CDATA[PROCED_RECURSOS]]></fieldDescription>
+	</field>
+	<field name="USO_CUENTA" class="java.lang.String">
+		<fieldDescription><![CDATA[USO_CUENTA]]></fieldDescription>
+	</field>
+	<field name="OTRO_USO_CTA" class="java.lang.String">
+		<fieldDescription><![CDATA[OTRO_USO_CTA]]></fieldDescription>
+	</field>
+	<field name="REFERNCIAS_BANCARIAS" class="java.lang.String">
+		<fieldDescription><![CDATA[REFERNCIAS_BANCARIAS]]></fieldDescription>
+	</field>
+	<field name="DESTIN_RECURSOS" class="java.lang.String">
+		<fieldDescription><![CDATA[DESTIN_RECURSOS]]></fieldDescription>
+	</field>
+	<field name="NUM_EMPLEADOS" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_EMPLEADOS]]></fieldDescription>
+	</field>
+	<field name="MTO_IMPORTACION" class="java.lang.String">
+		<fieldDescription><![CDATA[MTO_IMPORTACION]]></fieldDescription>
+	</field>
+	<field name="MTO_EXPORTACION" class="java.lang.String">
+		<fieldDescription><![CDATA[MTO_EXPORTACION]]></fieldDescription>
+	</field>
+	<field name="PAIS_IMPORTACION" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_IMPORTACION]]></fieldDescription>
+	</field>
+	<field name="PAIS_EXPORTACION" class="java.lang.String">
+		<fieldDescription><![CDATA[PAIS_EXPORTACION]]></fieldDescription>
+	</field>
+	<field name="CIUDAD_SUCURSALES" class="java.lang.String">
+		<fieldDescription><![CDATA[CIUDAD_SUCURSALES]]></fieldDescription>
+	</field>
+	<field name="DEPOS_TIPO" class="java.lang.String">
+		<fieldDescription><![CDATA[DEPOS_TIPO]]></fieldDescription>
+	</field>
+	<field name="DEPOS_APRX_MEN" class="java.lang.String">
+		<fieldDescription><![CDATA[DEPOS_APRX_MEN]]></fieldDescription>
+	</field>
+	<field name="DEPOS_NUM_MEN" class="java.lang.String">
+		<fieldDescription><![CDATA[DEPOS_NUM_MEN]]></fieldDescription>
+	</field>
+	<field name="RETIR_TIPO" class="java.lang.String">
+		<fieldDescription><![CDATA[RETIR_TIPO]]></fieldDescription>
+	</field>
+	<field name="RETIR_APRX_MEN" class="java.lang.String">
+		<fieldDescription><![CDATA[RETIR_APRX_MEN]]></fieldDescription>
+	</field>
+	<field name="RETIR_NUM_MEN" class="java.lang.String">
+		<fieldDescription><![CDATA[RETIR_NUM_MEN]]></fieldDescription>
+	</field>
+	<field name="NIVEL" class="java.lang.String">
+		<fieldDescription><![CDATA[NIVEL]]></fieldDescription>
+	</field>
+	<field name="REGIMEN_CONYUGAL" class="java.lang.String">
+		<fieldDescription><![CDATA[REGIMEN_CONYUGAL]]></fieldDescription>
+	</field>
+	<field name="FECHA_APERTURA" class="java.lang.String">
+		<fieldDescription><![CDATA[FECHA_APERTURA]]></fieldDescription>
+	</field>
+	<field name="SALIDA_CONTITULAR" class="java.lang.String">
+		<fieldDescription><![CDATA[SALIDA_CONTITULAR]]></fieldDescription>
+	</field>
+	<field name="SALIDA_BENEFICIARIO" class="java.lang.String">
+		<fieldDescription><![CDATA[SALIDA_BENEFICIARIO]]></fieldDescription>
+	</field>
+	<field name="REFERENCIAS_PERSONALES" class="java.lang.String">
+		<fieldDescription><![CDATA[REFERENCIAS_PERSONALES]]></fieldDescription>
+	</field>
+	<field name="NUM_DE_SUCUR" class="java.lang.String">
+		<fieldDescription><![CDATA[NUM_DE_SUCUR]]></fieldDescription>
+	</field>
+	<field name="SALIDA_ANEXO_A" class="java.lang.String">
+		<fieldDescription><![CDATA[SALIDA_ANEXO_A]]></fieldDescription>
+	</field>
+	<field name="REGIMEN_CTA" class="java.lang.String">
+		<fieldDescription><![CDATA[REGIMEN_CTA]]></fieldDescription>
+	</field>
+	<field name="COMBINA_FIRMAS" class="java.lang.String">
+		<fieldDescription><![CDATA[COMBINA_FIRMAS]]></fieldDescription>
+	</field>
+	<field name="FIRMAS" class="java.lang.String">
+		<fieldDescription><![CDATA[FIRMAS]]></fieldDescription>
+	</field>
+	<field name="FACULTADOS" class="java.lang.String">
+		<fieldDescription><![CDATA[FACULTADOS]]></fieldDescription>
+	</field>
+	<field name="RAZON_SOCIAL" class="java.lang.String">
+		<fieldDescription><![CDATA[RAZON_SOCIAL]]></fieldDescription>
+	</field>
+	<field name="FUNCIONARIO_PUB" class="java.lang.String">
+		<fieldDescription><![CDATA[FUNCIONARIO_PUB]]></fieldDescription>
+	</field>
+	<field name="FUNCIONARIO_PUB_ESP" class="java.lang.String">
+		<fieldDescription><![CDATA[FUNCIONARIO_PUB_ESP]]></fieldDescription>
+	</field>
+	<field name="ACCIONISTA_ABC" class="java.lang.String">
+		<fieldDescription><![CDATA[ACCIONISTA_ABC]]></fieldDescription>
+	</field>
+	<field name="ACCIONISTA_ABC_ESP" class="java.lang.String">
+		<fieldDescription><![CDATA[ACCIONISTA_ABC_ESP]]></fieldDescription>
+	</field>
+	<field name="Y_OTRA_PROCED" class="java.lang.String">
+		<fieldDescription><![CDATA[Y_OTRA_PROCED]]></fieldDescription>
+	</field>
+	<field name="RUTA_IMAGEN_JR" class="java.lang.String">
+		<fieldDescription><![CDATA[RUTA_IMAGEN_JR]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="76" splitType="Stretch">
+			<staticText>
+				<reportElement x="220" y="16" width="382" height="46" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="SansSerif" size="16" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CONTRATO MÚLTIPLE DE 
+PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
+			</staticText>
+			<image isLazy="true">
+				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
+				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="705" splitType="Stretch">
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="cbdc8295-a2f6-4b7e-b696-078b772c7be9">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="75ebd231-740c-4625-be00-50f2dd84cf55">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="9d6342d8-8a62-4db7-950b-fab0d6ff7656">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="32" width="566" height="78" forecolor="#00457D" uuid="b7b962b2-38fa-43af-9aea-5149c7027103">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CONTRATO MÚLTIPLE DE PRODUCTOS Y SERVICIOS BANCARIOS QUE CELEBRAN POR UNA PARTE ABC CAPITAL, S.A., INSTITUCIÓN DE BANCA MÚLTIPLE, EN LO SUCESIVO DENOMINADO COMO EL “BANCO”, Y POR LA OTRA LA(S) PERSONA(S) CUYO(S) NOMBRE(S) APARECE(N) IDENTIFICADO(S) EN LA SOLICITUD DE ESTE CONTRATO, EN LO SUCESIVO EL “CLIENTE” Y DE MANERA CONJUNTA CON EL “BANCO”, COMO LAS “PARTES” según corresponda, al tenor de las siguientes declaraciones y cláusulas:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="111" width="543" height="33" forecolor="#00457D" uuid="16e24e92-692e-4fa1-a269-f105a26b1918">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[D E C L A R A C I O N E S ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="139" width="566" height="150" forecolor="#00457D" uuid="f4ced039-56fe-491c-acf1-2751301dc79f">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[I. Declara el Banco, por conducto de su(s) funcionario(s) autorizado(s), que:
+	A.	Es una institución de crédito legalmente constituida de acuerdo con la legislación mexicana y que cuenta con la capacidad jurídica y autorizaciones necesarias para celebrar el presente Contrato.
+	B.	Que su representante cuenta con facultades suficientes y necesarias para obligarle en los términos del presente contrato, las cuales no le han sido modificadas, revocadas o limitadas en forma alguna a la fecha de firma de este Contrato.
+	C.	Que su página electrónica en la red mundial de Internet es www.abccapital.com.mx
+	D.	El contrato se encuentra debidamente inscrito en el registro de contratos de adhesión de Condusef de acuerdo al producto contratado bajo los siguientes números: (I) ABC CUENTA EJE 1621-436-008387/14-02992-0315, (II) ABC CUENTA DE AHORRO 1621-436-008388/10-02993- 0315 (III) ABC CUENTA BÁSICA 1621-428-008391/09-02994-0315, (IV) ABC PAGARÉ 1621-429-011404/08-02995-0315 y (V) Depósito a Plazo 1621-003-020842/02-02997-0315.
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="289" width="566" height="300" forecolor="#00457D" uuid="9cca5991-a89d-4e5c-8e5e-10d875a9d40c">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[II. Declara el Cliente, que:
+A.	Tiene capacidad legal suficiente para celebrar el presente Contrato y reconoce como suyos los datos asentados en la Solicitud, todo lo cual acredita con la información que proporcionó al Banco, en la entrevista que éste le efectuó en esta misma fecha, previo a la suscripción de este instrumento.
+B.	Los recursos que serán abonados a la Cuenta, son de su propiedad, producto del desarrollo normal de sus actividades y que tales recursos en ningún caso han provenido y se compromete que en el futuro no provengan de actividades ilícitas, manifestando que conoce y entiende plenamente las disposiciones relativas a las operaciones realizadas con recursos de procedencia ilícita y sus consecuencias, por lo que, para todos los efectos legales aplicables libera(n) al Banco de cualquier responsabilidad que se derive con respecto a la procedencia de los recursos.
+C.	En caso de solicitar un Crédito que es (son) legítima(s) titular(es) de la cuenta de depósito a la vista identificada en la Solicitud anexo del presente instrumento, cuyos recursos son invertidos regular, periódica y discrecionalmente en los diversos instrumentos de inversión ofrecidos por el Banco.
+D.	Es su voluntad celebrar el presente Contrato y se compromete a proporcionar al Banco todos los documentos e información que sean requeridos en relación con cualquier cuenta, producto y/o servicio que desee contratar conforme a este Contrato.
+E.	El Banco le ha informado que los depósitos recibidos al amparo del presente Contrato, cuentan con garantía del IPAB, hasta por el equivalente a cuatrocientas mil unidades de inversión por persona, cualquiera que sea el número, tipo y clase de las obligaciones a su favor, y a cargo del Banco, y que para todos los efectos legales a que haya lugar, él será considerado como el titular garantizado por el IPAB de los depósitos que ampara el presente Contrato.
+F.	El Banco le proporcionó los números correspondientes al Centro de Atención Telefónica de la Condusef: 01-800-999-8080 y 01 (55) 53-400-999, así como su dirección de correo electrónico: webmaster@condusef.gob.mx, y la página electrónica en Internet: www.condusef.gob.mx.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="582" width="568" height="30" forecolor="#00457D" uuid="4576ece6-7662-4d2e-bdad-72b5670d3f69">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO I
+DEFINICIONES
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="b0f97fc0-7225-45b8-bb6d-a53cdb975a52">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="615" width="566" height="62" forecolor="#00457D" uuid="b166a6ba-e5b9-4030-aca4-25c9fbf45ebb">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[I.1. TÉRMINOS. Los términos cuya inicial se escribe con mayúscula, tendrán los siguientes significados, con independencia de que los mismos se utilicen en singular o plural:
+Acreditante y/o Banco: ABC CAPITAL, SOCIEDAD ANÓNIMA, INSTITUCIÓN DE BANCA MÚLTIPLE.
+Acreditada y/o Cliente: La persona física o moral que se identifica en la Solicitud anexo del presente instrumento.
+]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="62afaa4a-2ebb-4909-b225-486fece6c589"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="ccd47dd4-c48d-4165-b7f2-f753542a799f">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="883c0e97-c2d2-4988-9b35-a2c4373eb52c">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="3e8b9c14-8bd0-4669-8738-de651aab8501">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="653" forecolor="#00457D" uuid="642f02f7-0087-4396-bada-f233928b5758">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Autenticación: Conjunto de técnicas y procedimientos utilizados para verificar la identidad de un Usuario y su facultad para realizar operaciones, a través de Medios Electrónicos.
+Carátula: Significa el o los documento(s) que contiene(n) las principales características de la operación que el Cliente celebrará al amparo del presente Contrato, y que forma parte integrante del mismo.
+CAT.- Costo anual total de financiamiento expresado en términos porcentuales anuales que, para fines informativos y de comparación, incorpora la totalidad de los costos y gastos inherentes a los créditos y que para fines informativos y de comparación la ACREDITANTE dará a conocer al CLIENTE a través de avisos colocados en las sucursales del Banco o por publicaciones en periódicos de amplia circulación o por cualquier otro medio, incluyendo Medios Electrónicos, ópticos o cualquier otra tecnología, a elección del Banco y al alcance del Cliente.
+CLABE: Significa la Clabe Bancaria Estandarizada que aparece en la Solicitud.
+Cliente: La(s) persona(s) física(s) cuyo nombre y firma aparece(n) en la Solicitud.
+Condusef: Comisión Nacional para la Defensa de los Usuarios de Servicios Financieros
+Contrato: Significa conjuntamente el presente instrumento, sus anexos, la solicitud, carátulas, así como cualquier convenio o documento que modifique o adicione el presente instrumento.
+Crédito: El monto que la “ACREDITADA” disponga en los términos establecidos en el Capítulo VII del presente Contrato.
+Cuenta: Significa la cuenta o cuenta(s) bancaria(s) que, en su caso, el Banco abrirá al Cliente en términos de lo dispuesto en el presente Contrato.
+Depósito a Plazo: Significa el depósito bancario de dinero a plazo fijo que efectúe el Cliente en los términos y condiciones referidos en el capítulo V del Contrato.
+Día Hábil: Significa cualquier día del año que no sea sábado ni domingo, en que las instituciones de crédito estén autorizadas para celebrar operaciones con el público.
+Establecimientos Afiliados: Significa los proveedores de bienes, servicios o efectivo que se encuentren afiliados a la marca de la Tarjeta de Débito o cualquier otro medio de disposición determinado por el Banco, y acepten los mismos como instrumento de pago o medio de disposición del dinero depositado en la Cuenta.
+Estado de Cuenta: Significa el documento elaborado por el Banco que contiene los movimientos efectuados en la Cuenta durante el periodo que corresponda, y que se dará a conocer al cliente de conformidad con lo estipulado en el presente Contrato.
+GAT: La Ganancia Anual Total Neta expresada en términos porcentuales anuales, tanto nominales como reales, que, para fines informativos y de comparación, incorpora los intereses nominales capitalizables que generen las operaciones pasivas a plazo, retirables en días preestablecidos y de ahorro, menos todos los costos relacionados con la operación, incluidos los de apertura, de conformidad con las disposiciones que al efecto emita el Banco de México y que para fines informativos y de comparación la ACREDITANTE dará a conocer al CLIENTE a través de avisos colocados en las sucursales del Banco o por publicaciones en periódicos de amplia circulación o por cualquier otro medio, incluyendo Medios Electrónicos, ópticos o cualquier otra tecnología, a elección del Banco y al alcance del Cliente.
+Garante Prendario: la “Acreditada” que otorga su inversión como Garantía Prendaria.
+IPAB: Instituto para la Protección del Ahorro Bancario
+Medios de Disposición: Los señalados en la Solicitud del Contrato.
+Medios Electrónicos: Significan los equipos, sistemas automatizados de procesamiento de datos, redes de telecomunicaciones, terminales punto de venta, internet y cualquier otro que en el futuro puedan ser considerados como tales a través de los cuales el cliente podrá realizar Operaciones sobre su cuenta.
+NIP. Es un Número de Identificación Personal que estará asociado a la Tarjeta de Débito, para el uso de cajeros automáticos, que identifica al Cliente ante el Banco y se considera como firma electrónica.
+Operaciones. Significa cualquiera de las transacciones físicas o electrónicas que celebre el Cliente con el Banco al amparo del Contrato.
+Personas Autorizadas. Las personas físicas que sean autorizadas por el Cliente para hacer disposiciones de dinero con cargo a la Cuenta, bastando para ello la inclusión de sus nombres y firmas en la Solicitud, o bien, mediante autorización posterior que otorgue el Cliente al Banco a través de los formatos que éste determine para tales efectos. El Banco podrá negar la autorización aquí señalada, cuando el Cliente no le proporcione los documentos necesarios para cerciorarse de la identidad de las personas físicas que pretenda autorizar.
+Pagaré: Es el título de crédito denominado “Pagaré con Rendimiento Liquidable al Vencimiento” que emitirá el Banco para documentar el préstamo que le otorgue el Cliente de conformidad con lo establecido en el Contrato.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="c74e834f-a298-474a-889a-e8692b645c7a">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="16f5f902-74cd-4e16-99ae-80eabcca4cdf"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="033dc1ee-08e4-48fb-b7ae-70f2bf6f905b">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="5a33a8c1-a91f-4f33-8cc6-3d111ae3a65b">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="f2a51972-340d-4418-8435-ada9690810c9">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="7ef2c0a0-f242-45d3-a91c-528e2f093833">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="305" forecolor="#00457D" uuid="0c486eec-9d66-41d8-9703-fc2858b19313">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Productos: Significa el nombre comercial a través del cual el Cliente podrá identificar el tipo de operaciones y servicios que celebrará con el Banco al amparo del presente Contrato.
+Servicios: Los que se describen en la Solicitud de este contrato que han sido suscritas por el Cliente, respecto de cada una de las cuentas, productos y/o servicios bancarios solicitados por el mismo al Banco, cuya información, términos y condiciones forman parte integrante del mismo y que en forma enunciativa más no limitativa se mencionan a continuación: (a) transferencia de fondos; (b) cargos a la Cuenta de conformidad con lo establecido en el presente contrato; (c) consultas de saldos, movimientos y estados de cuenta; (d) solicitud de talonarios de chequeras; (e) cualesquiera otros servicios que el Banco preste o llegue a prestar en un futuro, a través de cualquier medio. Solicitud: Significa, la página de datos generales, parte integrante del presente Contrato en la cual se hace constar, entre otros, la información general del Cliente.
+SPEI: Significa el sistema de pagos electrónicos interbancarios, que permite al Cliente enviar y recibir transferencias electrónicas de dinero de forma rápida.
+Sucursal: El establecimiento del Banco cuyos datos de identificación se especifican en la Solicitud.
+Tarjeta de Débito: Significa la tarjeta de plástico que el Banco entrega al Cliente de conformidad con lo establecido en este Contrato, para ser utilizada como medio de disposición del dinero depositado en la Cuenta y como instrumento de pago asociado a la Cuenta.
+UDIS: Significa la unidad de cuenta, llamada Unidad de Inversión, cuyo valor en pesos para cada día publicará periódicamente el Banco de México en el Diario Oficial de la Federación a que se refiere el “Decreto por el que se establecen las obligaciones que podrán denominarse en Unidades de Inversión y que reforma y adiciona diversas disposiciones del Código Fiscal de la Federación y la Ley del Impuesto Sobre la Renta”, publicado en el Diario Oficial de la Federación el 1ro de abril de 1995.
+Unidad Especializada. Significa la unidad especializada de atención a usuarios del Banco, cuyo objeto es atender cualquier queja o reclamación del Cliente, ubicada en Boulevard Manuel Ávila Camacho No. 32 Piso 12, Col. Lomas de Chapultepec,  Miguel Hidalgo, Ciudad de México, C.P. 11000, la cual tiene el siguiente teléfono 01800 1121616 y su correo electrónico es une@abccapital.com.mx.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="332" width="568" height="50" forecolor="#00457D" uuid="53c2cdfe-2d68-4908-8c8f-b9eafc1091d6">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C L A U S U L A S
+CAPÍTULO II
+DEPÓSITOS BANCARIOS DE DINERO A LA VISTA
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="380" width="566" height="308" forecolor="#00457D" uuid="78491bbc-9e38-487f-96f3-596d17d8c12e">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[II.1.	OBJETO. El Banco se obliga a recibir en calidad de Depósito, las sumas de dinero que le sean entregados por el Cliente, y a restituir las sumas depositadas en la misma especie, de conformidad con lo establecido en el presente Contrato.
+II.2.	CUENTA. El Banco a solicitud del Cliente abre una cuenta bancaria identificada con el número señalado en la Solicitud del presente Contrato, en la cual el Cliente podrá efectuar depósitos y retiros de dinero, en los términos y condiciones señalados en este Contrato. Asimismo el Banco asigna al Cliente la Clabe señalada en la Solicitud, para que este pueda recibir transferencias interbancarias.
+
+En la Cuenta se reflejará el saldo de dinero, el cual se compondrá de los Depósitos e intereses que, en su caso, devenguen los mismos, menos los retiros efectuados, comisiones, gastos y demás cargos.
+
+Los números de Cuenta son asignados por el Banco, y podrán ser modificados por este, con la obligación de notificar por escrito al Cliente.
+
+II.3.	CLASIFICACIÓN DE LA CUENTA. La Cuenta se clasifica en el nivel que se establece en la Solicitud, y deberá ajustarse a lo siguiente:
+En las cuentas clasificadas como nivel 1, la suma de los abonos en el transcurso de un mes calendario no podrá exceder el equivalente en moneda nacional a 750 UDIS. En ningún momento el saldo de las propias cuentas podrá exceder al equivalente en moneda nacional a 1,000 UDIS.
+
+En las cuentas clasificadas como nivel 2, la suma de los abonos en el transcurso de un mes calendario no podrá exceder el equivalente en moneda nacional a 3,000 UDIS.
+
+En las cuentas clasificadas como nivel 3, la suma de los abonos en el transcurso de un mes calendario no podrá exceder el equivalente en moneda nacional a 10,000 UDIS.
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="1b323bad-12dc-471c-b35d-63e1d25b403d"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="a8735ed9-944a-4059-89b6-9f9cd2c54811">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="4efc8230-2443-47b4-a67d-2cf014b82f7e">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="2d02174e-2f25-40cd-8b56-d0f5e2164323">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="f9c924a4-4ab2-4a99-9781-3a81e4502b42">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="635" forecolor="#00457D" uuid="dc7e5927-57cc-4fed-8f63-b8e5e103993b">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[En las cuentas clasificadas como nivel 4, el abono de recursos no tendrá límite, salvo que, el Banco así lo pacte con el Cliente.
+En las cuentas del nivel 2 el Banco podrá recibir depósitos mensuales adicionales al límite establecido, hasta por el equivalente en moneda nacional a 6,000 UDIS, siempre que el origen de los recursos provenga exclusivamente de subsidios relativos a programas gubernamentales de apoyo a determinados sectores de la población.
+
+Para realizar el cálculo en UDIS de los límites señalados en este numeral, se tomará el valor de dicha unidad de cuenta del último día del mes calendario anterior al mes de que se trate.
+
+II.4.	FECHA DE CORTE. Cada Cuenta tendrá una fecha de corte mensual que será comunicada al Cliente al momento de la apertura de dicha Cuenta, así como también será incluida en el Estado de Cuenta correspondiente.
+
+II.5.	RENDIMIENTOS. Dependiendo del tipo de Producto contratado, el saldo de dinero a favor del Cliente registrado en la Cuenta podrá generar rendimientos, los cuales serán brutos, se computarán mensualmente y se pagarán mediante abono a la Cuenta a más tardar el Día Hábil Siguiente a la fecha de corte. Dichos rendimientos se calcularán sobre el promedio de saldos diarios que el Cliente mantenga depositado en la Cuenta, dividiendo la tasa de interés anual determinada por el Banco, entre trescientos sesenta y multiplicando el resultado obtenido por el número de días efectivamente transcurridos durante el período en el cual se devenguen los rendimientos a la tasa correspondiente. Los Cálculos se efectuarán cerrándose a centésimas. 
+
+El Banco se reserva el derecho de revisar y ajustar diariamente la tasa de interés señalada en el párrafo anterior y el promedio de saldos diarios vigentes a los que se aplicará ésta. Asimismo, el Banco en cualquier momento podrá determinar los Productos que dejarán de generar rendimientos.
+
+El tratamiento fiscal de los rendimientos estará sujeto a las disposiciones legales aplicables.
+
+II.6.	 SALDO MÍNIMO. El Cliente acepta que el Banco tiene la facultad de determinar y, en su caso, modificar el saldo mínimo de dinero que el Cliente deberá mantener depositado en la Cuenta de acuerdo a tipo de Producto contratado.
+
+II.7.	 DEPÓSITOS EN LA CUENTA. Los Depósitos que el Cliente o cualquier tercero haga para abono en la Cuenta, deberán hacerse en Moneda Nacional, en las formas impresas o comprobantes que el Banco proporcione al Cliente para tal efecto, o conforme a los procedimientos para acceder a sistemas automatizados y/o electrónicos o vía telefónica que sean autorizados por el Banco.
+Cliente o las Personas Autorizadas por él, podrán hacer libremente Depósitos en la Cuenta, en efectivo, mediante transferencia electrónica de dinero, con Cheque, o cualquier otro medio o documento que sea aceptado por el Banco. Dichos Depósitos serán acreditados en la Cuenta de la siguiente manera:
+a).	Tratándose de Depósitos en efectivo o cheque a cargo del Banco, el importe será acreditado en la misma fecha en que se reciban, o al día hábil siguiente de conformidad con los horarios que el Banco le comunique al cliente al momento de efectuar el depósito.
+b).	Si los Depósitos se realizan a través de Cheque a cargo de otro Banco, serán siempre recibidos "salvo buen cobro" y su importe se abonará hasta que el Banco efectúe su cobro. En consecuencia, aun cuando en los documentos aparezca la anotación de haber sido recibidos "en firme" por el Banco y su importe se haya acreditado en la Cuenta respectiva, el Banco se reserva el derecho de rehusar el pago de las cantidades que se deseen retirar de la Cuenta respectiva si en dicha Cuenta no existen fondos disponibles suficientes para cubrir su importe; además, el Banco queda facultado para cargar en la Cuenta respectiva el importe de los documentos depositados que no hayan sido cubiertos por el aceptante, suscriptor o librador respectivo.
+c).	Si los Depósitos se realizan mediante transferencia electrónica de dinero, o por algún otro medio o documento autorizado por el Banco, se acreditarán en la fecha en que el Banco efectivamente reciba dichos Depósitos.
+El Banco se reserva el derecho de determinar el monto máximo de Depósitos a ser recibidos en cada operación.
+]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="54408cf1-9ab1-4ada-bc72-ca2f0d801e3b"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="485672e0-b0c6-478e-a8e4-8e97b3b031eb">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="bcc972f8-81a6-42d2-a405-e7ed0c82b15e">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="b28a7834-d722-4aec-a387-89643478dac9">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="655" forecolor="#00457D" uuid="c65e35ec-1a18-44d0-af08-1b0f36236663">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[II.8.	COMPROBANTES DE DEPÓSITO. Por cada Depósito en una Cuenta que se haga en ventanilla en las sucursales del Banco, el Banco entregará al depositante con carácter de recibo, la copia de la forma impresa de depósito para abono en cuenta, debidamente sellada por el personal autorizado, debiéndose requisitar todos y cada uno de los datos e información que establezca la propia forma de depósito para abono en cuenta, en el entendido de que dicha copia no tendrá valor ni eficacia legal alguna si no satisface todas y cada una de las formalidades establecidas en la misma.
+
+II.9.	RETIROS. El Cliente y las Personas Autorizadas, siempre que cumplan con las medidas de seguridad y autenticación que determine el Banco, podrán hacer retiros con cargo a la Cuenta, de las siguientes formas:
+a)	Disposición de dinero en efectivo en las sucursales del Banco o en los Establecimientos Afiliados o las personas que el Banco tenga autorizadas o autorice en un futuro para tales efectos, a través de la presentación de la Tarjeta de Débito, y/o libramiento de Cheques tratándose cuentas clasificadas como nivel 4.
+b)	Disposición en efectivo a través de cajeros automáticos en los cuales sea aceptada la Tarjeta de Débito o cualquier otro medio de disposición autorizado por el Banco.
+c)	En caso de que la cuenta sea clasificada como nivel 4, mediante libramiento de Cheques para ser abonados en otras cuentas de depósito bancario de dinero a la vista, abiertas en el Banco o en otras instituciones de crédito.
+d)	Adquisición de bienes o la contratación de servicios en los Establecimientos Afiliados, mediante la utilización de la Tarjeta de Débito para las cuentas de cualquier nivel, y/o la utilización órdenes de compra de bienes o de contratación de servicios, o cualquier otro medio determinado por el Banco, para las cuentas de los niveles 2, 3, y 4.
+e)	A través de transferencias realizadas vía cualquier otro medio electrónico o vía telefónica que en el futuro el Banco autorice y notifique al Cliente por escrito.
+El Cliente faculta al Banco para establecer en cualquier momento, el monto máximo de dinero que se podrá retirar de la Cuenta, por razones de seguridad.
+
+Los retiros de dinero de la Cuenta serán documentados, a elección del Banco, a través de:
+a)	La suscripción autógrafa o electrónica por parte del Cliente o de las Personas Autorizadas, de recibos, pagarés, vouchers o cualquier otra constancia física o electrónica.
+b)	La expedición de comprobantes físicos o electrónicos que emita el Banco, los Establecimiento Afiliados, otras instituciones bancarias, o cualquier comisionista que en el futuro autorice el Banco.
+c)	Los registros contables que se generen en los sistemas del Banco, los Establecimiento Afiliados, otras instituciones bancarias o cualquier comisionista que en el futuro autorice el Banco. Cuando se utilicen los cajeros automáticos u otros medios automatizados y/o electrónicos, el Cliente reconoce desde ahora como prueba inobjetable de los retiros o transferencias que realice con la Tarjeta de Débito, los comprobantes o registros magnéticos contenidos en los sistemas que el Banco utilice en los que aparezcan los detalles de dichos retiros o transferencias, el número de Cuenta y demás datos de la Tarjeta de Débito. El Cliente se obliga a reintegrar el dinero en efectivo que por error se hubiere proporcionado en exceso, en caso contrario, el Banco se reserva el derecho de ejercer en contra del Cliente las acciones legales, incluso de carácter penal, que mejor convenga a sus intereses.
+
+II.10.	 SOBREGIRO. En el caso de que se efectúe un retiro de fondos superior al monto de los fondos determinados o disponibles, el Cliente se obliga a pagar al Banco las cantidades dispuestas en exceso, así mismo el Cliente instruye irrevocablemente al Banco para que cargue en cualquiera de sus cuentas que mantenga abiertas en el Banco, los gastos, comisiones y cualquier otro adeudo derivado de sobregiros que se generen conforme a lo antes dispuesto.
+El Cliente se obliga a que la suma de todos los retiros de dinero en ningún momento exceda el saldo disponible en la Cuenta, por lo que será su responsabilidad llevar en forma personal el control sobre el mismo, evitando cualquier sobregiro.
+
+II.11.	CARGOS A LA CUENTA. El Banco podrá cargar en la Cuenta los importes de los pagos que el Cliente deba realizar a proveedores de bienes o servicios que utilicen este mecanismo de pago, siempre y cuando: (I) Cuenten con la autorización del Cliente; o (II) El Cliente autorice los cargos por medio del proveedor y éste, a través de la institución de crédito que le ofrezca el servicio de cobro respectivo, instruya al Banco a realizar los cargos correspondientes, en cuyo caso la autorización del Cliente podrá quedar en poder del citado proveedor, en ambos supuestos, la Cuenta deberá mantener saldo disponible y suficiente para realizar el cargo.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="f7097e60-37ad-49d8-abea-8bbec5e0d4c8">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="f19c3f6d-dbae-4b5b-aba8-f851042057a0"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="14245d1c-0289-40f7-9811-164f1be5db9b">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="579960b3-1cfe-4261-b0af-7bedf25cd859">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="335" forecolor="#00457D" uuid="d99be935-af12-41dd-81e0-531f2438c493">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[El Cliente en cualquier momento podrá solicitar la cancelación de los cargos que se efectúen en términos de párrafo anterior, la cual surtirá efectos a más tardar a los diez Días Hábiles siguientes a aquél en que el Banco reciba la instrucción de cancelación. El Cliente reconoce y acepta que el Banco no tendrá responsabilidad alguna derivada de la citada cancelación.
+Las autorizaciones, instrucciones y comunicaciones a que se refiere este artículo podrán llevarse a cabo por escrito con firma autógrafa o a través de medios electrónicos, ópticos o de cualquier otra tecnología que previamente el Banco determine para tales efectos.
+El Cliente reconoce y acepta que el Banco no tendrá responsabilidad alguna derivada de los cargos que efectúe en cumplimiento de lo dispuesto en la presente cláusula, ni por la imposibilidad de efectuar los mismos en caso de que la Cuenta no mantenga saldo disponible suficiente.
+
+II.12.	COMPENSACIÓN. El  Cliente otorga su  absoluta conformidad  y autorización para compensar o pagar con recursos de la Cuenta, cualquier obligación de pago que contraiga con el Banco en virtud de este contrato o, inclusive, respecto de cualquier obligación contraída por otro motivo, ya sea como acreditado, endosante, suscriptor de pagarés, fiador, avalista, por pago de comisiones o cualquier otro adeudo que no sea liquidado oportunamente, se le cargue a la Cuenta, considerando el saldo y plazo que se indican a continuación:
+
+a) Saldo: El Banco cargará el monto acumulado que el Cliente adeude al Banco derivado de los productos y servicios contratados con esta entidad, que llegada su fecha de exigibilidad no haya sido pagado y por lo tanto sea vencido y exigible.
+
+b) Plazo: El CLIENTE autoriza que el cargo se ejecute por el Banco sin requerimiento o cobro previo dentro del plazo que va desde el día posterior de la fecha de vencimiento de la obligación de que se trate sin que se haya realizado el pago en los términos convenidos y hasta que haya sido pagada la totalidad del adeudo.
+
+Una vez realizada la compensación, el Banco notificará al Cliente que ha realizado la misma a través de cualquiera de los medios estipulados en la Cláusula XII.4, en el entendido de que la falta de dicha notificación no afectará la validez de la compensación.
+]]></text>
+			</staticText>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="15dce464-61c2-4bd3-8e88-4881a061a272">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="ab7339ee-ea37-4876-8e80-4050c060131e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="372" width="568" height="28" forecolor="#00457D" uuid="1b0f691c-7b6b-4c9d-b33f-088a72e16580">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO III
+TARJETA DE DÉBITO
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="404" width="566" height="280" forecolor="#00457D" uuid="620ad083-a8ff-4aec-b626-7b6dd5274eea">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[III.1.	TARJETA Y NIP. El Banco podrá proporcionar al Cliente una o varias Tarjetas de Débito, junto con la cual, también proporcionará al Cliente un Número de Identificación Personal llamado también NIP que estará asociado a dicha Tarjeta de Débito.
+El Cliente manifiesta su conformidad para que, con base en lo dispuesto por el Artículo 52 de la Ley de Instituciones de Crédito, su Número de Identificación Personal llamado también NIP, sustituya su firma autógrafa, con el mismo valor legal y probatorio que las leyes otorgan a la firma suscrita por su puño y letra. La Tarjeta de Débito y el NIP tendrán el carácter de personal e intransferible, por lo que el Cliente asume cualquier riesgo derivado del uso indebido que pueda hacerse de la propia Tarjeta de Débito y del NIP. Tomando en cuenta que la expedición y entrega de la Tarjeta de Débito se hace por el Banco en consideración a las condiciones personales del Cliente, éste no podrá cederla ni hacerse sustituir por un tercero en el ejercicio de sus derechos o en el cumplimiento de sus obligaciones, ni permitir el uso de la Tarjeta de Débito por persona diferente a él mismo. El Cliente queda obligado a devolver al Banco las Tarjetas de Débito cuando, por cualquier motivo, se cancele la Cuenta respectiva, subsistiendo la responsabilidad del Cliente por el mal uso que llegare a hacerse de las mismas.
+
+La recepción o uso de la Tarjeta de Débito por parte del Cliente o de las Tarjetas de Débito adicionales por las Personas Autorizadas por éste, constituirán su conformidad respecto de los términos y condiciones previstos en el presente Contrato.
+
+III.2.	TARJETAS ADICIONALES. El Cliente podrá solicitar al Banco la expedición de Tarjetas de Débito adicionales para disponer de los fondos que estén depositados en las Cuentas. La Tarjeta de Débito y las demás tarjetas adicionales que, en su caso, se entreguen a las Personas Autorizadas, serán propiedad del Banco, por lo que éste podrá requerir su devolución en cualquier momento o bien retenerlas directamente o por medio de los cajeros automáticos.
+]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="1981d55e-4972-47c4-94cc-ad5faba9036e"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="05f6e0b9-acd0-4c75-b155-2169b4b3dea5">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="6f290594-95d9-4de3-b572-921368c700cd">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="655" forecolor="#00457D" uuid="7b961a27-15e2-4864-9b34-0a767299eeda">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[III.3.	RETIROS CON TARJETA. Con la presentación de la Tarjeta de Débito y el uso de NIP o, según sea el caso, la firma del Cliente, con los límites establecidos por el Banco, las cantidades que se encuentren depositadas en la Cuenta a la cual esté asociada dicha Tarjeta de Débito podrán ser retiradas, a la vista, a través de cualquiera de los siguientes medios:
+a)	Cajeros automáticos propiedad del Banco o de otras instituciones financieras, ubicados dentro del territorio nacional o en el extranjero, que presenten el logotipo "Visa". Las disposiciones que se realicen con la Tarjeta de Débito a través de cajero automático estarán sujetas a (i) la disponibilidad en efectivo que exista en el cajero al momento en que el Cliente acuda a efectuar su retiro; (ii) la disponibilidad de saldo en la Cuenta respectiva; y (iii) los limites diarios vigentes de disposición de efectivo a través de cajero automático.
+b)	Mediante la adquisición de bienes y/o utilización de servicios en los Establecimientos Afiliados, o cualquier otro autorizado por el Banco, mediante la presentación de la Tarjeta de Débito y suscribiendo en cada operación un pagaré a la vista, o cualquier otro documento aceptado por el Banco; y
+c)	A través de transferencias realizadas vía cualquier otro medio electrónico o vía telefónica que el Banco autorice y notifique al Cliente por escrito.
+Queda expresamente convenido que el Cliente será responsable de todas y cada una de las operaciones que se realicen con la Tarjeta de Débito y su NIP.
+
+III.4.	 LÍMITES DE RETIROS. Los límites diarios de retiro de fondos existentes en las Cuentas a través de la Tarjeta de Débito serán por los montos que determine el Banco.
+
+III.5.	LIBERACIÓN DE RESPONSABILIDAD DEL BANCO. El Banco no asume responsabilidad alguna en caso de que el Cliente no pueda usar la Tarjeta de Débito por defectos o descomposturas en cualquier cajero automático o equipo automatizado, ni por la falta de disponibilidad de efectivo en el momento y cantidad requeridos por el Cliente, ni por la supresión o interrupciones en el servicio de los mismos, y en general por circunstancias fuera del control del Banco.
+El Banco no será responsable para el caso de que alguno de los establecimientos comerciales afiliados se niegue a admitir el pago mediante el uso de la Tarjeta de Débito, ni respecto de la calidad, cantidad y/o cualquier otro aspecto relacionado con las mercancías y/o servicios que se adquieran mediante la Tarjeta de Débito. Cualquier reclamación que se relacione con cualquiera de estos conceptos, se deberá entender exclusivamente entre el Cliente y el proveedor de los bienes y/o servicios respectivos. El NIP es sustituto de la firma autógrafa y el Cliente se hace responsable del buen o mal uso que se haga del mismo.
+
+III.6.	GUARDA Y CUSTODIA. El Cliente es responsable de la guarda y custodia de cualquier Tarjeta de Débito. La negligencia o descuido que ocasione el uso indebido por terceros, será responsabilidad exclusiva del Cliente.
+
+III.7.	DISPOSICIONES EN EL EXTRANJERO. Las disposiciones realizadas por el Cliente en el extranjero en Moneda Extranjera, ya sea en cajeros automáticos y/o en establecimientos comerciales, serán correspondidas invariablemente con un cargo en Moneda Nacional a la Cuenta, calculando su equivalencia al tipo de cambio que Banco de México publique en el Diario Oficial de la Federación el Día Hábil anterior al que se aplique dicha transacción.
+
+III.8.	VIGENCIA DE LA TARJETA. La vigencia de la Tarjeta de Débito será la que establezca el Banco y el Cliente está de acuerdo en que sólo se expedirá una Tarjeta de Débito a favor del Cliente, pudiendo en todo caso expedirse Tarjetas de Débito Adicionales.
+
+III.9.	ROBO O EXTRAVÍO DE TARJETA. El Cliente se obliga por él y por las Personas Autorizadas a avisar de manera inmediata al Banco, a través de los medios que este último ponga a su disposición para estos efectos, el robo o extravío de cualquier Tarjeta de Débito, así como su retención en cajeros automáticos, en el entendido del Banco no asumirá ninguna responsabilidad, y por lo tanto se considerarán como válidas todas las operaciones realizadas mediante la utilización de la Tarjeta de Débito con anterioridad a dicho aviso.
+
+III.10 RETENCIÓN. El Banco está facultado para retener, bloquear, cancelar o sustituir en cualquier momento la Tarjeta de Débito por cualquiera de las cuestiones que de manera enunciativa más no limitativa, se señalan a continuación: a). por haberse terminado el Contrato, b). por haber cambiado el tipo de Tarjeta de Débito, c). por motivos de seguridad, d). derivado de su robo o extravío, e). por la implementación de nuevas tecnologías, f). por la implementación de nuevas marcas.
+]]></text>
+			</staticText>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="02c423bb-355f-4291-922e-321bcccc121b">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="0206b253-f71b-4366-80df-25c07ab9ff08">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="e43d4d64-4eb8-4675-a047-93916321fbb8"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="2fd7f285-8f63-4093-8444-b05d08b58d47">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="c0ae9f33-3f09-4628-8f0b-1af1b09e3521">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="73" width="566" height="377" forecolor="#00457D" uuid="84a94c0f-fbdd-4c6a-9457-9d14fa7c2df4">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[IV.1.	CHEQUERA. Dependiendo del nivel de la cuenta y del producto contratado por el Cliente, el Banco podrá proporcionar una chequera al Cliente, y este podrá disponer en cualquier tiempo de los fondos en efectivo que tenga en su Cuenta, mediante los esqueletos especiales para la expedición de cheques que el Banco le proporcione, y por medio de transferencias y otras formas de disposición electrónicas o vía telefónica que el Banco autorice y comunique por escrito al Cliente. El Cliente no podrá utilizar formas o esqueletos de cheques diferentes a los que el mismo Banco le proporcione, salvo los casos en que dentro de los lineamientos y regulaciones bancarias aplicables, el Banco autorice el uso de formas o esqueletos especiales previa solicitud escrita del Cliente.
+
+IV.2.	PERSONAS AUTORIZADAS. El Cliente podrá autorizar a diversas personas para hacer disposiciones de las sumas depositadas en su Cuenta, mediante el registro de la firma correspondiente en la forma que para tal finalidad le suministre el Banco. La tarjeta de registro de firmas suscrita por el Cliente formará parte integrante de este Contrato e indicará la forma de disposición de los fondos depositados en la Cuenta de Cheques respectiva.
+
+IV.3.	GUARDA Y CUSTODIA, PÉRDIDA Y EXTRAVÍO. El Cliente se será el responsable de la guarda, custodia y uso de los talonarios y esqueletos especiales de cheques que el Banco le proporcione para librar con cargo a la Cuenta, y en todo caso se obliga a hacer del inmediato conocimiento del Banco, mediante aviso por escrito, la pérdida o extravió de dichos talonarios y/o esqueletos, ya que el propio Banco, no será responsable por el pago de cualquier cheque alterado, o en el que la firma del Cliente o de las Personas Autorizadas por éste, en su carácter de librador, sea falsificada, salvo que dicha alteración o falsificación fueren notorias, o cuando habiendo sido robado o extraviado el talonario de esqueletos o el cheque de que se trate, no haya notificado tal hecho al Banco, antes de la presentación al propio Banco del cheque robado o extraviado.
+
+IV.4.	CANCELACIÓN. El Banco podrá cancelar la Cuenta en caso de que el Cliente librare contra dicha Cuenta, en el curso de dos meses, tres o más cheques que presentados en tiempo sean devueltos por no existir fondos disponibles y suficientes en dicha Cuenta, a no ser que esa falta de fondos se deba a causas no imputables al Cliente.
+
+IV.5.	DEVOLUCIÓN DE ESQUELETO DE CHEQUES. El Banco podrá solicitar al Cliente las formas o esqueletos de cheques no utilizados cuando por cualquier motivo se cancele la Cuenta respectiva, subsistiendo su responsabilidad, en caso de no hacerlo, por el mal uso que llegare a hacerse de las mencionadas formas o esqueletos de cheques. Y en su caso, el cliente podrá manifestar bajo protesta de decir verdad que fueron destruidos o que no cuenta con ellos.
+]]></text>
+			</staticText>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="f74fda42-794c-47ec-bf5d-58e8bb45453f">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="b6a22197-b266-45ff-94f7-22d3e8440e56">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="41" width="568" height="28" forecolor="#00457D" uuid="9912af5b-ee06-430a-8393-b0533485d536">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO IV
+CHEQUERA
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="455" width="568" height="28" forecolor="#00457D" uuid="f947f6f8-5dba-4d4e-a203-2d270c79668b">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO V
+DEPÓSITOS A PLAZO
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="483" width="566" height="197" forecolor="#00457D" uuid="c5c5b84f-2b31-45a4-92f3-5bba0cffea6c">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[V.1.	FORMALIZACIÓN. El Cliente podrá instruir al Banco por escrito o a través de los medios que el Banco determine para tales efectos, que con cargo al saldo disponible en la Cuenta, se invierta el dinero que el propio Cliente determine en Depósitos a Plazo. El Banco confirmará su aceptación de los Depósitos a Plazo antes mencionados mediante la emisión de Certificados de Depósito a Plazo, o bien, en constancias Depósito a Plazo. El Banco se reserva el derecho de determinar libremente los montos a partir de las cuales está dispuesto a recibir dichos Depósitos a Plazo.
+
+V.2.	DOCUMENTACIÓN. Los Depósitos a Plazo se documentarán en certificados de Depósito a Plazo, o bien, en constancias de Depósito a Plazo. Los certificados de Depósito a Plazo son títulos de crédito nominativos. Los depósitos documentados en tales certificados no podrán renovarse al vencimiento.
+El Banco manejara distintos tipos de Certificados de depósito:
+a)	Certificado de Depósito Tasa Revisable
+b)	Certificado de Depósito a Tasa Fija
+c)	Certificado de Depósito Tasa Variable
+Los depósitos documentados en constancias podrán ser renovados automáticamente a su vencimiento.
+]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="b68d5533-bb40-4741-8417-8f1229c92f68"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="686" forecolor="#0070C0" uuid="ab439352-30c1-4fc5-80e0-73a52ac9d097">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="6e2e3e99-fbe9-4bff-b03e-7a8873f672de">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="155" forecolor="#00457D" uuid="1dd81ae6-72c0-4c1c-8be2-4f54428b9514">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[V.3.	CONDICIONES DE DEPÓSITOS. Los importes, vencimientos, plazos tasas de interés correspondientes a cada uno de los Depósitos a Plazo, serán especificados en cada una de las constancias de Depósito a Plazo emitidas por el Banco en favor del Cliente.
+
+V.4.	RENDIMIENTOS. Al constituirse cada Depósito a Plazo, el Cliente y el Banco acordarán libremente la tasa de interés aplicable a dicho depósito, así como la periodicidad para el pago de los intereses, lo cual se hará constar certificado o constancia correspondiente.
+
+V.5.	PLAZO. El plazo de cada uno de los Depósitos a Plazo será fijo, pactado en días naturales, no debiendo ser menor a un día y forzoso en cumplimiento para ambas partes. Al vencimiento de cada Depósito a Plazo, el Banco reembolsará al Cliente el importe del depósito más los intereses respectivos de conformidad con las instrucciones que él mismo haya especificado.
+]]></text>
+			</staticText>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="d3fb75b6-619e-48a1-9501-9b29dcbabf44">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="bf85a40f-b84c-465d-980d-4218d118a52e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="188" width="568" height="28" forecolor="#00457D" uuid="36a78f89-6420-41c5-ae14-ebd72d2db246">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO VI
+PAGARÉS CON RENDIMIENTO LIQUIDABLE AL VENCIMIENTO
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="218" width="566" height="277" forecolor="#00457D" uuid="6819f885-747d-4dc6-90c6-977317bf016c">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[OBJETO. El Cliente podrá entregar al Banco sumas de dinero que serán recibidas por éste en calidad de préstamo. El Banco podrá determinar libremente los montos mínimos a partir de los cuales está dispuesto a recibir estos préstamos, los cuales habrán de ser precisamente en Moneda Nacional.
+
+VI.1.	FORMALIZACIÓN. El Cliente podrá instruir al Banco por escrito o a través de los medios que el Banco determine, los montos mínimos a partir de los cuales está dispuesto a recibir éstos préstamos.
+
+VI.2.	DOCUMENTACIÓN. Cada préstamo se documentará en un pagaré con rendimiento liquidable al vencimiento, que el Banco recibirá del Cliente en depósito para su guarda y administración, acreditándose dicho depósito con el comprobante que el Banco emita para tales efectos, el cual desde este momento el Cliente reconoce que no es un título de crédito.
+
+VI.3.	PLAZO. Al recibirse los préstamos, las partes pactarán en cada caso, el plazo para reembolso de los mismos. El plazo se pactará por días naturales, no debiendo ser menor de un día y será forzoso para ambas partes. El Banco restituirá cada suma prestada en la fecha en que concluya el plazo convenido para su pago.
+
+VI.4.	RENDIMIENTOS. Por las sumas recibidas en préstamo, el Banco pagará al Cliente intereses a la tasa anual pactada entre las partes, la cual podrá corresponder a la tasa de interés que para dichas operaciones dé a conocer el Banco en lugares abiertos al público en sus oficinas. La tasa de interés permanecerá sin variación alguna durante la vigencia del Pagaré, no procediendo revisión alguna de la misma. Los intereses serán pagaderos al vencimiento del plazo para el pago de la suma principal del préstamo respectivo. Los Pagarés que emita el Banco documentando los préstamos serán siempre nominativos y no podrán ser pagados anticipadamente, ni podrán ser transferidos ni dados en garantía.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="486" width="568" height="28" forecolor="#00457D" uuid="ef5c41dd-268e-4fed-90fa-665f7278087e">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPITULO VII
+APERTURA DE CRÉDITO SIMPLE CON GARANTÍA PRENDARIA
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="515" width="566" height="185" forecolor="#00457D" uuid="33e25a08-0cb3-4b11-a124-53b12be47ebd">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[VII.1.	ANTECEDENTE. El Acreditado suscribió a favor del Acreditante, un Recibo de Valores en Administración asociado con la cuenta bancaria (en lo sucesivo Cuenta de Deposito e Inversión), cuyos datos de identificación, montos y demás características se señalan en la Caratula anexa del presente instrumento, cuyos recursos son invertidos regular, periódica y discrecionalmente en los diversos instrumentos de inversión ofrecidos por la Acreditante.
+
+VII.2.	OBJETO. El Cliente, en lo sucesivo la Acreditada, podrá solicitar al Banco, en lo sucesivo la Acreditante, por escrito o a través de los medios que el Banco determine para tales efectos, que con base al saldo disponible en la Cuenta de Depósito e Inversión que se describen en la Caratula anexo del presente instrumento, le sea otorgado un Crédito.
+
+VII.3.	FORMALIZACIÓN: La Acreditante le otorga a la Acreditada, Crédito Simple con Garantía Prendaria, hasta por la cantidad que se detalla en la Caratula anexa al presente contrato, la cual no debe exceder el 80 % de los recursos disponibles en la Cuenta de Depósito e Inversión. La Acreditada se obliga a invertir esa suma íntegramente para el destino señalado en la Caratula anexa al presente Contrato. En el importe del crédito concedido no se comprenden intereses, gastos, comisiones, y cualesquier otra erogación a cargo de la Acreditada que se genere por motivo del presente Contrato.
+]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="ff9c2bd7-eaed-43b6-b4dc-ab14f4d0c111"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="412f803c-1b68-4c61-9cbb-2d96763a67d2">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="567e4cca-0f48-42fc-afc6-9d788de77c33">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="635" forecolor="#00457D" uuid="2d0abc13-3bfa-44f5-8ddb-31c88029d22b">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[VII.4.	GARANTÍA PRENDARIA.- Para garantizar el cumplimiento de las obligaciones asumidas por la Acreditada (en lo sucesivo el Deudor Prendario), en este acto el otorga en Garantía Prendaria a favor del Acreditante (en lo sucesivo el Acreedor Prendario) sobre los recursos líquidos existentes en la Cuenta de Deposito e Inversión a que hace referencia el objeto del presente capítulo, misma que tiene como fecha de vencimiento la establecida en la Caratula. Dicha prenda incluye sin limitar el pago de capital e intereses derivados del Crédito, así como gastos y constas en caso de juicio y demás prestaciones que resulten a cargo del Deudor Prendario, por lo que dicha prenda permanecerá vigente mientras existan obligaciones de pago pendientes por parte del Deudor Prendario derivadas del Crédito.
+
+VII.5.	COMPROBACIÓN DE INVERSIÓN.- La Acreditada se obliga a entregar a la Acreditante, en un plazo que no excederá de 30 (treinta) días contados a partir de la fecha de cada disposición, los documentos que comprueben que el Crédito ha sido invertido en los conceptos precisados en la Caratula.
+
+VII.6.	DISPOSICIÓN. La Acreditada dispondrá del presente crédito en una sola disposición mediante transferencias electrónicas realizadas por la Acreditante en la Cuenta bancaria identificada en la Caratula anexo del presente contrato. Por cada disposición que se realice al amparo del presente crédito, la Acreditada se obliga a la suscripción de un pagaré a favor de la Acreditante, título que deberá reunir las características del artículo 170 (ciento setenta) de la Ley General de Títulos y Operaciones de Crédito, el que se suscribirá como comprobante del adeudo y su entrega no se considerará como pago.
+La disposición del presente Crédito se podrá realizar en un plazo de (cinco) días, contados a partir de la fecha de firma del presente instrumento, plazo que será forzoso para la Acreditada y discrecional para la Acreditante y se condiciona a que la Acreditante cuente con los recursos suficientes al momento de la solicitud de cada disposición del crédito.
+La Acreditada faculta expresamente a la Acreditante a ceder y/o descontar él o los pagarés que se emitan conforme a ésta cláusula, así como a utilizarlos como cobertura de cualquier emisión de títulos o serie o certificados de participación que la Acreditante llegare a hacer por declaración unilateral de voluntad.
+
+VII.7.	INTERESES. Los acordados en la Caratula anexa al presente Contrato.
+
+VII.8.	DEL MANDATO IRREVOCABLE
+
+VII.8.1.- OBJETO.- En caso de incumplimiento de cualquiera de las obligaciones que contraiga la Acreditada en lo sucesivo la Mandante frente a la Acreditante en lo sucesivo la Mandataria con motivo del Crédito otorgado a la Acreditada en el presente instrumento y en especial la de pago, la Mandante otorga a favor de la Mandataria, un Mandato Especial e Irrevocable, mediante el cual le instruye desde ahora de manera expresa para que en la fecha que así lo estime pertinente, aplique el importe de la inversión otorgada en Garantía Prendaria, al pago del importe de dicho Crédito, sus intereses ordinarios y moratorios, accesorios legales y convencionales, según sea el caso.
+VII.8.2.	FUNDAMENTO. El Mandato Irrevocable objeto de la presente cláusula se otorga con fundamento en el Artículo 2,596 del Código Civil Federal y de sus correlativos de los demás Estados de la República Mexicana, toda vez que la naturaleza irrevocable de su otorgamiento se realiza como condición del incumplimiento de las obligaciones a cargo de la Acreditada a cualesquiera de las obligaciones pactadas en el presente contrato.
+VII.8.3.	REMANENTE.- Una vez efectuado el pago del Crédito, en términos del punto que antecede, si hubiere algún remanente del importe de la Inversión, la Mandante instruye a la Mandataria para que deposite dicho remanente en la Cuenta que para tales efectos éste le indique.
+VII.8.4.	OBLIGACIONES ABSOLUTAS.- En caso de que el importe de las Inversiones no baste para el importe de los Créditos otorgados a la Acreditada al amparo del Crédito, así como de sus intereses ordinarios y moratorios, accesorios legales y convencionales, según sea el caso, ABC CAPITAL se reserva la facultad de obtener el cobro de los saldos a cargo de la Acreditada ejercitando la vía ejecutiva mercantil o la que en su caso corresponda, sin sujeción de orden, en la inteligencia de que, si se sigue dicha vía ejecutiva no se excluye a la otra.
+]]></text>
+			</staticText>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="a831231a-8fd0-4972-8ce1-24a6ea725619">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="2f2e8b46-486f-4cb0-83c4-7dce38640a57">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="4ea89b85-bacf-408f-9cc1-23edc1e218a0"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="3d116580-c609-44dc-982f-9c9128ea40e4">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="383a0137-627e-4557-9c5c-6bf2f42218ec">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="45b72c40-d0aa-4953-a885-58f776b254d9">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="e6679fae-832e-43fd-89f7-f7cba302e883">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="91" width="566" height="230" forecolor="#00457D" uuid="5db6fb81-a1b6-426a-b26d-5ff146098837">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[VIII.1.	CÁLCULO DE INTERESES. Todos los intereses de las operaciones a que se refiere este Capítulo se expresarán en tasas anuales y se calcularán dividiendo éstas entre trescientos sesenta (360) y multiplicando el resultado así obtenido por el número de días efectivamente transcurridos durante el período en el cual se devenguen los rendimientos a la tasa correspondiente. Todos los cálculos se cerrarán a centésimas.
+
+VIII.2.	CAUSACIÓN DE INTERESES EN DÍAS INHÁBILES. En el evento de que el vencimiento de cualquier Depósito a Plazo o Pagaré con Rendimiento sea en un día que no sea un Día Hábil, el pago deberá efectuarse el Día Hábil inmediato siguiente y, en este caso, los intereses respectivos continuarán devengándose hasta el día del pago inclusive, a la tasa de interés originalmente pactada.
+
+VIII.3.	AUTORIZACIÓN PARA LA RENOVACIÓN AUTOMÁTICA. A menos que el Banco reciba instrucciones del Cliente por escrito, el Banco estará facultado para renovar automáticamente los Depósitos a Plazo que reciba del Cliente así como los préstamos que se documenten con Pagarés, en este último caso previo su amortización, al mismo plazo originalmente pactado.
+
+Si el día hábil bancario inmediato siguiente al de la renovación el Cliente se presenta a retirar su inversión, ésta deberá pagarse junto con sus intereses. Los intereses se devengarán a la tasa pactada originalmente, considerando todos los días efectivamente transcurridos incluso el del pago.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="35" width="568" height="65" forecolor="#00457D" uuid="ce536ffd-77c2-45d6-82f7-1f503de5b8fa">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO VIII
+DISPOSICIONES COMUNES A LOS DEPÓSITOS QUE DEVENGUEN INTERESES, A LOS DEPÓSITOS A PLAZO, A LA APERTURA DE  CRÉDITO SIMPLE CON GARANTÍA PRENDARIA  Y A LOS PAGARÉS CON RENDIMIENTO LIQUIDABLE AL VENCIMIENTO
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="323" width="568" height="43" forecolor="#00457D" uuid="6f66faf9-830d-493e-9132-7a7088b0e011">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO IX
+OPERACIONES A TRAVÉS DE MEDIOS ELECTRÓNICOS
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="358" width="566" height="328" forecolor="#00457D" uuid="9bc8fda2-2007-46b0-92fa-5d95a720bd20">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[IX.1.	MEDIOS ELECTRÓNICOS. El Banco y el Cliente manifiestan expresamente su voluntad de pactar, autorizar y celebrar las Operaciones y Servicios señalados en el presente contrato, incluyendo toda clase de consultas, avisos y notificaciones, a través de los Medios Electrónicos previstos en esta Cláusula, o bien a través de aquellos medios que el Banco dé a conocer al Cliente en un futuro, utilizando los medios de Autenticación que para tales efectos determine el Banco.
+I.	CAJEROS AUTOMÁTICOS. El Cliente podrá realizar a través de los cajeros automáticos propiedad del Banco o de otras instituciones financieras, ubicados dentro del territorio nacional o en el extranjero, que integren el sistema nacional de cajeros compartidos, o bien, cajeros que correspondan a los sistemas mundiales con los que el Banco tenga convenios para el uso compartido de cajeros automáticos, las operaciones que acepte el cajero que el Cliente opera y que, puede ser cualquiera de las siguientes operaciones:
+(I) disposiciones en efectivo con la Tarjeta de Débito y retiros con cargo al saldo disponible de la cuenta, (II) traspasos a fondos entre las Cuentas del Cliente y de terceros, pago de créditos otorgados por el Banco al Cliente, (III) pago de servicios, (IV) impresión de últimos movimientos, (V) consulta de saldos de las cuentas registradas en el servicio, (VI) cambio de NIP, (VII) contratación de operaciones activas o Servicios con el Banco, cualquier otro que se llegare a autorizar en el futuro.
+El Cliente y las Personas Autorizadas deberán autenticarse directamente en el cajero automático para lo cual ingresarán la Tarjeta de Débito y digitará el NIP.
+El Cliente reconoce el carácter personal e intransferible de la Tarjeta de Débito y el NIP, por lo que es exclusiva responsabilidad del Cliente, cualquier quebranto que pudiera sufrir como consecuencia del uso indebido que llegare a hacerse en los cajeros automáticos.
+II.	TERMINAL PUNTO DE VENTA. El Cliente podrá procesar sus Tarjetas de Débito a través de las terminales punto de venta en los Establecimientos Afiliados a la marca de la tarjeta, en los que el Cliente puede realizar las siguientes Operaciones: (I) Disposiciones en efectivo y retiros con cargo a la Cuenta, (II) Pago de bienes y servicios.
+III.	BANCA ELECTRÓNICA. El servicio de banca telefónica se prestará durante las 24 horas del día, los 365 días del año, y consistirá en (i) Activación del Servicio; (ii) Consultas de saldos por cuenta; (iii) Consulta de movimientos por cuenta; (iv) Consulta de inversiones; (v) Transferencias entre cuentas propias; (vi) Transferencias en cuentas de terceros del mismo Banco; y (vii) transferencias interbancarias (SPEI). El acceso a este servicio, operará por medio del NIP, a que se ha hecho referencia en la Cláusula PRIMERA.
+]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="535d993b-5f21-44b0-a4d1-578510e9728b"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="3c7e86e1-ead2-4408-b3e4-5ab38b031f07">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="de212278-2eb4-4bcf-b517-fe68036a879c">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="da84c223-120b-4f0a-a8a0-3a74b136376b">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="3e04a651-94ce-4753-b022-b7b9302984d1">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="35" width="566" height="645" forecolor="#00457D" uuid="66a3b23c-9396-48af-a6af-5cfdac7ea8f3">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[IV.	CENTRO DE ATENCIÓN TELÉFONICA (ASESOR TELEFÓNICO). El Cliente a través del centro de atención telefónica, puede instruir a través de un representante del Banco debidamente autorizado por este, que se hagan operaciones a su nombre, las cuales podrán ser, entre otras, las siguientes:
+(I)	Transferencias entre las Cuentas que el Cliente sea titular o Persona Autorizada, (II) Pago de servicios y pago de créditos otorgados por el Banco al Cliente, con cargo a la Cuenta, (III) Consultad de saldos e información de la Cuenta, (IV) Contratación de nuevos Productos o Servicios con el Banco. Cuando el Banco se encuentre en posibilidad de incorporar nuevos Medios Electrónicos para la celebración de Operaciones, así lo comunicará al Cliente junto con las bases para determinar las Operaciones y Servicios que podrán contratarse a través del equipo o sistema de que se trate, los medios de Autenticación y las responsabilidades correspondientes a su uso.
+
+IX.2.	COMUNICACIONES TELEFÓNICAS. Las partes están de acuerdo y convienen en que el Banco tendrá derecho de grabar las comunicaciones telefónicas y que dichas grabaciones constituirán prueba plena, concluyente e inobjetable en cuanto al contenido de las mismas.
+
+IX.3.	PROCEDIMIENTOS DE SEGURIDAD. El Cliente reconoce el riesgo asociado a la transmisión de comunicaciones, a la prestación de servicios y a la concertación de operaciones a través de los Medios Electrónicos, por lo que, con el objeto de reducir dichos riegos, convienen en observar los procedimientos de seguridad aplicables a cada comunicación, servicio u operación que de tiempo en tiempo establezca el Banco.
+
+IX.4.	OPERACIONES. Queda expresamente convenido que el Banco actuará conforme a la comunicación enviada, servicio solicitado u operación celebrada a través de los Medios Electrónicos y el Banco no estará obligado a verificar la identidad de la persona que envíe dicha comunicación, solicite dicho servicio o celebre dicha operación, ni a esperar que el Cliente envíe una confirmación escrita de las mismas.
+
+IX.5.	RECHAZO DE OPERACIONES. El Banco podrá rechazar cualquier comunicación que sea enviada, servicio que sea solicitado u operación que sea celebrada a través de los Medios Automatizados y Electrónicos que no cumpla con los procedimientos de seguridad establecidos. El Banco no tendrá la obligación de descubrir errores ni omisiones realizadas por el Cliente ni la duplicación de ninguna comunicación u operación por parte del Cliente, y tampoco será responsable de los mismos.
+Asimismo, el Banco podrá rechazar cualquier comunicación que sea enviada, servicio que sea solicitado u operación que sea celebrada a través de los Medios Automatizados y Electrónicos, cuando el Banco tenga dudas razonables sobre su contenido, autorización, origen o la observancia de los procedimientos de seguridad establecidos. El Banco enviará al Cliente pronta notificación, que podrá ser telefónica, de esta circunstancia.
+
+IX.6.	DISPOSITIVOS DE SEGURIDAD. El Banco proporcionará al Cliente diversos dispositivos de seguridad tales como códigos, contraseñas y demás métodos de acceso, para transmitir comunicaciones, recibir servicios y concertar operaciones a través de Medios Electrónicos. El Cliente reconoce y acepta que los códigos, contraseñas y demás métodos de acceso están diseñados para verificar la fuente de una comunicación y no para detectar errores en la transmisión o el contenido de la misma. El Cliente acepta además que es el único responsable de las pérdidas resultantes por comunicaciones, servicios u operaciones fraudulentas, no autorizadas, dobles o erróneas originadas por el Cliente.
+
+IX.7.	CONTRASEÑAS DE SEGURIDAD. El Cliente reconoce que los códigos, contraseñas y demás métodos de acceso son altamente confidenciales e intransferibles por lo que el Cliente será el responsable absoluto de todas y cada una de las consultas y operaciones que se realicen con dicho dispositivo, de conformidad con lo dispuesto por el artículo 52 de la Ley de Instituciones de Crédito. En este sentido, el Cliente se obliga a sacar en paz y a salvo a ABC CAPITAL de cualquier situación que se presente por el uso de tales contraseñas y demás métodos de acceso derivado de operaciones que realice cualquier persona ajena al Cliente.]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="cdfbd2ff-5983-4ab4-b5af-d8623686269b"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="a83c95e5-f95d-4a43-942b-a39198dc5c1a">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="92d09dc3-fceb-4f5a-b2e5-72eaed41e1df">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="f8a7303e-0b1a-4035-98c6-4f4e2e0bd130">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="34b8c7e5-594a-4058-bf07-b1f386e34f33">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="38" width="566" height="345" forecolor="#00457D" uuid="2310757a-3a3a-419a-82f5-8cee74d7dab5">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[IX.8.	LIBERACIÓN DE RESPONSABILIDAD DEL BANCO CON RESPECTO A TERCEROS. En relación con las comunicaciones y servicios, el Banco será responsable sólo por su omisión de actuar de buena fe o por su negligencia, las cuales se determinarán de conformidad con los usos bancarios. El Banco no será responsable por los actos u omisiones del Cliente o de los representantes de éste, incluyendo, pero sin limitarse a ellas, la cuantía, exactitud y oportunidad o debida autorización de cualquier comunicación recibida del Cliente, o por los actos u omisiones de cualquier tercero, incluyendo, pero sin limitarse a ellos, cualesquiera entidades financieras intermediarias, y ninguna de dichas personas se considerará agente del Banco por el cual el Banco tenga responsabilidad en calidad de principal.
+En el caso de que el Banco sea responsable en razón de su omisión de actuar de buena fe o por su negligencia según lo señalado en el Inciso anterior, el Banco será responsable frente al Cliente únicamente por los daños efectiva y directamente causados por ello. En ningún caso la responsabilidad del Banco por pagos inadecuados o cargos a las Cuentas del Cliente excederá la cuantía de esos pagos inadecuados o cargos.
+
+IX.9.	CAUSAS DE FUERZA MAYOR. En la medida en que la transmisión de cualquier comunicación o prestación de cualquier servicio o celebración de cualquier operación, o parte de él, se impida, obstaculice, demore o se haga impráctica por causa de fuerza mayor (incluyendo, pero sin limitarse a ello: cualquier rompimiento de hostilidades, disturbios civiles o actos de terrorismo; la actuación de cualquier gobierno o autoridad similar; terremoto, incendio, explosión, inundación u otro desastre natural; cualquier huelga, cierre forzoso o acción industrial de cualquier índole; cualquier interrupción permanente o temporal en el suministro de energía eléctrica, teléfono u otra transmisión, servicio público o tecnológico; cualquier falla o funcionamiento deficiente de un equipo, hardware o software, actualización o modificación, o almacenamiento o reubicación de equipo; cualquier crisis sistemática de liquidez o confianza y cualquier causa similar natural, tecnológica, política o económica u otra fuera del control del Banco que no pueda superarse con diligencia razonable y sin ocasionar gastos excesivos de parte del Banco), el Banco quedará excusado de dicha demora o prestación y el Banco no tendrá ninguna obligación en relación con la transmisión de dicha comunicación o la prestación de dicho servicio o celebración de dicha operación.
+
+IX.10.	CANCELACIÓN. El Banco se reserva el derecho de cancelar o impedir al Cliente, de manera temporal o definitiva, el acceso, uso o aprovechamiento de los servicios, mecanismos, sistemas o medios a que se refiere esta Cláusula y se reserva, en todo caso, el derecho de comunicar al Cliente las razones para proceder a dicha cancelación o impedimento.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="391" width="568" height="27" forecolor="#00457D" uuid="0cc3873b-aceb-4aac-b1aa-f9d8fb212d8f">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO XI
+COMISIONES
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="422" width="566" height="212" forecolor="#00457D" uuid="2d0c1b50-610b-4b73-ac0e-488a7928156b">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[XI.1.	COMISIONES. El Cliente se obliga a pagar oportunamente al Banco las comisiones que se establecen en la carátula, mismas que el Banco podrá modificar y hacer del conocimiento del Cliente, al igual que su importe, mediante aviso emitido en los términos de la cláusula relativa a Modificaciones y Avisos de este instrumento, en el entendido de que el Cliente, podrá solicitar dicha información en sucursales del Banco, así como en su página electrónica en la red mundial de Internet.
+
+XI.2.	MODIFICACIONES A LAS COMISIONES. El Banco se reserva el derecho de efectuar modificaciones a los términos y condiciones de este contrato, así como las comisiones pactadas, previo aviso dado con por lo menos 30 días hábiles bancarios de anticipación a la fecha en que la modificación deba surtir efectos.
+Si el Cliente continúa haciendo depósitos, retiros u operaciones en la Cuenta después de que las modificaciones hayan entrado en vigor, se tendrán por aceptadas las modificaciones antes mencionadas.
+En caso de que el Cliente no esté de acuerdo con las modificaciones a que se refiere el párrafo que antecede y siempre que no haya incurrido en la hipótesis señalada en el segundo párrafo de esta cláusula, podrá solicitar el cierre de la Cuenta hasta 60 días naturales después de la entrada en vigor de dichas modificaciones, sin responsabilidad alguna a su cargo, quedando obligado el Cliente a cubrir los adeudos que se hubieren generado a la fecha por concepto de comisiones o cualesquier otro concepto.
+]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="c7d94dc8-1442-44cb-ad8c-ca55b8a309f2"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="1a8072df-4be7-4d85-818a-2bd0cb92c584">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="d634b811-80b9-4a5c-a22e-09f6ded95c4c">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="ab22f0dc-55f3-490f-9f27-ac6aefa42967">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="0f74d4dc-f65f-4b14-86f5-9df33affb6ab">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="70" width="566" height="610" forecolor="#00457D" uuid="a4e58412-91c3-4693-89a1-a2b2e835e393">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[XII.1.	SECRETO BANCARIO. Con las salvedades establecidas por la legislación aplicable, el Banco no podrá dar información alguna sobre el estado y movimientos de Cuenta alguna sino al Cliente, a sus representantes legales, a las personas que el Cliente autorice por escrito, o a las personas que tengan capacidad y personalidad jurídica suficiente para disponer de dicha Cuenta, y/o a aquellas personas que tengan acceso a cualquier servicio de información que ofrezca el Banco de acuerdo al procedimiento establecido en este Contrato.
+
+XII.2.	ENTREGA DE SALDOS. Si en la Solicitud se señala que los fondos depositados en cualquiera de las Cuentas serán propiedad de dos o más personas, el Banco podrá devolver el saldo depositado en dicha Cuenta a cualquiera de ellas, a menos que expresamente se hubiere indicado lo contrario en la Carátula, la Constancia de Producto o en documento por separado.
+
+XII.3.	DOMICILIOS. El Cliente señala como domicilio para todos los efectos y asuntos relacionados con el presente Contrato, incluyendo, sin limitar, para recibir toda clase de correspondencia de parte del Banco, toda clase de notificaciones y emplazamientos que deriven de o se relacionen con el presente Contrato, el domicilio que aparece en la Solicitud, y el Banco señala como su domicilio el ubicado en Boulevard Manuel Ávila Camacho No. 32, Piso 12, Colonia Lomas de Chapultepec, Delegación Miguel Hidalgo, México, Distrito Federal, C.P. 11000. Cualquier cambio de domicilio deberá ser comunicado al Banco por escrito, mediante el formato que el Banco provea o acepte para tales efectos, con acuse de recibo, dentro de los tres días siguientes a la fecha en que tenga lugar dicho cambio, y en caso de no hacerlo se tendrá como domicilio el último que se tenga registrado y como válidas las notificaciones que ahí se realicen.
+
+XII.4.	NOTIFICACIONES. El Cliente reconoce y acepta que cualquier aviso que el Banco le tenga que dar a conocer relacionado con el Contrato, este podrá hacerlo por medio de avisos colocados en las sucursales del Banco o por publicaciones en periódicos de amplia circulación o por cualquier otro medio, incluyendo Medios Electrónicos, ópticos o cualquier otra tecnología, a elección del Banco y al alcance del Cliente.
+
+XII.5.	MODIFICACIONES AL CONTRATO. El Cliente reconoce expresamente el derecho del Banco de modificar el Contrato en cualquier tiempo, bastando para ello un aviso por escrito dado al Cliente con treinta días de anticipación a la fecha en que las modificaciones entren en vigor, a través de los medios señalados en la cláusula de Notificaciones. En el evento de que el Cliente no esté de acuerdo con las modificaciones al Contrato, éste podrá solicitar al Banco la terminación del mismo de conformidad con lo dispuesto en la cláusula denominada Terminación, sin responsabilidad alguna a su cargo, para lo cual contará con un plazo de treinta días posteriores al aviso otorgado por el Banco y bajo las condiciones anteriores a la modificación, en el entendido de que las modificaciones al Contrato entrarán en vigor en el plazo referido en el párrafo que antecede.
+
+XII.6.	TERMINACIÓN. La duración del Contrato es indefinida, pudiendo cualquiera de las partes darlo por terminado en forma inmediata, de acuerdo a lo siguiente:
+I.- El Cliente podrá dar por terminado el Contrato, mediante solicitud por escrito que presente en cualquier sucursal del Banco, debiendo acompañar a dicha solicitud los medios de disposición vinculados a la Cuenta o una manifestación bajo protesta de decir verdad de que estos fueron destruidos o que no cuenta con ellos.
+El Banco estará facultado para establecer otros medios a través de los cuales el Cliente podrá dar por terminado el Contrato.
+La terminación solicitada por el Cliente surtirá efectos al momento en que éste retire el saldo disponible que mantenga a su favor o, en su caso, cubra los adeudos y comisiones devengados a esa fecha de conformidad con el Contrato.
+El Cliente contará con un periodo de diez Días Hábiles posteriores a la firma del Contrato para terminar este sin responsabilidad alguna de su parte, en cuyo caso, el Banco no podrá cobrar comisión alguna, siempre y cuando el cliente no hubiese utilizado u operado ninguno de los Servicios y/o Productos.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="36" width="568" height="27" forecolor="#00457D" uuid="74b56c01-9fb3-4397-b1f4-2b93c15a568e">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAPÍTULO XII
+DISPOSICIONES GENERALES
+]]></text>
+			</staticText>
+		</band>
+		<band height="690">
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="c7817243-c439-4ed5-ae61-008739e57438"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="95e1cd55-d37e-4677-962d-53b61bd0337c">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="bb2fd041-ec0d-49c3-9838-8593671bddb6">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="20f93e14-0426-4e31-a5ff-f31d89a87cad">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="7e803c64-5f1e-45ea-89b6-37ff633e6c5e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="40" width="566" height="640" forecolor="#00457D" uuid="ea196028-057a-4491-9250-87f0285af4b5">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[II.- El Cliente podrá solicitar por escrito la terminación del Contrato, por conducto de otra entidad financiera que se denominará receptora, la cual deberá abrir una cuenta a nombre de el Cliente y remitir al Banco los documentos originales en los que conste la manifestación de la voluntad de dar por terminada la relación contractual con el Banco, a fin de que el Banco transfiera el saldo disponible de la Cuenta a la receptora, quien llevará los trámites respectivos, bajo su responsabilidad.
+Una vez presentada la solicitud de terminar el contrato, el Banco deberá: (I) Cancelar los Medios de Disposición vinculados al Contrato. (II) Rechazar cualquier disposición que pretenda efectuarse con posterioridad a la cancelación de los Medios de Disposición. En consecuencia, no se podrán hacer nuevos cargos adicionales a partir del momento en que se realice la cancelación, excepto los ya generados; (III) Cancelar, sin su responsabilidad, los servicios de domiciliación en la fecha de la solicitud de terminación, con independencia de quién conserve la autorización de los cargos correspondientes; (IV) Abstenerse de condicionar la terminación del Contrato a la devolución del contrato que obre en poder del Cliente, y (V) Abstenerse de cobrar al Cliente Comisión o penalización por la terminación del contrato.
+
+XII.7.	MONEDA DE CURSO LEGAL. Salvo que se establezca de otra manera en alguna de las Cláusulas anteriores, las partes acuerdan que cualquier cantidad a pagar por parte del Banco que deriven del presente Contrato serán pagaderas en Pesos, moneda de curso legal en los Estados Unidos Mexicanos el día de pago correspondiente y serán entregadas única y exclusivamente en las sucursales u oficinas del Banco y el Cliente expresamente renuncia a cualquier derecho de proceder en contra o exigir y obtener el pago derivado de cualquier operación en cualquier otra moneda distinta de los Pesos, moneda de curso legal en los Estados Unidos Mexicanos y que dichos pagos sean efectuados en lugar distinto a los Estados Unidos Mexicanos.
+
+XII.8.	PERSONAS AUTORIZADAS. El Cliente podrá comunicar sus instrucciones al Banco, solicitar servicios y/o celebrar con el Banco las operaciones a que se refiere este Contrato, por sí mismo o por conducto de las Personas Autorizadas para tal efecto, cuyos nombres y firmas aparecen en la Solicitud y/o en el documento que al efecto proporcione el Banco, quienes actuarán en nombre y representación del Cliente. Las Personas Autorizadas tendrán amplias facultades para llevar a cabo todas las operaciones a que se refiere este Contrato, incluyendo operaciones con Títulos y/o Valores, excepto que dichas facultades se limiten en la Solicitud o en documento por separado suscrito entre el Cliente y el Banco. El Cliente podrá incorporar a otras personas como Personas Autorizadas, así como revocar la designación de cualquier Persona Autorizada, mediante la suscripción y entrega al Banco, con por lo menos dos Días Hábiles de anticipación a la fecha en que deba surtir efectos dicha incorporación o revocación, de un documento en original debidamente firmado por el Cliente.
+
+XII.9.	VIGENCIA Este Contrato tendrá una vigencia indefinida, hasta que alguna de las Partes manifieste su intención de darlo por terminado.
+
+XII.10.	GARANTÍA IPAB. El Banco hace del conocimiento del Cliente que: “Únicamente están garantizados por el IPAB, los depósitos bancarios de dinero: a la vista, retirables en días preestablecidos, de ahorro, y a plazo o con previo aviso, así como los préstamos y créditos que acepte el Banco, hasta por el equivalente a cuatrocientas mil unidades de inversión por persona, cualquiera que sea el número, tipo y clase de dichas obligaciones a su favor y a cargo del Banco”. Asimismo, se hace del conocimiento del Cliente que para el caso de cuentas solidarias, el IPAB cubrirá hasta el monto garantizado a quien aparezca registrado en los sistemas del Banco como primer titular o primer cotitular; y por lo que corresponde a cuentas mancomunadas, se dividirá el monto garantizado de la Cuenta entre los titulares o cotitulares. La cobertura por parte del IPAB de una cuenta mancomunada no excederá de cuatrocientas mil Unidades de Inversión por cuenta, cualquiera que sea el número de titulares o cotitulares.
+
+XII.11.	BENEFICIARIOS. El Cliente señala como beneficiario(s) del saldo de la Cuenta a la(s) persona(s) mencionada(s) en la Solicitud o en el formato que el Banco le proporciones para tales efectos, el cual debidamente firmado por el Cliente y entregado al Banco formará parte integrante del Contrato; dicho(s) beneficiario(s) tendrá(n) derecho a recibir, el saldo de la Cuenta, en la proporción estipulada por el Cliente, siempre y cuando acredite(n) su identidad y el fallecimiento del Cliente a satisfacción del Banco. En caso de que el Cliente hubiere nombrado más de un beneficiario sin establecer la proporción que corresponda a cada uno, el Banco les entregará en partes iguales el saldo a que tengan derecho, de conformidad con lo estipulado en la presente cláusula.
+]]></text>
+			</staticText>
+		</band>
+		<band height="690">
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="980f0b7b-41f0-48de-828c-11a7a95676c5"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="fdb22f1e-db3c-4a68-b3f7-ebf34f694e5b">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="29dab02b-6d0c-4ce6-a4c2-e34cdaee37ee">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="3dc20937-7d4f-45f1-8afc-b2c0664b3ac6">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="ede010b6-468d-46bf-bb20-12bac813bc24">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="40" width="566" height="640" forecolor="#00457D" uuid="6f0a8769-a286-4134-b0f2-03b2ebdcba35">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[El Cliente podrá en cualquier tiempo designar o sustituir beneficiarios, así como modificar la proporción correspondiente a cada uno de ellos, en los formatos que para tales efectos le proporcione el Banco.
+En caso de que el Cliente no hubiere designado beneficiarios, el importe correspondiente deberá entregarse en los términos de la legislación común.
+
+XII.12.	ESTADO DE CUENTA. El Banco estará obligado a poner a disposición del Cliente dentro de los diez días siguientes a la fecha de corte, un Estado de Cuenta con los movimientos efectuados en la Cuenta durante el periodo al que corresponda el mismo.
+Se entenderá para todos los efectos legales a que haya lugar que el Banco ha enviado el Estado de Cuenta al Cliente, si el Banco pone el Estado de Cuenta a disposición del Cliente para su consulta en las sucursales de este, o a través de sistemas electrónicos.
+El periodo de envío del Estado de Cuenta, aquí pactado, podrá prorrogarse a seis meses cuando el Cliente solicite al Banco que el saldo de su Cuenta se invierta en Depósitos a Plazo o en Pagarés de conformidad con lo establecido en el presente contrato, o bien cuando la Cuenta no presente ningún tipo de movimiento durante treinta días consecutivos, sin embargo, el Cliente en todo momento podrá solicitar un Estado de Cuenta en las sucursales del Banco.
+
+XII.13.	CUENTA GLOBAL. El Cliente reconoce que el Banco le informó que de acuerdo con la legislación aplicable, el principal y los intereses depositados en la Cuenta y, en su caso las operaciones celebradas al amparo del Contrato, que no tengan fecha de vencimiento, o bien, que teniéndola se renueven en forma automática, así como las transferencias o las inversiones vencidas y no reclamadas, que en el transcurso de tres años no hayan tenido movimiento por depósitos o retiros y, después de que se haya dado aviso por escrito, en el domicilio del cliente que conste en el expediente respectivo, con noventa días de antelación, deberán ser abonados en una cuenta global que llevará el Banco para esos efectos. Los recursos aportados a dicha cuenta únicamente generarán un interés mensual equivalente al aumento en el Índice Nacional de Precios al Consumidor en el período respectivo.
+Cuando el Cliente se presente para realizar un depósito o retiro, o reclamar la transferencia o inversión, el Banco deberá retirar de la cuenta global el importe total, a efecto de abonarlo a la Cuenta o entregárselo al Cliente.
+Los derechos derivados por los depósitos e inversiones y sus intereses a que se refiere esta Cláusula, sin movimiento en el transcurso de tres años contados a partir de que estos últimos se depositen en la cuenta global, cuyo importe no exceda por cuenta, al equivalente a trescientos días de salario mínimo general vigente en el Distrito Federal, prescribirán en favor del patrimonio de la beneficencia pública, por lo que el Banco estará a entregar dichos recursos.
+El Cliente renuncia a ejercer cualquier acción que pudiese derivarse en contra del Banco en razón del cumplimiento a lo dispuesto en la presente Cláusula.
+
+XII.14.	ORIGEN DE LOS FONDOS. El Cliente declara en este acto que los fondos con los que hará los depósitos en la Cuenta de conformidad con los términos del presente Contrato, provendrán en su totalidad de fuentes lícitas. En todo caso, los fondos que se obtengan del Banco por los productos y/o servicios bancarios que se describen en el cuerpo del presente Contrato se destinarán a fines lícitos.
+
+XII.15.	INFORMACIÓN. El Cliente autoriza al Banco a solicitar y proporcionar información con la periodicidad que el Banco requiera, a todos aquellos terceros (incluyendo a las Sociedades de Información Crediticia), que intervengan en el otorgamiento, operación, manejo y proceso de la tarjeta, así como en las investigaciones crediticias al amparo de este contrato, con el fin de determinar su elegibilidad como Cliente del Banco.
+
+XII.16.	AUTORIZACIÓN PARA COMPARTIR DATOS PERSONALES. El Cliente autoriza expresamente al Banco para que proporcione su información o datos personales a terceros, a efecto de que estos le hagan llegar información promocional de los bienes y/o servicios que ofrecen. En caso de que el Cliente desee modificar la autorización contenida en el párrafo anterior, deberá remitir al Banco simple comunicación por escrito por la que le dé a conocer su negativa o revocación de la autorización respectiva, con una anticipación de al menos cinco días hábiles de anticipación a la fecha en que será efectiva la misma.
+]]></text>
+			</staticText>
+		</band>
+		<band height="690">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="3bdb952b-0b11-497e-bfb8-3fa5d5f78af8"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="f192ac60-d1eb-4acc-9bd0-497262114146">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="6703d5ab-cb0b-41fa-98a9-d80e1837a50c">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="63cc25bb-c4c2-426c-9e17-06399566ca6a">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="40" width="566" height="640" forecolor="#00457D" uuid="35778315-7acc-46d7-8052-72b94bafd536">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[XII.17.	AUTORIZACIÓN PARA PROPORCIONAR A TERCEROS INFORMACIÓN DE LA CUENTA. El Cliente acepta y autoriza expresamente al Banco para que proporcione a los terceros a quien encomiende el manejo de los aspectos operativos de las transacciones con la Tarjeta, la información relacionada con su Cuenta, Contrato, Tarjeta y sus datos personales.
+
+XII.18.	ACLARACIONES. En caso de que el Cliente no esté de acuerdo con alguno de los movimientos registrados en el Estado de Cuenta, el cliente podrá presentar por escrito, una solicitud de aclaración dentro de un plazo de noventa días naturales contados a partir de la fecha de corte. El escrito podrá presentarse ante la sucursal en la que radica la Cuenta, o bien, en la Unidad Especializada del Banco mediante correo electrónico, y deberá contener de forma detallada los movimientos con los cuales no esté de acuerdo, así como copia de su identificación oficial y la dirección donde se pueda enviar respuesta.
+Una vez recibida la solicitud de aclaración, el Banco tendrá un plazo máximo de cuarenta y cinco días para entregar al Cliente el dictamen correspondiente. En el caso de reclamaciones relativas a operaciones realizadas en el extranjero, el plazo previsto en este párrafo será hasta de ciento ochenta días naturales.
+El Banco dentro del plazo señalado en el párrafo anterior entregará al cliente el dictamen a través del Servicio Postal Mexicano o cualquier servicio de mensajería; si transcurrido el plazo señalado, el Cliente no ha recibido el dictamen, éste podrá acudir a la Unidad Especializada o a la sucursal donde presentó su reclamación, donde estará a su disposición el dictamen correspondiente, así como el expediente generado con motivo de la solicitud.
+El procedimiento aquí establecido quedará sin efectos a partir de que el Cliente presente su demanda ante autoridad jurisdiccional o conduzca su reclamación en términos de la Ley de Protección y Defensa al Usuario de Servicios Financieros.
+
+XII.19.	CONSULTAS DE SALDO, ACLARACIONES Y MOVIMIENTOS.- Para efectos de consultas de saldo, aclaraciones, movimientos y demás que requiera el Cliente, el Banco señala como domicilio, el ubicado en Boulevard Manuel Avila Camacho No. 32, Piso 12, Colonia Lomas de Chapultepec, Delegación Miguel Hidalgo, en México, Distrito Federal, o bien a través del área de ATENCIÓN A CLIENTES EMPRESARIAL del Banco, para lo cual deberán comunicarse al número telefónico: 01800 2888 222 y por correo electrónico a la cuenta: atencionclientes@abccapital.com.mx Asimismo, el Cliente podrá consultar las disposiciones legales referidas expresamente en el presente Contrato, en el Registro de Contratos de Adhesión (RECA) de la CONDUSEF.
+Dichas consultas las podrá realizar el Cliente por cualquiera de los medios antes señalados, para lo cual deberá proporcionar como requisito, el número de crédito que le corresponde y en su caso, los comprobantes, cuando menos.
+
+XII.20.	NO RESPONSABILIDAD DEL BANCO. El Banco no asume responsabilidad alguna en caso de que: a) La calidad, cantidad o cualquier otro aspecto de las mercancías o servicios que se adquieran mediante la Tarjeta, no correspondan a lo solicitado por el Cliente. Cualquier reclamación que se suscite por este concepto, independientemente de su origen y naturaleza se entenderá exclusivamente entre el Cliente y el proveedor de bienes y/o servicios afiliados a los sistemas mencionados. El Cliente no podrá exigir en ningún caso reembolsos en efectivo, sólo deberá exigir al Establecimiento Afiliado el comprobante de bonificación respectivo y si no aparece la bonificación en el siguiente estado de cuenta mensual, deberá formular la reclamación que corresponda al Banco. b) El Banco no será en ningún caso responsable del incumplimiento de las instrucciones dadas por el Cliente cuando esto se deba a la ocurrencia de algún caso fortuito o de fuerza mayor, por fallas en el funcionamiento de los sistemas automatizados, electrónicos, de computación o interrupción en los sistemas de comunicación, o algún acontecimiento similar fuera del control del Banco.
+
+XII.21.	IRRENUNCIABILIDAD. Ninguna omisión o demora por parte del Banco en el ejercicio de cualquiera de sus derechos, facultades o acciones conforme a este Contrato se podrá considerar como renuncia a los mismos, ni podrá cualquier ejercicio singular o parcial de cualquiera de dichos derechos, facultades o acciones, impedir cualquier otro ejercicio de las mismas o el ejercicio de cualquier otro derecho, facultad o acción. Los derechos y acciones previstos en este Contrato son acumulativos y no excluyentes de derecho o acción alguna prevista por la ley.
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="4c148e8c-2eba-4344-a5a4-1d31150253c1">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+		</band>
+		<band height="690">
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="651ff61f-902b-4026-bb10-1dbfdb7efd61"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="95952ee6-637c-4faa-87d1-0e8e3622e16c">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="1bf05428-aa21-4f09-9c5a-24035f738e2b">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="4f2bbc97-b070-473b-a475-83943e2a1b92">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="ce05279f-3d95-4959-92cb-00d7e3dd8def">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="40" width="566" height="380" forecolor="#00457D" uuid="3ac0bd6a-42e8-45d5-b1b7-14f747d003eb">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[XII.22.	CANCELACIÓN DE MEDIOS DE DISPOSICIÓN.- El Cliente podrá cancelar los Medios de Disposición vinculados con el presente Contrato en la fecha de presentación de su solicitud al Banco, para lo cual el Cliente deberán hacer entrega de los mismos o manifestar por escrito y bajo protesta de decir verdad, que fueron destruidos o que no cuentan con ellos, por lo que no podrá hacer disposición alguna a partir de dicha fecha, quedando facultado el Banco para rechazar, sin responsabilidad de su parte, cualquier disposición que pretenda efectuarse con posterioridad a la cancelación de los Medios de Disposición. En consecuencia, el Banco no podrá hacer nuevos cargos adicionales a partir del momento en que se realice la cancelación, excepto los ya generados.
+
+XII.23.	REGISTROS CONTABLES. El Cliente expresamente reconoce que los registros de las operaciones que se realicen con la Tarjeta de Débito que aparezcan en los sistemas del Banco, así como en su caso los pagarés u otros documentos suscritos por el Cliente, tendrán pleno valor probatorio y fuerza legal. El Cliente acepta como prueba suficiente de los cargos que hubiese efectuado las fotocopias, microfilms, microfichas y otros medios de reproducción en los que consten copias de las notas, pagarés, cupones y cualquier otro documento relativo a los cargos efectuados.
+
+XII.24.	CESIÓN. El Cliente no podrá ceder los derechos y obligaciones que le derivan del presente Contrato. En la medida permitida por la normatividad aplicable. El Banco queda expresamente autorizado por el Cliente para ceder o de cualquier otra manera transmitir los derechos y obligaciones que le deriven del presente contrato.
+
+XII.25.	SUBSISTENCIA. Si en algún momento, cualquier disposición de este Contrato se vuelve o es declarada ilegal, nula o no ejecutable en algún aspecto, la legalidad, validez y fuerza de las restantes disposiciones no se verá afectada o menoscabada por ello.
+
+XII.26.	COMPETENCIA. En caso de controversia, las partes se someten irrevocablemente a la jurisdicción de los tribunales competentes en la Ciudad de México, Distrito Federal, renunciando expresamente a cualquier otro fuero o jurisdicción que pudiera corresponderles por virtud de sus domicilios presentes o futuros, o por cualquier otra razón.
+
+El presente Contrato se suscribe por duplicado en el lugar y en la fecha indicada en la Solicitud, recibiendo el Cliente un tanto en original debidamente firmado.
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
