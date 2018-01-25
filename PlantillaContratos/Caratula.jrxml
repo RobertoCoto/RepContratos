@@ -33,6 +33,9 @@
 	<field name="CATEGORIA_CTA" class="java.lang.String">
 		<fieldDescription><![CDATA[CATEGORIA_CTA]]></fieldDescription>
 	</field>
+	<field name="NOMB_CAT_CTA" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMB_CAT_CTA]]></fieldDescription>
+	</field>
 	<field name="SEL_SERVICIO" class="java.lang.String">
 		<fieldDescription><![CDATA[SEL_SERVICIO]]></fieldDescription>
 	</field>
@@ -429,6 +432,9 @@
 	<field name="IVA_DATO" class="java.lang.String">
 		<fieldDescription><![CDATA[IVA_DATO]]></fieldDescription>
 	</field>
+	<field name="IVA_MONTO" class="java.lang.String">
+		<fieldDescription><![CDATA[IVA_MONTO]]></fieldDescription>
+	</field>
 	<field name="GAT_NOMINAL" class="java.lang.String">
 		<fieldDescription><![CDATA[GAT_NOMINAL]]></fieldDescription>
 	</field>
@@ -458,7 +464,9 @@
 		</band>
 	</pageHeader>
 	<detail>
-		<band height="670" splitType="Stretch">
+		<band height="690" splitType="Stretch">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<rectangle radius="6">
 				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="215" width="590" height="65" forecolor="#0070C0" uuid="7e19471d-c9d4-4ff8-97fa-f1c1c017ed28">
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -580,7 +588,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="351" width="590" height="60" forecolor="#0070C0" uuid="d520a3ed-10cb-4b72-869b-09096ce131d0">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="341" width="590" height="60" forecolor="#0070C0" uuid="d520a3ed-10cb-4b72-869b-09096ce131d0">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -595,7 +603,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="6">
-				<reportElement x="10" y="351" width="590" height="18" backcolor="#0070C0" uuid="42a5de0c-7fc4-497e-971b-d4e1541539a2">
+				<reportElement x="10" y="341" width="590" height="18" backcolor="#0070C0" uuid="42a5de0c-7fc4-497e-971b-d4e1541539a2">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -610,7 +618,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="0">
-				<reportElement x="10" y="356" width="590" height="13" backcolor="#0070C0" uuid="1b9d1f47-cbd3-4e62-8a7f-d9111a23ba86">
+				<reportElement x="10" y="346" width="590" height="13" backcolor="#0070C0" uuid="1b9d1f47-cbd3-4e62-8a7f-d9111a23ba86">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -625,7 +633,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="425" width="590" height="110" forecolor="#0070C0" uuid="cd3141de-1798-4c1e-96ad-d063c68a0d1e">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="410" width="590" height="110" forecolor="#0070C0" uuid="cd3141de-1798-4c1e-96ad-d063c68a0d1e">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -640,7 +648,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="6">
-				<reportElement x="10" y="425" width="590" height="18" backcolor="#0070C0" uuid="c5153edd-31f5-419e-80a2-ef6cacaaa214">
+				<reportElement x="10" y="410" width="590" height="18" backcolor="#0070C0" uuid="c5153edd-31f5-419e-80a2-ef6cacaaa214">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -655,7 +663,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="0">
-				<reportElement x="10" y="430" width="590" height="13" backcolor="#0070C0" uuid="448182aa-16db-4390-8984-f4ff3b2e49b8">
+				<reportElement x="10" y="415" width="590" height="13" backcolor="#0070C0" uuid="448182aa-16db-4390-8984-f4ff3b2e49b8">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -670,7 +678,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="551" width="590" height="80" forecolor="#0070C0" uuid="fb0466aa-441a-47da-b5a3-97fd09abd8fe">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="529" width="590" height="80" forecolor="#0070C0" uuid="fb0466aa-441a-47da-b5a3-97fd09abd8fe">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -685,7 +693,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="6">
-				<reportElement x="10" y="551" width="590" height="18" backcolor="#0070C0" uuid="d44ac083-ec17-458a-a274-3a28595c9cca">
+				<reportElement x="10" y="529" width="590" height="18" backcolor="#0070C0" uuid="d44ac083-ec17-458a-a274-3a28595c9cca">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -700,7 +708,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle radius="0">
-				<reportElement x="10" y="556" width="590" height="13" backcolor="#0070C0" uuid="654690c3-e0fc-4866-94dc-62cc3c041558">
+				<reportElement x="10" y="534" width="590" height="13" backcolor="#0070C0" uuid="654690c3-e0fc-4866-94dc-62cc3c041558">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -835,7 +843,7 @@
 				<text><![CDATA[Transferencia interbancaria:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="269" y="78" width="171" height="14" forecolor="#00457D" uuid="03d4a696-97e9-44c5-b1d1-571f79e3604e">
+				<reportElement x="213" y="78" width="82" height="14" forecolor="#00457D" uuid="03d4a696-97e9-44c5-b1d1-571f79e3604e">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -844,7 +852,7 @@
 					<font fontName="SansSerif" size="10"/>
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<text><![CDATA[Ganancia Anual Total Neta (GAT):]]></text>
+				<text><![CDATA[GAT Nominal:]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="310" y="126" width="90" height="14" forecolor="#00457D" uuid="d170170b-82ea-4d61-92c9-0e014698743e">
@@ -967,7 +975,7 @@
 				<text><![CDATA[Nombre comercial del producto:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="10" y="551" width="590" height="18" forecolor="#FFFFFF" uuid="3c4c1a5d-93e8-4dce-b938-925372fafe47">
+				<reportElement x="10" y="529" width="590" height="18" forecolor="#FFFFFF" uuid="3c4c1a5d-93e8-4dce-b938-925372fafe47">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -980,7 +988,7 @@
 				<text><![CDATA[REGISTRO DE CONTRATO DE ADHESIÓN NUMERO:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="574" width="575" height="53" forecolor="#00457D" uuid="97308ddc-ab0d-4cc2-998b-de96420aa9c8">
+				<reportElement x="18" y="552" width="575" height="53" forecolor="#00457D" uuid="97308ddc-ab0d-4cc2-998b-de96420aa9c8">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -994,7 +1002,7 @@ Teléfono: 018009998080 y 53400999.
 Página de Internet: www.condusef.gob.mx]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="10" y="425" width="590" height="18" forecolor="#FFFFFF" uuid="08a8f6a6-eb11-4945-a173-81f3d3b74914">
+				<reportElement x="10" y="410" width="590" height="18" forecolor="#FFFFFF" uuid="08a8f6a6-eb11-4945-a173-81f3d3b74914">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -1007,7 +1015,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<text><![CDATA[ACLARACIONES Y RECLAMACIONES]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="445" width="575" height="94" forecolor="#00457D" uuid="364b05ae-46f5-4d42-a073-17b40e8aae12">
+				<reportElement x="18" y="430" width="575" height="94" forecolor="#00457D" uuid="364b05ae-46f5-4d42-a073-17b40e8aae12">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -1019,7 +1027,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<text><![CDATA[Para efectos de consultas de saldo, aclaraciones, movimientos y demás que requiera el Cliente, el Banco señala como domicilio, el ubicado en Boulevard Manuel Avila Camacho No. 32, Piso 12, Colonia Lomas de Chapultepec, Miguel Hidalgo, en México, Ciudad de México, o bien a través del área de ATENCIÓN A CLIENTES del Banco, para lo cual deberán comunicarse al número telefónico: 01800 2888 222 y por correo electrónico a la cuenta: atencionaclientes@abccapital.com.mx o bien a la Unidad Especializada (UNE) al teléfono 01800 1121616 y correo electrónico une@abccapital.com.mx]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="390" width="136" height="14" forecolor="#00457D" uuid="03bcf962-153c-40c5-a5c2-2c583637abc0">
+				<reportElement x="18" y="380" width="136" height="14" forecolor="#00457D" uuid="03bcf962-153c-40c5-a5c2-2c583637abc0">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -1033,7 +1041,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<text><![CDATA[Titular garantizados(s):]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="174" y="370" width="286" height="14" forecolor="#00457D" uuid="2e333b4a-9c39-4dd6-ad0f-6ac8bf6121b2">
+				<reportElement x="174" y="360" width="286" height="14" forecolor="#00457D" uuid="2e333b4a-9c39-4dd6-ad0f-6ac8bf6121b2">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -1178,7 +1186,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				</reportElement>
 			</line>
 			<line>
-				<reportElement x="10" y="384" width="590" height="1" forecolor="#0070C0" uuid="34aff877-47fe-4176-935e-dc785cc1c9f1">
+				<reportElement x="10" y="374" width="590" height="1" forecolor="#0070C0" uuid="34aff877-47fe-4176-935e-dc785cc1c9f1">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -1272,7 +1280,9 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="40" y="258" width="10" height="10" uuid="c5e23d3e-7dfc-4d17-bafa-1183ef363bc0"/>
+				<reportElement x="40" y="258" width="10" height="10" uuid="c5e23d3e-7dfc-4d17-bafa-1183ef363bc0">
+					<printWhenExpression><![CDATA[!$F{CATEGORIA_CTA}.equals("1005")]]></printWhenExpression>
+				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
@@ -1307,7 +1317,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="134" y="390" width="443" height="14" uuid="6257620d-4cc6-4e79-8655-db2af1d9f6c6">
+				<reportElement x="134" y="380" width="464" height="14" uuid="6257620d-4cc6-4e79-8655-db2af1d9f6c6">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{GARAN_IPAB}.equals("SI")]]></printWhenExpression>
@@ -1318,15 +1328,10 @@ Página de Internet: www.condusef.gob.mx]]></text>
 			<textField>
 				<reportElement x="168" y="37" width="430" height="16" uuid="4eafd2d5-4555-4f9c-b2f1-efebdff51fb1"/>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{CATEGORIA_CTA}.equals("6001") ? "ABC CUENTA DE AHORRO" : 
-       $F{CATEGORIA_CTA}.equals("6002") ? "ABC CUENTA DE AHORRO" :
-        $F{CATEGORIA_CTA}.equals("1005") ? "ABC CUENTA BASICA" :
-        $F{CATEGORIA_CTA}.equals("1004") ? "ABC CUENTA EJE" :
-        $F{CATEGORIA_CTA}.equals("1006") ? "ABC CUENTA EJE" :
-        $F{CATEGORIA_CTA}.equals("1002") ? "ABC CUENTA DE NOMINA" : ""]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{NOMB_CAT_CTA}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="263" y="74" width="1" height="20" forecolor="#006CB9" uuid="9bfbf618-36a5-4e6e-9ce2-a777e0ac49c6">
+				<reportElement x="205" y="74" width="1" height="20" forecolor="#006CB9" uuid="9bfbf618-36a5-4e6e-9ce2-a777e0ac49c6">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1374,14 +1379,103 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<textFieldExpression><![CDATA["$ 0.00"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="95" y="78" width="164" height="16" uuid="e3c50b34-9065-4b32-be18-9e4e0e1a0910"/>
+				<reportElement x="95" y="78" width="73" height="16" uuid="e3c50b34-9065-4b32-be18-9e4e0e1a0910">
+					<printWhenExpression><![CDATA[$F{CATEGORIA_CTA}.equals("6001") || $F{CATEGORIA_CTA}.equals("6002")]]></printWhenExpression>
+				</reportElement>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{IVA_DATO}.equals("0") ? $F{IVA_DATO} + ".0 %" :  $F{IVA_DATO} + "0 %"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="431" y="79" width="162" height="14" uuid="96944203-bdaa-44c2-b89d-db343f410062"/>
+				<reportElement x="282" y="79" width="88" height="14" uuid="96944203-bdaa-44c2-b89d-db343f410062">
+					<printWhenExpression><![CDATA[$F{CATEGORIA_CTA}.equals("6001") || $F{CATEGORIA_CTA}.equals("6002")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{GAT_NOMINAL} + " %"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="78" width="125" height="16" uuid="13ef1063-ad85-4ba5-a902-a37014d8e2ba">
+					<printWhenExpression><![CDATA[!$F{CATEGORIA_CTA}.equals("6001") && !$F{CATEGORIA_CTA}.equals("6002")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA["No aplica"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="396" y="78" width="64" height="14" forecolor="#00457D" uuid="44a30648-a096-4829-b91e-31660f257907">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[GAT Real:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="450" y="79" width="88" height="14" uuid="170e6cd6-c10b-478e-8ab3-e990def3e804">
+					<printWhenExpression><![CDATA[$F{CATEGORIA_CTA}.equals("6001") || $F{CATEGORIA_CTA}.equals("6002")]]></printWhenExpression>
+				</reportElement>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{GAT_REAL} + " %"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="282" y="78" width="125" height="16" uuid="a004b267-fc02-47c0-be93-8c191d28894f">
+					<printWhenExpression><![CDATA[!$F{CATEGORIA_CTA}.equals("6001") && !$F{CATEGORIA_CTA}.equals("6002")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA["No aplica"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="78" width="125" height="16" uuid="5e9c4ace-04bf-499d-b8ec-a6687eb48215">
+					<printWhenExpression><![CDATA[!$F{CATEGORIA_CTA}.equals("6001") && !$F{CATEGORIA_CTA}.equals("6002")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA["No aplica"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="374" width="464" height="29" uuid="f6e86411-b343-469f-a90e-85a508447ced">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[!$F{GARAN_IPAB}.equals("SI")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA["Titular no Garantizado conforme a lo establecido en el artículo 10 de la Ley de Protección al Ahorro Bancario"]]></textFieldExpression>
+			</textField>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="619" width="590" height="60" forecolor="#0070C0" uuid="47f4e57a-f8e7-4666-8673-818dfd9fbcad">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="18" y="621" width="575" height="36" forecolor="#00457D" uuid="5843fa87-ca71-401e-a894-c411e8649aec">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[La GAT real es el rendimiento que obtendría después de descontar la inflación estimada, para fines informativos y de comparación.]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="18" y="657" width="575" height="14" uuid="9cca9237-a000-40e0-a9e3-b66806524c1c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{CATEGORIA_CTA}.equals("6001") || $F{CATEGORIA_CTA}.equals("6002")]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA["Tasa tomada con un monto de "+$F{IVA_MONTO}+" para fines informativos y de comparación."]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
