@@ -303,7 +303,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 	<detail>
 		<band height="705" splitType="Stretch">
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="cbdc8295-a2f6-4b7e-b696-078b772c7be9">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="686" forecolor="#0070C0" uuid="cbdc8295-a2f6-4b7e-b696-078b772c7be9">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -355,12 +355,12 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Justified" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CONTRATO MÚLTIPLE DE PRODUCTOS Y SERVICIOS BANCARIOS QUE CELEBRAN POR UNA PARTE ABC CAPITAL, S.A., INSTITUCIÓN DE BANCA MÚLTIPLE, EN LO SUCESIVO DENOMINADO COMO EL “BANCO”, Y POR LA OTRA LA(S) PERSONA(S) CUYO(S) NOMBRE(S) APARECE(N) IDENTIFICADO(S) EN LA SOLICITUD DE ESTE CONTRATO, EN LO SUCESIVO EL “CLIENTE” Y DE MANERA CONJUNTA CON EL “BANCO”, COMO LAS “PARTES” según corresponda, al tenor de las siguientes declaraciones y cláusulas:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="40" y="111" width="543" height="33" forecolor="#00457D" uuid="16e24e92-692e-4fa1-a269-f105a26b1918">
+				<reportElement x="27" y="111" width="543" height="33" forecolor="#00457D" uuid="16e24e92-692e-4fa1-a269-f105a26b1918">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -369,12 +369,12 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Justified" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[D E C L A R A C I O N E S ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="139" width="566" height="150" forecolor="#00457D" uuid="f4ced039-56fe-491c-acf1-2751301dc79f">
+				<reportElement x="18" y="139" width="566" height="21" forecolor="#00457D" uuid="f4ced039-56fe-491c-acf1-2751301dc79f">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -384,15 +384,10 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<font fontName="SansSerif" size="10"/>
 				</textElement>
 				<text><![CDATA[I. Declara el Banco, por conducto de su(s) funcionario(s) autorizado(s), que:
-	A.	Es una institución de crédito legalmente constituida de acuerdo con la legislación mexicana y que cuenta con la capacidad jurídica y autorizaciones necesarias para celebrar el presente Contrato.
-	B.	Que su representante cuenta con facultades suficientes y necesarias para obligarle en los términos del presente contrato, las cuales no le han sido modificadas, revocadas o limitadas en forma alguna a la fecha de firma de este Contrato.
-	C.	Que su página electrónica en la red mundial de Internet es www.abccapital.com.mx
-	D.	El contrato se encuentra debidamente inscrito en el registro de contratos de adhesión de Condusef de acuerdo al producto contratado bajo los siguientes números: (I) ABC CUENTA EJE 1621-436-008387/14-02992-0315, (II) ABC CUENTA DE AHORRO 1621-436-008388/10-02993- 0315 (III) ABC CUENTA BÁSICA 1621-428-008391/09-02994-0315, (IV) ABC PAGARÉ 1621-429-011404/08-02995-0315 y (V) Depósito a Plazo 1621-003-020842/02-02997-0315.
-
 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="289" width="566" height="300" forecolor="#00457D" uuid="9cca5991-a89d-4e5c-8e5e-10d875a9d40c">
+				<reportElement x="18" y="289" width="566" height="21" forecolor="#00457D" uuid="9cca5991-a89d-4e5c-8e5e-10d875a9d40c">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -402,23 +397,17 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<font fontName="SansSerif" size="10"/>
 				</textElement>
 				<text><![CDATA[II. Declara el Cliente, que:
-A.	Tiene capacidad legal suficiente para celebrar el presente Contrato y reconoce como suyos los datos asentados en la Solicitud, todo lo cual acredita con la información que proporcionó al Banco, en la entrevista que éste le efectuó en esta misma fecha, previo a la suscripción de este instrumento.
-B.	Los recursos que serán abonados a la Cuenta, son de su propiedad, producto del desarrollo normal de sus actividades y que tales recursos en ningún caso han provenido y se compromete que en el futuro no provengan de actividades ilícitas, manifestando que conoce y entiende plenamente las disposiciones relativas a las operaciones realizadas con recursos de procedencia ilícita y sus consecuencias, por lo que, para todos los efectos legales aplicables libera(n) al Banco de cualquier responsabilidad que se derive con respecto a la procedencia de los recursos.
-C.	En caso de solicitar un Crédito que es (son) legítima(s) titular(es) de la cuenta de depósito a la vista identificada en la Solicitud anexo del presente instrumento, cuyos recursos son invertidos regular, periódica y discrecionalmente en los diversos instrumentos de inversión ofrecidos por el Banco.
-D.	Es su voluntad celebrar el presente Contrato y se compromete a proporcionar al Banco todos los documentos e información que sean requeridos en relación con cualquier cuenta, producto y/o servicio que desee contratar conforme a este Contrato.
-E.	El Banco le ha informado que los depósitos recibidos al amparo del presente Contrato, cuentan con garantía del IPAB, hasta por el equivalente a cuatrocientas mil unidades de inversión por persona, cualquiera que sea el número, tipo y clase de las obligaciones a su favor, y a cargo del Banco, y que para todos los efectos legales a que haya lugar, él será considerado como el titular garantizado por el IPAB de los depósitos que ampara el presente Contrato.
-F.	El Banco le proporcionó los números correspondientes al Centro de Atención Telefónica de la Condusef: 01-800-999-8080 y 01 (55) 53-400-999, así como su dirección de correo electrónico: webmaster@condusef.gob.mx, y la página electrónica en Internet: www.condusef.gob.mx.
 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="16" y="582" width="568" height="30" forecolor="#00457D" uuid="4576ece6-7662-4d2e-bdad-72b5670d3f69">
+				<reportElement x="16" y="601" width="568" height="30" forecolor="#00457D" uuid="4576ece6-7662-4d2e-bdad-72b5670d3f69">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO I
 DEFINICIONES
@@ -435,7 +424,7 @@ DEFINICIONES
 				<text><![CDATA[CLAUSULADO]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="18" y="615" width="566" height="62" forecolor="#00457D" uuid="b166a6ba-e5b9-4030-aca4-25c9fbf45ebb">
+				<reportElement x="18" y="628" width="566" height="62" forecolor="#00457D" uuid="b166a6ba-e5b9-4030-aca4-25c9fbf45ebb">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -448,6 +437,246 @@ DEFINICIONES
 Acreditante y/o Banco: ABC CAPITAL, SOCIEDAD ANÓNIMA, INSTITUCIÓN DE BANCA MÚLTIPLE.
 Acreditada y/o Cliente: La persona física o moral que se identifica en la Solicitud anexo del presente instrumento.
 ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="160" width="25" height="20" forecolor="#00457D" uuid="349348a8-da62-4f8e-9e57-57a335ca6b58">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[A.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="159" width="528" height="30" forecolor="#00457D" uuid="baaaccf4-c693-416b-ade2-fafd8a3b7d27">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Es una institución de crédito legalmente constituida de acuerdo con la legislación mexicana y que cuenta con la capacidad jurídica y autorizaciones necesarias para celebrar el presente Contrato.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="187" width="25" height="20" forecolor="#00457D" uuid="007bfdd2-082e-49d3-8124-35ef2d2b532e">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[B.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="186" width="528" height="30" forecolor="#00457D" uuid="8f1c1b9b-41cd-436e-a1ae-1e9b058f0602">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Que su representante cuenta con facultades suficientes y necesarias para obligarle en los términos del presente contrato, las cuales no le han sido modificadas, revocadas o limitadas en forma alguna a la fecha de firma de este Contrato.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="217" width="528" height="18" forecolor="#00457D" uuid="d0b45e1b-765a-4197-be7f-8618fa8f8c01">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Que su página electrónica en la red mundial de Internet es www.abccapital.com.mx]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="213" width="25" height="20" forecolor="#00457D" uuid="84b37c26-29a0-456c-a67a-cf7c8a4f1d00">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[C.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="236" width="528" height="53" forecolor="#00457D" uuid="03688e37-807f-40a6-aa76-bb42e06313a1">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[El contrato se encuentra debidamente inscrito en el registro de contratos de adhesión de Condusef de acuerdo al producto contratado bajo los siguientes números: (I) ABC CUENTA EJE 1621-436-008387/14-02992-0315, (II) ABC CUENTA DE AHORRO 1621-436-008388/10-02993- 0315 (III) ABC CUENTA BÁSICA 1621-428-008391/09-02994-0315, (IV) ABC PAGARÉ 1621-429-011404/08-02995-0315 y (V) Depósito a Plazo 1621-003-020842/02-02997-0315.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="232" width="25" height="20" forecolor="#00457D" uuid="1b2db63f-b734-4d83-a189-bed52a1fd046">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[D.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="461" width="25" height="20" forecolor="#00457D" uuid="220723fc-cd03-4f1c-be00-dc3f4191c6a0">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[D.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="352" width="528" height="65" forecolor="#00457D" uuid="d8a59234-4047-4944-9761-640079728884">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Los recursos que serán abonados a la Cuenta, son de su propiedad, producto del desarrollo normal de sus actividades y que tales recursos en ningún caso han provenido y se compromete que en el futuro no provengan de actividades ilícitas, manifestando que conoce y entiende plenamente las disposiciones relativas a las operaciones realizadas con recursos de procedencia ilícita y sus consecuencias, por lo que, para todos los efectos legales aplicables libera(n) al Banco de cualquier responsabilidad que se derive con respecto a la procedencia de los recursos.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="312" width="25" height="20" forecolor="#00457D" uuid="b6cf0a29-499a-4933-b26e-54de308f5a16">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[A.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="420" width="528" height="41" forecolor="#00457D" uuid="57cdc56c-608e-4766-8477-459533b6d0b6">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[En caso de solicitar un Crédito que es (son) legítima(s) titular(es) de la cuenta de depósito a la vista identificada en la Solicitud anexo del presente instrumento, cuyos recursos son invertidos regular, periódica y discrecionalmente en los diversos instrumentos de inversión ofrecidos por el Banco.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="353" width="25" height="20" forecolor="#00457D" uuid="55fd2f9e-4fc2-462e-9470-1e84ca3587be">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[B.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="465" width="528" height="45" forecolor="#00457D" uuid="69f13b20-23d9-4563-b72a-cddfecd63a93">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Es su voluntad celebrar el presente Contrato y se compromete a proporcionar al Banco todos los documentos e información que sean requeridos en relación con cualquier cuenta, producto y/o servicio que desee contratar conforme a este Contrato.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="416" width="25" height="20" forecolor="#00457D" uuid="2320f40c-aabb-4ab3-bb89-f3f9b76968ae">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[C.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="311" width="528" height="49" forecolor="#00457D" uuid="930c33e3-282e-4b5e-b99b-fed23bad1963">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[Tiene capacidad legal suficiente para celebrar el presente Contrato y reconoce como suyos los datos asentados en la Solicitud, todo lo cual acredita con la información que proporcionó al Banco, en la entrevista que éste le efectuó en esta misma fecha, previo a la suscripción de este instrumento.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="507" width="528" height="53" forecolor="#00457D" uuid="40de4606-9db1-4537-9e00-a69dc49be010">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[El Banco le ha informado que los depósitos recibidos al amparo del presente Contrato, cuentan con garantía del IPAB, hasta por el equivalente a cuatrocientas mil unidades de inversión por persona, cualquiera que sea el número, tipo y clase de las obligaciones a su favor, y a cargo del Banco, y que para todos los efectos legales a que haya lugar, él será considerado como el titular garantizado por el IPAB de los depósitos que ampara el presente Contrato.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="503" width="25" height="20" forecolor="#00457D" uuid="1520ce90-daf6-4450-af1f-b569c4f737f0">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[E.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="561" width="528" height="40" forecolor="#00457D" uuid="1b6f4d85-73b6-4b14-9759-22df4dab28ec">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[El Banco le proporcionó los números correspondientes al Centro de Atención Telefónica de la Condusef: 01-800-999-8080 y 01 (55) 53-400-999, así como su dirección de correo electrónico: webmaster@condusef.gob.mx, y la página electrónica en Internet: www.condusef.gob.mx.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="557" width="25" height="20" forecolor="#00457D" uuid="63b1bc14-6797-45cc-9c67-2a27a78c11f6">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<text><![CDATA[F.]]></text>
 			</staticText>
 		</band>
 		<band height="705">
@@ -634,7 +863,7 @@ Unidad Especializada. Significa la unidad especializada de atención a usuarios 
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[C L A U S U L A S
 CAPÍTULO II
@@ -948,7 +1177,7 @@ Una vez realizada la compensación, el Banco notificará al Cliente que ha reali
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO III
 TARJETA DE DÉBITO
@@ -1157,7 +1386,7 @@ IV.5.	DEVOLUCIÓN DE ESQUELETO DE CHEQUES. El Banco podrá solicitar al Cliente 
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO IV
 CHEQUERA
@@ -1171,7 +1400,7 @@ CHEQUERA
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO V
 DEPÓSITOS A PLAZO
@@ -1284,7 +1513,7 @@ V.5.	PLAZO. El plazo de cada uno de los Depósitos a Plazo será fijo, pactado e
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO VI
 PAGARÉS CON RENDIMIENTO LIQUIDABLE AL VENCIMIENTO
@@ -1319,7 +1548,7 @@ VI.4.	RENDIMIENTOS. Por las sumas recibidas en préstamo, el Banco pagará al Cl
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPITULO VII
 APERTURA DE CRÉDITO SIMPLE CON GARANTÍA PRENDARIA
@@ -1521,7 +1750,7 @@ Si el día hábil bancario inmediato siguiente al de la renovación el Cliente s
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO VIII
 DISPOSICIONES COMUNES A LOS DEPÓSITOS QUE DEVENGUEN INTERESES, A LOS DEPÓSITOS A PLAZO, A LA APERTURA DE  CRÉDITO SIMPLE CON GARANTÍA PRENDARIA  Y A LOS PAGARÉS CON RENDIMIENTO LIQUIDABLE AL VENCIMIENTO
@@ -1535,7 +1764,7 @@ DISPOSICIONES COMUNES A LOS DEPÓSITOS QUE DEVENGUEN INTERESES, A LOS DEPÓSITOS
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO IX
 OPERACIONES A TRAVÉS DE MEDIOS ELECTRÓNICOS
@@ -1736,7 +1965,7 @@ IX.10.	CANCELACIÓN. El Banco se reserva el derecho de cancelar o impedir al Cli
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO XI
 COMISIONES
@@ -1856,14 +2085,16 @@ El Cliente contará con un periodo de diez Días Hábiles posteriores a la firma
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10" isBold="true"/>
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[CAPÍTULO XII
 DISPOSICIONES GENERALES
 ]]></text>
 			</staticText>
 		</band>
-		<band height="690">
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
 				<reportElement x="0" y="4" width="100" height="1" uuid="c7817243-c439-4ed5-ae61-008739e57438"/>
 			</break>
@@ -1947,7 +2178,9 @@ XII.11.	BENEFICIARIOS. El Cliente señala como beneficiario(s) del saldo de la C
 ]]></text>
 			</staticText>
 		</band>
-		<band height="690">
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
 				<reportElement x="0" y="4" width="100" height="1" uuid="980f0b7b-41f0-48de-828c-11a7a95676c5"/>
 			</break>
@@ -2036,8 +2269,9 @@ XII.16.	AUTORIZACIÓN PARA COMPARTIR DATOS PERSONALES. El Cliente autoriza expre
 ]]></text>
 			</staticText>
 		</band>
-		<band height="690">
+		<band height="705">
 			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
 				<reportElement x="0" y="4" width="100" height="1" uuid="3bdb952b-0b11-497e-bfb8-3fa5d5f78af8"/>
 			</break>
@@ -2087,7 +2321,7 @@ XII.16.	AUTORIZACIÓN PARA COMPARTIR DATOS PERSONALES. El Cliente autoriza expre
 				</graphicElement>
 			</rectangle>
 			<staticText>
-				<reportElement x="18" y="40" width="566" height="640" forecolor="#00457D" uuid="35778315-7acc-46d7-8052-72b94bafd536">
+				<reportElement x="18" y="35" width="566" height="640" forecolor="#00457D" uuid="35778315-7acc-46d7-8052-72b94bafd536">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -2123,7 +2357,9 @@ XII.21.	IRRENUNCIABILIDAD. Ninguna omisión o demora por parte del Banco en el e
 				<text><![CDATA[CLAUSULADO]]></text>
 			</staticText>
 		</band>
-		<band height="690">
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
 				<reportElement x="0" y="4" width="100" height="1" uuid="651ff61f-902b-4026-bb10-1dbfdb7efd61"/>
 			</break>
@@ -2172,6 +2408,30 @@ XII.21.	IRRENUNCIABILIDAD. Ninguna omisión o demora por parte del Banco en el e
 					<pen lineWidth="0.0"/>
 				</graphicElement>
 			</rectangle>
+			<rectangle>
+				<reportElement x="301" y="410" width="280" height="100" forecolor="#0070BF" uuid="c1353423-01c8-4262-8069-1a2abb28cfd7">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="21" y="410" width="280" height="100" forecolor="#0070BF" uuid="d01065cd-6732-4047-9f68-b806bb119857">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</rectangle>
 			<staticText>
 				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="ce05279f-3d95-4959-92cb-00d7e3dd8def">
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -2204,6 +2464,396 @@ XII.26.	COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 
 El presente Contrato se suscribe por duplicado en el lugar y en la fecha indicada en la Solicitud, recibiendo el Cliente un tanto en original debidamente firmado.
 ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="20" y="411" width="280" height="16" forecolor="#00457D" backcolor="#D2DFFA" uuid="16094935-4ab5-4cd0-8d2b-8ee5a5f8c8a0">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[El Cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="301" y="411" width="280" height="16" forecolor="#00457D" backcolor="#D2DFFA" uuid="88026caa-1c7f-456a-bd74-ea13f0fe0123">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[El Banco]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="24" y="489" width="271" height="18" forecolor="#00457D" backcolor="#D2DFFA" uuid="ae19e7b5-d56b-4ce2-a113-7af7bd34c170">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Nombre y Firma Del Cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="19" y="473" width="282" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="f89ec578-baa7-4e55-a77a-bab46c0f8d2a">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" isUnderline="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[                                                       ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="301" y="473" width="282" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="9d1d5584-7034-4157-a371-2b4cce869da3">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" isUnderline="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[                                                       ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="301" y="428" width="99" height="18" forecolor="#00457D" backcolor="#D2DFFA" uuid="3340bd53-2011-498b-b39c-287422d71852">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Representado por:]]></text>
+			</staticText>
+		</band>
+		<band height="705">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="4" width="100" height="1" uuid="f6dbf032-6230-498c-8ede-b252b0008950"/>
+			</break>
+			<rectangle radius="6">
+				<reportElement key="" positionType="FixRelativeToBottom" x="10" y="14" width="590" height="676" forecolor="#0070C0" uuid="bb3b4ef6-845c-4782-8882-0924de17d0ed">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineColor="#0070C0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="0">
+				<reportElement x="10" y="19" width="590" height="13" backcolor="#0070C0" uuid="7792c752-223d-4942-b26e-d87cf2f3c429">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="10" y="14" width="590" height="18" backcolor="#0070C0" uuid="528eadbe-243a-4dec-aa30-af5222458c3b">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="19" y="307" width="570" height="138" forecolor="#0070BF" uuid="4816b6be-52bf-4854-996f-1d65266915b3">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="19" y="58" width="570" height="226" forecolor="#0070BF" uuid="59a44456-81e3-48cf-b4ab-ec637b901608">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="14" width="590" height="18" forecolor="#FFFFFF" uuid="51d6899d-14cf-4bea-8542-1a449eabd0b9">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLAUSULADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="19" y="203" width="570" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="98040857-14d3-4780-9c7f-5b42f6c8c608">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLIENTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="284" width="568" height="27" forecolor="#00457D" uuid="e66d4e94-4930-4da4-b9a6-4cb57cb25098">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[AUTORIZACIÓN PARA USO DE INFORMACIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="19" y="241" width="570" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="0af4c197-d61f-49a2-96e5-9d43a9ce7269">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" isUnderline="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[                                                  ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="19" y="367" width="570" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="6e4716fb-b1c7-4d1f-8904-9f60692b3caf">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[CLIENTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="19" y="403" width="570" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="ba47dd1b-f259-4232-9552-857dd155e51e">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" isUnderline="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[                                                  ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="24" y="308" width="559" height="47" forecolor="#00457D" backcolor="#D2DFFA" uuid="e33ae924-7cd3-4270-86ac-b9ccb10e9204">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="10" isBold="false" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Autorizo a ABC CAPITAL, S.A., INSTITUCIÓN  DE BANCA MÚLTIPLE  a utilizar para cualquier fin, incluyendo la comercialización  de otros productos o servicios, la información contenida en este Contrato, en la Solicitud o en otros documentos que se deriven de la relación que mantenga con ABC CAPITAL, S.A., INSTITUCIÓN DE BANCA MÚLTIPLE.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="24" y="419" width="559" height="18" forecolor="#00457D" backcolor="#D2DFFA" uuid="99966cef-fa7e-4343-bc23-43dccc3f676e">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Nombre y Firma Del Cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="24" y="257" width="559" height="18" forecolor="#00457D" backcolor="#D2DFFA" uuid="fd5fbc84-2925-4a6f-b4a8-9770df189240">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Nombre y Firma Del Cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="30" width="568" height="27" forecolor="#00457D" uuid="2fdfc78a-23c9-43e0-be7a-58373f98ac60">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[AUTORIZACIÓN PARA CONSULTAS EN SOCIEDADES DE INFORMACIÓN CREDITICIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="24" y="58" width="561" height="150" forecolor="#00457D" backcolor="#D2DFFA" uuid="46ef389d-3dd8-4a4e-b260-0ea96f05f474">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="10" isBold="false" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[De conformidad con lo dispuesto en el artículo 28 de la Ley para Regular a Las Sociedades de Información Crediticia; mismo que señala que las Sociedades sólo podrán proporcionar información a un Usuario, cuando éste cuente con la autorización expresa del Cliente mediante su firma autógrafa, AUTORIZO expresamente  a ABC CAPITAL  S.A. INSTITUCIÓN  DE BANCA  MÚLTIPLE.  Para que por conducto de sus funcionarios  facultados  lleve a cabo Investigaciones, sobre mi comportamiento crediticio en cualquier sociedad de información crediticia autorizada. Así mismo, declaro que conozco la naturaleza y alcance de las sociedades de información crediticia y de la información contenida en los reportes de crédito y reporte de crédito especial; declaro que conozco la naturaleza y alcance de la información que se solicitará, del uso que ABC CAPITAL S.A. INSTITUCIÓN DE BANCA MÚLTIPLE, hará de tal información y de que ésta podrá realizar consultas periódicas sobre mi historial o el de la empresa que represento, consintiendo que esta autorización se encuentre vigente por un período de 3 años contados a partir de sus expedición y en todo caso durante el tiempo que se mantenga la relación jurídica]]></text>
 			</staticText>
 		</band>
 	</detail>
