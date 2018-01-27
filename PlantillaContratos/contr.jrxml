@@ -468,14 +468,14 @@
 	<pageHeader>
 		<band height="76">
 			<staticText>
-				<reportElement key="" positionType="FixRelativeToBottom" x="521" y="10" width="82" height="20" forecolor="#00457D" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
+				<reportElement key="" positionType="Float" x="521" y="10" width="82" height="20" forecolor="#00457D" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
 				<textElement textAlignment="Right" markup="none">
 					<font size="12" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[BPF-OC-28]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="221" y="30" width="382" height="46" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<reportElement positionType="Float" x="221" y="30" width="382" height="46" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
 				<textElement textAlignment="Right">
 					<font fontName="SansSerif" size="16" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
@@ -2447,7 +2447,9 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="465" y="109" width="18" height="14" uuid="38caf787-489f-40ff-8565-8994f7657d49"/>
+				<reportElement x="465" y="109" width="18" height="14" uuid="38caf787-489f-40ff-8565-8994f7657d49">
+					<printWhenExpression><![CDATA[!$F{CATEGORIA_CTA}.equals("1005")]]></printWhenExpression>
+				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="false" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>

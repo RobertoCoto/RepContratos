@@ -482,14 +482,14 @@
 	<pageHeader>
 		<band height="76">
 			<staticText>
-				<reportElement key="" positionType="FixRelativeToBottom" x="519" y="10" width="82" height="20" forecolor="#00457D" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
+				<reportElement key="" positionType="Float" x="519" y="10" width="82" height="20" forecolor="#00457D" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
 				<textElement textAlignment="Right" markup="none">
 					<font size="12" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[BPF-OC-27]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="221" y="30" width="382" height="40" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<reportElement positionType="Float" x="221" y="30" width="382" height="40" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
 				<textElement textAlignment="Right" verticalAlignment="Bottom">
 					<font fontName="SansSerif" size="15" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
@@ -497,7 +497,7 @@
 PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 			</staticText>
 			<image isLazy="true">
-				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
+				<reportElement positionType="Float" x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
 				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
 			</image>
 		</band>
@@ -2429,7 +2429,10 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"AcciPM.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
-		<band height="659">
+		<band height="545">
+			<break>
+				<reportElement x="0" y="15" width="99" height="1" uuid="4e112958-0118-4277-a524-54c5c7f9383f"/>
+			</break>
 			<rectangle radius="6">
 				<reportElement key="" positionType="Float" x="6" y="130" width="597" height="182" forecolor="#0070C0" uuid="d8ec59b5-475b-4d41-ab5a-9c611e8d4724">
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2457,9 +2460,6 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/FACULTADOS/PERSONA_FACULTADA")]]></dataSourceExpression>
 				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"subreporte1.jasper"]]></subreportExpression>
 			</subreport>
-			<break>
-				<reportElement x="0" y="15" width="99" height="1" uuid="4e112958-0118-4277-a524-54c5c7f9383f"/>
-			</break>
 			<staticText>
 				<reportElement positionType="Float" x="200" y="276" width="54" height="14" forecolor="#00457D" uuid="346dcd48-92e2-4a8c-9323-c2db4814df16">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
@@ -3025,7 +3025,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement positionType="Float" x="8" y="380" width="347" height="14" forecolor="#00457D" uuid="4fe851f9-5d78-4a8b-abe7-be7b3958d241">
+				<reportElement positionType="Float" x="8" y="382" width="347" height="14" forecolor="#00457D" uuid="4fe851f9-5d78-4a8b-abe7-be7b3958d241">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -3038,7 +3038,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[NOTA: Se deberá llenar el anexo A con detalle de cada persona asociada a la cuenta]]></text>
 			</staticText>
 			<subreport>
-				<reportElement positionType="Float" x="1" y="410" width="611" height="199" uuid="685c2677-d709-4186-bbba-ff45ca204a2d"/>
+				<reportElement positionType="Float" x="1" y="430" width="611" height="115" uuid="685c2677-d709-4186-bbba-ff45ca204a2d"/>
 				<subreportParameter name="XML_DATA_DOCUMENT">
 					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
 				</subreportParameter>
@@ -3070,7 +3070,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<rectangle radius="6">
-				<reportElement key="" positionType="FixRelativeToBottom" x="6" y="10" width="597" height="270" forecolor="#0070C0" uuid="da3e9193-9515-4ef2-9f6b-11f5ef3e954f">
+				<reportElement key="" positionType="Float" x="6" y="10" width="597" height="270" forecolor="#0070C0" uuid="da3e9193-9515-4ef2-9f6b-11f5ef3e954f">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -3594,7 +3594,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[4]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="5" y="12" width="597" height="18" forecolor="#FFFFFF" uuid="f1732c03-08c9-4dd4-b76e-94888881cb4e">
+				<reportElement positionType="Float" x="5" y="12" width="597" height="18" forecolor="#FFFFFF" uuid="f1732c03-08c9-4dd4-b76e-94888881cb4e">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
