@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version last-->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="REG_FIRMAS" pageWidth="612" pageHeight="802" whenNoDataType="AllSectionsNoDetail" columnWidth="612" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ff7e546a-362c-472b-9a59-58f9dd0d174b">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="REG_FIRMAS" pageWidth="612" pageHeight="818" whenNoDataType="AllSectionsNoDetail" columnWidth="612" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ff7e546a-362c-472b-9a59-58f9dd0d174b">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="xmlDD"/>
 	<property name="com.jaspersoft.studio.unit." value="pixel"/>
 	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
@@ -399,27 +399,27 @@
 		<variableExpression><![CDATA[(new SimpleDateFormat("yyyy")).format(new Date())]]></variableExpression>
 	</variable>
 	<pageHeader>
-		<band height="86" splitType="Stretch">
+		<band height="102" splitType="Stretch">
 			<staticText>
-				<reportElement key="" positionType="FixRelativeToBottom" x="519" y="10" width="82" height="20" forecolor="#031469" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
+				<reportElement key="" positionType="FixRelativeToBottom" x="519" y="26" width="82" height="20" forecolor="#031469" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
 				<textElement textAlignment="Right" markup="none">
 					<font size="12" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[BPF-OC-43]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="220" y="30" width="382" height="30" forecolor="#022D7D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<reportElement x="220" y="46" width="382" height="30" forecolor="#022D7D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
 				<textElement textAlignment="Right">
 					<font fontName="SansSerif" size="16" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[FORMATO DE REGISTRO DE FIRMAS]]></text>
 			</staticText>
 			<image isLazy="true">
-				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
+				<reportElement x="10" y="26" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
 				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
 			</image>
 			<textField evaluationTime="Report" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="402" y="70" width="200" height="14" backcolor="#858EC7" uuid="01a6edb7-eef1-4e6e-8701-6da80551acb4">
+				<reportElement mode="Transparent" x="402" y="86" width="200" height="14" backcolor="#858EC7" uuid="01a6edb7-eef1-4e6e-8701-6da80551acb4">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
@@ -432,7 +432,7 @@
 				<textFieldExpression><![CDATA[($V{Dia}+"/"+ ($V{Mes}.equals("1") ? "ENERO" : $V{Mes}.equals("02") ? "FEBRERO" : $V{Mes}.equals("03") ? "MARZO" : $V{Mes}.equals("04") ? "ABRIL" :$V{Mes}.equals("05") ? "MAYO" : $V{Mes}.equals("06") ? "JUNIO" :$V{Mes}.equals("07") ? "JULIO" :$V{Mes}.equals("08") ? "AGOSTO" :$V{Mes}.equals("09") ? "SEPTIEMBRE" :$V{Mes}.equals("10") ? "OCTUBRE" :$V{Mes}.equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/ "+$V{Anio})]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="349" y="70" width="120" height="14" forecolor="#00457D" uuid="a4d818c6-6b22-4788-99b5-367ddc258fe3">
+				<reportElement x="349" y="86" width="120" height="14" forecolor="#00457D" uuid="a4d818c6-6b22-4788-99b5-367ddc258fe3">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>

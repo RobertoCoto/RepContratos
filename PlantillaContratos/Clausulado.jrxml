@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version last-->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Clausula" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a576c234-6643-43ae-8a0b-449bc68c5004">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Clausula" pageWidth="612" pageHeight="800" columnWidth="612" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a576c234-6643-43ae-8a0b-449bc68c5004">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DATAContratoss"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
 	<queryString language="xPath">
 		<![CDATA[/Datos]]>
 	</queryString>
@@ -285,9 +294,11 @@
 		<fieldDescription><![CDATA[RUTA_IMAGEN_JR]]></fieldDescription>
 	</field>
 	<pageHeader>
-		<band height="76" splitType="Stretch">
+		<band height="90" splitType="Stretch">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
-				<reportElement x="220" y="16" width="382" height="46" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<reportElement x="220" y="32" width="382" height="46" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
 				<textElement textAlignment="Right" verticalAlignment="Top">
 					<font fontName="SansSerif" size="16" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
@@ -295,7 +306,7 @@
 PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 			</staticText>
 			<image isLazy="true">
-				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
+				<reportElement x="10" y="26" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
 				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
 			</image>
 		</band>
@@ -902,7 +913,7 @@ En las cuentas clasificadas como nivel 4, el abono de recursos no tendrá límit
 En las cuentas del nivel 2 el Banco podrá recibir depósitos mensuales adicionales al límite establecido, hasta por el equivalente en moneda nacional a 6,000 UDIS, siempre que el origen de los recursos provenga exclusivamente de subsidios relativos a programas gubernamentales de apoyo a determinados sectores de la población.]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="660">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -995,7 +1006,7 @@ II.8. COMPROBANTES DE DEPÓSITO. Por cada Depósito en una Cuenta que se haga en
 II.9. RETIROS. El Cliente y las Personas Autorizadas, siempre que cumplan con las medidas de seguridad y autenticación que determine el Banco, podrán hacer retiros con cargo a la Cuenta, de las siguientes formas:]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="689">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -1204,7 +1215,7 @@ c) A través de transferencias realizadas vía cualquier otro medio electrónico
 ]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="644">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -1322,7 +1333,7 @@ CHEQUERA
 				<text><![CDATA[IV.1. CHEQUERA. Dependiendo del nivel de la cuenta y del producto contratado por el Cliente, el Banco podrá proporcionar una chequera al Cliente, y este podrá disponer en cualquier tiempo de los fondos en efectivo que tenga en su Cuenta, mediante los esqueletos especiales para la expedición de cheques que el Banco le proporcione, y por medio de transferencias y otras formas de disposición electrónicas o vía telefónica que el Banco autorice y comunique por escrito al Cliente. El Cliente no podrá utilizar formas o esqueletos de cheques diferentes a los que el mismo Banco le proporcione, salvo los casos en que dentro de los lineamientos y regulaciones bancarias aplicables, el Banco autorice el uso de formas o esqueletos especiales previa solicitud escrita del Cliente.]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="663">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -1574,7 +1585,7 @@ VII.4. GARANTÍA PRENDARIA.- Para garantizar el cumplimiento de las obligaciones
 VII.5. COMPROBACIÓN DE INVERSIÓN.- La Acreditada se obliga a entregar a la Acreditante, en un plazo que no excederá de 30 (treinta) días contados a partir de la fecha de cada disposición, los documentos que comprueben que el Crédito ha sido invertido en los conceptos precisados en la Caratula.]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="634">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -1688,7 +1699,7 @@ DISPOSICIONES COMUNES A LOS DEPÓSITOS QUE DEVENGUEN INTERESES, A LOS DEPÓSITOS
 VIII.2. CAUSACIÓN DE INTERESES EN DÍAS INHÁBILES. En el evento de que el vencimiento de cualquier Depósito a Plazo o Pagaré con Rendimiento sea en un día que no sea un Día Hábil, el pago deberá efectuarse el Día Hábil inmediato siguiente y, en este caso, los intereses respectivos continuarán devengándose hasta el día del pago inclusive, a la tasa de interés originalmente pactada.]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="650">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -1799,7 +1810,7 @@ IX.2. COMUNICACIONES TELEFÓNICAS. Las partes están de acuerdo y convienen en q
 Si el día hábil bancario inmediato siguiente al de la renovación el Cliente se presenta a retirar su inversión, ésta deberá pagarse junto con sus intereses. Los intereses se devengarán a la tasa pactada originalmente, considerando todos los días efectivamente transcurridos incluso el del pago.]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="690">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -1887,7 +1898,7 @@ En el caso de que el Banco sea responsable en razón de su omisión de actuar de
 IX.9. CAUSAS DE FUERZA MAYOR. En la medida en que la transmisión de cualquier comunicación o prestación de cualquier servicio o celebración de cualquier operación, o parte de él, se impida, obstaculice, demore o se haga impráctica por causa de fuerza mayor (incluyendo, pero sin limitarse a ello: cualquier rompimiento de hostilidades, disturbios civiles o actos de terrorismo; la actuación de cualquier gobierno o autoridad similar; terremoto, incendio, explosión, inundación u otro desastre natural; cualquier huelga, cierre forzoso o acción industrial de cualquier índole; cualquier interrupción permanente o temporal en el suministro de energía eléctrica, teléfono u otra transmisión, servicio público o tecnológico; ]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="690">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -2049,7 +2060,7 @@ DISPOSICIONES GENERALES
 ]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="651">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -2138,7 +2149,7 @@ Una vez presentada la solicitud de terminar el contrato, el Banco deberá: (I) C
 XII.7. MONEDA DE CURSO LEGAL. Salvo que se establezca de otra manera en alguna de las Cláusulas anteriores, las partes acuerdan que cualquier cantidad a pagar por parte del Banco que deriven del presente Contrato serán pagaderas en Pesos, moneda de curso legal en los Estados Unidos Mexicanos el día de pago correspondiente y serán entregadas única y exclusivamente en las sucursales u oficinas del Banco y el Cliente expresamente renuncia a cualquier derecho de proceder en contra o exigir y obtener el pago derivado de cualquier operación en cualquier otra moneda distinta de los Pesos, moneda de curso legal en los Estados Unidos Mexicanos y que dichos pagos sean efectuados en lugar distinto a los Estados Unidos Mexicanos.]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="620">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -2226,7 +2237,7 @@ El periodo de envío del Estado de Cuenta, aquí pactado, podrá prorrogarse a s
 ]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="690">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -2316,7 +2327,7 @@ El Banco dentro del plazo señalado en el párrafo anterior entregará al client
 El procedimiento aquí establecido quedará sin efectos a partir de que el Cliente presente su demanda ante autoridad jurisdiccional o conduzca su reclamación en términos de la Ley de Protección y Defensa al Usuario de Servicios Financieros.]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="700">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>
@@ -2406,7 +2417,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[CLAUSULADO]]></text>
 			</staticText>
 		</band>
-		<band height="705">
+		<band height="690">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<break>

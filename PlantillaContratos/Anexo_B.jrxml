@@ -115,14 +115,14 @@
 	<pageHeader>
 		<band height="86" splitType="Stretch">
 			<staticText>
-				<reportElement key="" positionType="FixRelativeToBottom" x="519" y="10" width="82" height="20" forecolor="#00457D" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
+				<reportElement key="" positionType="FixRelativeToBottom" x="519" y="26" width="82" height="20" forecolor="#00457D" uuid="c637eec0-e899-46f5-b258-5d904cd2c6fc"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle" markup="none">
 					<font size="12" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[BPF-OC-28]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="220" y="30" width="382" height="46" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
+				<reportElement x="220" y="45" width="382" height="41" forecolor="#00457D" uuid="036233c4-1981-4ca0-9afa-118f997d94d2"/>
 				<textElement textAlignment="Right">
 					<font fontName="SansSerif" size="16" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
@@ -130,7 +130,7 @@
 LEGAL O APODERADO]]></text>
 			</staticText>
 			<image isLazy="true">
-				<reportElement x="10" y="10" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
+				<reportElement x="10" y="26" width="190" height="60" uuid="b896e2d7-6ccd-4ed3-8493-816f10a71b89"/>
 				<imageExpression><![CDATA[$F{RUTA_IMAGEN_JR}+"logoabc.png"]]></imageExpression>
 			</image>
 		</band>
