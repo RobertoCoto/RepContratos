@@ -2466,7 +2466,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 			</textField>
 			<textField>
 				<reportElement x="465" y="109" width="18" height="14" uuid="38caf787-489f-40ff-8565-8994f7657d49">
-					<printWhenExpression><![CDATA[$F{CATEGORIA_CTA} != "10005"]]></printWhenExpression>
+					<printWhenExpression><![CDATA[!$F{CATEGORIA_CTA}.equals("1005")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="false" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
