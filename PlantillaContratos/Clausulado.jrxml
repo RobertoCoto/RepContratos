@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version last-->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Clausula" pageWidth="612" pageHeight="800" columnWidth="612" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a576c234-6643-43ae-8a0b-449bc68c5004">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Clausulado" pageWidth="612" pageHeight="800" columnWidth="612" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a576c234-6643-43ae-8a0b-449bc68c5004">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DATAContratoss"/>
 	<property name="com.jaspersoft.studio.unit." value="pixel"/>
 	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
@@ -292,6 +292,21 @@
 	</field>
 	<field name="RUTA_IMAGEN_JR" class="java.lang.String">
 		<fieldDescription><![CDATA[RUTA_IMAGEN_JR]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_FIRMANTE_1" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_FIRMANTE_1]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_FIRMANTE_2" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_FIRMANTE_2]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_FIRMANTE_3" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_FIRMANTE_3]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_FIRMANTE_4" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_FIRMANTE_4]]></fieldDescription>
+	</field>
+	<field name="NOMBRE_FIRMANTE_5" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMBRE_FIRMANTE_5]]></fieldDescription>
 	</field>
 	<pageHeader>
 		<band height="90" splitType="Stretch">
@@ -2469,7 +2484,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				</graphicElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="301" y="68" width="280" height="100" forecolor="#0070BF" uuid="c1353423-01c8-4262-8069-1a2abb28cfd7">
+				<reportElement x="301" y="68" width="280" height="135" forecolor="#0070BF" uuid="c1353423-01c8-4262-8069-1a2abb28cfd7">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2481,7 +2496,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="21" y="68" width="280" height="100" forecolor="#0070BF" uuid="d01065cd-6732-4047-9f68-b806bb119857">
+				<reportElement x="21" y="68" width="280" height="135" forecolor="#0070BF" uuid="d01065cd-6732-4047-9f68-b806bb119857">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2493,7 +2508,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="19" y="197" width="570" height="226" forecolor="#0070BF" uuid="bfefb855-7ff5-4aba-bc72-1a22d5388d63">
+				<reportElement x="19" y="231" width="570" height="226" forecolor="#0070BF" uuid="bfefb855-7ff5-4aba-bc72-1a22d5388d63">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2505,7 +2520,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="19" y="448" width="570" height="138" forecolor="#0070BF" uuid="beed5f94-0105-4b7b-805e-acedaeda8c6a">
+				<reportElement x="19" y="482" width="570" height="138" forecolor="#0070BF" uuid="beed5f94-0105-4b7b-805e-acedaeda8c6a">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2600,7 +2615,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[Representado por:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="79" y="145" width="160" height="21" forecolor="#00457D" uuid="3899885f-32cd-4bb6-914d-77baee544963">
+				<reportElement x="79" y="165" width="160" height="21" forecolor="#00457D" uuid="3899885f-32cd-4bb6-914d-77baee544963">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2617,7 +2632,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[Nombre y Firma Del Cliente]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="361" y="145" width="160" height="21" forecolor="#00457D" uuid="2c8dcc30-824a-42a0-a5c5-24d91c08ece3">
+				<reportElement x="361" y="171" width="160" height="21" forecolor="#00457D" uuid="2c8dcc30-824a-42a0-a5c5-24d91c08ece3">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2634,7 +2649,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="17" y="422" width="568" height="27" forecolor="#00457D" uuid="d9c1de6d-460d-4c7c-8d72-a4e926d135e8">
+				<reportElement x="17" y="456" width="568" height="27" forecolor="#00457D" uuid="d9c1de6d-460d-4c7c-8d72-a4e926d135e8">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -2646,7 +2661,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[AUTORIZACIÓN PARA USO DE INFORMACIÓN]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="226" y="396" width="160" height="21" forecolor="#00457D" uuid="e737ae77-3fa8-4e17-80a3-5de166c264df">
+				<reportElement x="226" y="430" width="160" height="21" forecolor="#00457D" uuid="e737ae77-3fa8-4e17-80a3-5de166c264df">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2663,7 +2678,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[Nombre y Firma Del Cliente]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="16" y="169" width="568" height="27" forecolor="#00457D" uuid="486ae75b-6cde-4035-804b-3632880092b7">
+				<reportElement x="16" y="203" width="568" height="27" forecolor="#00457D" uuid="486ae75b-6cde-4035-804b-3632880092b7">
 					<property name="local_mesure_unitwidth" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -2675,7 +2690,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[AUTORIZACIÓN PARA CONSULTAS EN SOCIEDADES DE INFORMACIÓN CREDITICIA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="24" y="197" width="561" height="150" forecolor="#00457D" backcolor="#D2DFFA" uuid="864066ae-264f-4aff-bb8e-078a62bf184e">
+				<reportElement mode="Transparent" x="24" y="231" width="561" height="150" forecolor="#00457D" backcolor="#D2DFFA" uuid="864066ae-264f-4aff-bb8e-078a62bf184e">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -2695,7 +2710,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[De conformidad con lo dispuesto en el artículo 28 de la Ley para Regular a Las Sociedades de Información Crediticia; mismo que señala que las Sociedades sólo podrán proporcionar información a un Usuario, cuando éste cuente con la autorización expresa del Cliente mediante su firma autógrafa, AUTORIZO expresamente  a ABC CAPITAL  S.A. INSTITUCIÓN  DE BANCA  MÚLTIPLE.  Para que por conducto de sus funcionarios  facultados  lleve a cabo Investigaciones, sobre mi comportamiento crediticio en cualquier sociedad de información crediticia autorizada. Así mismo, declaro que conozco la naturaleza y alcance de las sociedades de información crediticia y de la información contenida en los reportes de crédito y reporte de crédito especial; declaro que conozco la naturaleza y alcance de la información que se solicitará, del uso que ABC CAPITAL S.A. INSTITUCIÓN DE BANCA MÚLTIPLE, hará de tal información y de que ésta podrá realizar consultas periódicas sobre mi historial o el de la empresa que represento, consintiendo que esta autorización se encuentre vigente por un período de 3 años contados a partir de sus expedición y en todo caso durante el tiempo que se mantenga la relación jurídica]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="19" y="508" width="570" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="1ebf1a8e-94c8-4bd2-9f56-5fa7b0349ae2">
+				<reportElement mode="Transparent" x="19" y="542" width="570" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="1ebf1a8e-94c8-4bd2-9f56-5fa7b0349ae2">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -2715,7 +2730,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[CLIENTE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="226" y="561" width="160" height="21" forecolor="#00457D" uuid="e385ead8-6e9e-4f5c-a7e5-c608a67b543f">
+				<reportElement x="226" y="595" width="160" height="21" forecolor="#00457D" uuid="e385ead8-6e9e-4f5c-a7e5-c608a67b543f">
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitwidth" value="pixel"/>
@@ -2732,7 +2747,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[Nombre y Firma Del Cliente]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="24" y="449" width="559" height="47" forecolor="#00457D" backcolor="#D2DFFA" uuid="e970e75d-f1f7-4385-b655-3633167444ad">
+				<reportElement mode="Transparent" x="24" y="483" width="559" height="47" forecolor="#00457D" backcolor="#D2DFFA" uuid="e970e75d-f1f7-4385-b655-3633167444ad">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -2752,7 +2767,7 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				<text><![CDATA[Autorizo a ABC CAPITAL, S.A., INSTITUCIÓN  DE BANCA MÚLTIPLE  a utilizar para cualquier fin, incluyendo la comercialización  de otros productos o servicios, la información contenida en este Contrato, en la Solicitud o en otros documentos que se deriven de la relación que mantenga con ABC CAPITAL, S.A., INSTITUCIÓN DE BANCA MÚLTIPLE.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="19" y="342" width="570" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="3d6870f9-ee8d-455d-bc1b-d62700b8d47b">
+				<reportElement mode="Transparent" x="19" y="376" width="570" height="23" forecolor="#00457D" backcolor="#D2DFFA" uuid="3d6870f9-ee8d-455d-bc1b-d62700b8d47b">
 					<property name="local_mesure_unity" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
@@ -2771,6 +2786,68 @@ XII.26. COMPETENCIA. En caso de controversia, las partes se someten irrevocablem
 				</textElement>
 				<text><![CDATA[CLIENTE]]></text>
 			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="199" y="581" width="208" height="14" backcolor="#6980CE" uuid="6bffe289-d14b-459e-bbf7-a5eb3229af50"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="204" y="415" width="208" height="14" backcolor="#6980CE" uuid="e4508ca9-2b9d-4bd4-8ece-2128ffc7faf9"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="56" y="150" width="208" height="14" backcolor="#6980CE" uuid="f2715fdd-e4a5-4403-9dd5-686ced52f61a"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_CLIENTE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="310" y="144" width="260" height="13" uuid="dbc85047-b35b-4bb1-a05a-37b1a170eb89">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_FIRMANTE_2}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="310" y="131" width="260" height="13" uuid="d2b6c7bb-aa21-44fe-91bb-9ebf905452e0"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_FIRMANTE_3}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="310" y="118" width="260" height="13" uuid="94498292-ec2d-4877-a34d-dae1c78d33e7"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_FIRMANTE_4}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="310" y="105" width="260" height="13" uuid="bc39ce7a-0a36-4b0a-9c1c-db3d45bbe861"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_FIRMANTE_5}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="310" y="157" width="260" height="13" uuid="4c42e123-160e-40ce-8184-67892c130b15"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{NOMBRE_FIRMANTE_1}]]></textFieldExpression>
+			</textField>
 		</band>
 	</detail>
 </jasperReport>

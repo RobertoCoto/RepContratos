@@ -985,18 +985,6 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[Importe de ventas / ingresos anuales:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement positionType="Float" x="546" y="494" width="56" height="14" forecolor="#014D87" uuid="6c7f1043-e3e1-442a-9636-e3d89409b3be">
-					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-				</reportElement>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="10"/>
-					<paragraph lineSpacing="1_1_2"/>
-				</textElement>
-				<text><![CDATA[(M.N.)]]></text>
-			</staticText>
-			<staticText>
 				<reportElement positionType="Float" x="403" y="476" width="62" height="14" forecolor="#014D87" uuid="25a6342d-3926-4ecf-a546-fba8aacc43b5">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -2281,13 +2269,13 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textFieldExpression><![CDATA[$F{NUM_EMPLEADOS}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" x="184" y="494" width="362" height="14" uuid="8da1ce2b-b770-4712-86d8-3cf6dcef28d1">
+				<reportElement positionType="Float" x="196" y="494" width="307" height="14" uuid="8da1ce2b-b770-4712-86d8-3cf6dcef28d1">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Right" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[new java.text.DecimalFormat("$ #,##0.00").format(Double.valueOf($F{VENTAS_TOT_ANUAL}))]]></textFieldExpression>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[new java.text.DecimalFormat("$ #,##0.00").format(Double.valueOf($F{VENTAS_TOT_ANUAL})) + " (M.N.)" ]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement positionType="Float" x="476" y="475" width="19" height="16" uuid="b056e129-f6e3-494b-a3fb-0d0ac9b0cf6a">

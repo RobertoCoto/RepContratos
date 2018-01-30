@@ -1469,7 +1469,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<text><![CDATA[La GAT real es el rendimiento que obtendría después de descontar la inflación estimada, para fines informativos y de comparación.]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="18" y="657" width="575" height="14" forecolor="#0457D0" uuid="9cca9237-a000-40e0-a9e3-b66806524c1c">
+				<reportElement x="18" y="657" width="575" height="14" forecolor="#00457D" uuid="9cca9237-a000-40e0-a9e3-b66806524c1c">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[$F{CATEGORIA_CTA}.equals("6001") || $F{CATEGORIA_CTA}.equals("6002")]]></printWhenExpression>
