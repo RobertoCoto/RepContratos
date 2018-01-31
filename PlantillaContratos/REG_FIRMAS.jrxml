@@ -429,7 +429,7 @@
 					<bottomPen lineWidth="0.6"/>
 				</box>
 				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
-				<textFieldExpression><![CDATA[($V{Dia}+"/"+ ($V{Mes}.equals("1") ? "ENERO" : $V{Mes}.equals("02") ? "FEBRERO" : $V{Mes}.equals("03") ? "MARZO" : $V{Mes}.equals("04") ? "ABRIL" :$V{Mes}.equals("05") ? "MAYO" : $V{Mes}.equals("06") ? "JUNIO" :$V{Mes}.equals("07") ? "JULIO" :$V{Mes}.equals("08") ? "AGOSTO" :$V{Mes}.equals("09") ? "SEPTIEMBRE" :$V{Mes}.equals("10") ? "OCTUBRE" :$V{Mes}.equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/ "+$V{Anio})]]></textFieldExpression>
+				<textFieldExpression><![CDATA[($V{Dia}+"/"+ ($V{Mes}.equals("01") ? "ENERO" : $V{Mes}.equals("02") ? "FEBRERO" : $V{Mes}.equals("03") ? "MARZO" : $V{Mes}.equals("04") ? "ABRIL" :$V{Mes}.equals("05") ? "MAYO" : $V{Mes}.equals("06") ? "JUNIO" :$V{Mes}.equals("07") ? "JULIO" :$V{Mes}.equals("08") ? "AGOSTO" :$V{Mes}.equals("09") ? "SEPTIEMBRE" :$V{Mes}.equals("10") ? "OCTUBRE" :$V{Mes}.equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/ "+$V{Anio})]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="349" y="86" width="120" height="14" forecolor="#00457D" uuid="a4d818c6-6b22-4788-99b5-367ddc258fe3">

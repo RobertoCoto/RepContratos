@@ -1083,7 +1083,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA[(($F{FECHA_APERTURA} != null && $F{FECHA_APERTURA}.length() == 8) ? $F{FECHA_APERTURA}.substring(6,8)+"/"+ ($F{FECHA_APERTURA}.substring(4,6).equals("1") ? "ENERO" : $F{FECHA_APERTURA}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_APERTURA}.substring(4,6).equals("03") ? "MARZO" : $F{FECHA_APERTURA}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_APERTURA}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_APERTURA}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_APERTURA}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_APERTURA}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_APERTURA}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/ "+$F{FECHA_APERTURA}.substring(0,4) : "")]]></textFieldExpression>
+				<textFieldExpression><![CDATA[(($F{FECHA_APERTURA} != null && $F{FECHA_APERTURA}.length() == 8) ? $F{FECHA_APERTURA}.substring(6,8)+"/"+ ($F{FECHA_APERTURA}.substring(4,6).equals("01") ? "ENERO" : $F{FECHA_APERTURA}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_APERTURA}.substring(4,6).equals("03") ? "MARZO" : $F{FECHA_APERTURA}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_APERTURA}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_APERTURA}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_APERTURA}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_APERTURA}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_APERTURA}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/ "+$F{FECHA_APERTURA}.substring(0,4) : "")]]></textFieldExpression>
 			</textField>
 			<line>
 				<reportElement x="7" y="491" width="597" height="1" forecolor="#0070C0" uuid="69a6fb22-7a26-44cc-b137-a364397491f6">
@@ -1711,7 +1711,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<textElement textAlignment="Justified" verticalAlignment="Middle">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA[(($F{FECHA_NAC_CLI} != null && $F{FECHA_NAC_CLI}.length() == 8) ? $F{FECHA_NAC_CLI}.substring(6,8)+"/"+ ($F{FECHA_NAC_CLI}.substring(4,6).equals("1") ? "ENERO" : $F{FECHA_NAC_CLI}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_NAC_CLI}.substring(4,6).equals("03") ? "MMARZO" : $F{FECHA_NAC_CLI}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_NAC_CLI}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_NAC_CLI}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_NAC_CLI}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_NAC_CLI}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_NAC_CLI}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_NAC_CLI}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_NAC_CLI}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{FECHA_NAC_CLI}.substring(0,4) : "")]]></textFieldExpression>
+				<textFieldExpression><![CDATA[(($F{FECHA_NAC_CLI} != null && $F{FECHA_NAC_CLI}.length() == 8) ? $F{FECHA_NAC_CLI}.substring(6,8)+"/"+ ($F{FECHA_NAC_CLI}.substring(4,6).equals("01") ? "ENERO" : $F{FECHA_NAC_CLI}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_NAC_CLI}.substring(4,6).equals("03") ? "MMARZO" : $F{FECHA_NAC_CLI}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_NAC_CLI}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_NAC_CLI}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_NAC_CLI}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_NAC_CLI}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_NAC_CLI}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_NAC_CLI}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_NAC_CLI}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{FECHA_NAC_CLI}.substring(0,4) : "")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="409" y="57" width="192" height="14" backcolor="#7992ED" uuid="8898c1f4-329c-4480-b862-99550ed1da31">
@@ -2397,7 +2397,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[(($F{VIGE_INDENT_CLI} != null && $F{VIGE_INDENT_CLI}.length() == 8) ? $F{VIGE_INDENT_CLI}.substring(6,8)+"/"+ ($F{VIGE_INDENT_CLI}.substring(4,6).equals("1") ? "ENERO" : $F{VIGE_INDENT_CLI}.substring(4,6).equals("02") ? "FEBRERO" : $F{VIGE_INDENT_CLI}.substring(4,6).equals("03") ? "MARZO" : $F{VIGE_INDENT_CLI}.substring(4,6).equals("04") ? "ABRIL" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("05") ? "MAYO" : $F{VIGE_INDENT_CLI}.substring(4,6).equals("06") ? "JUNIO" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("07") ? "JULIO" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("08") ? "AGOSTO" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("10") ? "OCTUBRE" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{VIGE_INDENT_CLI}.substring(0,4) : "")]]></textFieldExpression>
+				<textFieldExpression><![CDATA[(($F{VIGE_INDENT_CLI} != null && $F{VIGE_INDENT_CLI}.length() == 8) ? $F{VIGE_INDENT_CLI}.substring(6,8)+"/"+ ($F{VIGE_INDENT_CLI}.substring(4,6).equals("01") ? "ENERO" : $F{VIGE_INDENT_CLI}.substring(4,6).equals("02") ? "FEBRERO" : $F{VIGE_INDENT_CLI}.substring(4,6).equals("03") ? "MARZO" : $F{VIGE_INDENT_CLI}.substring(4,6).equals("04") ? "ABRIL" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("05") ? "MAYO" : $F{VIGE_INDENT_CLI}.substring(4,6).equals("06") ? "JUNIO" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("07") ? "JULIO" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("08") ? "AGOSTO" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("10") ? "OCTUBRE" :$F{VIGE_INDENT_CLI}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{VIGE_INDENT_CLI}.substring(0,4) : "")]]></textFieldExpression>
 			</textField>
 			<line>
 				<reportElement x="7" y="254" width="597" height="1" forecolor="#0070C0" uuid="9f15efc2-3d21-47c1-ba72-e7f5311f926d">
@@ -2564,7 +2564,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[(($F{FECHA_APERTURA} != null && $F{FECHA_APERTURA}.length() == 8) ? $F{FECHA_APERTURA}.substring(6,8)+"/"+ ($F{FECHA_APERTURA}.substring(4,6).equals("1") ? "ENERO" : $F{FECHA_APERTURA}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_APERTURA}.substring(4,6).equals("03") ? "MARZO" : $F{FECHA_APERTURA}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_APERTURA}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_APERTURA}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_APERTURA}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_APERTURA}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_APERTURA}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{FECHA_APERTURA}.substring(0,4) : "")]]></textFieldExpression>
+				<textFieldExpression><![CDATA[(($F{FECHA_APERTURA} != null && $F{FECHA_APERTURA}.length() == 8) ? $F{FECHA_APERTURA}.substring(6,8)+"/"+ ($F{FECHA_APERTURA}.substring(4,6).equals("01") ? "ENERO" : $F{FECHA_APERTURA}.substring(4,6).equals("02") ? "FEBRERO" : $F{FECHA_APERTURA}.substring(4,6).equals("03") ? "MARZO" : $F{FECHA_APERTURA}.substring(4,6).equals("04") ? "ABRIL" :$F{FECHA_APERTURA}.substring(4,6).equals("05") ? "MAYO" : $F{FECHA_APERTURA}.substring(4,6).equals("06") ? "JUNIO" :$F{FECHA_APERTURA}.substring(4,6).equals("07") ? "JULIO" :$F{FECHA_APERTURA}.substring(4,6).equals("08") ? "AGOSTO" :$F{FECHA_APERTURA}.substring(4,6).equals("09") ? "SEPTIEMBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("10") ? "OCTUBRE" :$F{FECHA_APERTURA}.substring(4,6).equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/"+$F{FECHA_APERTURA}.substring(0,4) : "")]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="388" y="456" width="213" height="14" uuid="a734b23b-ab1e-4e63-b35f-3c3eb4019cbb">
@@ -3925,7 +3925,7 @@ A su leal saber y entender, y acuerdo a la definición anterior ¿Ha desempeñad
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$V{Mes}.equals("1") ? "ENERO" : 
+				<textFieldExpression><![CDATA[$V{Mes}.equals("01") ? "ENERO" : 
         $V{Mes}.equals("02") ? "FEBRERO" :
         $V{Mes}.equals("03") ? "MARZO" :
         $V{Mes}.equals("04") ? "ABRIL" :

@@ -1442,7 +1442,7 @@ AUTORIZADOS, COTITULARES Y OTROS]]></text>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="11"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$V{Mes}.equals("1") ? "ENERO" : 
+				<textFieldExpression><![CDATA[$V{Mes}.equals("01") ? "ENERO" : 
         $V{Mes}.equals("02") ? "FEBRERO" :
         $V{Mes}.equals("03") ? "MARZO" :
         $V{Mes}.equals("04") ? "ABRIL" :
