@@ -102,6 +102,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="230" y="525" width="49" height="15" forecolor="#404040" uuid="f682389c-1f3a-4fec-af26-495d2b8adb28">
@@ -114,6 +117,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="0" y="525" width="65" height="15" forecolor="#404040" uuid="97840327-ca0e-4a21-a212-054863e8406f">
@@ -126,6 +132,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="491" y="498" width="51" height="15" forecolor="#404040" uuid="d9ad2802-a4d8-4f40-9785-af4709aaf38b">
@@ -138,6 +147,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="82" y="498" width="80" height="15" forecolor="#404040" uuid="234a4479-85c7-40b9-8815-7289ec6d868d">
@@ -150,6 +162,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="0" y="498" width="72" height="15" forecolor="#404040" uuid="096aa483-1e31-4302-866a-9e00f91bda20">
@@ -162,6 +177,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="430" y="469" width="112" height="15" forecolor="#404040" uuid="52d4ec27-3cb8-4c3f-9a41-f1687ca3cbdd">
@@ -174,6 +192,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="227" y="469" width="56" height="15" forecolor="#404040" uuid="bdff0a3c-e91d-470c-b628-e8d200ed47a4">
@@ -186,6 +207,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="0" y="469" width="220" height="15" forecolor="#404040" uuid="9db6e0c0-a646-45ab-b0c6-b59c06d16312">
@@ -198,6 +222,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="435" y="525" width="107" height="15" forecolor="#404040" uuid="d0b4f52e-67bf-4845-aa7a-2f87bace2ac5">
@@ -210,6 +237,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="0" y="630" width="542" height="69" forecolor="#404040" uuid="56400ad3-ed12-4a26-9a2a-1d0e2061a7c4">
@@ -222,6 +252,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="183" y="189" width="125" height="15" forecolor="#404040" uuid="5d794d52-d72d-403e-9dbf-81ea907f6226">
@@ -234,6 +267,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="435" y="135" width="107" height="15" forecolor="#404040" uuid="048eba01-c92b-43b1-9ed2-415e76353417">
@@ -246,6 +282,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="0" y="135" width="65" height="15" forecolor="#404040" uuid="d6b107af-35ec-430b-8fe0-84b3a2de01eb">
@@ -258,6 +297,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="172" y="108" width="94" height="15" forecolor="#404040" uuid="8e6e185a-4e99-4d72-927b-01fd78632e2e">
@@ -270,6 +312,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="430" y="79" width="112" height="15" forecolor="#404040" uuid="bc0c640b-41d5-4ad4-8989-e8b3d0fc5c0a">
@@ -282,6 +327,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="289" y="79" width="130" height="15" forecolor="#404040" uuid="d3559e0d-3f0b-47a2-ab34-cbcb34c06e95">
@@ -294,6 +342,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="227" y="79" width="56" height="15" forecolor="#404040" uuid="da0109cd-19c0-4fa1-b1fe-540e8e4ac101">
@@ -306,6 +357,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="0" y="79" width="220" height="15" forecolor="#404040" uuid="b92f5f55-3831-45f6-907a-eb3783ba09d5">
@@ -318,6 +372,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<image isLazy="true">
 				<reportElement x="1" y="31" width="129" height="34" uuid="e4042c94-5e23-472e-a7f9-cb858db70c86">
@@ -529,6 +586,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="340" y="108" width="97" height="15" forecolor="#404040" uuid="22136f66-0a68-4277-a000-0491d58b745d">
@@ -541,6 +601,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="172" y="108" width="94" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="7e999eeb-e706-416e-8037-846c20ea92dd">
@@ -574,6 +637,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="340" y="95" width="97" height="11" forecolor="#404040" backcolor="#D2DFFA" uuid="cfdac9ef-c23b-43be-9446-add1f5f56443">
@@ -606,6 +672,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="0" y="108" width="72" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="3eb915c7-5d24-4189-95bb-ade444bc716c">
@@ -802,6 +871,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="491" y="108" width="51" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="22c2e948-30b5-4603-b06f-7eb08fa49740">
@@ -896,6 +968,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="71" y="135" width="73" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="22682a90-bbcd-499b-a8ed-d33b5ca259fd">
@@ -929,6 +1004,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="290" y="135" width="51" height="15" forecolor="#404040" uuid="5cdac6f0-5884-48ee-8aea-34cf3d53bab0">
@@ -941,6 +1019,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="229" y="135" width="50" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="2625fc80-58c6-42b0-b7eb-1d076b4093c3">
@@ -1015,6 +1096,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="152" y="135" width="70" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="2da6274f-bef5-4f87-9535-9c8e5fa887f8">
@@ -1155,6 +1239,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="185" y="189" width="120" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="49b6b1b7-9df7-4435-ab92-b149ed67af30">
@@ -1189,6 +1276,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="200" y="174" width="108" height="15" forecolor="#404040" backcolor="#D2DFFA" uuid="b197a606-e2e7-4058-b9f7-f00e178890d3">
@@ -1259,6 +1349,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="34" y="188" width="118" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="b75416d8-0c70-4f4f-8ab6-a40c58bb4a34">
@@ -1312,6 +1405,9 @@
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="2" y="272" width="539" height="11" forecolor="#404040" backcolor="#D2DFFA" uuid="6cf0b0b2-b7e2-45b5-ab69-5732c506f136">
@@ -1601,6 +1697,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="82" y="498" width="80" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="40cc4449-dcf9-4efa-9084-3585553aa95d">
@@ -1634,6 +1733,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="387" y="525" width="44" height="15" forecolor="#404040" backcolor="#D2DFFA" uuid="a169288a-2665-44f0-bcd0-e942e8dd630a">
@@ -1723,6 +1825,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="291" y="469" width="128" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="5372d11e-7b3b-46d6-8a5f-30660c18ad96">
@@ -1756,6 +1861,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="172" y="498" width="94" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="44561b38-6cd4-4419-bc59-e6d6b3420167">
@@ -1831,6 +1939,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="0" y="525" width="65" height="15" forecolor="#404040" backcolor="#FFFFFF" uuid="94cdc043-5ca5-4824-98e1-81c2206f50e4">
@@ -1885,6 +1996,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="2" y="652" width="536" height="13" forecolor="#404040" backcolor="#D2DFFA" uuid="2797f853-bfe8-424d-a44a-3432ac28975f">
@@ -1981,6 +2095,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="0" y="701" width="542" height="12" forecolor="#404040" backcolor="#D2DFFA" uuid="aea2241b-2e76-432f-836b-340defdcae75">
@@ -2177,6 +2294,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<rectangle>
 				<reportElement x="340" y="498" width="97" height="15" forecolor="#404040" uuid="25d484e0-32a8-4377-907e-2ff4d77ed017">
@@ -2189,6 +2309,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="0" y="725" width="542" height="21" forecolor="#404040" backcolor="#D2DFFA" uuid="dd801f8b-57fb-47cf-930b-a7b195cf18b7">
@@ -2376,6 +2499,9 @@ www.abccapital.com.mx
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
 			</rectangle>
 			<staticText>
 				<reportElement mode="Transparent" x="2" y="630" width="536" height="26" forecolor="#404040" backcolor="#D2DFFA" uuid="1beac85e-a89e-44b0-8c62-3b644f4e04e2">
