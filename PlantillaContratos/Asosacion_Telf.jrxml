@@ -597,7 +597,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<text><![CDATA[Estoy enterado(a) que esta solicitud surtirá efectos en un plazo no mayor a un día hábil bancario contando a partir de la fecha de presentación y/o entrada en vigor de las disposiciones correspondientes y que ese banco deberá, conforme a la solicitud que le presente en términos de las disposiciones aplicables, desasociar el referido número de teléfono móvil o llevar a cabo el cambio de éste, sin costo a mi cargo. Asimismo, he sido informado por ese banco que es mi responsabilidad dar de baja el número asociado a mi cuenta cuando deje de utilizar la línea telefónica móvil correspondiente.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="200" y="675" width="240" height="14" forecolor="#00457D" uuid="8a1efe97-2ee3-4f51-a1af-bc452816f0ed">
+				<reportElement mode="Transparent" x="188" y="480" width="240" height="14" forecolor="#00457D" uuid="8a1efe97-2ee3-4f51-a1af-bc452816f0ed">
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -659,7 +659,7 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<text><![CDATA[abierta a mi nombre, con la línea telefónica con número (últimos diez dígitos):]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement mode="Opaque" x="84" y="655" width="460" height="18" backcolor="#FFFFFF" uuid="1f2c43d0-f673-4f85-894e-1265112c91b5"/>
+				<reportElement mode="Transparent" x="72" y="460" width="460" height="18" backcolor="#FFFFFF" uuid="1f2c43d0-f673-4f85-894e-1265112c91b5"/>
 				<box>
 					<topPen lineWidth="0.0"/>
 					<leftPen lineWidth="0.0"/>
