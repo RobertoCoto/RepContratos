@@ -935,7 +935,7 @@ $F{PROCED_RECURSOS}.equals("Honorarios") ? $F{PROCED_RECURSOS} : ""]]></textFiel
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unitx" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<printWhenExpression><![CDATA[$F{USO_CUENTA}.equals("Administración de gastos e ingresos")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[$F{USO_CUENTA}.equals("Administración de gastos e ingresos")|| $F{USO_CUENTA}.equals("Administracion de gastos e ingresos")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>

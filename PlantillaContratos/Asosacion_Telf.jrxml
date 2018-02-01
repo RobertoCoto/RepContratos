@@ -683,47 +683,27 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textFieldExpression><![CDATA[($V{Dia}+"/"+ ($V{Mes}.equals("01") ? "ENERO" : $V{Mes}.equals("02") ? "FEBRERO" : $V{Mes}.equals("03") ? "MARZO" : $V{Mes}.equals("04") ? "ABRIL" :$V{Mes}.equals("05") ? "MAYO" : $V{Mes}.equals("06") ? "JUNIO" :$V{Mes}.equals("07") ? "JULIO" :$V{Mes}.equals("08") ? "AGOSTO" :$V{Mes}.equals("09") ? "SEPTIEMBRE" :$V{Mes}.equals("10") ? "OCTUBRE" :$V{Mes}.equals("11") ? "NOVIEMBRE" : "DICIEMBRE")+"/ "+$V{Anio})]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="372" y="126" width="20" height="14" forecolor="#000305" uuid="174d4f7f-4023-4278-983e-cef81c1029d4">
+				<reportElement x="372" y="126" width="106" height="14" forecolor="#000305" uuid="174d4f7f-4023-4278-983e-cef81c1029d4">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["(" + ($F{TEL_CEL_CLI_NUM_1}!= null ? $F{TEL_CEL_CLI_NUM_1} : " ") + ")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_1}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="397" y="126" width="80" height="14" forecolor="#000305" uuid="2df5b75a-7fe0-4889-9479-e7c9cc27bf54">
+				<reportElement x="488" y="126" width="102" height="14" forecolor="#000305" uuid="690c2e35-8a88-47d1-ac92-edc467228b0e">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_1}!= null ? $F{TEL_CEL_CLI_LET_1} : " ")+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_2}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="511" y="126" width="80" height="14" forecolor="#000305" uuid="7d6b8efd-ed7b-448d-bfb5-a66d3bbe7ae9">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_2}!= null ? $F{TEL_CEL_CLI_LET_2} : " ")+"],"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="488" y="126" width="20" height="14" forecolor="#000305" uuid="690c2e35-8a88-47d1-ac92-edc467228b0e">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_2}!= null ? $F{TEL_CEL_CLI_NUM_2} : " ") +")"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="18" y="144" width="20" height="14" forecolor="#000305" uuid="d1e47895-57f6-4dbc-a01e-0841632bcbea">
+				<reportElement x="18" y="144" width="102" height="14" forecolor="#000305" uuid="d1e47895-57f6-4dbc-a01e-0841632bcbea">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="local_mesure_unity" value="pixel"/>
@@ -732,10 +712,10 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_3}!= null ? $F{TEL_CEL_CLI_NUM_3} : " ") +")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_3}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="43" y="144" width="80" height="14" forecolor="#000305" uuid="d13dbc00-aad9-4d99-b9b3-a8ac7c348f4a">
+				<reportElement x="132" y="144" width="107" height="14" forecolor="#000305" uuid="996046f9-82f8-4adc-bb28-cece4e990f76">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -743,10 +723,20 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_3}!= null ? $F{TEL_CEL_CLI_LET_3} : " ")+"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_4}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="157" y="144" width="80" height="14" forecolor="#000305" uuid="330820d3-4306-4ba6-b640-9238fbd0c457">
+				<reportElement x="362" y="144" width="108" height="14" forecolor="#000305" uuid="4fc4f2b2-87d2-48b5-ab2c-92842e72e920">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_6}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="18" y="162" width="102" height="14" forecolor="#000305" uuid="2a8deb5f-f35f-4572-a530-161fd296bc52">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -754,101 +744,27 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_4}!= null ? $F{TEL_CEL_CLI_LET_4} : " ") +"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_8}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="132" y="144" width="20" height="14" forecolor="#000305" uuid="996046f9-82f8-4adc-bb28-cece4e990f76">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_4}!= null ? $F{TEL_CEL_CLI_NUM_4} : " ")+")"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="362" y="144" width="20" height="14" forecolor="#000305" uuid="4fc4f2b2-87d2-48b5-ab2c-92842e72e920">
+				<reportElement x="478" y="144" width="112" height="14" forecolor="#000305" uuid="2e2bb38f-55e0-42cc-a219-2d3cffc1bc5b">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_6}!= null ? $F{TEL_CEL_CLI_NUM_6} : " ") +")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_7}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="18" y="162" width="20" height="14" forecolor="#000305" uuid="2a8deb5f-f35f-4572-a530-161fd296bc52">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_8}!= null ? $F{TEL_CEL_CLI_NUM_8} : " ")+")"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="43" y="162" width="80" height="14" forecolor="#000305" uuid="22c8c95e-d3fe-463f-9a12-ae28169e75c9">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="local_mesure_unity" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_8}!= null ? $F{TEL_CEL_CLI_LET_8} : " ")+"],"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="501" y="144" width="80" height="14" forecolor="#000305" uuid="fe9b0379-e343-4213-b8b2-fa520bc19a98">
+				<reportElement x="248" y="144" width="102" height="14" forecolor="#000305" uuid="3387b31a-bb06-4646-93fa-1fd995563111">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_7}!= null ? $F{TEL_CEL_CLI_LET_7} : " ")+"],"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="387" y="144" width="80" height="14" forecolor="#000305" uuid="e19fa82c-22d7-49a6-aa93-14b38bf336b3">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_6}!= null ? $F{TEL_CEL_CLI_LET_6} : " ") +"],"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="273" y="144" width="80" height="14" forecolor="#000305" uuid="836256cb-8543-4f7a-b071-bdb04597995c">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_5}!= null ? $F{TEL_CEL_CLI_LET_5} : " ") +"],"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="478" y="144" width="20" height="14" forecolor="#000305" uuid="2e2bb38f-55e0-42cc-a219-2d3cffc1bc5b">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_7}!= null ? $F{TEL_CEL_CLI_NUM_7} : " ") +")"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="248" y="144" width="20" height="14" forecolor="#000305" uuid="3387b31a-bb06-4646-93fa-1fd995563111">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_5}!= null ? $F{TEL_CEL_CLI_NUM_5} : " ") +")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_5}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="362" y="162" width="222" height="14" forecolor="#00457D" uuid="a89c88d0-1e2c-458d-af89-1fa14159b650">
@@ -866,44 +782,24 @@ MÓVIL A UNA CUENTA DE DEPÓSITO A LA VISTA]]></text>
 				<text><![CDATA[con el fin de que ésta pueda abonar a dicha ]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="248" y="162" width="20" height="14" forecolor="#000305" uuid="52a8ca44-af7f-4f5e-b84b-c34a27133631">
+				<reportElement x="248" y="162" width="102" height="14" forecolor="#000305" uuid="52a8ca44-af7f-4f5e-b84b-c34a27133631">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_10}!= null ? $F{TEL_CEL_CLI_NUM_10} : " ") +")"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_10}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="156" y="162" width="80" height="14" forecolor="#000305" uuid="5cf609d0-2cbe-4a45-b43b-8d69403fdb06">
+				<reportElement x="131" y="162" width="108" height="14" forecolor="#000305" uuid="eda2eeb4-5ade-4c6b-a7cb-6061cac2bf74">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_9}!= null ? $F{TEL_CEL_CLI_LET_9} : " ")+"],"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="131" y="162" width="20" height="14" forecolor="#000305" uuid="eda2eeb4-5ade-4c6b-a7cb-6061cac2bf74">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["("+ ($F{TEL_CEL_CLI_NUM_9}!= null ? $F{TEL_CEL_CLI_NUM_9} : " ") +")"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement x="273" y="162" width="80" height="14" forecolor="#000305" uuid="06244b02-7f03-4e6f-a5c8-917ea5872fff">
-					<property name="local_mesure_unitheight" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA["["+ ($F{TEL_CEL_CLI_LET_10}!= null ? $F{TEL_CEL_CLI_LET_10} : " ") +"],"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{TEL_CEL_CLI_NUM_9}]]></textFieldExpression>
 			</textField>
 			<rectangle radius="6">
 				<reportElement x="10" y="90" width="590" height="18" backcolor="#0070C0" uuid="dfda1330-6478-43f6-bb5b-5242c810d4f8">

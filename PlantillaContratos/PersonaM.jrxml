@@ -2340,11 +2340,12 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{ACT_VULNERABLE} == "SI"]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{ACT_VULNERABLE} == "SI" ? $F{ACT_VULNERABLE} : "X"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement positionType="Float" mode="Transparent" x="503" y="246" width="100" height="14" backcolor="#738BE1" uuid="5d0b0d31-8634-40c5-a28d-f54a8377d564">
