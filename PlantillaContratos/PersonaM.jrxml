@@ -2211,7 +2211,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<reportElement positionType="Float" x="212" y="548" width="19" height="16" uuid="bf52e416-b15e-4338-bc41-f400ca552a41">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<printWhenExpression><![CDATA[$F{ACT_VULNERABLE}.equals("NO") || $F{ACT_VULNERABLE}.equals(null)]]></printWhenExpression>
+					<printWhenExpression><![CDATA[$F{ACT_VULNERABLE}== "NO" || $F{ACT_VULNERABLE}== null]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
