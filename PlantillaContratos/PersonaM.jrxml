@@ -2685,7 +2685,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" mode="Transparent" x="13" y="205" width="154" height="14" backcolor="#6980CE" uuid="825278df-b7f7-4662-8e2e-d3dce3563929">
+				<reportElement positionType="Float" mode="Transparent" x="13" y="205" width="199" height="14" backcolor="#6980CE" uuid="825278df-b7f7-4662-8e2e-d3dce3563929">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2836,7 +2836,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</graphicElement>
 			</rectangle>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" mode="Transparent" x="314" y="205" width="151" height="14" backcolor="#6980CE" uuid="d9d0f51c-0d70-4767-915e-5f5a5e3d3ffd">
+				<reportElement positionType="Float" mode="Transparent" x="314" y="205" width="201" height="14" backcolor="#6980CE" uuid="d9d0f51c-0d70-4767-915e-5f5a5e3d3ffd">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<printWhenExpression><![CDATA[$F{RETIR_APRX_MEN} != null]]></printWhenExpression>

@@ -3034,7 +3034,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</reportElement>
 			</line>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" mode="Transparent" x="14" y="95" width="154" height="14" backcolor="#6980CE" uuid="71416a12-ecd5-4ec2-8f3c-1cbd6d4712b8">
+				<reportElement positionType="Float" mode="Transparent" x="14" y="95" width="201" height="14" backcolor="#6980CE" uuid="71416a12-ecd5-4ec2-8f3c-1cbd6d4712b8">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3209,7 +3209,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<text><![CDATA[Monto aproximado mensual:]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" mode="Transparent" x="315" y="95" width="151" height="14" backcolor="#6980CE" uuid="d1382d30-a18d-419b-b343-02293411ca6b">
+				<reportElement positionType="Float" mode="Transparent" x="315" y="95" width="201" height="14" backcolor="#6980CE" uuid="d1382d30-a18d-419b-b343-02293411ca6b">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<printWhenExpression><![CDATA[$F{RETIR_APRX_MEN} != null]]></printWhenExpression>
