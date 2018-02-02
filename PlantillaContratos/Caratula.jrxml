@@ -1280,7 +1280,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="40" y="258" width="10" height="10" uuid="c5e23d3e-7dfc-4d17-bafa-1183ef363bc0">
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToBandHeight" x="40" y="258" width="10" height="10" uuid="c5e23d3e-7dfc-4d17-bafa-1183ef363bc0">
 					<printWhenExpression><![CDATA[!$F{CATEGORIA_CTA}.equals("1005")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -1316,7 +1316,7 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				</textElement>
 				<textFieldExpression><![CDATA["X"]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="134" y="380" width="464" height="14" uuid="6257620d-4cc6-4e79-8655-db2af1d9f6c6">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1432,8 +1432,8 @@ Página de Internet: www.condusef.gob.mx]]></text>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA["No aplica"]]></textFieldExpression>
 			</textField>
-			<textField>
-				<reportElement x="134" y="374" width="464" height="29" uuid="f6e86411-b343-469f-a90e-85a508447ced">
+			<textField isBlankWhenNull="true">
+				<reportElement x="123" y="373" width="464" height="29" uuid="f6e86411-b343-469f-a90e-85a508447ced">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<printWhenExpression><![CDATA[!$F{GARAN_IPAB}.equals("SI")]]></printWhenExpression>

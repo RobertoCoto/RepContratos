@@ -734,11 +734,11 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				</graphicElement>
 			</rectangle>
 			<staticText>
-				<reportElement positionType="Float" x="10" y="700" width="270" height="10" forecolor="#0B2575" uuid="6cfe36e7-5bf6-4007-bfaf-8bc086f8949d"/>
+				<reportElement positionType="Float" x="9" y="680" width="10" height="10" forecolor="#0B2575" uuid="6cfe36e7-5bf6-4007-bfaf-8bc086f8949d"/>
 				<textElement>
 					<font size="7"/>
 				</textElement>
-				<text><![CDATA[1 En caso de tener un cargo directivo en la empresa]]></text>
+				<text><![CDATA[1 ]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="13" y="262" width="72" height="14" forecolor="#00457D" uuid="703c5c72-bbcd-4761-ba3e-3230be35c2e2">
@@ -2211,7 +2211,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<reportElement positionType="Float" x="212" y="548" width="19" height="16" uuid="bf52e416-b15e-4338-bc41-f400ca552a41">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<printWhenExpression><![CDATA[$F{ACT_VULNERABLE}== "NO" || $F{ACT_VULNERABLE}== null]]></printWhenExpression>
+					<printWhenExpression><![CDATA[$F{ACT_VULNERABLE}.equals("NO")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
@@ -2410,6 +2410,18 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("//Datos/SALIDA_ACCIONISTAS/PERSONA_ACCIONISTAS")]]></dataSourceExpression>
 				<subreportExpression><![CDATA[$F{RUTA_SUBREPORTE_JR}+"AcciPM.jasper"]]></subreportExpression>
 			</subreport>
+			<staticText>
+				<reportElement positionType="Float" x="15" y="682" width="174" height="10" forecolor="#0B2575" uuid="374e06f1-3876-481d-a069-359a58823f67">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[En caso de tener un cargo directivo en la empresa]]></text>
+			</staticText>
 		</band>
 		<band height="545">
 			<break>
@@ -2877,7 +2889,7 @@ PRODUCTOS Y SERVICIOS DE CAPTACIÓN]]></text>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<printWhenExpression><![CDATA[$F{REGIMEN_CTA}.equals("A")]]></printWhenExpression>
+					<printWhenExpression><![CDATA[$F{REGIMEN_CTA}.equals("A") || $F{REGIMEN_CTA}.contains("")]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
